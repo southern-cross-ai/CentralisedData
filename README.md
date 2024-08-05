@@ -50,7 +50,7 @@ The output will be a JSON file named `reviews_one_column.json` containing:
 
 ## Conclusion
 
-This script helps you easily convert text files with place reviews into a more manageable JSON format. Customize the script further to meet your specific needs. Happy coding!
+This script helps you easily convert text files with place reviews into a more manageable JSON format. 
 
 ## License
 
