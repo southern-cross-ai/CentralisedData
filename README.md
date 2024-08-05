@@ -28,14 +28,6 @@ Ensure you have Python installed on your system. This script is compatible with 
 
 Suppose you have a text file named `reviews.txt`:
 
-```
-Place: Central Park
-Text: Beautiful place to visit.
-----------------------------------------
-Place: Statue of Liberty
-Text: Iconic landmark.
-----------------------------------------
-```
 
 Run the script as follows:
 
