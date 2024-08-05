@@ -8,80 +8,14 @@ Ensure you have Python installed on your system. This script is compatible with 
 
 ## Usage
 
-1. **Clone the repository** (or create a new one and add this script to it):
+1. **Clone the repository**:
 
     ```bash
     git clone <your-repo-url>
     cd <your-repo-directory>
     ```
 
-2. **Save the script** as `txt_to_json.py`:
-
-    ```python
-    import json
-    import sys
-    import os
-
-    def txt_to_json(txt_file):
-        with open(txt_file, 'r', encoding='utf-8') as file:
-            lines = file.readlines()
-
-        places = []
-        place = {}
-        reviews = []
-        review_text = ""
-
-        for line in lines:
-            line = line.strip()
-            if line.startswith("Place:"):
-                if place:
-                    if review_text:
-                        reviews.append(review_text.strip())
-                        review_text = ""
-                    place['Reviews'] = " ".join(reviews)
-                    places.append(place)
-                    place = {}
-                    reviews = []
-                place['Place'] = line.replace("Place: ", "")
-            elif line.startswith("Text:"):
-                review_text += line.replace("Text: ", "") + " "
-            elif line.startswith("Author:") or line.startswith("Rating:"):
-                continue
-            elif line == "----------------------------------------":
-                if review_text:
-                    reviews.append(review_text.strip())
-                    review_text = ""
-                place['Reviews'] = " ".join(reviews)
-                places.append(place)
-                place = {}
-                reviews = []
-
-        # Ensure the last place and review are added
-        if review_text:
-            reviews.append(review_text.strip())
-        if place:
-            place['Reviews'] = " ".join(reviews)
-            places.append(place)
-
-        # Create a new list of dictionaries with only one combined column
-        one_column_data = [{'Place_Reviews': f"{place['Place']}: {place['Reviews']}"} for place in places]
-
-        json_file = os.path.splitext(txt_file)[0] + '_one_column.json'
-
-        with open(json_file, 'w', encoding='utf-8') as file:
-            json.dump(one_column_data, file, ensure_ascii=False, indent=4)
-
-        print(f"Conversion complete. Output file: {json_file}")
-
-    if __name__ == "__main__":
-        if len(sys.argv) != 2:
-            print("Usage: python script.py <input_txt_file>")
-        else:
-            txt_file = sys.argv[1]
-            txt_to_json(txt_file)
-    ```
-
-3. **Prepare your input text file** in the following format:
+2. **Prepare your input text file** in the following format:
 
     ```
     Place: Example Place 1
@@ -92,7 +26,7 @@ Ensure you have Python installed on your system. This script is compatible with 
     ----------------------------------------
     ```
 
-4. **Run the script**:
+3. **Run the script**:
 
     ```bash
     python txt_to_json.py <input_txt_file>
@@ -148,6 +82,3 @@ Feel free to fork this repository and submit pull requests. Contributions are we
 
 For any questions or suggestions, please open an issue or contact the repository owner.
 
----
-
-Now you have a complete guide to use the `txt_to_json.py` script. Copy the contents above into your GitHub repository's README.md file for easy reference.
