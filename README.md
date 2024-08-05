@@ -15,18 +15,8 @@ Ensure you have Python installed on your system. This script is compatible with 
     cd <your-repo-directory>
     ```
 
-2. **Prepare your input text file** in the following format:
 
-    ```
-    Place: Example Place 1
-    Text: This is the first review.
-    ----------------------------------------
-    Place: Example Place 2
-    Text: This is another review.
-    ----------------------------------------
-    ```
-
-3. **Run the script**:
+2. **Run the script**:
 
     ```bash
     python txt_to_json.py <input_txt_file>
