@@ -1,0 +1,158 @@
+Title,Authors,Published Date,Abstract,PDF Path,Entry ID
+The Astronomy of Aboriginal Australia,"Ray P. Norris, Duane W. Hamacher",2009-05-31,"The traditional cultures of Aboriginal Australians include a significant
+astronomical component, which is usually reported in terms of songs or stories
+associated with stars and constellations. Here we argue that the astronomical
+components extend further, and include a search for meaning in the sky, beyond
+simply mirroring the earth-bound understanding. In particular, we have found
+that traditional Aboriginal cultures include a deep understanding of the motion
+of objects in the sky, and that this knowledge was used for practical purposes
+such as constructing calendars. We also present evidence that traditional
+Aboriginal Australians made careful records and measurements of cyclical
+phenomena, and paid careful attention to unexpected phenomena such as eclipses
+and meteorite impacts.",files/The_Astronomy_of_Aboriginal_Australia.pdf,http://arxiv.org/abs/0906.0155v1
+Deceased Organ Matching in Australia,Toby Walsh,2017-10-18,"Despite efforts to increase the supply of organs from living donors, most
+kidney transplants performed in Australia still come from deceased donors. The
+age of these donated organs has increased substantially in recent decades as
+the rate of fatal accidents on roads has fallen. The Organ and Tissue Authority
+in Australia is therefore looking to design a new mechanism that better matches
+the age of the organ to the age of the patient. I discuss the design,
+axiomatics and performance of several candidate mechanisms that respect the
+special online nature of this fair division problem.",files/Deceased_Organ_Matching_in_Australia.pdf,http://arxiv.org/abs/1710.06636v1
+An Australia telescope survey for CMB anisotropies,"R. Subrahmanyan, M. J. Kesteven, R. D. Ekers, M. Sinclair, J. Silk",2000-02-24,"We have surveyed six distinct `empty fields' using the Australia Telescope
+Compact Array in an ultra-compact configuration with the aim of imaging, with a
+high brightness sensitivity, any arcmin-scale brightness-temperature
+anisotropies in the background radio sky. The six well-separated regions were
+observed at a frequency of 8.7 GHz and the survey regions were limited by the
+ATCA primary beams which have a full width at half maximum of 6 arcmin at this
+frequency; all fields were observed with a resolution of 2 arcmin and an rms
+thermal noise of 24 microJy/beam. After subtracting foreground confusion
+detected in higher resolution images of the fields, residual fluctuations in
+Stokes I images are consistent with the expectations from thermal noise and
+weaker (unidentified) foreground sources; the Stokes Q and U images are
+consistent with expectations from thermal noise.
+  Within the sensitivity of our observations, we have no reason to believe that
+there are any Sunyaev-Zeldovich holes in the microwave sky surveyed. Assuming
+Gaussian-form CMB anisotropy with a `flat' spectrum, we derive 95 per cent
+confidence upper limits of Q_flat < 10--11 microK in polarized intensity and
+Q_flat < 25 microK in total intensity. The ATCA filter function peaks at l=4700
+and has half maximum values at l=3350 and 6050.",files/An_Australia_telescope_survey_for_CMB_anisotropies.pdf,http://arxiv.org/abs/astro-ph/0002467v1
+Millimetre Science with the Upgraded Australia Telescope,"T. Wong, A. Melatos",2002-07-07,"A new astronomical window into the southern skies has been opened with the
+high-frequency upgrade to the Australia Telescope Compact Array (ATCA), which
+allows radio-interferometric mapping of sources at wavelengths as short as 3mm.
+In anticipation of the upgrade's completion, a two-day workshop was held at the
+University of Melbourne in November 2001. The workshop covered a diverse range
+of fields, tied together by a common theme of identifying key areas where ATCA
+observations can have an impact. More than half of the talks were concerned
+with molecular clouds and star formation, with the remainder covering topics
+such as molecular gas in the Galactic Centre, Seyfert nuclei, and high-redshift
+objects. Some early results from the 3mm and 12mm prototype systems were also
+presented. In consultation with the speakers, we are presenting in this article
+a summary of the talks. The original slides are available at
+http://www.atnf.csiro.au/whats_on/workshops/mm_science2001/ .",files/Millimetre_Science_with_the_Upgraded_Australia_Tel.pdf,http://arxiv.org/abs/astro-ph/0207152v2
+ATLBS: the Australia Telescope Low-brightness Survey,"R. Subrahmanyan, R. D. Ekers, L. Saripalli, E. M. Sadler",2009-11-24,"We present a radio survey carried out with the Australia Telescope Compact
+Array. A motivation for the survey was to make a complete inventory of the
+diffuse emission components as a step towards a study of the cosmic evolution
+in radio source structure and the contribution from radio-mode feedback on
+galaxy evolution. The Australia Telescope low-brightness survey (ATLBS) at 1388
+MHz covers 8.42 sq deg of the sky in an observing mode designed to yield images
+with exceptional surface brightness sensitivity and low confusion. The ATLBS
+radio images, made with 0.08 mJy/beam rms noise and 50"" beam, detect a total of
+1094 sources with peak flux exceeding 0.4 mJy/beam. The ATLBS source counts
+were corrected for blending, noise bias, resolution, and primary beam
+attenuation; the normalized differential source counts are consistent with no
+upturn down to 0.6 mJy. The percentage integrated polarization Pi_0 was
+computed after corrections for the polarization bias in integrated polarized
+intensity; Pi_0 shows an increasing trend with decreasing flux density.
+Simultaneous visibility measurements made with longer baselines yielded images,
+with 5"" beam, of compact components in sources detected in the survey. The
+observations provide a measurement of the complexity and diffuse emission
+associated with mJy and sub-mJy radio sources. 10% of the ATLBS sources have
+more than half of their flux density in extended emission and the fractional
+flux in diffuse components does not appear to vary with flux density, although
+the percentage of sources that have complex structure increases with flux
+density. The observations are consistent with a transition in the nature of
+extended radio sources from FR-II radio source morphology, which dominates the
+mJy population, to FR-I structure at sub-mJy flux density. (Abridged)",files/ATLBS:_the_Australia_Telescope_Low-brightness_Surv.pdf,http://arxiv.org/abs/0911.4571v1
+Regulating trusted autonomous systems in Australia,"Rachel Horne, Tom Putland, Mark Brady",2023-02-07,"Australia is a leader in autonomous systems technology, particularly in the
+mining industry, borne from necessity in a geographically dispersed and complex
+natural environment. Increasingly advanced autonomous systems are becoming more
+prevalent in Australia, particularly as the safety, environmental and
+efficiency benefits become better understood, and the increasing sophistication
+of technology improves capability and availability. Increasing use of these
+systems, including in the maritime domain and air domain, is placing pressure
+on the national safety regulators, who must either continue to apply their
+traditional regulatory approach requiring exemptions to enable operation of
+emerging technology, or seize the opportunity to put in place an agile and
+adaptive approach better suited to the rapid developments of the twenty first
+century. In Australia the key national safety regulators have demonstrated an
+appetite for working with industry to facilitate innovation, but their limited
+resources mean progress is slow. There is a critical role to be played by third
+parties from industry, government, and academia who can work together to
+develop, test and publish new assurance and accreditation frameworks for
+trusted autonomous systems, and assist in the transition to an adaptive and
+agile regulatory philosophy. This is necessary to ensure the benefits of
+autonomous systems can be realised, without compromising safety. This paper
+will identify the growing use cases for autonomous systems in Australia, in the
+maritime, air and land domains, assess the current regulatory framework, argue
+that Australia's regulatory approach needs to become more agile and
+anticipatory, and investigate how third party projects could positively impact
+the assurance and accreditation process for autonomous systems in the future.",files/Regulating_trusted_autonomous_systems_in_Australia.pdf,http://arxiv.org/abs/2302.03778v1
+A Radar-Based Hail Climatology of Australia,"Jordan P. Brook, Joshua S. Soderholm, Alain Protat, Hamish McGowan, Robert A. Warren",2023-06-21,"In Australia, hailstorms present considerable public safety and economic
+risks, where they are considered the most damaging natural hazard in terms of
+annual insured losses. Despite these impacts, the current climatological
+distribution of hailfall across the continent is still comparatively poorly
+understood. This study aims to supplement previous national hail climatologies,
+such as those based on environmental proxies or satellite radiometer data, with
+more direct radar-based hail observations. The heterogeneous and incomplete
+nature of the Australian radar network complicates this task and prompts the
+introduction of some novel methodological elements. We introduce an empirical
+correction technique to account for hail reflectivity biases at C-band, derived
+by comparing overlapping C- and S-band observations. Furthermore, we
+demonstrate how object-based hail swath analysis may be used to produce
+resolution-invariant hail frequencies, and describe an interpolation method
+used to create a spatially continuous hail climatology. The Maximum Estimated
+Size of Hail (MESH) parameter is then applied to a mixture of over fifty
+operational radars in the Australian radar archive, resulting in the first
+nationwide, radar-based hail climatology. The spatiotemporal distribution of
+hailstorms is examined, including their physical characteristics, seasonal and
+diurnal frequency, and regional variations of such properties across the
+continent.",files/A_Radar-Based_Hail_Climatology_of_Australia.pdf,http://arxiv.org/abs/2306.12016v2
+Australia Telescope Search for Cosmic Microwave Background Anisotropy,"Ravi Subrahmanyan, Michael J. Kesteven, Ronald D. Ekers, Malcolm Sinclair, Joseph Silk",1998-05-19,"We have made an 8.7 GHz image of a sky region with a resolution of 8 arcmin
+and high brightness sensitivity using the Australia Telescope Compact Array
+(ATCA). in an ultra compact configuration. The foreground discrete-source
+confusion was estimated from observations with higher resolution at the same
+frequency and in a scaled array at a lower frequency. Following the subtraction
+of the foreground confusion, the field shows no features in excess of the
+instrument noise. This limits the CMB anisotropy flat-band power to Q_flat <
+23.6 microK with 95 per cent confidence; the ATCA filter function F_l in
+multipole l-space peaks at l_eff = 4700 and has half maximum values at l = 3350
+and 6050.",files/Australia_Telescope_Search_for_Cosmic_Microwave_Ba.pdf,http://arxiv.org/abs/astro-ph/9805245v1
+A study of the personal income distribution in Australia,"Anand Banerjee, Victor M. Yakovenko, T. Di Matteo",2006-01-22,"We analyze the data on personal income distribution from the Australian
+Bureau of Statistics. We compare fits of the data to the exponential,
+log-normal, and gamma distributions. The exponential function gives a good
+(albeit not perfect) description of 98% of the population in the lower part of
+the distribution. The log-normal and gamma functions do not improve the fit
+significantly, despite having more parameters, and mimic the exponential
+function. We find that the probability density at zero income is not zero,
+which contradicts the log-normal and gamma distributions, but is consistent
+with the exponential one. The high-resolution histogram of the probability
+density shows a very sharp and narrow peak at low incomes, which we interpret
+as the result of a government policy on income redistribution.",files/A_study_of_the_personal_income_distribution_in_Aus.pdf,http://arxiv.org/abs/physics/0601176v1
+The Australia Telescope 20 GHz Survey: The Source Catalogue,"Tara Murphy, Elaine M. Sadler, Ronald D. Ekers, Marcella Massardi, Paul J. Hancock, Elizabeth Mahony, Roberto Ricci, Sarah Burke-Spolaor, Mark Calabretta, Rajan Chhetri, Gianfranco De Zotti, Philip G. Edwards, Jennifer A. Ekers, Carole A. Jackson, Michael J. Kesteven, Emma Lindley, Katherine Newton-McGee, Chris Phillips, Paul Roberts, Robert J. Sault, Lister Staveley-Smith, Ravi Subrahmanyan, Mark A. Walker, Warwick E. Wilson",2009-10-30,"We present the full source catalogue from the Australia Telescope 20 GHz
+(AT20G) Survey. The AT20G is a blind radio survey carried out at 20 GHz with
+the Australia Telescope Compact Array (ATCA) from 2004 to 2008, and covers the
+whole sky south of declination 0 deg. The AT20G source catalogue presented here
+is an order of magnitude larger than any previous catalogue of high-frequency
+radio sources, and includes 5890 sources above a 20 GHz flux-density limit of
+40 mJy. All AT20G sources have total intensity and polarisation measured at 20
+GHz, and most sources south of declination -15 deg also have near-simultaneous
+flux-density measurements at 5 and 8 GHz. A total of 1559 sources were detected
+in polarised total intensity at one or more of the three frequencies. We detect
+a small but significant population of non-thermal sources that are either
+undetected or have only weak detections in low-frequency catalogues. We
+introduce the term Ultra-Inverted Spectrum (UIS) to describe these radio
+sources, which have a spectral index alpha(5, 20) > +0.7 and which constitute
+roughly 1.2 per cent of the AT20G sample. The 20 GHz flux densities measured
+for the strongest AT20G sources are in excellent agreement with the WMAP 5-year
+source catalogue of Wright et al. (2009), and we find that the WMAP source
+catalogue is close to complete for sources stronger than 1.5 Jy at 23 GHz.",files/The_Australia_Telescope_20_GHz_Survey:_The_Source_.pdf,http://arxiv.org/abs/0911.0002v1

@@ -1,0 +1,33 @@
+2024-08-05 19:12:08,197 - INFO - Searching for papers with keyword: Australia
+2024-08-05 19:12:08,198 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=ti%3AAustralia&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2024-08-05 19:12:11,071 - INFO - Got first page: 100 of 141 total results
+2024-08-05 19:12:11,071 - INFO - Processing paper: The Astronomy of Aboriginal Australia, Authors: Ray P. Norris, Duane W. Hamacher, Published: 2009-05-31
+2024-08-05 19:12:11,638 - INFO - Successfully downloaded: The_Astronomy_of_Aboriginal_Australia.pdf
+2024-08-05 19:12:11,687 - INFO - Process completed. Total papers processed: 1
+2024-08-05 19:12:11,687 - INFO - Processing paper: Deceased Organ Matching in Australia, Authors: Toby Walsh, Published: 2017-10-18
+2024-08-05 19:12:11,751 - INFO - Successfully downloaded: Deceased_Organ_Matching_in_Australia.pdf
+2024-08-05 19:12:11,767 - INFO - Process completed. Total papers processed: 2
+2024-08-05 19:12:11,768 - INFO - Processing paper: An Australia telescope survey for CMB anisotropies, Authors: R. Subrahmanyan, M. J. Kesteven, R. D. Ekers, M. Sinclair, J. Silk, Published: 2000-02-24
+2024-08-05 19:12:14,012 - INFO - Successfully downloaded: An_Australia_telescope_survey_for_CMB_anisotropies.pdf
+2024-08-05 19:12:14,036 - INFO - Process completed. Total papers processed: 3
+2024-08-05 19:12:14,036 - INFO - Processing paper: Millimetre Science with the Upgraded Australia Telescope, Authors: T. Wong, A. Melatos, Published: 2002-07-07
+2024-08-05 19:12:15,132 - INFO - Successfully downloaded: Millimetre_Science_with_the_Upgraded_Australia_Tel.pdf
+2024-08-05 19:12:15,161 - INFO - Process completed. Total papers processed: 4
+2024-08-05 19:12:15,161 - INFO - Processing paper: ATLBS: the Australia Telescope Low-brightness Survey, Authors: R. Subrahmanyan, R. D. Ekers, L. Saripalli, E. M. Sadler, Published: 2009-11-24
+2024-08-05 19:12:16,838 - INFO - Successfully downloaded: ATLBS:_the_Australia_Telescope_Low-brightness_Surv.pdf
+2024-08-05 19:12:16,867 - INFO - Process completed. Total papers processed: 5
+2024-08-05 19:12:16,868 - INFO - Processing paper: Regulating trusted autonomous systems in Australia, Authors: Rachel Horne, Tom Putland, Mark Brady, Published: 2023-02-07
+2024-08-05 19:12:17,095 - INFO - Successfully downloaded: Regulating_trusted_autonomous_systems_in_Australia.pdf
+2024-08-05 19:12:17,111 - INFO - Process completed. Total papers processed: 6
+2024-08-05 19:12:17,111 - INFO - Processing paper: A Radar-Based Hail Climatology of Australia, Authors: Jordan P. Brook, Joshua S. Soderholm, Alain Protat, Hamish McGowan, Robert A. Warren, Published: 2023-06-21
+2024-08-05 19:12:22,648 - INFO - Successfully downloaded: A_Radar-Based_Hail_Climatology_of_Australia.pdf
+2024-08-05 19:12:22,659 - INFO - Process completed. Total papers processed: 7
+2024-08-05 19:12:22,660 - INFO - Processing paper: Australia Telescope Search for Cosmic Microwave Background Anisotropy, Authors: Ravi Subrahmanyan, Michael J. Kesteven, Ronald D. Ekers, Malcolm Sinclair, Joseph Silk, Published: 1998-05-19
+2024-08-05 19:12:24,930 - INFO - Successfully downloaded: Australia_Telescope_Search_for_Cosmic_Microwave_Ba.pdf
+2024-08-05 19:12:24,961 - INFO - Process completed. Total papers processed: 8
+2024-08-05 19:12:24,961 - INFO - Processing paper: A study of the personal income distribution in Australia, Authors: Anand Banerjee, Victor M. Yakovenko, T. Di Matteo, Published: 2006-01-22
+2024-08-05 19:12:25,876 - INFO - Successfully downloaded: A_study_of_the_personal_income_distribution_in_Aus.pdf
+2024-08-05 19:12:25,902 - INFO - Process completed. Total papers processed: 9
+2024-08-05 19:12:25,902 - INFO - Processing paper: The Australia Telescope 20 GHz Survey: The Source Catalogue, Authors: Tara Murphy, Elaine M. Sadler, Ronald D. Ekers, Marcella Massardi, Paul J. Hancock, Elizabeth Mahony, Roberto Ricci, Sarah Burke-Spolaor, Mark Calabretta, Rajan Chhetri, Gianfranco De Zotti, Philip G. Edwards, Jennifer A. Ekers, Carole A. Jackson, Michael J. Kesteven, Emma Lindley, Katherine Newton-McGee, Chris Phillips, Paul Roberts, Robert J. Sault, Lister Staveley-Smith, Ravi Subrahmanyan, Mark A. Walker, Warwick E. Wilson, Published: 2009-10-30
+2024-08-05 19:12:30,045 - INFO - Successfully downloaded: The_Australia_Telescope_20_GHz_Survey:_The_Source_.pdf
+2024-08-05 19:12:30,071 - INFO - Process completed. Total papers processed: 10

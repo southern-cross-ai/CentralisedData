@@ -1,0 +1,324 @@
+arXiv:0906.0155v1  [physics.hist-ph]  31 May 2009The Rˆ ole of Astronomy in Society and Culture
+Proceedings IAU Symposium No. 260, 2009
+D. Valls-Gabaud & A. Boksenberg, eds.c/circlecopyrt2009 International Astronomical Union
+DOI: 00.0000/X000000000000000X
+The Astronomy of Aboriginal Australia
+Ray P. Norris1,2and Duane W. Hamacher2
+1CSIRO Australia Telescope National Facility
+PO Box 76, Epping, NSW, 1710, Australia
+email:Ray.Norris@csiro.au
+2Department of Indigenous Studies, Macquarie University
+North Ryde, NSW 2109, Australia
+email:Duane.Hamacher@mq.edu.au
+Abstract. The traditional cultures of Aboriginal Australians includ e a signiﬁcant astronomical
+component, which is usually reported in terms of songs or sto ries associated with stars and
+constellations. Here we argue that the astronomical compon ents extend further, and include
+a search for meaning in the sky, beyond simply mirroring the e arth-bound understanding. In
+particular, we have found that traditional Aboriginal cult ures include a deep understanding
+of the motion of objects in the sky, and that this knowledge wa s used for practical purposes
+such as constructing calendars. We also present evidence th at traditional Aboriginal Australians
+made careful records and measurements of cyclical phenomen a, and paid careful attention to
+unexpected phenomena such as eclipses and meteorite impact s.
+Keywords. Australia, Aboriginal, archaeoastronomy, ethnoastronom y, history of meteoritics.
+1. Introduction
+Before the British occupation of Australia, there were an estimate d 400 diﬀerent Abo-
+riginal cultures. Each had its own language, stories, and beliefs, alt hough most were
+centred on the idea that the world was created in the “Dreaming” by ancestral spirits,
+whose presence can still be seen both on the land and in the sky. The se ancestral spirits
+taught humans how to live, and left a user guide to life in their songs an d stories. Many
+of these stories are reﬂected in the patterns in the sky. This is reﬂ ected in existing lit-
+erature on Australian Aboriginal Astronomy, which tends to focus on stories associated
+with constellations, but with little emphasis on the deep intellectual co ntext in which
+meaning is sought for astronomical phenomena.
+The 50,000 year-old Aboriginal cultures are believed to be the oldest continuous cul-
+tures in the world, and since the night sky seems to play an important role in them, it
+is sometimes suggested (e.g. Haynes 1992) that Aboriginal Austra lians were the world’s
+ﬁrst astronomers. But the word “astronomy” implies more than ju st stories – it means
+a quest to understand the patterns in the sky, and the motion and eclipses of the Sun,
+Moon, and planets. The goal of our research project is to unders tand the importance
+of Astronomy in Aboriginal Cultures, and explore the depth of trad itional Aboriginal
+astronomical knowledge.
+The project has two key components. In some partsof Australia, such as Arnhem Land
+in the north of Australia, Aboriginal cultures are ﬂourishing. For ex ample, Yolngu people
+still maintain traditional aspects of their lifestyle, and continue to c onduct initiation
+ceremonies, in which traditional knowledge is passed from generatio n to generation. The
+ﬁrst thread of the project aims to record their stories and cerem onies, and as much of
+the astronomical lore as might be told to an uninitiated white person.
+In other parts of Australia, the Aboriginal culture was badly damag ed by the arrival
+10Aboriginal Astronomy 11
+of Europeans some 200 years ago. For example, the Aboriginal peo ple around Sydney
+were decimated by introduced disease, exclusion from food and wat er, and deliberate
+genocide. In these regions, little is known of the original culture of t he Aboriginal people,
+but we can study it by examining their art and artefacts. Thus the s econd thread of
+the project focuses on surveying and recording the rock engrav ings of the Sydney basin
+region and the stone arrangements of Victoria.
+Aboriginal astronomy was ﬁrst described by Stanbridge (1857), a nd subsequent im-
+portant works include those by Mountford (1976), Haynes (1992 ), Johnson (1998), and
+Cairns & Harney (2003). Most of these works focus on how object s in the night sky
+represent events or characters in Dreaming stories, and only tou ch brieﬂy on practical
+applications or on interpretation of the motion of the sky.
+For example, the European constellation of Orion is called Djulpan in th e Yolngu
+language. The three stars in Orion’s belt are three brothers who we re blown into the sky
+by the Sun after one of them broke a taboo by eating a king-ﬁsh, wh ich was his totem
+animal Wells (1973). They are seated in a canoe, with Betelgeuse mar king the front of
+the canoe, and Rigel the back of the canoe. The Orion nebula is the ﬁ sh, and the stars of
+Orion’s sword are the line still attached to the ﬁsh (Fig.2 - Left). Diﬀ erent stories about
+Orion are found in other Aboriginal cultures, but are often associa ted with young men,
+particularly those who are hunting or ﬁshing (e.g. Massola 1968).
+Similarly, many groups across Australia (e.g. Massola 1968, Harney 1 959) tell how the
+Pleiades are a group of sisters chased by the young men in Orion, whic h is very similar
+to the traditional European myth about these constellations. Alth ough this similarity
+between Aboriginal and European stories suggests early cultural contact between Abo-
+riginal and European people, it is unlikely that such contact took plac e. It is more likely
+that the Aboriginal people independently devised the stories in a sor t of cultural conver-
+gent evolution, perhaps reﬂecting the fact that the massive brigh t stars of Orion follow
+the beautiful little cluster of the Pleiades as the sky rotates.
+2. Cultural Background
+An impediment to this study is the misinformation permeating the litera ture, dat-
+ing from an era when racial stereotypes were widespread even amo ngst academics. For
+example, Blake (1981) states categorically “No Australian Aborigina l language has a
+word for a number higher than four” and this belief is still widely encou ntered. However,
+complex Aboriginal number systems have been well-documented in th e literature (e.g.
+McRoberts 1990, Tully 1997), and Blake’s statement appears to re ﬂect a widely-held
+post-colonial attitude to Aboriginal people which was widespread ﬁf ty years ago but is
+now fortunately waning. However, such ingrained attitudes state equally misleadingly
+that Aboriginal people “don’t measure things”, and so would not be in terested in or
+capable of careful astronomical measurements. Rather than re lying on such assertions,
+this project concentrates on exploring the available evidence.
+3. Sun, Moon, and Eclipses
+In most Aboriginal cultures, the Moon is male and the Sun is female. Fo r example,
+the Yolngu people of Arnhem Land in the far north of Australia, tell h ow Walu, the
+Sun-woman, lights a small ﬁre each morning, which we see as the dawn (Wells 1964).
+She decorates herself with red ochre, some of which spills onto the c louds, creating the
+red sunrise. She then lights her torch, made from a stringy-bark t ree, and travels across
+the sky from east to west carrying her blazing torch, creating day light. On reaching the12 Norris & Hamacher
+western horizon, she puts out her torch, and starts the long jou rney underground back
+to the morning camp in the east. Thus the Yolngu people explained the daily motion of
+the Sun across the sky and back again under the ground.
+This raises the question of whether traditional Aboriginal people re garded the Earth
+as being ﬂat, in which case the Moon would need to tunnel under the E arth, or whether
+they regarded the Earth as being a ﬁnite body which the Sun might pa ss underneath.
+Warner (1937) was told by a traditional Yolngu man that “the Sun go es clear around
+the world”, and who illustrated this “by putting his hand over a box an d under it and
+around again”.
+The Yolngu people call the Moon Ngalindi and he too travelsacrossth e sky. Originally,
+he was a fat lazy man (corresponding to the full Moon) for which he w as punished by
+his wives, who chopped bits oﬀ him with their axes, producing the wanin g Moon (Wells
+1964, Hulley 1996). He managed to escape by climbing a tall tree to fo llow the Sun, but
+was mortally wounded, and died (the new Moon). After remaining dea d for three days,
+he rose again, growing round and fat (the waxing Moon), until, afte r two weeks his wives
+attacked him again. The cycle continues to repeat every month. Un til Ngalindi ﬁrst died,
+everyone on Earth was immortal, but he cursed humans and animals s o that only he
+could return to life. For everyone else, death would thereafter be ﬁnal.
+But the Arnhem Land stories go much further, even explaining why t he Moon is
+associated with tides, and in particular why Spring tides are associat ed with the Full
+Moon and the New Moon. When the tides are high, water ﬁlls the Moon a s it rises. As
+the water runs out of the Moon, the tides fall, leaving the Moon empt y for three days.
+Then the tide rises once more, reﬁlling the Moon. So, although the me chanics are a little
+unclear, the Yolngu people clearly had an excellent understanding of the motions of the
+Moon, and its relationship to the tides.
+The Warlpiri people explain a solar eclipse as being the Sun-woman being hidden by
+the Moon-man as he makes love to her. On the other hand, a lunar ec lipse is caused
+when the Moon-man is chased by the Sun-woman who is pursuing him, a nd eventually
+catches-up. These two stories demonstrate an understanding t hat eclipses were caused by
+the paths of the Sun and Moon across the sky, occasionally interse cting (Johnson 1998,
+Warner 1937). This realisation is found in several other language gr oups. For example,
+Bates(1944)recountedhow, during the solareclipse of1922,the Wirangupeople told her
+that the eclipse wascaused by the Sun and Moon “becoming husband and wife together”.
+These stories of eclipses are remarkable for two reasons. First, s olar eclipses are rare,
+and a total solar eclipse is seen in any one location only once every thr ee or four gen-
+erations. So for any group to have an explanation of solar eclipses im plies a remarkable
+continuity of learning. For this myth to have been created, someon e must have seen an
+eclipse, related it to a story passed to them from several generat ions previously, and then
+strengthened and retold it for someone a few generations later.
+Secondly, to relate a lunar eclipse to the paths of the Sun and Moon im plies a re-
+markable intellectual feat of visualisation of their motion. At a lunar e clipse, the Sun,
+Earth, and Moon are in a line, with the Earth between the Sun and the Moon. It is an
+impressive intellectual feat, given that the Sun and Moon are diamet rically opposed, to
+reason that it is precisely this alignment which has caused the eclipse.
+Amongst thousands of beautiful rock engravings in Ku-ring-gai C hase National Park,
+just north of Sydney, are a number of crescent shapes, such as that shown in Fig.1
+(Left). Archaeologists (e.g. McCarthy 1983) have traditionally re ferred to these shapes
+as boomerangs. However, a detailed study (Norris & Hamacher 200 9) has shown that
+these shapes are more likely to represent crescent moons than bo omerangs. For example,
+boomerangs usually have two straight lengths rather than a single c urved crescent, andAboriginal Astronomy 13
+Figure 1. (Left) A rock engraving showing a crescent. (Right) A rock en graving of a man and
+woman reaching up to a crescent. Could this represent an ecli pse?
+rarely have pointed ends. Furthermore, it is unclear why a man and w oman should reach
+up towards a boomerang in the sky. But if these shapes are moons, then why is the
+moon shown with the two horns pointing down, since that conﬁgurat ion is seen only in
+the afternoon or morning when the Sun is already high in the sky, and the moon barely
+visible?
+One answer is that it might depict an eclipse. In Fig.1 (Right), the man stands in
+front of the woman, partly obscuring her. Such carefully-drawn o bscurations are unusual
+in these rock carvings, and in this case may well represent the Moon -man obscuring the
+Sun-woman during a solar eclipse.
+4. The Calendar
+Aboriginal calendars tend to be more complex than European calend ars, and those in
+the north of Australia are often based on six seasons. Some Aborig inal groups mark them
+in terms of the stars which appear during these seasons. For exam ple, the Pitjantjatjara
+people say that the rising of the Pleiades in the dawn sky in May heralds the start of
+winter (Clarke 2003). Perhaps even more importantly, the heliacal rising of a star or con-
+stellation can tell people when it’s time to move to a new food source. F or example, when
+the Mallee-fowl constellation (Lyra) appears in March, the Booron g people of Victoria
+know that the Mallee-fowl are about to build their nests, and when L yra disappears in
+October, the eggs are laid and are ready to be collected (Stanbridg e 1857). Similarly, the
+appearance of Scorpius told Yolngu people that the Macassan (Ind onesian) ﬁsherman
+would soon arrive to ﬁsh for Trepang.
+Close to the Southern Cross (a possum in a tree, according to the B oorong people) is a
+dark cloud of interstellar dust, called the Coalsack by astronomers . To many groups, it’s
+the head of the “Emu in the Sky”. The emu’s body stretches down to the left towards
+Scorpius, dominating the southern Milky Way. In Ku-ring-gai Chase National Park is
+an engraving of an emu, which appears to be oriented (Cairns 1996) to line up with the14 Norris & Hamacher
+Figure 2. (Left) The canoe, Djulpan, in Orion. (Right) The emu in the sk y above her
+engraving. c/circlecopyrtBarnaby Norris, 2007
+Emu in the Sky, in the correct orientation, at just the time of year w hen real-life emus
+are laying their eggs (Fig.2 - Right).
+5. Morning and Evening Star
+When the planet Venus appears in the sky as a Morning Star, Yolngu p eople call her
+“Banumbirr”,andtellhowshecameacrosstheseafromtheeastin theDreaming,naming
+and creating animals and lands as she crossed the shoreline, and con tinued travelling
+westwards across the country, leaving as her legacy one of the “s onglines” which are
+important in Aboriginal cultures, and to Aboriginal navigation.
+In an important “Morning Star Ceremony”, earthly Yolngu people co mmunicate with
+their ancestors living on Baralku, the island of the dead, with the help of Banumbirr
+togetherwith a“MorningStar Pole”.The ceremonystartsat dusk and continues through
+the night, reaching a climax when Banumbirr rises a few hours before dawn. She is said
+to trail a faint rope behind her along which messages are sent, and w hich prevents her
+from ever moving awayfrom the Sun. This faint line in the sky is probab ly zodiacal light,
+which is caused by extraterrestrial dust in the plane of the solar sy stem.
+The Morning Star ceremony tells us two important things. One is that Yolngu people
+observed that Venus never strays far from the Sun, which they e xplain in terms of the
+rope binding Venus to the island. The other is that the Morning-Star ceremony has to
+be planned well in advance, since Venus rises before dawn only at cer tain times of the
+year, which vary from year to year. So the Yolngu people also track the complex motion
+of Venus well enough to predict when to hold the Morning Star Cerem ony.
+Wells (1996,1973)tells acorrespondingstoryabout Djurrpun, th e EveningStar,which
+she assumes also to be Venus. She relates how the appearance of t he Evening Star shortlyAboriginal Astronomy 15
+after sunset tells the Yolngu people that its time to start gathering “rakai” which are the
+corms of the lotus lily, and an important food-source for Yolngu peo ple. However, from
+an astronomical perspective this story must be faulty, since the a ppearance of Venus as
+an evening star does not occur at a particular time of year, but var ies across the seasons,
+rendering it useless for this purpose. This puzzle was solved when on e of us (Norris 2008)
+was told the story by the traditional custodian of this story, Math ulu Munyarryun. The
+Evening Star in this context is not Venus, but the star Spica, which d oes indeed set just
+after the Sun at the time of year when rakai nuts are ready for ha rvesting.
+6. Comets, Meteors and Cosmic Impacts
+Amongst the Dreaming stories of various Aboriginal groups, there are many diﬀerent
+views of comets and meteors. In a universe that seems ordered an d predictable, transient
+events such as comets and meteors were often seen with fear and apprehension. As a
+result, comets and meteors are frequently associated with omens , death, and evil. The
+Tiwi of Bathurst and Melville Islands (Mountford 1958) and the Kunin jku of Arnhem
+Land (Taylor 1996) saw meteors as the ﬁery eyes of evil spirit being s who raced across
+the sky, hunting for the souls of the sick and dying. When children fr om the Ooldea
+Region of South Australia saw a meteor (which they called a “devil-dev il”), they would
+chant “Kandanga daruarungu manangga gilbanga ” which means “ star falling at night
+time go back! ” (Harney & Elkin 1949). The Ngarrindjeri of South Australia told of a
+being named Kulda who would manifest as a meteor emerging from the S outhern Cross,
+warning the people of a disease epidemic. This led the people to shout, “peika baki ”,
+meaning “ death is coming ” (Tindale 1933/34). The arrival of the Great Comet of 1843
+caused fear among the Ngarrindjeri and was seen as a harbinger o f calamity (Eyre 1845).
+These views are shared by peoples throughout the world (e.g. Fraz er 1930, Hamacher &
+Norris 2009).
+Occasionally, one of these falling stars actually crashes to earth. T here are many Abo-
+riginalstoriesthatdescribesuchanevent,includingthe Arrernte storyaboutthecreation
+of Tnorala, or Gosse’s Bluﬀ, an impact crater created nearly 150 millio n years ago. In the
+Dreaming, a group of sky-women took the form of stars and dance d in the Milky Way.
+One of the women grew tired and placed her baby in a wooden basket, called a turna.
+As the women continued dancing, the turna fell over the edge and p lunged to earth. The
+baby fell and was covered by the turna. The impact forced the roc ks upward, forming
+the walls of the circular structure. The baby’s mother, the evening star, and father, the
+morning star, continue to search for their baby to this day (Cauch i 2003, Williams 2004).
+A Yolngu story from Arnhem Land tells of Goorda, a lonely ﬁre spirit th at lived in the
+Southern Cross,who came to earthas a meteor to bring ﬁre to the people. Upon touching
+the ground near the Gainmaui River, he accidentally caused massive ﬁres that brought
+death and destruction to the people (Allen 1975). Various Dreaming stories from across
+Australia tell about falling stars that bring ﬁre to the earth (e.g. Pe ck 1933, Berndt &
+Berndt 1988,Jones 1989).Perhapssome of these storiesrecor dmeteorite falls and cosmic
+impacts that remain unknown to Western science? Hopefully, furth er research will tell.
+7. Astronomical Measurements
+Having established that traditional Aboriginal cultures embodied a d eep interest in
+the motion of heavenly bodies, can we ﬁnd any evidence to support t he “Stonehenge
+hypothesis” that careful observations were made, records kep t, or structures set up to
+point to the rising and setting places of heavenly bodies?16 Norris & Hamacher
+A prime example is the Wurdi Youang stone arrangement in Victoria, w hich was built
+by the Wathaurung people before European settlement. This egg- shaped ring of stones,
+about 50m in diameter, has its major axis almost exactly East-West. At its Western
+end, at the highest point of the circle, are three prominent waist-h igh stones. Morieson
+(2003) pointed out that some outlying stones to the West of the cir cle, as viewed from
+these three stones, seem to indicate the setting positions of the S un at the equinoxes and
+solstices. Norris et al (2009) have conﬁrmed these alignments and have shown that the
+straight sides of the circle also indicate the solstices (Fig.3).
+Figure 3. The view across the Wurdi Youang stone circle, showing the po sitions of the setting
+sun at the solstices and equinox. Lower part of the composite c/circlecopyrtJohn Morieson.
+However, a sceptic might still raise some doubts. First, the outliers are only accurate
+to a few degrees - could these alignments have occurred by chance ? Second, although
+the stones of the circle are large and immovable, the outliers are sma ll and could have
+been moved. Third, besides the outliers indicating the solstices and e quinox, there is an
+additional outlier whose signiﬁcance is unclear. The best way to addr ess these doubts
+would be to ﬁnd another site with astronomical alignments. Other st one arrangements
+in Victoria also indicate the cardinal points, from which we may conclud e that the local
+Aboriginal people knew these directions with some precision, presum ably by observing
+celestial bodies. But are there other sites which point to the positio n of the solstices?
+The search continues.
+8. Conclusion
+There is a growing body of evidence that traditional Aboriginal peop le were deeply
+fascinated by the sky, and the motion of the bodies within it, and had a far richer and
+deeper knowledge of the sky than is usually appreciated. However, while the evidence for
+actual measurements or records is suggestive, it remains unprov en, although the clues
+are suﬃciently tantalising to fuel the search for more evidence.
+9. Acknowledgement
+This project is dedicated to the hundreds of thousands of Indigen ous Australians who
+lost their lives after the British occupation of Australia in 1788. We es pecially thank the
+eldersandpeopleoftheYolngucommunityatYirrkala,NT,fortheirh elp andhospitality,Aboriginal Astronomy 17
+andfortheirpermissiontodiscussaspectsoftheirculturein ourpu blications.We arealso
+grateful to the other Indigenous groups who have welcomed us on to their land. We also
+thank Barnaby Norris and Cilla Norris, who helped with much of the res earch described
+here, and our colleagues Hugh Cairns, John Clegg, Paul Curnow, Kr istina Everett, and
+John Morieson for their help and collaboration.
+References
+Allen, L.A., 1975, Time Before Morning , (Thomas Y. Crowell Co., New York)
+Basedow, H., 1925, The Australian Aboriginal , (F. W. Preece & Sons, Adelaide)
+Bates, D., 1944, The Passing of the Aborigines , (John Murray, London)
+Berndt, R.M. & Berndt, C.H., 1988, The Speaking Land , (Penguin Books Australia Ltd.)
+Blake, B.J., 1981, Australian Aboriginal Languages , (Angus & Robertson, London)
+Cairns, H., 1996, Sydney Rock Carvings & Astronomy , unpublished manuscript
+Cairns, H. & Yidumduma Harney, B., 2003, Dark Sparklers , Published by Hugh Cairns, Sydney
+Cauchi, S., 2003, “Outer space meets outback and a bluﬀ is bor n”,The Age , 18 June 2003,
+http://www.theage.com.au/articles/2003/06/17/105582 8328658.html
+Clarke, P.A., 2003, Where the Ancestors Walked , (Allen & Unwin, Crows Nest, NSW, Australia)
+Eyre, E.J., 1845, Journ. of Expeditions of Disc. Into Central Australia, Vol 2 , (Boone, London)
+Frazer, J.G., 1930, The Golden Bough: Part III, 3rdEd., (Macmillan & Company, Ltd., London)
+Hamacher, D.W. & Norris, R.P., 2009, Archaeoastronomy , (submitted)
+Harney, B., 1959, Tales from the Aborigines , (Rigby, Adelaide)
+Harney, W. E. and Elkin, A. P., 1949, Songs of the Songmen , (F.W. Cheshire, Melbourne)
+Haynes,R.D., 1992, Aboriginal Astronomy, Australian Journal of Astronomy , Vol. 4, pp.127-140
+Hulley, C.E., 1996, Dreamtime Moon , (Reed Books, Chatswood, NSW)
+Johnson, D., 1998, Night skies of Aboriginal Australia: a noctuary , Oceania Mon. 47 (Sydney)
+Jones, E., 1989, The Story of the Falling Star , (Aboriginal Studies Press, Canberra)
+Massola, A., 1968, Bunjil’s Cave , (Lansdowne Press, Melbourne)
+McCarthy, F.D., 1983, Catalogue of Rock Engravings in the Sydney-Hawkesbury Dist rict, (New
+South Wales National Parks and Wildlife Service, Sydney)
+McNight, D., 2005, Of marriage, violence and sorcery , (Ashgate Pub. Ltd., Surry, UK)
+McRoberts, R.W., 1990, Counting at Pularumpi , Library of the Australian Institute of Aborig-
+inal and Torres Strait Islanders Studies (Canberra)
+Morieson, J., 2003, Solar-based Lithic Design in Victoria, Australia, in World Archaeological
+Congress , Washington D.C.
+Mountford, C.P., 1958, The Tiwi (Phoenix House, Ltd., London)
+Mountford, C.P., 1976, Nomads of the Australian Desert , (Rigby, Ltd., Adelaide)
+Norris, R.P., 2008, “Star Dreaming in Arnhem Land”, Cosmos, Issue 20 (April/May), pp. 20-24
+Norris, R.P. & Hamacher, D.W., 2009, Crescent moons in Sydney Rock Engravings , in prep.
+Norris, R.P., Norris, P.M., & Hamacher, D.W., 2009, Wurdi Youang: An Australian Aboriginal
+Stone Circle with solstitial indicators , in prep.
+Peck, C.W., 1933, Australian Legends , (Lothian, Melbourne)
+Stanbridge, W.E., 1857, On the astronomy and mythology of th e Aborigines of Victoria, Proc
+of the Phil. Inst. of Vic. , Transactions 2, pp. 137-140
+Taylor, L., 1996, Seeing the Inside (Clarendon Press, Oxford, UK)
+Tindale, N. B., 1933/1934, Journal of the Researches in the South-East of South Austral ia, Vol
+I, (Anthro. Archives, Museum of SA)
+Tully, J., 1997, Dja Dja Wurrung Language of Central Victoria , privately published
+Warner, W.L., 1937, A black civilization , (Harper, New York)
+Wells, A.E., 1964, Skies of Arnhem land , (Angus & Robertson, Sydney)
+Wells, A.E., 1973, Stars in the Sky , (Rigby, Ltd. Adelaide)
+Williams, W.H., 2004, The Stories, The Songs, Clip 2: Falling from the sky , (CAAMA Produc-
+tions documentary, Australia)

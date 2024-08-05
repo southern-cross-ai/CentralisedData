@@ -1,0 +1,1875 @@
+Generated using the official AMS L ATEX template v6.1 two-column layout. This work has been submitted for
+publication. This Work has not yet been peer-reviewed and is provided by the contributing Author(s) as a means to
+ensure timely dissemination of scholarly and technical work on a noncommercial basis. Copyright and all rights
+therein are maintained by the Author(s) or by other copyright owners. Copyright in this work may be transferred
+without further notice, and this version may no longer be accessible.
+A Radar-Based Hail Climatology of Australia
+Jordan P. Brook,a,bJoshua S. Soderholm,bAlain Protat,bHamish McGowan,aRobert A. Warrenb
+aAtmospheric Observations Research Group, University of Queensland, QLD, Australia
+bScience and Innovation Group, Australian Bureau of Meteorology, Docklands, VIC, Australia
+ABSTRACT: InAustralia,hailstormspresentconsiderablepublicsafetyandeconomicrisks,wheretheyareconsideredthemostdamaging
+natural hazard in terms of annual insured losses. Despite these impacts, the current climatological distribution of hailfall across the
+continentisstillcomparativelypoorlyunderstood. Thisstudyaimstosupplementpreviousnationalhailclimatologies,suchasthosebased
+on environmental proxies or satellite radiometer data, with more direct radar-based hail observations. The heterogeneous and incomplete
+nature of the Australian radar network complicates this task and prompts the introduction of some novel methodological elements. We
+introduce an empirical correction technique to account for hail reflectivity biases at C-band, derived by comparing overlapping C- and
+S-band observations. Furthermore, we demonstrate how object-based hail swath analysis may be used to produce resolution-invariant
+hail frequencies, and describe an interpolation method used to create a spatially continuous hail climatology. The Maximum Estimated
+Size of Hail (MESH) parameter is then applied to a mixture of over fifty operational radars in the Australian radar archive, resulting in
+the first nationwide, radar-based hail climatology. The spatiotemporal distribution of hailstorms is examined, including their physical
+characteristics, seasonal and diurnal frequency, and regional variations of such properties across the continent.
+1. Introduction
+Hailstormsaccountforasubstantialportionoffinancial
+impacts caused by natural hazards globally, resulting in
+greater than 10 billion USD in insured losses annually in
+theUnitedStatesalone(GunturiandTippett2017). InAus-
+tralia, hail is typically considered the most costly natural
+hazardintermsofinsuredlosses,exceedingthecombined
+losses of both bushfires and floods (Schuster et al. 2006;
+McAneney et al. 2019). Several of the country’s most
+populous cities have experienced hailstorms that resulted
+in over 1 billion AUD in losses, including Melbourne in
+the south (Buckley et al. 2010; Allen 2012), Perth on the
+westcoast(Buckleyetal.2010),andmostfrequentlyBris-
+baneandSydneyontheeastcoast(Soderholmetal.2019;
+Schuster et al. 2006). Financial losses also appear to be
+increasingalongsideanexpansionofthebuiltenvironment
+(Changnonetal.2009),andasof2019inAustralia,seven
+ofthetenmostdamagingeventsoccurredinthepastdecade
+(adjusted for inflation, Eichner 2019). The significance of
+these financial impacts underscores the need to quantify
+the current level of hail hazard in the region.
+Numerous studies have investigated the climatology of
+hailstormsinAustraliausingvariousdatasources,includ-
+inghailreports,hailproxiesfromweathermodels,andre-
+mote sensing observations from satellite radiometers and
+weather radars. First, studies based on the Bureau of Me-
+teorology’s Severe Storms Archive are limited by well-
+documented reporting biases for hail observations (Allen
+et al. 2015). Population biases are particularly prominent
+in Australia, which has the fifth lowest population density
+globally. Theseproblemsarecompoundedbythefactthat
+Corresponding author : Jordan Brook, j.brook@uq.edu.au87% of the already limited population resides within 50
+kmofthecoast,leavingvastareas(mostlyinthecountry’s
+arid interior) effectively unobserved (Australian Bureau
+of Statistics 2021). Consequently, climatological studies
+based on hail reports are restricted to more populated re-
+gions such as eastern New South Wales (Schuster et al.
+2005). Changesinreportingpracticesfurtherdiminishthe
+practical value of this data set (Walsh et al. 2016), espe-
+cially for more recent years where the archive has been
+poorly maintained. The most comprehensive analysis of
+hail reports in Australia is provided by Allen and Allen
+(2016), offering valuable verification for the results that
+follow.
+Perhaps the most common approach for estimating the
+climatological distribution of hail on regional scales in-
+volves identifying “hail-prone” environmental conditions
+from numerical weather prediction (NWP) models. In
+these studies, an environment is considered “hail-prone”
+based on a combination of favorable model indices, such
+as Convective Available Potential Energy (CAPE) or 0-6
+km bulk vertical wind shear (see Raupach et al. 2023, and
+references therein). Such an approach is appealing from
+aclimatologicalstandpointduetothespatiotemporalcon-
+tinuity of the underlying model data, and has formed the
+basis of several global ( e.g., Prein and Holland 2018) and
+Australian ( e.g., Allen and Karoly 2014) hail and severe
+stormclimatologies. Whilethesestudieshavecontributed
+valuableinsightsintothedistributionofhaileventsworld-
+wide, they must be interpreted with some caution. First,
+theexactformationofthe“optimal”hailproxyvariescon-
+siderably between studies and different climatic regions
+(Zhou et al. 2021), often resulting in an overestimation of
+the tropical hail frequency in Australia (Bednarczyk and
+1arXiv:2306.12016v2  [physics.ao-ph]  28 Nov 20232
+Sousounis 2012; Allen and Karoly 2014; Prein and Hol-
+land 2018). Recent research by Raupach et al. (2023)
+addressestheseconcernsinanAustraliancontextbytrain-
+ing their proxy on Australian hail reports, and allowing
+their formulation to vary latitudinally, which more accu-
+rately characterized hail environments across the country.
+However, the accuracy of this approach is limited by the
+representativeness of the underlying hail report data set,
+which is affected by the aforementioned biases involving
+populationdensityandreportingpractices. Moreover,hail
+proxies are known to suffer from the “initiation problem”,
+whereby only a small fraction of hail-prone environments
+(often less than 10%, Taszarek et al. 2020) actually un-
+dergoconvectiveinitiation(Tippettetal.2015). Thisissue
+ultimatelyleadstolargeuncertaintiesregardingthetruecli-
+matologicalfrequencyofhailfall. InanAustraliancontext,
+thisproblemspuriouslyhighlightsaspatialhailfrequency
+maximumovertheoceanontheeastcoast( e.g.,Preinand
+Holland2018). Theseoceanicoverestimationslikelystem
+fromanabsenceofknownconvectiontriggermechanisms
+for the region, such as sea-breeze or topographic inter-
+actions (Soderholm et al. 2017b). Raupach et al. (2023)
+demonstrated that incorporating a series of additional en-
+vironmentalconstraintscouldsuccessfullyreducethefalse
+alarm rate for Australian hailstorms, improving the Crit-
+ical Success Index (CSI) to ∼0.3 when compared to hail
+reports.
+Recentclimatologicalstudiesalsoattempttoaddressthe
+“initiation problem” by confirming convective initiation
+through passive spaceborne observations of deep convec-
+tion. Whilepassiveinfraredimagersaboardgeostationary
+satellitescannotdetecthaildirectly(MurilloandHomeyer
+2019), some studies have used these observations to iden-
+tify dynamical characteristics associated with hailstorms,
+such as above anvil cirrus plumes (Levizzani and Setvák
+1996; Homeyer et al. 2017) or overshooting tops (OT,
+Schmetz et al. 1997; Bedka et al. 2010). OT detections
+have been combined with hail proxies to produce regional
+hail climatologies in numerous studies ( e.g., Bedka et al.
+2018; Punge et al. 2021), and although this methodology
+likely improves on those derived from hail proxies alone,
+significant uncertainty still remains when associating OT
+detections with hail at the surface. Bedka et al. (2018)
+foundthatonly28%ofOTdetectionsarespatiotemporally
+associatedwithhailreportsinAustralia(within1hourand
+50 km), which is also considerably lower than 50% in
+Europe(Bedka2011)andtheUnitedStates(Dworaketal.
+2012). Despitetheseuncertainties,theBedkaetal.(2018)
+hail climatology of Australia is a significant advancement
+in our understanding of hail in remote areas of the conti-
+nent, and serves as a valuable reference for this study.
+One final class of satellite-based hail climatologies rel-
+evant for our investigation involves hail detections from
+passive microwave radiometers and precipitation (Ku/Ka
+band)radarsaboardlow-earthorbitsatellites. Studieshaveshownthatsimplebrightnesstemperature(BT)thresholds
+at certain frequencies correctly subset hail-bearing storms
+in the US with 40% accuracy (Cecil 2009; Ferraro et al.
+2015). This principle has been employed to generate sev-
+eral global hail climatologies ( e.g., Cecil 2009; Cecil and
+Blankenship 2012; Ferraro et al. 2015). Subsequent re-
+search with spaceborne precipitation radars by Ni et al.
+(2017) revealed that similar to hail proxies, these passive
+microwave methods overestimate the amount of hail in
+tropicalregionssuchasnorthernAustraliaduetoregional
+variations in thunderstorm structure. These insights have
+beenusedtomoreaccuratelydetecthailevents(CSI ≈0.28
+relative to ground-radar-based hail detections, Mroz et al.
+2017),andupdatedglobalhailclimatologiesbasedonthese
+improvementswillalsoserveasimportantsecondaryvali-
+dationforourstudy(Mrozetal.2017;Nietal.2017;Bang
+and Cecil 2019).
+Indirect hail detection methods from hail proxies, geo-
+stationary satellites, or passive microwave radiometers
+eachhavedistinctlimitations,whichultimatelycontributes
+to uncertainty in their resulting climatologies. In light of
+these constraints, weather radars offer an appealing alter-
+native for climatological hail studies. These instruments
+provide spatiotemporally uniform, three-dimensional, di-
+rectmeasurementsofhydrometeors,makingthemidealfor
+climatological studies, assuming sufficient archive length
+and spatial coverage (Saltikoff et al. 2019). When re-
+stricted to single-polarized radar data (as is the case in
+Australia), the Maximum Estimate Size of Hail (MESH,
+Witt et al. 1998) parameter emerges as perhaps the most
+thoroughly validated hail diagnostic. Although MESH is
+notareliablepredictorofhailsizes(Wilsonetal.2009;Or-
+tega2018),ithasbeenshowntousefullydiscriminatehail
+occurrencewithinthunderstorms(Cintineoetal.2012;Or-
+tega 2018; Murillo and Homeyer 2019). MESH has also
+been used to generate numerous regional hail climatolo-
+gies in Europe ( e.g., Kunz and Kugel 2015; Lukach et al.
+2017) and the United States (Cintineo et al. 2012; Wendt
+and Jirak 2021). The latter were created using the US
+NEXRAD radar archive, which represents the “gold stan-
+dard”forradarnetworksfromaclimatologicalstandpoint,
+consistingofover160identicalradarsoperatingoverthree
+decades. Incontrast,theAustralianradarnetworkishighly
+diverse in terms of archive length, beamwidth, frequency,
+andreceivertype(Soderholmetal.2022),andcoversonly
+∼30% of the country’s total land surface. To date, these
+factorshavelimitedradar-basedhailstudiestosimplediur-
+nal/seasonal analyses in 10 locations (Dowdy et al. 2020),
+ormoredetailedregionalclimatologiesfor18yearsinBris-
+bane(Soderholmetal.2017a)andeightyearsinBrisbane
+and Sydney (Warren et al. 2020).
+In this study, our objective is to expand on previous
+work by creating a national hail climatology. To achieve
+this goal, we detail how we must address the unique chal-
+lenges posed by the Australian radar archive, including3
+normalizingdifferencesinradarfrequencyandarchivedu-
+rations, and interpolating between large regions with no
+observations. Thesemethodologicalelementsareoutlined
+in Sections 2 (methodology) and 3 (radar frequency cor-
+rection). We begin our analysis at a continental scale in
+Section 4, by generating Australia’s first national radar-
+based hail climatology. We then identify five regions of
+interestwithinthenationalclimatologytoinvestigateona
+regional scale in Section 5, providing a more comprehen-
+sive analysis for each. Finally, we summarize our findings
+and suggest directions for future work in Section 6.
+2. Methodology
+a. Data Processing
+The radar data used in this study are obtained from
+Level 1b of the Operational Radar Dataset in the Aus-
+tralian Unified Radar Archive (AURA, Soderholm et al.
+2022). Our analysis encompasses all available data be-
+tween2000–2022,andmandatesthateachradarmustcon-
+tain over five years of operational observations in order to
+be included. Certain radars have also been excluded due
+to data quality concerns, such as geographically remote
+radars that did not historically transmit volumetric data,
+radarswithpersistentbeamblockages,andvariousairport
+radars that are unsuitable for meteorological applications.
+Theserestrictionsnarrowouranalysisto52radars,asillus-
+tratedinFig.1. Amongthe52radarsexamined,onlyeight
+are polarimetric 1and fourteen are S-bands (wavelengths
+∼10 cm); both of which have important implications for
+our study, and merit separate discussions in Sections 2b
+and 3, respectively. The Level 1b dataset contains quality
+controlled radar data in polar coordinates, and due to the
+single-polarization limitations for most of the archive, the
+horizontally polarized equivalent radar reflectivity factor
+(𝑍, hereafter reflectivity) is used exclusively for hail de-
+tection. Afiltering procedureis appliedto removeground
+cluttercontamination(GabellaandNotarpietro2002;Heis-
+termann et al. 2013), and radar reflectivity is calibrated
+using a ground clutter monitoring and spaceborne radar
+comparison technique (refer to Louf and Protat 2023, for
+additional details). The latter is particularly important for
+our purposes, as calibration errors are known to severely
+impact hail size estimates ( e.g., Warren et al. 2020). Re-
+centthree-waycalibrationchecksfortheAustralianarchive
+(betweenground-based,ship-basedandspaceborneradars,
+Protat etal. 2022) havefound that post-correctioncalibra-
+tion errors fall within ±0.5 dB, theoretically leading to
+acceptable MESH errors of less than 5% (Warren et al.
+2020, their Appendix A.).
+1TheBureauofMeteorology’sRadarandObservationNetworkUp-
+lift program dictates that all newly installed radars are polarimetric. At
+the time of writing, 16 of the 66 current operational radars are polari-
+metric, with this number expected to rise in years to come.Special consideration must be given for data quality is-
+sueswhenusingradardataforclimatologicalstudies,par-
+ticularlywhentheclimatologicalvariableinquestionmay
+be strongly affected by weak nonmeteorological echoes,
+such as chaff, anomalous propagation and sidelobe con-
+tamination ( e.g., Fabry et al. 2017). These effects are un-
+likelytoimpactourresults,giventherelativeechostrength
+and the elevated nature of the observations used to de-
+rive MESH (>3 km altitude). A possible exception may
+arisewhenspurioushigh-altitude,high-reflectivityechoes
+are detected due to ground clutter from elevated topogra-
+phy, especially during atmospheric conditions conducive
+to anomalous propagation. We contend that these cases
+occur infrequently in the Australian network due to the
+absence of prominent topographic features (highest peaks
+∼1500 m, Fig. 1), and direct the reader to the geomet-
+ric justification given in Section 3.5 of Nisi et al. (2018)
+for a highly mountainous region. As in previous studies
+(e.g.,Cintineoetal.2012),amanualqualitycontrolproce-
+durewasappliedtoallidentifiedhailstormsinthearchive,
+which eliminated 1342 individual hail detections deemed
+spurious by a trained observer. We have determined that
+these evidently erroneous radar returns (such as complete
+volume saturation of >100 dBZ reflectivity) are likely at-
+tributable to hardware or signal processing failures and
+predominantly occur in the earlier portions of the archive
+for older radars.
+The final data processing consideration involves the
+amalgamation of overlapping reflectivity observations
+from individual radars. Previous studies have highlighted
+the importance of integrating information from multiple
+radars in order to fill gaps in radar scanning strategies
+and compensate for range dependencies (Stumpf et al.
+2004; Ortega et al. 2006). However, recent research by
+Brook et al. (2022) showed that gridding methods used to
+merge data into mosaics can degrade data quality, primar-
+ilythroughover-smoothinginthecaseofweightedaverage
+methods ( e.g., Langston et al. 2007). Nearest-neighbor
+and linear interpolation methods can also propagate ob-
+servational noise and introduce first-order discontinuities
+into the analysis ( e.g., Lakshmanan et al. 2006). Single-
+polarized hail detection methods are highly dependent on
+theverticaldistributionofreflectivitycolumns,therecon-
+structionofwhichisconsiderablydegradedbybothofthe
+aforementioned gridding artifacts. Consequently, we have
+opted to regrid reflectivity observations using the varia-
+tionalinterpolationmethodoutlinedbyBrooketal.(2022)
+for each radar separately in our study, with a grid spacing
+of 1 km horizontally and 500 m vertically. This approach
+allows for quality control of individual radars without re-
+moving or recalculating the resulting mosaic when erro-
+neous data from one radar is removed and ensures that
+isolatedradarswithnooverlappingcoverageareprocessed
+inthesamemannerasthosethatoverlap. However,italso
+requires an additional post-processing step to merge the4
+Fig.1: An illustration of the radar network used in this study. Contours demonstrate the spatial data coverage of the
+radarnetwork(ranges20–140km),withC-andS-bandradarsinredandblue,respectively. Theoceanwithin140kmof
+themainland,excludingislandsotherthanTasmania,isfilledwithblue,andbackgroundshadingillustratestopography.
+resulting hail detections for overlapping radars, which is
+detailed inSection 2b. Wedeemed the regriddingprocess
+essentialinordertocapitalizeonitssuperiorcharacteriza-
+tion of deep convective plumes, despite the considerable
+computational resources required for applying the varia-
+tional approach to all hail events in the archive. These
+methodological improvements ensure that the gridded re-
+flectivities are closest to those at the native resolution of
+theradar,wheretheoriginalMESHconstantsweredefined
+(Witt et al. 1998).
+b. Hail Identification
+TheMaximumExpectedSizeofHailparameter(MESH,
+Witt et al. 1998) is used for hail detection in this study.Although originally developed as an object-based, single-
+valued parameter, we adopt the common approach of cal-
+culatingMESHonregulargrids( e.g.,Stumpfetal.2004).
+This process begins with the calculation of the kinetic
+energy flux based on the semiempirical relationship first
+introduced by Waldvogel et al. (1978),
+¤𝐸=5.0×10−6·100.084𝑍, (1)
+where𝑍is in logarithmic units (dBZ). The hail kinetic
+energy flux is subsequently integrated across height levels
+thatarecoldenough( <0◦C)andpossessreflectivitieslarge
+enough (>40dBZ) to likely result from hail. Formally,
+theseconstraintsareimplementedthroughpiecewiselinear
+weightingfunctionsforbothconditions( 𝑊(𝑇)and𝑊(𝑍),5
+Study Hail Metric Threshold (mm)
+Wilson et al. (2009) Hail reports ≥19mm 28
+Cintineo et al. (2012) Hail reports ≥19mm 29
+Ortega (2018) Hail reports ≥25.4mm 30
+Murillo and Homeyer (2019) Hail reports ≥25.4mm 29
+Warren et al. (2020) Insured hail damage 32
+Table1: MESH thresholds used to identify severe/damaging hail in various studies. Refer to each study for further
+details on the MESH matching/thresholding procedure used therein.
+respectively). The weighted, vertical integration of hail
+kineticenergyfluxresultsinaparametertermedthesevere
+hail index (SHI), which is formalized as follows,
+SHI=1
+10∫𝐻top
+𝐻0𝑊(𝑍)·𝑊(𝑇)·¤𝐸·𝑑𝐻, (2)
+where𝐻0istheheightofthe0◦Cisothermand 𝐻topisthe
+echo-top height. Finally, Witt et al. (1998) established the
+MESHformulationbyempiricallyfittingSHIvaluestothe
+75th percentile of 147 hail report sizes, yielding MESH
+=2.54(SHI)0.5. Murillo and Homeyer (2019) recently
+refit the SHI–MESH relationship using more than 5000
+hailreports;however,theseupdatedconstantsarenotused
+here due to the alternate radar processing methods used
+in that study 2. MESH has proven to be an effective hail
+discriminator;however,theexactMESHthresholdusedto
+detecthailvariesslightlyintheliterature. Thresholdvalues
+were defined to optimally identify severe/damaging hail,
+andseveralrelevantstudiesandtheircorrespondingMESH
+thresholdsaregiveninTable1. Giventhesimilarityamong
+these five preceding studies and the aforementioned ∼5%
+MESHerrorsassociatedwithradarcalibration,wedeemit
+appropriate to take the average across them, which, when
+rounded to the nearest millimeter, results in a threshold of
+30 mm.
+We address the discrete temporal sampling rate of
+weather radars by implementing an advection correction
+algorithm from the PySTEPS package (Pulkkinen et al.
+2019). ThismethodinterpolatesMESHvaluesalongstorm
+tracksbyshiftingvaluesattime 𝑡forwardandvaluesattime
+𝑡+1backward,beforelinearlyweightingthetwofieldsac-
+cordingtotheirtemporalproximity(AnagnostouandKra-
+jewski 1999). Advection velocities are calculated across
+the domain by applying the Lucas–Kanade optical flow
+methodtotheMESHfields. Theprocedureisappliedover
+contiguous time periods with valid hail detections (vol-
+2MurilloandHomeyer(2019)usedamulti-radarreflectivitymosaic,
+smoothedusingweightedaverageinterpolation(GridRad,Homeyerand
+Bowman 2017). MESH estimates are extremely sensitive to reflectivity
+biases (Warren et al. 2020), meaning the SHI–MESH relationship de-
+rived for smoothed reflectivities is not suitable for the high-resolution
+grids used here (Brook et al. 2022)umes with≥30mm MESH), and temporal interpolation
+is performed at minute intervals. These time periods are
+calculated such that hail detections separated by less than
+orequalto30minutesaregroupedtogether. Thisthreshold
+was selected to accommodate earlier years of the archive
+that had 10 minute (rather than five minute) volume sam-
+plingtimes, ensuringhail streaks 3froma singlestormare
+not artificially split in cases with missing volumes due to
+hardware or communication failures.
+Our analysis then departs from conventional MESH
+studies by adopting an object-oriented approach, where
+individual hail streaks are created by contouring interpo-
+lated MESH grids at the 30-mm level. Each hail streak
+isdefinedbythe30-mmcontourpolygon,andanexample
+hailswathcomposedofhailstreaksfromthreeoverlapping
+radars is shown in Fig. 2a. We conservatively (relative to
+prior studies, e.g., Soderholm et al. 2017a; Warren et al.
+2020; Cintineo et al. 2012) limit swaths to a radial range
+of 20–140 km in our analysis to mitigate an underestima-
+tion of the true hail frequency due the radar’s scanning
+geometry (cone of silence and beam broadening). This
+conservatism is justified for the Australian radar archive,
+given the varying beam widths (between 1–2◦, refer to
+Table C1) and the dual-PRF artifacts present beyond 140
+km. Apreliminaryanalysisoftherangedependencyofhail
+frequencies(notshownhere)revealedthathailfrequencies
+wererelativelystablebetweenourchosenrangethresholds
+and no obvious underestimation was observed for radars
+with larger beam widths. We direct the reader to Bunkers
+and Smith (2013) for a more comprehensive discussion of
+these effects.
+Hail streaks from individual radars are then merged by
+taking the geometric union of spatiotemporally overlap-
+pingpolygons(refer toFigs.2aand 2b),yieldingspatially
+uniform, merged hail swaths. Merged hail streaks are as-
+signed a range of statistics, including their area, start and
+endtimes,andopticalflowvelocities. Mostofthesestatis-
+3WefollowtheterminologyoutlinedinChangnon(1970)byreferring
+to ahail streak as “an area of continuous hail with temporal coherence,
+which is considered an entity of hail generated within a thunderstorm”.
+A combination of spatiotemporally proximal hail streaks may then be
+subjectively grouped to form a hail swath for an event.6
+Fig.2: Anillustrationofthemethodsusedtocalculatethespatiallyinvarianthailclimatology. (a)Hailswathsoutlined
+bythe30-mmMESHcontourfortheMt. Stapylton(green),Marburg(orange),andGympie(blue)radarsonthe16thof
+December2010,(b)mergedhailswathsforthesamecasestudy(red),and(c)mergedhailswathsfortheentirearchive.
+(d) The number of days observed for each coverage region at 100 km grid spacing, (e) annual hail frequencies for each
+coverage region, and (f) cell-based hail frequencies for a uniform grid.
+tics require an object-based approach, as they may not be
+easilycalculatedfromanaccumulated,griddedfield(Nisi
+et al. 2018). The resulting merged hail archive ( e.g., Fig.
+2c),alongwiththeassociatedobject-basedstatistics,form
+the basis of our national and regional hail climatologies.c. Frequency Normalisation
+Theprecisearealdefinitionofhailstreaksinourobject-
+based approach permits a novel, resolution-invariant
+methodforcalculatingyearlyormonthlyhailfrequencies.
+In a traditional approach using temporally accumulated
+(e.g., daily) MESH grids, hail frequencies can be evalu-
+atedattheoriginalgridresolutionbycountingthenumber7
+of times each pixel exceeds a mesh threshold ( e.g., Cinti-
+neo et al. 2012). However, by chance, some isolated grid
+points may not experience a single hail storm throughout
+thearchiveduration,leadingtothespuriousclaimthatthe
+true climatological frequency at that point is zero. One
+may attempt to account for the finite archive duration by
+applying various ad hoc smoothing techniques ( e.g., Cin-
+tineo et al. 2012; Murillo et al. 2021), or calculating hail
+frequenciesonacoarserspatialgrid. Hailfrequenciescal-
+culated using the latter approach ( e.g., on a 10 km grid in
+Warren et al. 2020) yield higher values, as the number of
+haildetectionswithina100km2areaispredictablygreater
+thanthenumberateachindividualgridpoint. Thisresolu-
+tionbiasinhailfrequenciesprohibitsreliablecomparisons
+between studies with different grid sizes [ e.g., Soderholm
+et al. (2017a) and Warren et al. (2020)], and confuses the
+true meaning of hail frequency estimates.
+In this study, we define hail frequency as the number
+of times hail is expected at any single point within a grid
+box, per normalization period ( e.g., yearly or monthly).
+We justify this choice as more intuitive to an observer, as
+it attempts to answer the common question: “How many
+times per year are you likely to observe hail?” This is
+distinctfrom: “Howmanytimesperyearwillithailwithin
+10 km from here?” This spatially invariant hail frequency
+is calculated by intersecting all hail streaks with a spatial
+region defined at any resolution. The cumulative area of
+all hail streaks within that region is then normalized by
+the area of the region ( 𝐴) and its radar coverage duration
+(𝑁, with quality controlled days removed). Formally, hail
+frequencies ( 𝑓ℎ) are defined for each region as follows,
+𝑓ℎ=365.25
+𝑁×Í𝑛
+𝑖=0𝐴𝑖
+𝐴(3)
+where𝐴𝑖istheareaoftheintersectionbetweentheithof𝑛
+hail streaks and the analysis region. Note that for monthly
+frequency calculations, 365.25 is replaced by 365.25 / 12
+= 30.4375, and 𝑁and𝐴𝑖only count days and hail streaks
+that occur within that month 4. This approach can also be
+appliedtogriddedhailclimatologiesbycountingthenum-
+berofMESHgridvaluesthatsurpassthethreshold,before
+normalizing by the total number of grid points within the
+coarser climatology grid.
+The irregular shape of overlapping radar coverage do-
+mains (see, for instance, Fig. 2a for three radars) further
+complicatesthespecificationofhailfrequenciesinaregu-
+largrid. Ingridboxeswithoverlapsincoverage,itisdiffi-
+culttoprescribean 𝑁value,asdifferentregionswithinthe
+grid box have been observed for different periods of time.
+This is especially true for larger grid boxes, such as the
+100×100kmgridsillustratedinFig.2d. Thesolutionisto
+intersecttheradarcoveragegeometrieswiththeunderlying
+4Also note that “normalized months” ( i.e., twelve months spaced
+evenly across the year) are used in favor of calendar months to account
+for the effects of varying month lengths.climatology grid, producing irregular “coverage regions”,
+eachwithauniquecoverageduration. Hailswathsarethen
+intersected with the coverage regions (black lines in Figs.
+2d-f), and an individual hail frequency is calculated for
+each coverage region according to Equation 3. The result
+of these region-based frequency calculations is illustrated
+in Fig. 2e. Finally, we aggregate all region-based fre-
+quencies within each grid cell by preferentially weighting
+those regions with larger areas, longer archive durations,
+and more overlapping radars ( 𝑅), as these factors all re-
+duce uncertainty in the underlying frequency estimates.
+Weighted averages are computed as follows,
+𝑓ℎ=Í𝑚
+𝑗=0 𝑓ℎ,𝑗·𝐴𝑗𝑁𝑗𝑅𝑗
+Í𝑚
+𝑗=0𝐴𝑗𝑁𝑗𝑅𝑗(4)
+where subscripts denote values for the 𝑗thof𝑚coverage
+regions within each grid cell. In this manner, we are able
+to produce resolution-invariant gridded hail frequencies.
+d. Variational Interpolation
+TheAustralianradarnetworkcoversroughly30%ofthe
+country’s land surface, the distribution of which is illus-
+trated in Fig. 1. As a result, some form of interpolation is
+required to create a continuous hail climatology through-
+out the country. This interpolation problem is particularly
+challengingduetolargedatavoids,localvariabilityinhail
+frequencies, and data noise introduced by the finite sam-
+pling period of the archive. Variational inverse methods
+arewellsuitedtosuchaproblem,ascertain“priorknowl-
+edge”maybeformallyintroducedtoregularizeaninitially
+ill-posedsystem( e.g.,Barthetal.2014). Here,weseekto
+establish the following assumptions to help constrain the
+problem at hand:
+1. Radar-derived hail frequencies are a noisy but repre-
+sentative sample of the true climatological values.
+2. The true climatological hail frequency varies
+smoothly in space and time at our chosen resolution.
+3. No local extrema lie within data voids, and gaps are
+sufficiently constrained by the surrounding data.
+4. Hailfrequenciesreducetozeroatsomedistancefrom
+the coast.
+We will briefly discuss the reasoning behind each of
+theseassumptionsbeforeoutliningtheirmathematicalim-
+plementation. First, we justify the representativeness of
+ourfrequencyestimatesinAssumption1bynotingtherel-
+ative length of our archive (average ∼17 years, Appendix
+B)comparedwithseminalradar-basedclimatologies[ e.g.,
+fouryearsinCintineoetal.(2012)andeightyearsinWar-
+ren et al. (2020)]. We choose suitably sparse grid spac-
+ing to satisfy assumption 2 (100 km), which theoretically8
+dampenshighfrequenciesintheinputdatathroughspatial
+averaging and permits the use of smoothing constraints to
+“spread” valid information into data voids. Prior studies
+of the hail climatology in Australia (eg Allen and Allen
+2016;Bedkaetal.2018;PreinandHolland2018),provide
+justification for assumptions 3 and 4, where hail hotspots
+are not expected outside the current radar coverage or sig-
+nificantlyouttosea. Theextenttowhichtheavailabledata
+constrains the analysis within data voids will be investi-
+gated more thoroughly below.
+We choose to perform the interpolation iteratively at
+two spatial scales: first at 200 km resolution to produce
+a provisional field, then at the final 100 km resolution
+using the former as a background field ( 𝜑𝑏). This type of
+nested analysis is common in variational problems ( e.g.,
+Laroche and Zawadzki 1994; Dahl et al. 2019), and is
+useful in our case as valid data spreads more readily at a
+coarser resolution, providing a useful background for the
+final analysis. The cost function used in both cases is as
+follows,
+min
+𝜑
+||𝑓ℎ−R𝜑||2
+2+𝐽𝑠(𝜑)+𝐽𝑑(𝜑)+𝐽𝑏(𝜑,𝜑𝑏)	
+,(5)
+where𝜑is the interpolated hail frequency field, Ris a re-
+strictionoperatorthatsamplestheanalysisfieldatdatalo-
+cationsandthestandard ℓ2normnotationisusedthrough-
+out the text||𝑥||2
+2=Í𝑁
+𝑖=1𝑥2
+𝑖. The second term in the cost
+function is a second-order smoothing constraint, imple-
+mented as,
+𝐽𝑠(𝜑)=𝜆ℎ
+||𝜑𝑦𝑦||2
+2+||𝜑𝑥𝑥||2
+2
+, (6)
+where𝜆ℎis a weighting constant and double subscripts
+denote second-order partial derivatives, e.g.,𝜑𝑥𝑥=𝜕2𝜑
+𝜕𝑥2.
+Second-order smoothing constraints lead to a visually
+pleasingminimumcurvaturesolution,andthe3-point,cen-
+tered, finite difference stencil helps spread valid data into
+data voids (Briggs 1974; Shapiro et al. 2009).
+Although𝐽𝑠may partially remove speckle noise from
+thefrequencydata,Brooketal.(2022)foundthatthiscon-
+straint alone is unsuitable for denoising due to unwanted
+by-products produced when heavily weighting this con-
+straint (oversmoothing and extraneous inflections in data
+voids, Shapiro et al. 2010; Brook et al. 2022). Comple-
+mentary inclusion of an additional anisotropic total vari-
+ation denoising constraint (Rudin et al. 1992) was found
+to adequately denoise the data, while damping extraneous
+inflections within the data voids and retaining high am-
+plitude peaks within the analysis fields (refer to Appendix
+B in Brook et al. 2022). The denoising constraint is as
+follows,
+𝐽𝑑(𝜑)=𝜆𝑑 ||𝜑𝑦||1+||𝜑𝑥||1(7)where𝜆𝑑isaweightingconstant,subscriptsindicatefirst-
+order partial derivatives ( e.g.,𝜑𝑥=𝜕𝜑
+𝜕𝑥), and theℓ1norm
+notation denotes||𝑥||1=Í𝑁
+𝑖=1|𝑥𝑖|. Forward difference
+derivatives are used by convention (Rudin et al. 1992).
+Finally, the background penalty helps constrain regions
+outsidethedatacoveragebypenalizingdeviationsfroman
+imposedbackgroundfield( 𝜑𝑏). Attheprovisionalresolu-
+tion (200 km), the background field is uniformly zero and
+onlyappliestogridpointsovertheoceanthroughtheappli-
+cation of a weighting matrix that increases exponentially
+from0overlandto1outtosea( 𝑊𝑏=exp
+−𝑟2/𝑑2	
+)where
+𝑑is the distance from the coast and 𝑟= 400 km controls
+the rate of weight increase). At the final resolution, the
+provisional retrieval is used as the background field, and
+𝑊𝑏is then set to 1 for grid points over land with no valid
+data. Formally, the background constraint is implemented
+as,
+𝐽𝑏(𝜑,𝜑𝑏)=𝜆𝑏||𝑊𝑏(𝜑−𝜑𝑏)||2
+2 (8)
+where𝜆𝑏is once again a weighting constant. This con-
+straint serves a dual purpose: it constraints the analysis
+to zero around the borders of the domain to prevent any
+extraneous inflections or boundary effects, and assists in
+filling large data voids with values from the provisional
+analysis, permitting the use of less aggressive smoothing
+constraints to prevent oversmoothing.
+Theaforementioneddatavoidsmayleadsomereadersto
+question the extent to which the surrounding data actually
+constrains the interpolated values within. In an attempt
+to satisfy these concerns and justify assumption 3, we ap-
+ply the “clever poor man’s error” technique, which is an
+efficient method for assessing data coverage in variational
+interpolationproblems(Troupinetal.2012;Beckersetal.
+2014). The procedure takes place as follows: set all avail-
+able data to unit values, reduce the weighting constants
+by a context-specific factor, and perform the analysis as
+normal. Due to the difficulties involved in prescribing an
+exact covariance function for our interpolation procedure,
+we assume Gaussian covariance and consequently reduce
+the weights in the second step by a factor of√
+2(Beckers
+et al. 2014). The resulting field approximates the “error
+reduction factor” ( i.e., the extent to which the available
+datareducesanalysiserrorsbelowbackgrounderrorstate),
+where values close to one indicate the problem is well
+constrained by the data.
+We treat the provision of weighting constants in Equa-
+tions6–8asaparametertuningproblem( e.g.,Brooketal.
+2022, 2023). Suitable weights are derived experimentally
+andultimatelydeterminetherelativestrengthofeachcon-
+straint. The chosen values for our interpolation problem
+are as follows: 𝜆ℎ=0.5,𝜆𝑑=0.01, and𝜆𝑏=2. The
+splitBregmanoptimizationalgorithmisusedtominimize
+Equation 5 due to its applicability for mixed ℓ1–ℓ2norms9
+(limited to 5 inner, and 10 outer iterations; Goldstein and
+Osher 2009; Ravasi and Vasconcelos 2020).
+3. Radar Frequency Correction
+A major limitation of the approach outlined in Section
+2 is the utilization of C- and S-band radars in the Aus-
+tralianarchive(wavelengths ∼5and∼10cm,respectively).
+MESH was developed using only S-band radars from the
+US WSR-88D radar network, and several theoretical chal-
+lenges arise when attempting to apply it to C-band radars.
+One primary concern is the increased signal attenuation
+due to hail at C-band (Battan 1971), causing the observed
+reflectivity (and subsequent MESH values) to diminish
+relative to S-band. Various correction techniques have
+been proposed for attenuation at C-band ( e.g., Gu et al.
+2011), however they require polarimetric data and under-
+correct hail-induced attenuation (Borowska et al. 2011).
+To the authors’ knowledge, no single-polarized hail atten-
+uation correction exists and thus none is implemented in
+this study. Instead, we aim to indirectly account for at-
+tenuation in a climatological sense using the corrections
+that follow 5, while acknowledging the inevitable loss of
+information at C-band.
+The second major methodological challenge in imple-
+menting MESH at C-band arises due to non-Rayleigh
+scattering. Both theoretical scattering calculations
+(e.g., Ryzhkov et al. 2013) and observational studies
+(Kaltenboeck and Ryzhkov 2013) indicate that complex
+scatteringeffectsfromhailaremoreprominentatC-band,
+reducing the reflectivity response relative to S-band. Re-
+cently,Cecchinietal.(2022)refittheoriginal 𝑍–¤𝐸relation-
+ship(Equation1,Waldvogeletal.1978,hereafterW78)at
+both C- and S-bands using updated mass/terminal veloc-
+ityrelationships,whilealsoconsideringthenonsphericity,
+varying density and complex scattering effects of natural
+hailstones. Their analysis confirmed that ¤𝐸is strongly
+modulated by the frequency of the illuminating radar, as
+C-band radars are less sensitive to large hail. However,
+since the MESH formulation and thresholds used for hail
+detection(seeTable1)havebeendevelopedusingtheW78
+relationship, these updated and likely more accurate rela-
+tionshipsmaynotbedirectlyappliedinouranalysis. This
+would require refitting the empirical SHI–MESH func-
+tion and hail detection thresholds using hail reports ( e.g.,
+MurilloandHomeyer2019),whichisoutsidethescopeof
+our study. Instead, we attempt to generate a C-band ana-
+logue for the W78 relationship, which aims to account for
+the aforementioned frequency biases at C-band while re-
+mainingcompatiblewiththeexistingMESHformulation. 6
+5We differentiate between a correction made on a climatological
+basis(whichaimstooffsetthenetclimatologicaldifferencebetweenC-
+and S-band radars) and one that aims to correct attenuation effects for
+individual cases.
+6TheempiricalC-bandanalogueoftheW78relationshipderivedhere
+shouldnotbecompareddirectlytotheC-band 𝑍–¤𝐸relationshipderivedC-bandMESHmaybeoflowerqualityduetothereduced
+informationcontent;however,previousstudieshaveshown
+thatitremainsaskillfulhaildiscriminator(KunzandKugel
+2015; Skripniková and Rezáčová 2014; Stržinar and Skok
+2018). Theempiricalcorrectionprocedureweapplyinour
+study ensures that frequency-related biases are optimally
+mitigated between C- and S-band radars.
+To establish our empirical correction, we examine six
+regions in the Australian archive with overlapping C–S-
+band coverage (illustrated in Fig. 3a). These regions were
+selectedfromthesetofallC–S-bandoverlaps(refertoFig.
+1)duetotheirsufficientoverlappingcoveragearea( >4000
+km2) and number of co-sampled hail events ( >100). The
+fitting procedure involved extracting time pairs where the
+C-andS-bandradarsbothobservedMESH >10mmwithin
+theoverlappingobservationregion,separatedbyadelayof
+less than two minutes to ensure temporal proximity. The
+10-mm MESH threshold was selected to include events
+that may be initially underestimated by the C-band radars
+but could be incorporated into the 30-mm hail archive af-
+ter correction. Once cosampling times were identified,
+all reflectivity data above the 0◦C isotherm ( i.e., only re-
+flectivities that contribute to MESH) were extracted for
+columns exceeding the 10-mm MESH threshold, and the
+nearest pixels were matched between C–S bands for anal-
+ysis. The pre-correction reflectivity fits for each region
+are shown in red in Fig. 3b–g, confirming the theoretical
+considerations discussed earlier: C-bands underestimate
+hail reflectivities compared to S-bands. Encouraged by
+theaforementionedfrequency-dependentfitsdevelopedby
+Cecchini et al. (2022), we attempt to derive a similar cor-
+rectionempiricallybylinearlyfittingobservedreflectivities
+from the two frequency bands in an attempt to normalize
+thehailsizeestimatesbetweenthem. Asweaimtoapplya
+single correction for all C-band radars in the archive (Fig.
+3h),wecombinetheC-andS-bandreflectivitiesforallsix
+analysis regions and apply an iterative orthogonal linear
+regressiontechniquetoarriveatthefollowingcorrections:
+𝑍S=1.113·𝑍C−3.929 (9)
+¤𝐸=2.34×10−6·100.093𝑍C, (10)
+where Equation 9 was substituted into into the original
+W78hailkineticenergyrelationship(Equation1)toderive
+itsempiricalC-bandanalogueinEquation10. Thechosen
+fitting technique and additional methodological consider-
+ations are outlined in Appendix A.
+To illustrate the effectiveness of the reflectivity correc-
+tion in Equation 9, it is applied to C-band data in each of
+the overlapping C- and S-band coverage regions, resulting
+in Cecchini et al. (2022) due to the aforementioned methodological
+additionsintheirstudy. Futureworkshouldaimtoassesswhethertheir
+theoretical improvements result in more accurate hail size estimates at
+both C- and S-band when compared to hail reports.10
+Fig.3: An illustration of the hail reflectivity fitting process employed in this study. (a) Selected C- and S-band radar
+overlaps on the East coast of Australia, with labels indicating the panel in which the resultant data are shown. (b)-(g)
+Datafitsforeachregion,includingtheprecorrectionfitbetweenC-andS-bandhailreflectivity(red),thecorresponding
+postcorrectionfit(magenta),andannotationsshowingtherespectivefitbiases. A2Dhistogramforthepost-fitreflectivity
+dataisincludedineachpanel,shadedbyqualitativelyhigherdatadensities. (h)Thesameasforregionaloverlappanels,
+except for all data combined.
+inthe2DhistogramsshadedinFigs.3b–h. Visualinspec-
+tion of these histograms, along with the post-correction
+fits(magentalines),revealthatthecorrectionimprovesthenegativebiasforC-bandreflectivityforallregions. Quanti-
+tatively,themeanbiasimprovedfrom-2.0to-0.4dBforthe
+totaldata,withthecorrespondingstatisticsforeachregion11
+annotatedoneachpanel. Forreference,thepre-correction
+bias of -2 dB corresponds to a ∼20% underestimation of
+MESH values at C-band (Warren et al. 2020). Substan-
+tial spatiotemporal overlaps in Sydney (Australia’s largest
+city) mean that the Kurnell/Woollongong (Fig. 3e) and
+Kurnell/Terrey Hills (Fig. 3f) overlaps account for ∼41%
+and∼29%ofthe18millionindividualreflectivitycompar-
+isons in the total fit (Fig. 3h). However, it is encouraging
+to note that the reflectivity correction works equally well
+for regions outside of Sydney that contributed fewer data
+points. Next,weapplythiscorrectiontoallC-bandradars
+in the archive, aiming to derive a frequency-agnostic hail
+climatology.
+4. National Climatology
+a. Data Coverage
+Webeginouranalysisbyevaluatinghowwelltheavail-
+ableradardataconstrainshailfrequencyestimatesinAus-
+tralia. Figure Fig. 4a illustrates the radar network filled
+with unit data following the “poor man’s error” formula-
+tion (refer to Section 2d). Significant data voids are ap-
+parent throughout the country, particularly in central WA,
+northern SA and western NSW. These areas are devoid
+of radars due to their sparse population and the fact they
+largelyencompassAustralia’sdeserts. Totestwhetherour
+interpolation technique is capable of propagating valid in-
+formation into these voids, the error reduction factor was
+calculated as outlined in Section 2d and shown in Fig.
+4b. In general, this quantity is equal to one over land and
+graduallydecreasestozeroawayfromthecoastline,where
+the analysis is dominated by the background constraint
+and the radar data have minimal impact. The influence of
+the background constraint also extends slightly inland in
+regions with no radar coverage along the coastline ( e.g.,
+northeast and southeast WA). Such regions are less con-
+strained by the radar data and should be interpreted with
+this in mind. It is possible to adjust the variational tuning
+parameters to ensure error reduction factors are close to
+one everywhere; however, we found that such combina-
+tionsarepronetooversmoothing. Wejustifyourchoiceof
+parameters by noting that the poorly constrained regions
+are small and that the resulting interpolated fields are a
+faithful representation of the underlying radar data ( e.g.,
+Fig.5). Errorreductionfactorsbeingclosetounityalmost
+everywhere over land validates our assumption that data
+voids are adequately constrained at our chosen analysis
+resolution.
+Although Fig. 4b demonstrates that there is sufficient
+data coverage across the continent, the strength of that
+data coverage is highly heterogeneous. To quantify the
+strengthofthedatainregionswithadequatecoverage(error
+reduction factor > 0.9), we recalculate the error reduction
+factor for each grid point, this time setting the data at that
+grid point equal to zero. If the artificial data is placedin a data void, the analysis will be strongly influenced by
+it and the result will be close to zero. Conversely, if the
+point is inserted into a data-rich region, the addition of
+extra data will have less influence, and the result will be
+closertoone. Theresultingfieldisthereforeaquantitative
+assessment of the strength of radar coverage, with higher
+values indicating stronger coverage.
+Fig.4crevealsthattheradarnetworkstronglyconstrains
+the analysis around the coast, especially on the east coast.
+As noted earlier, the interior of the country contains large
+data voids, and the radar coverage strength is much lower
+thereasaresult. Interestingly,thecoveragestrengthisnot
+directly proportional to the distance to the nearest mea-
+surement. Forexample,smallradardatagapsinsoutheast
+QLD and northeast NSW (Fig. 4a) do not cause a signifi-
+cant drop in this quantity, as they are surrounded by valid
+dataonallsides. Incontrast,thecoveragestrengthinwest-
+ern NSW drops immediately when crossing into that data
+void,asitisunboundedonitsnorthernandwesternedges.
+Regionswithweakercoveragestrengthshouldbeassigned
+lower confidence, as the data is sourced from more dis-
+tant measurements, and the analysis is more sensitive to
+measurement errors. The 0.25 coverage strength contour
+from Fig. 4c is hatched in Figs. 5b and 6 to illustrate the
+fact that both data coverage and coverage strength should
+be taken into account when interpreting the subsequent
+national climatology.
+b. Annual Hail Frequency
+Having discussed the intricacies of the chosen interpo-
+lationprocedure,wepresenttheresultinginterpolatedhail
+climatology in Fig. 5. The most notable feature is the
+broad hail frequency maximum located on the east coast
+of Australia, roughly situated south of Mackay in south-
+east Queensland and north of Sydney in northeast New
+South Wales. The highest hail frequencies are observed
+close to the coastline south of Brisbane, proximal to the
+Great Dividing Range (topography illustrated in Fig. 1).
+These findings are consistent with previous studies in the
+Australianregion( e.g.,AllenandAllen2016;Bedkaetal.
+2018). The position and size of this hail-prone region is
+similar to the hail environment-filtered overshooting top
+climatology in Bedka et al. (2018), but extends slightly
+further inland than their study suggests. This inland prop-
+agationispartiallyinfluencedbyahighnumberofobserved
+events in southwestern NSW (near the SA/NSW/VIC bor-
+der,Fig.5a). Manualqualitycontrolaffirmsthelegitimacy
+of these events, but the frequency disparity compared to
+the surrounding region suggests that this feature may be a
+climatological anomaly. Although the interpolation pro-
+cedure smooths such features towards the “climatological
+mean”,theanomalousinformationstillpropagatesintothe
+data void in western NSW. The limited data strength in
+thisregion(Fig.4c),limitsourconfidenceinhowfarwest12
+Fig.4: Anillustrationofimportantquantitiesforinterpretingthevariationalinterpolationmethodusedinthisstudy. (a)
+Dataextentoftheradarnetwork(filledwithunitdataaccordingtothepoorman’serrormethod). (b)Thecorresponding
+poormain’serrorestimate,ashort-handmeasureofdatacoverage. (c)Thesamebutfor“strength”oftheavailableradar
+coverage, refer to text for more details.
+this hail maximum extends. The recent installation of two
+radars (Hillston and Brewarrina) largely fills the western
+NSWradarvoidandwillhelpalleviatetheseuncertainties
+as more data become available in years to come.
+Radar-basedhailfrequenciesdropoffappreciablysouth
+of Sydney, with annual frequencies on the order of 0.05
+year−1acrossVictoriaandsouthernSouthAustralia. Hail-
+storms in this region are known to be associated with the
+passage of frontal systems, which can initiate thunder-
+storms in otherwise marginal environments. Zhou et al.
+(2021) demonstrated that these low instability and mod-
+erate to high shear hail environments are dominant in the
+high latitudes, where cooler temperature profiles also in-
+crease the likelihood of hailstones reaching the surface.
+Previous remote sensing studies have suggested that these
+relatively shallow hailstorms may result in an underes-
+timation of hail frequencies in southern regions such as
+Melbourne and Canberra (Bedka et al. 2018; Punge et al.
+2018). While there are numerous hail reports in these ar-
+eas(e.g.,Bedkaetal.2018),thereportedsizesaresmaller
+on average, reflecting less hail growth due to reduced pre-
+cipitable water and weaker instability (Allen and Allen
+2016). As a result, a greater proportion of hailstorms and
+hail reports will be correctly overlooked by our 30-mm
+MESH threshold. It is also possible that MESH is poorly
+calibratedfordetectinglargehailduetothesestructuraldif-
+ferences and underestimates the true frequency of hail in
+southernAustralia(havingbeenempiricallyfittohailsize
+reportsinOklahomaandFlorida,Wittetal.1998). Future
+work should investigate the relative accuracy of MESHestimatesagainsthailreportsfordifferenthigh-population
+centers around the country.
+Onthewestcoast,radarcoverageislimitedtothecoast-
+lineinthenorthbutextendsfurtherinlandintheWheatbelt
+regionbetweenPerthandKalgoorlie. Bothregionsexhibit
+elevated hail frequencies ( >0.1 yr−1), the first along the
+coastlinebetweenExmouthandBroomeandthesecondin
+the Goldfields region around Kalgoorlie. Both signatures
+appear fragmented in the observed radar frequencies (Fig.
+5a), with disparate frequencies detected at adjacent grid
+points. Once again, the interpolation procedure tempers
+isolated high-frequency points to estimate the climatolog-
+ical mean. The result is a broad region of elevated hail
+frequency from Broome to Exmouth and around Kalgo-
+orlie. Notably, the latter does not extend to the coastline
+in the south near Perth, Australia’s fourth most populous
+city. The land–sea contrast is especially apparent on the
+north coast of WA, where hail frequencies over the ocean
+are nearly zero, consistent with climatologically high val-
+uesofconvectiveinhibition(CIN)observedoffshoreinthe
+region (Riemann-Campe et al. 2009). Other minor hail
+frequency maxima are observed by radars in central Aus-
+tralia near Alice Springs, and in northwest Queensland.
+The former region coincides with a collection of hail re-
+ports in the Australian Severe Storms Archive (Allen and
+Allen2016),althoughitisnotidentifiedinpreviousstudies
+involving other remote sensing instruments ( e.g., Dowdy
+and Kuleshov 2014; Bang and Cecil 2019). Bedka et al.
+(2018)dididentifyalocalhailmaximuminthegoldfields
+region near the WA/NT/SA border, however, this is not
+mirrored in the radar archive, with the Giles radar west of13
+Fig.5: A national radar-based hail climatology of Australia on a 100 km grid. (a) Climatological hail frequencies
+calculatedusingtheAustralianradarnetwork,withgrayoutlinesillustratingthedataextent. (b)Nationallyuniformhail
+frequenciescalculatedbyinterpolatingtheavailableradardata,withacoveragestrength=0.25contourhatchedingray.
+Alice Springs showing little hail activity. The other local
+maximum near Burketown is also observed in the light-
+ning climatology record of Dowdy and Kuleshov (2014),
+and is probably associated with low-level convergence in
+the Queensland heat low (Sturman and Tapper 1996) and
+the onshore passage of cloud lines from the Gulf of Car-
+pentaria (Drosdowsky and Holland 1987).
+Tropical radars north of Broome and Cairns (latitudes
+∼18and17◦S,respectively)exhibitminimalhailactivityin
+ouranalysis,whichisnoteworthyfortworeasons: 1)these
+findings may represent the first climatological application
+ofMESHatsuchlatitudes,and2)previoushailclimatology
+methodologies tend to overestimate hail occurrence in the
+tropics. These methods include satellite brightness tem-
+peratures ( e.g., Bang and Cecil 2019), overshooting tops
+(e.g.,Bedkaetal.2018)andhail/severestormproxies( e.g.,
+PreinandHolland2018). Allsuchmethodsaresensitiveto
+tall, overshooting clouds in high-instability environments,
+whichoccurcommonlyintheabsenceofseveresurfacehail
+in the tropics. Several complementary factors are likely
+responsible for the absence of hail in the region. Firstly,
+vigorouswarm-rainprocessesbelowthefreezinglevelare
+thoughttosimultaneouslylimittheamountofsupercooled
+liquid water and increase the number of competing hail
+embryosinthehailgrowthzone(Cottonetal.2010). Sec-ond, the lack of wind shear in the tropics ( e.g., Allen and
+Allen 2016; Zhou et al. 2021) means that hail-producing
+storms are comparatively shorter-lived, as outflows from
+mature cells disrupt their own inflows (May et al. 2002).
+Thesestructuraldifferenceslikelyreducethepotentialup-
+draftresidencetime,whichiscriticalforhailgrowth( e.g.,
+Kumjian et al. 2021).
+Bothstructuralandmicrophysicallimitationsdiscussed
+here dictate that hail observed aloft is mostly small (1–2
+cm, May et al. 2002), and likely melts before reaching the
+surface due to typical temperature profiles in the tropics
+(Foote 1984). To the contrary, Bang and Cecil (2021)
+demonstrated that spaceborne Ku-band radar reflectivity
+profilesaremostlyconsistentacrosstropicalandsubtropi-
+calhailstormsidentifiedusingdifferentpassivemicrowave
+detectionmethods. Weproposethatthisdiscrepancyarises
+duetocomplexscatteringandattenuationatKubandradar
+frequencies, which reduces the reflectivity response for
+larger hail sizes relative to S-band and limits the informa-
+tioncontentavailableforhailsizediscrimination(Ryzhkov
+et al. 2013; Cao et al. 2013). A notable finding in Section
+3 is the substantial impact of these effects at C-band fre-
+quencies, implying even more pronounced consequences
+at Ku-band. Additionally, the results presented here in-
+dicate that unlike Ku-band radars, ground-based S-band14
+and corrected C-band radars effectively distinguish larger
+hydrometeors likely to reach the ground without melting,
+thereby minimizing the overestimation of hail frequencies
+in tropical regions. Admittedly, this analysis is limited to
+the available radar coverage, which excludes most of the
+Kimberley coast region in northwest Australia (see Fig.
+1)7, where other remotely sensed hail ( e.g., Bang and Ce-
+cil2019)andseverestormclimatologies( e.g.,Dowdyand
+Kuleshov 2014) notably highlight as a hotspot. However,
+basedonthefindingsinSection4a,weexpectthattheavail-
+able radar data adequately constrains hail frequency esti-
+mates across tropical Australia. The ground-radar-based
+assessment of tropical hail frequency shown here appears
+realistic when compared to Severe Storm Archive hail re-
+ports(AllenandAllen2016)andalignsquantitativelywith
+a 20-year climatology compiled from press reports by the
+Queensland Regional Meteorological Office (Frisby and
+Sansom 1967), with the 1-in-10 year (0.1 yr−1) and 1-in-
+20 year (0.05 yr−1) isolines terminating around Mackay
+and Cairns, respectively.
+c. Hail Seasonality
+The final result presented in this section concerns the
+seasonality of the Australian hail climatology. Fig. 6
+presents interpolated monthly hail frequencies, calculated
+using normalized months to ensure an even sample size
+for each month. Segmenting the historical archive in this
+manner naturally limits the data available for each inter-
+polation, potentially challenging our assumption that the
+observed data are a sufficiently representative sample of
+theactualclimatologicalhailfrequency. Theselimitations
+can lead to “patchy” hail frequencies for months such as
+November and February (Figs. 6e and 6h, respectively),
+which appear to be affected by climatological anomalies
+that arise due to the limited duration of the archive. We
+proceed in discussing the seasonal climatology with these
+limitations in mind.
+While some hail activity is observed on the east coast
+as early as September, the hail season begins in earnest
+in October. Early season events are mostly concentrated
+in southern Queensland and progressively move south as
+the season advances. Note that the gap observed between
+Brisbane and Sydney in December and January likely re-
+flectsthelackofradarobservationsintheregion(Fig.5a).
+By February, the East coast hail frequency maximum has
+shiftedsouthtoaroundSydney,showingasteadypoleward
+trend in the intervening months. This aligns with global
+satellite observations made by Zhou et al. (2021), who
+suggested that the poleward shift coincides with increases
+intemperatureandmoistureathigherlatitudesthroughout
+thesummer. Locally,AllenandKaroly(2014)andWarren
+et al. (2020) showed how these effects lead to a poleward
+7AnimportantexceptionistheBroomeradarthatcoverstheDampier
+Peninsula on the western fringe of the Kimberleys.shift in instability as the Austral summer progresses, par-
+ticularlyalongtheeastcoast. Conversely,theweakeningof
+lapse rates in the absence of favorable upper-level support
+results in an overall reduction in hail-producing instabil-
+ity/shear environments in Queensland as the summer pro-
+gresses (Allen and Karoly 2014; Warren et al. 2020). As
+a result, the seasonal cycle is comparatively broader and
+laterinNSW(November–March),afindingthatisalsore-
+flected in hail reports from greater Sydney (Schuster et al.
+2005).
+Outside the east coast maximum, hail frequencies in-
+crease markedly throughout the country in November.
+This timing coincides with the arrival of continental heat
+troughs and their associated moisture transport to much
+of inland Australia (Sturman and Tapper 1996; Hung and
+Yanai 2004). This moisture, along with suitable upper-
+level support during late spring or early summer, provides
+favorableconditionsforhailactivityinthosemonths,rem-
+iniscent of the seasonal climatology of convection in the
+GreatPlainsoftheUnitedStates(Fabryetal.2017). Under
+this hypothesis, the collective reduction in hail activity in
+January–Februaryisaresultofawarmerupperatmosphere
+as the summer progresses. Allen and Karoly (2014) also
+cited the importance of inland troughs in mid to late sum-
+merforstormdevelopmentacrossinlandWesternAustralia
+(WA). Hailstorms on the west coast of the country remain
+subdued until later in the season around February, consis-
+tentwiththeovershootingtop-basedclimatologyofBedka
+et al. (2018). It is also worth noting that the only major
+hailstorm to impact the southwest capital city of Perth oc-
+curred similarly late in the season (March 2010, Buckley
+et al. 2010). Hailstorms persist in southern WA later than
+most of the country, likely due to their association with
+strong frontal systems that are capable of triggering hail-
+stormswellintoAutumnintheabsenceofstronginstability
+(Allen and Karoly 2014).
+5. Regional Analysis
+HavingpresentedthenationalclimatologyinSection4,
+fiveregionsofinterestwereidentifiedforfurtherinvestiga-
+tion in this section. These regions were selected based on
+the discussion in Section 4 ( e.g., northwest Australia and
+theGoldfieldsregions)andtheirsignificanceaspopulation
+centers(e.g.,BrisbaneandSydney). Wehaveincreasedthe
+spatial resolution of the regional climatologies to a 10 km
+grid;however,thisislimitedtoareaswithinradarcoverage
+in the absence of spatial interpolation.
+The first region of interest is situated in northwest Aus-
+tralia,encompassingtheBroomeandPortHedlandradars.
+The high resolution climatology in Fig. 7a reveals a pro-
+nounced land–sea contrast, with elevated hail frequencies
+beginning roughly 10–30 km inland from the coastline.
+This highlights the important role of sea breeze circula-
+tions for thunderstorm initiation in the tropical Australia15
+Fig.6: InterpolatedmonthlyhailfrequenciesderivedfromtheAustralianradararchiveona100kmgridwithacoverage
+strength = 0.25 contour hatched in gray. Months are normalized into twelve equally spaced periods and are displayed
+centered on the Austral summer.
+(e.g., Carbone et al. 2000; May et al. 2002). The land–
+seacontrastmayalsoreflecttheclimatologicallyhighval-
+ues of CIN offshore (Riemann-Campe et al. 2009) that
+acts to suppress convection even in the presence of strong
+low-level convergence ( e.g., associated with land breezes;
+Wapler and Lane 2012). Fig. 7f shows that once storms
+do initiate, most move toward the west, associated with
+easterly trade winds or monsoon return flow, depending
+on the time of year. While storms do initiate inland and
+generallymoveoffshore,Fig.7ashowsthatalmostalldis-
+sipatebeforereachingthecoastline. Fig.8aalsoshowsthat
+hailstreaksare,onaverage,shorterinnorthwestAustralia,
+further substantiating the ephemeral nature of hailstorms
+in the region. The seasonal distribution of hailstorms in
+theregionisdistinctlybimodal(Fig.8b),withthebreakinDecember coinciding with the average arrival of the mon-
+soon (Hung and Yanai 2004). It is likely that increases
+in column-integrated moisture and weaker lapse rates as-
+sociated with the active monsoon suppress hail activity
+during this period. It remains unclear whether MESH de-
+tectionsaresubstantiatedbyhailfallatthesurfaceinthese
+remote regions due to the extremely low population den-
+sity. However, the coastal offset illustrated in Fig. 7a may
+explainwhytropicalpopulationcentersonthecoastrarely
+encounterhail,yetasurprisingnumberofhailreportshave
+been noted in the inland road network in northwest Aus-
+tralia (Allen and Allen 2016).
+Thesecondregion,locatedinnortheasternAustraliaata
+latitudesimilartothefirst,providesanadditionalvalidation
+source for the characteristics of tropical hailstorms. Fig.16
+Fig.7: Regional hail climatologies from five regions of interest. (a)–(e) Hail frequencies direct from the radar data
+on a 10 km grid (no interpolation), for the northwest Australia (NWA), North Queensland (NQ), Brisbane, Sydney and
+southwest Australia (SWA) regions, respectively. Progressively darker gray contours show the 250, 750 and 1250 m
+topography levels, dotted lines represent state/territory borders and circular gray lines illustrate radar coverage extents.
+Note that panels (a), (b) and (d) have been rotated for ease of presentation, refer to north arrows and locations in inset
+panelsfororientation. (f)–(j)Roseplotsforstormdirectionsineachregion(pointinginthedirectionofstormmotion).
+7b shows that the overall hail frequency, and spatial offset
+from the coastline is similar to northwest Australia, albeit
+with increased offshore activity in the southern parts of
+the domain. Unlike coastal population centers on the west
+coast,non-zerohailfrequenciesextendtothecoastlinenear
+Mackay, which notably recorded Australia’s largest mea-
+sured hailstone nearby in 2021 (16 cm in diameter, BoM
+2021). Fig.7gshowsthatstormspredominantlymoveoff-
+shoretowardthenortheast,perhapsreflectingthesoutherly
+componentrequiredforsignificantinstabilityaloftatthese
+latitudes. These types of systems typically occur in late
+spring and early summer (Section 4), before the monsoon
+regime draws in tropical air masses from the east later in
+the season (Sturman and Tapper 1996). Figs. 8a and 8c
+alsoconfirmthat,similartothenorthwestAustraliaregion,
+these tropical hail events are shorter in length and occur
+later in the day than their subtropical counterparts. The
+comparativelylatediurnalcycleinthetropics(bothnorth-
+westernandnortheasternregions,usuallybetween4–6pmlocal time) is consistent with that of overshooting convec-
+tioninotherlocationsinnorthernAustraliasuchasCairns
+and Darwin (Bedka et al. 2018).
+The next region of interest coincides with the na-
+tional hail frequency maximum in southeast Queens-
+land/northeastNewSouthWales. Thisregioncontainsthe
+highest hail frequencies on the continent, consistent with
+prior hail climatologies (McMaster 2001; Schuster et al.
+2005; Bedka et al. 2018). The maximum hail frequency
+west of Casino in Fig. 7c also aligns closely with the re-
+gional MESH-based climatology in Warren et al. (2020).
+It is difficult to compare the maximum frequency values
+observed (2.5 hail days per year per 100 km2in Warren
+et al. (2020) versus ∼0.9 hailstorms per year here) due to
+methodological differences used for frequency estimation
+in both studies (see Section 2c). The highest hail fre-
+quencies occur on either side of the QLD/NSW border,
+which follows the ridge top of the McPherson mountain
+range. The observed hail maxima along sloping terrain,17
+Fig.8: NormalizedprobabilitydensityfunctionsofhailstormstatisticsforthefiveregionsofinterestidentifiedinSection
+5andtheentirearchive(total). (a)Lengthofthehailstreakmajoraxis,(b)seasonalcyclemeasuredbyhailstormcounts
+over 24 equally spaced time periods ( ∼bi-weekly), (c) diurnal cycle measured by hourly counts of active hailstorms
+measured in local solar time (LST).
+rather than mountain peaks, is consistent with local thun-
+derstorminitiationhypotheses,includingthermallydriven
+valley winds, orographic lifting, and leeward convergenceofobstructedflows(SturmanandTapper1996;Soderholm
+et al. 2017a; Nisi et al. 2018; Warren et al. 2020). A sec-
+ondary hail maximum to the northwest of Brisbane was18
+also observed by Soderholm et al. (2017a), who hypothe-
+sizedthatstormintensificationmaybepromotedbylatent
+heat fluxes from nearby Lakes Wivenhoe and Somerset.
+Fig. 7h indicates predominantly northeasterly storm mo-
+tion, consistent with the dominant westerly steering flow
+in the subtropics and influence of southerly airmasses for
+high-end thunderstorm events in the region (Soderholm
+et al. 2019). Previously identified southwest–northeast
+stormpathwaysmaybeidentifiedinFig.7c( e.g.,fromthe
+border ranges toward Brisbane, Soderholm et al. 2017a;
+Warren et al. 2020), along with a prominent storm path-
+way off the coast east of Casino.
+Hail frequencies are generally concentrated on the
+coastal plain to the east of the Great Dividing Range in
+Fig. 7c. Along with the previously mentioned initiation
+mechanisms, this region is thought to be more favorable
+for hailstorms due to interactions with sea breezes (which
+supplement low-level moisture and wind shear), and more
+localized factors such as added latent heat fluxes from
+irrigated farmland and urban heat island effects (Soder-
+holmetal.2017a,b). Accordingly,hailfrequenciesreduce
+substantially onto the elevated New England Tableland in
+northeastern NSW, which is roughly traced by the 750 m
+elevation contour in Fig. 7c. 8Hail frequencies appear to
+drop spuriously in regions solely covered by the Grafton
+radar, which is known to display persistently poor calibra-
+tion and hardware-related insensitivity (M. Curtis, 2023,
+personal communication, Bureau of Meteorology). De-
+spite these issues, Grafton data were included in Fig. 7 to
+illustratehailfrequenciesinarelativesenseacrossnorthern
+NSW, due to the region’s importance as a climatological
+hail maximum (see Fig. 5). The Grafton radar was not
+included in the national climatology (Appendix B) due to
+these reasons.
+The pattern of hail activity along the southern stretches
+oftheNSWcoastline,aroundSydney,depictedinFig.7dis
+generally similar to that in northeastern NSW. Hailstorms
+are concentrated on the coastal plain, with a particular
+prevalence on the eastern slopes of the Great Dividing
+Range. Hail frequencies appear to diminish atop elevated
+topography ( >750 m), preferring mountain slopes rather
+thanpeaks. Asaresult,hailfrequenciesdropoffconsider-
+ablyintheSnowyMountainssouthofCanberra,andmore
+broadly south of Sydney. Schuster et al. (2005) also noted
+a marked drop in hail reports to Sydney’s south, despite
+the large population density. Fig. 7i supports the general
+pictureofhailactivityintheregion,wherebystormsiniti-
+ate along the ranges to the east, before tracking eastward,
+intensifying across the coastal plain, and finally dissipat-
+ing over the ocean (Potts et al. 2000; Schuster et al. 2005;
+Warrenetal.2020). Oceanichailstormsappeartobemore
+8Interestingly, older report-based climatologies indicate that the
+number of hail reports and crop losses are comparable between the
+NewEnglandTablelandandthecoastalplain(McMaster2001;Schuster
+et al. 2005), likely a result of their earlier study periods.commonintheSydneyregioncomparedtoBrisbane(War-
+ren et al. 2020), aligning with the increased prevalence
+of lightning offshore in the region (Dowdy and Kuleshov
+2014).
+The final region of interest is the Goldfields region in
+southwestern Australia (Fig. 7e). The temperate climate
+and proximity to the southern ocean dictate that strong
+frontal systems are a dominant driver of storm activity in
+the region (Sturman and Tapper 1996; Allen and Karoly
+2014). As a result of these broad-scale initiation mecha-
+nisms, hail frequencies are generally quite uniform spa-
+tially, with a less-pronounced land–sea contrast. The
+southeasterlydirectionsshowninFig.7jareconsistentwith
+the orientation of prefrontal troughs, which form ahead of
+southern ocean cold fronts roughly twice a month in sum-
+mer (Hanstrum et al. 1990a). These setups advect warm
+continental air toward the southeast during their passage
+acrossthesouthernpartsofthecontinent,triggeringsevere
+thunderstorms under favorable environmental conditions
+(Hanstrum et al. 1990a,b), and are commonly responsi-
+bleforhailstormsacrosssouthernAustralia(Buckleyetal.
+2010). Fig. 8a. also shows the resulting hail streaks in
+southern WA are notably longer than those in the rest of
+the country.
+6. Summary and Future Directions
+This study aimed to develop a national radar-based
+hail climatology with a broad focus on the national- and
+regional-scales. ChallengesuniquetotheAustralianradar
+archive (e.g., varying radar frequencies and limited spa-
+tial coverage) complicated these endeavors, and various
+methodologicaladvanceswererequiredtoachievetheob-
+jectives of the study. The main methodological contribu-
+tions outlined in this study are as follows:
+•The introduction of an object-based hail process-
+ing algorithm enabled the calculation of resolution-
+invariant hail frequencies, which are more intuitive
+for individual observers and enable intercomparison
+between studies.
+•A hail reflectivity correction was proposed for cal-
+culating Maximum Estimated Size of Hail (MESH)
+estimates at C-band, minimizing climatological dif-
+ferences with S-bands in the Australian archive.
+•A novel variational method for interpolating radar-
+based hail frequencies across the country was intro-
+duced to produce a spatially continuous national hail
+climatology.
+Thesemethodologicaladvancespermittedtheinvestiga-
+tionofhailoccurrenceacrosstheaforementionedrangeof
+spatialscales. First,thehailfrequencieswereestimatedon
+anationalscaleinSection4,andshowedabroadhailmax-
+imum on the east coast of the country between roughly19
+Mackay and Sydney. The radar-based archive indicates
+that hailstorms occur once every 3–5 years at individual
+locations on the east coast. Elevated hail frequencies also
+occuronthenorthwestcoastandinlandstretchesofsouth-
+west Australia, but are less than half as frequent as those
+on the east coast.
+Regional climatologies showed that hailstorms occur
+mostfrequentlyontheeasternslopesoftheGreatDividing
+Range around the Brisbane and Sydney regions (one hail
+event every∼1–2 years). Tropical hailstorms were found
+tobeshorterintermsoflengthandinitiatelaterintheday
+with a strong land–sea contrast. Subtropical hailstorms
+on the East coast were found to shift poleward through-
+out the summer, starting in Queensland in November and
+progressing toward Sydney by March. Finally, temperate
+hailstormsinsouthernAustraliawereobservedtoproduce
+longerhailstreaksandmainlypropagatetowardthesouth-
+east, corresponding with known synoptic-scale drivers in
+the region.
+During this study, several important avenues for future
+work were identified. First, secondary data sources, such
+as hail proxies from weather models or various satellite-
+based products, should be used to help constrain hail fre-
+quency estimates in areas with poor radar coverage, such
+as western New South Wales. These data sources may be
+incorporatedasanadditionalbackgroundconstraintinthe
+variational interpolation method introduced herein. Fur-
+therresearchshouldalsoinvestigatetheaccuracyofMESH
+for hail identification in different climatic regions such as
+the tropics and southern Australia, using hail both hail
+reportsandcomparisons withsatellite-basedremotesens-
+ing products. These studies should also investigate how
+storm-driven hail advection, melting, and size sorting can
+also affect radar-based climatological assessments ( e.g.,
+Brook et al. 2021). Finally, future research should also
+explore how the radar archive may be used to identify
+long-term trends and interannual/decadal variability pre-
+viously noted in the Australian hail climatology (Schuster
+et al.2005; Allenand Karoly2014), in thecontext ofhow
+they may be evolving in a changing climate.
+APPENDIX A
+Iterative Orthogonal Linear Regression
+Weexpectthereflectivityresponseoflargehailtodimin-
+ish at C-band due the theoretical considerations outlined
+in Section 3. Here, we attempt to correct C-band hail re-
+flectivities to match that at S-band, where the chosen hail
+detection methodology was developed. The fitting proce-
+dure used to generate the correction is a linear orthogonal
+regression. This technique is suitable for our purposes, as
+it considers measurement error in both 𝑥and𝑦variables,
+whichisdistinctfromanordinaryleastsquaresregressionthat assumes the 𝑥variable is known without error. Or-
+thogonalregressionisalsosuitableforourapplicationdue
+to our use of point-matched values of the same variable,
+which, due to the identical matching procedure employed
+toboth,wemayassumetohaveequalvariance(York1966).
+Carroll and Ruppert (1996) show that orthogonal regres-
+sionmaybemisusediftheratioofinputvariablevariance
+is incorrectly specified, or due to nonlinearities in the un-
+derlyingdataset. Despitetheseconcerns,weconsideritan
+appropriatetechniqueforourcaseandemployanefficient
+FORTRAN implementation (Boggs et al. 1989).
+Theaimistofitonlythosereflectivitiesthatcorrespond
+to MESH detections, which dictates data is taken from
+above the 0◦C isotherm in columns where MESH exceeds
+10 mm (refer to Section 3 for a discussion on the 10-mm
+MESHthreshold). Wealsoonlyusedataabove40dBZ,as
+in the MESH formulation. Orthogonal regression is used
+to fit C- and S-band reflectivities as the 𝑥and𝑦variables,
+respectively, resulting in a standard linear function : 𝑦=
+𝑚𝑥+𝑐, where𝑚and𝑐are the linear coefficients. When
+the correction is applied to the 𝑦data, the initial fit is
+transposed as follows:
+𝑌1=𝑦0−𝑐1
+𝑚1(A1)
+where𝑌denotes the corrected 𝑦data,𝑦0is the initial 𝑦
+data and subscripts denote the nthcorrection. Depending
+on the sign of the correction, 𝑌1may now contain data
+above or below the 40 dBZ threshold, which should be
+included or excluded from the fitting calculation, respec-
+tively. This problem is analogous to one encountered in
+radarcalibration,wherespacebornereflectivitydataabove
+a certain threshold are used to calculate a calibration off-
+set (Protat et al. 2011; Warren et al. 2018). The solution
+arises by proceeding iteratively, applying the correction
+and filtering the data according to the threshold at each
+step. The linear corrections in our case introduce addi-
+tionalcomplexity(comparedtotheconstantoffsetusedin
+radar calibration), and we now describe how the final cor-
+rectionmaybeobtainedfromthefitateachiteration. Once
+the 40 dBZ threshold has been applied to 𝑌1, we recorrect
+the data in the second iteration:
+𝑌2=𝑌1−𝑐2
+𝑚2=𝑦0−𝑐1
+𝑚1−𝑐2
+𝑚2(A2)
+whereEquationA1wassubstitutedinthefinalexpression.
+Therefittingprocesscontinuesuntilthedifferencebetween
+thecoefficients 𝑚and𝑐inconsecutiveiterationsislessthan
+auser-definedconvergencecriterion( 𝜖,where𝜖=1×10−4
+in this study). The resulting correction when applying the
+refitting procedure for 𝑛iterations is generalized below,
+𝑌𝑛=𝑦𝑜Î𝑛
+𝑖=1𝑚𝑖−𝑛∑︁
+𝑖=1𝑐𝑖Î𝑛
+𝑗=𝑖𝑚𝑗. (A3)20
+APPENDIX B
+Radar Information
+TableB1: Relevantinformationforradarsusedinthisstudy. Missingenddatesindicateradarswerestilloperationalat
+the end of the study period, altitudes indicateantenna height above sea level, and beam widths are measured in degrees
+to half-power. Refer to https://openradar.io/ for further details.
+Location Radar Type Start Date End Date Dur. (yr) Lat. (◦S) Lon. (◦E) Alt. (m) Freq. BWidth (◦)
+Adelaide (B. Park) Meteor1500SDP 27/10/2005 - 16.2 -34.62 138.47 29.0 S 1.0
+Adelaide (S. Hill) WSR81C 01/01/2000 - 22.0 -35.33 138.50 395.1 C 1.7
+Albany Meteor735CDP 21/02/2003 - 18.9 -34.94 117.82 93.0 C 1.0
+Alice Springs WF100-6C 28/10/2003 - 18.2 -23.80 133.89 563.3 C 1.7
+Bairnsdale Wurrung-2502C 06/05/2008 - 13.7 -37.89 147.58 65.3 C 1.7
+Bowen WF100-6C 07/05/2004 - 17.7 -19.89 148.07 72.5 C 1.7
+Brisbane (Marburg) WSR74S 01/01/2000 - 22.0 -27.61 152.54 371.1 S 1.9
+Brisbane (Mt Stap.) Meteor1500SDP 08/06/2006 - 15.6 -27.72 153.24 175.0 S 1.0
+Broome DWSR2502C 18/03/2008 - 13.8 -17.95 122.24 31.4 C 1.7
+Cairns DWSR2502C 11/01/2000 - 22.0 -16.82 145.68 660.8 C 1.0
+Canberra DWSR74S 22/11/2002 - 19.1 -35.66 149.51 1382.7 S 1.9
+Carnarvon DWSR2502C 07/12/2004 - 17.1 -24.89 113.67 12.0 C 1.7
+Ceduna DWSR2502C 06/01/2002 - 20.0 -32.13 133.70 32.0 C 1.7
+Dampier WRM200CDP 13/08/2009 - 12.4 -20.65 116.68 55.0 C 1.0
+Darwin (Berrimah) DWSR2502C 07/12/2000 - 21.1 -12.46 130.93 60.0 C 1.0
+Emerald DWSR8502S 09/03/2010 - 11.8 -23.55 148.24 211.3 S 1.9
+Esperence Meteor735CDP 19/02/2003 - 18.9 -33.83 121.89 42.9 C 1.0
+Geraldton Meteor735CDP 08/02/2003 - 18.9 -28.80 114.70 47.7 C 1.0
+Giles WF100-5C 15/10/2003 - 18.2 -25.03 128.30 607.4 C 2.0
+Gladstone WSR74S 01/01/2000 - 22.0 -23.86 151.26 92.5 S 1.9
+Gove TVDR2500 01/10/2002 - 19.3 -12.28 136.82 75.7 C 1.7
+Grafton WSR74S 01/01/2000 - 22.0 -29.62 152.95 49.8 S 1.9
+Gympie DWSR8502S 01/01/2000 - 22.0 -25.96 152.58 355.0 S 1.9
+Halls Creek WF100-5C 26/03/2008 - 13.8 -18.23 127.66 439.4 C 1.7
+Hobart DWSR2502C 22/03/2012 - 9.8 -43.11 147.81 511.7 C 1.0
+Kalgoorlie DWSR2502C 13/11/2003 - 18.1 -30.78 121.45 390.0 C 1.0
+Katherine (Tindal) WSR81C 15/10/2003 - 18.2 -14.51 132.45 148.4 C 1.7
+Learmouth TVDR2500 11/02/2008 - 13.9 -22.10 114.00 333.3 C 1.7
+Longreach WF100-6C 18/12/2000 - 21.0 -23.43 144.29 201.6 C 1.7
+Mackay TVDR2500 01/01/2000 - 22.0 -21.12 149.22 43.9 C 1.7
+Melbourne Meteor1500SDP 01/01/2000 - 22.0 -37.86 144.76 45.0 S 1.0
+Mildura WF100-5C 01/01/2002 15/03/2021 19.2 -34.24 142.09 59.3 C 2.0
+Moree WF100-5C 01/01/2000 - 22.0 -29.49 149.85 221.5 C 1.7
+Mornington Island WSR81C 01/01/2000 - 22.0 -16.67 139.17 19.6 C 1.7
+Mount Isa DWSR8502S 14/09/2012 - 9.3 -20.71 139.56 516.7 S 1.9
+N.W. Tasmania Wurrung-2502C 01/01/2000 - 22.0 -41.18 145.58 601.0 C 1.0
+Namoi DWSR8502S 02/06/2010 - 11.6 -31.02 150.19 720.0 S 1.9
+Newcastle DWSR74S 01/01/2000 - 22.0 -32.73 152.03 84.0 S 1.9
+Perth (Serpentine) TVDR2500 02/02/2010 - 11.9 -32.39 115.87 39.8 C 1.0
+Port Hedland TVDR2500 12/03/2008 - 13.8 -20.37 118.63 23.8 C 1.7
+Rockhampton WF100C 01/01/2000 31/08/2014 14.7 -23.38 150.47 14.0 C 1.6
+South Doodlakine Wurrung-2502C 15/02/2017 - 4.9 -31.78 117.95 416.0 C 1.7
+Sydney (Kurnell) WF100-6C 01/01/2000 - 22.0 -34.01 151.23 63.8 C 1.0
+Sydney (T. Hills) Meteor1500SDP 15/05/2009 - 12.6 -33.70 151.21 223.5 S 1.0
+Tennant Creek WF100C 10/07/2007 30/06/2015 8.0 -19.64 134.18 394.0 C 1.8
+Townsville DWSR2502C 03/08/2011 - 10.4 -19.42 146.55 612.5 C 1.0
+Warrego TVDR2500 06/10/2006 - 15.2 -26.44 147.35 534.4 C 1.7
+Warruwi DWSR2502C 15/11/2012 - 9.1 -11.65 133.38 43.7 C 1.0
+Weipa WF100C 01/01/2000 11/10/2015 15.8 -12.67 141.92 35.0 C 1.7
+Wollongong DWSR8502S 01/01/2000 - 22.0 -34.26 150.88 471.6 S 1.9
+Woomera WF100-6C 04/01/2001 - 21.0 -31.16 136.80 175.9 C 1.7
+Yarrawonga WF100-6C 25/06/2002 - 19.5 -36.03 146.02 146.0 C 1.021
+The optimization converged inroughly 20 iterations for
+the fits illustrated in Fig. 3. Although no divergent cases
+wereobservedinouranalysis,weoffernoformalproofof
+convergence for the method outlined here.
+Acknowledgments. This research was undertaken with
+the assistance of resources and services from the National
+ComputationalInfrastructure(NCI),whichissupportedby
+the Australian Government. Author Brook would like to
+acknowledgeGuyCarpenter&Company,LLCforindustry
+fundingthroughouttheirpostgraduatestudies. Wealsoac-
+knowledge Mark Curtis and Valentin Louf for discussions
+on the Australian Radar Archive.
+Data availability statement. Download instructions
+for all data used in this study may be found in the Aus-
+tralian Unified Radar Archive (AURA, Soderholm et al.
+2022) and are available at https://www.openradar.
+io/operational-network . Data processing software
+is available upon request to the author.
+References
+Allen, J., 2012: Supercell storms: Melbourne’s white Christmas 2011.
+Bull. Aust. Meteorol. Oceanogr. Soc. ,25, 47–51.
+Allen, J. T., and E. R. Allen, 2016: A review of severe thunder-
+stormsinAustralia. Atmos.Res. ,178-179 (Supplement C) ,347–366,
+https://doi.org/https://doi.org/10.1016/j.atmosres.2016.03.011.
+Allen, J. T., and D. J. Karoly, 2014: A climatology of Australian severe
+thunderstorm environments 1979-2011: Inter-annual variability and
+ENSO influence. Int. J. Climatol. ,34 (1), 81–97, https://doi.org/
+10.1002/joc.3667.
+Allen, J. T., M. K. Tippett, W. S. Ashley, M. R. Kumjian, and D. Ca-
+vanaugh, 2015: The characteristics of United States hail reports:
+1955-2014. Electron. J. Sev. Storms Meteor. ,10 (3), 1–31.
+Anagnostou, E. N., and W. F. Krajewski, 1999: Real-time radar rain-
+fall estimation. Part I: Algorithm formulation. J. Atmos. Ocean.
+Technol.,16 (2),189–197,https://doi.org/10.1175/1520-0426(1999)
+016<0189:RTRREP>2.0.CO;2.
+Australian Bureau of Statistics, 2021: Regional population. Accessed
+8 April 2023, https://www.abs.gov.au/statistics/people/population/
+regional-population/latest-release.
+Bang, S. D., and D. J. Cecil, 2019: Constructing a multifrequency
+passivemicrowavehailretrievalandclimatologyintheGPMdomain.
+J. Appl. Meteor. Climatol. ,58 (9), 1889–1904, https://doi.org/10.
+1175/JAMC-D-19-0042.1.
+Bang, S. D., and D. J. Cecil, 2021: Testing passive microwave-based
+hail retrievals using GPM DPR Ku-band radar. J. Appl. Meteor.
+Climatol.,60 (3), 255–271, https://doi.org/https://doi.org/10.1175/
+JAMC-D-20-0129.1.
+Barth, A., J.-M. Beckers, C. Troupin, A. Alvera-Azcárate, and L. Van-
+denbulcke, 2014: Divand-1.0: n-dimensional variational data anal-
+ysis for ocean observations. Geosci. Model Dev. ,7 (1), 225–241,
+https://doi.org/10.5194/gmd-7-225-2014.
+Battan, L. J., 1971: Radar attenuation by wet ice spheres. J. Appl.
+Meteor. Climatol. ,10 (2), 247–252, https://doi.org/https://doi.org/
+10.1175/1520-0450(1971)010<0247:RABWIS>2.0.CO;2.Beckers, J.-M., A. Barth, C. Troupin, and A. Alvera-Azcárate, 2014:
+Approximate and efficient methods to assess error fields in spa-
+tial gridding with data interpolating variational analysis (DIVA).
+J. Atmos. Ocean. Technol. ,31 (2), 515–530, https://doi.org/https:
+//doi.org/10.1175/JTECH-D-13-00130.1.
+Bedka, K., J. Brunner, R. Dworak, W. Feltz, J. Otkin, and T. Green-
+wald, 2010: Objective satellite-based detection of overshooting
+tops using infrared window channel brightness temperature gradi-
+ents.J. Appl. Meteor. Climatol. ,49 (2), 181–202, https://doi.org/
+10.1175/2009JAMC2286.1.
+Bedka,K.M.,2011: OvershootingcloudtopdetectionsusingMSGSE-
+VIRIinfraredbrightnesstemperaturesandtheirrelationshiptosevere
+weather over Europe. Atmos. Res. ,99 (2), 175–189, https://doi.org/
+https://doi.org/10.1016/j.atmosres.2010.10.001.
+Bedka,K.M.,J.T.Allen,H.J.Punge,M.Kunz,andD.Simanovic,2018:
+A long-term overshooting convective cloud top detection database
+overAustraliaderivedfromMTSATJapaneseadvancedmeteorolog-
+icalImagerobservations. J.Appl.Meteor.Climatol. ,57 (0),937–951,
+https://doi.org/10.1175/JAMC-D-17-0056.1.
+Bednarczyk, C., and P. Sousounis, 2012: Hail climatol-
+ogy of Australia based on lightning and reanalysis. 27th
+Conference on Severe Local Storms , Amer. Meteor. Soc.,
+URL https://ams.confex.com/ams/27SLS/webprogram/Manuscript/
+Paper255889/extendedAbstract_pdf.pdf.
+Boggs, P. T., J. R. Donaldson, R. h. Byrd, and R. B. Schnabel,
+1989: Algorithm 676: ODRPACK: software for weighted orthog-
+onaldistanceregression. ACMTrans.Math.Softw. ,15 (4),348–364,
+https://doi.org/10.1145/76909.76913.
+BoM,2021: Bureauofmeteorologyseverethunderstormarchive.Aust.
+Bureau of Meteorology, Accessed 21 June 2023, http://www.bom.
+gov.au/australia/stormarchive/.
+Borowska, L., A. Ryzhkov, D. Zrnić, C. Simmer, and R. Palmer, 2011:
+Attenuation and differential attenuation of 5-cm wavelength radi-
+ation in melting hail. J. Appl. Meteor. Climatol. ,50 (1), 59–76,
+https://doi.org/https://doi.org/10.1175/2010JAMC2465.1.
+Briggs, I. C., 1974: Machine contouring using minimum curvature.
+Geophysics ,39 (1), 39–48, https://doi.org/10.1190/1.1440410.
+Brook,J.P.,A.Protat,C.K.Potvin,J.S.Soderholm,andH.McGowan,
+2023: The effects of spatial interpolation on a novel, dual-Doppler
+3D wind retrieval technique, https://doi.org/10.48550/ARXIV.2301.
+07913.
+Brook,J.P.,A.Protat,J.Soderholm,J.T.Carlin,H.McGowan,andR.A.
+Warren,2021: Hailtrack-improvingradar-basedhailfallestimatesby
+modeling hail trajectories. J. Appl. Meteor. Climatol. ,60 (3), 237–
+254.
+Brook,J.P.,A.Protat,J.S.Soderholm,R.A.Warren,andH.McGowan,
+2022: Avariational interpolation methodfor griddingweather radar
+data.J.Atmos.Ocean.Technol. ,39 (11),1633–1654,https://doi.org/
+10.1175/JTECH-D-22-0015.1.
+Buckley, B. W., W. Sullivan, P. Chan, and M. Leplastrier, 2010: Two
+recordbreakingAustralianhailstorms: stormenvironments,damage
+characteristics and rarity. 25th Conference on Severe Local Storms ,
+American Meteorological Society Denver, Colorado, 11–14.
+Bunkers, M. J., and P. L. Smith, 2013: Comments on “An objective
+high-resolution hail climatology of the contiguous united States”.22
+Wea.Forecasting ,28 (3),915–917,https://doi.org/https://doi.org/10.
+1175/WAF-D-13-00020.1.
+Cao, Q., Y. Hong, Y. Qi, Y. Wen, J. Zhang, J. J. Gourley, and L. Liao,
+2013: Empiricalconversionoftheverticalprofileofreflectivityfrom
+Ku-band to S-band frequency. J. Geophys. Res. Atmos. ,118 (4),
+1814–1825, https://doi.org/https://doi.org/10.1002/jgrd.50138.
+Carbone, R. E., J. W. Wilson, T. D. Keenan, and J. M. Hacker, 2000:
+Tropical island convection in the absence of significant topogra-
+phy. Part I: Life cycle of diurnally forced convection. Mon. Wea.
+Rev.,128 (10), 3459–3480, https://doi.org/https://doi.org/10.1175/
+1520-0493(2000)128<3459:TICITA>2.0.CO;2.
+Carroll, R. J., and D. Ruppert, 1996: The use and misuse of orthogonal
+regression in linear errors-in variables models. Amer. Stat. ,50 (1),
+1–6, https://doi.org/10.2307/2685035.
+Cecchini, M. A., A. J. Heymsfield, R. Honeyager, P. Field, L. A. T.
+Machado, and M. A. F. d. S. Dias, 2022: Revisiting the hail
+radar reflectivity–kinetic energy flux relation by combining t-matrix
+and discrete dipole approximation calculations to size distribution
+observations. J. Atmos. Sci. ,79 (7), 1927–1940, https://doi.org/
+https://doi.org/10.1175/JAS-D-20-0373.1.
+Cecil, D. J., 2009: Passive microwave brightness temperatures as prox-
+ies for hailstorms. J. Appl. Meteor. Climatol. ,48 (6), 1281–1286,
+https://doi.org/10.1175/2009JAMC2125.1.
+Cecil, D. J., and C. B. Blankenship, 2012: Toward a global cli-
+matology of severe hailstorms as estimated by satellite passive
+microwave imagers. J. Clim.,25 (2), 687–703, https://doi.org/
+10.1175/JCLI-D-11-00130.1.
+Changnon, S. A., 1970: Hailstreaks. J. Atmos. Sci. ,27 (1), 109–125,
+https://doi.org/10.1175/1520-0469(1970)027<0109:H>2.0.CO;2.
+Changnon, S. A., D. Changnon, and S. D. Hilberg, 2009: Hailstorms
+across the nation: an atlas about hail and its damages. Illinois State
+Water Survey Contract Report CR-2009-12.
+Cintineo, J. L., T. M. Smith, V. Lakshmanan, H. E. Brooks, and K. L.
+Ortega, 2012: An objective high-resolution hail climatology of
+the contiguous united states. Wea. Forecasting ,27 (5), 1235–1248,
+https://doi.org/10.1175/WAF-D-11-00151.1.
+Cotton, W. R., G. Bryan, and S. C. van den Heever, 2010: Storm and
+cloud dynamics . 2nd ed., Elsevier Science, Burlington.
+Dahl, N. A., A. Shapiro, C. K. Potvin, A. Theisen, J. G. Gebauer, A. D.
+Schenkman, and M. Xue, 2019: High-resolution, rapid-scan dual-
+Doppler retrievals of vertical velocity in a simulated supercell. J.
+Atmos.Ocean.Technol. ,36 (8),1477–1500,https://doi.org/10.1175/
+JTECH-D-18-0211.1.
+Dowdy,A.,andY.Kuleshov,2014: LightningclimatologyofAustralia:
+temporal and spatial variability. Aust. Meteorol. Oceanogr. J. ,64,
+9–14.
+Dowdy, A. J., J. Soderholm, J. Brook, A. Brown, and H. Mc-
+Gowan, 2020: Quantifying hail and lightning risk factors us-
+ing long-term observations around Australia. J. Geophys. Res. At-
+mos.,125 (21), 2020JD033101, https://doi.org/https://doi.org/10.
+1029/2020JD033101.
+Drosdowsky,W.,andG.J.Holland,1987: NorthAustraliancloudlines.
+Mon. Wea. Rev. ,115 (11), 2645–2659.Dworak,R.,K.Bedka,J.Brunner,andW.Feltz,2012: Comparisonbe-
+tween goes-12 overshooting-top detections, WSR-88D radar reflec-
+tivity, and severe storm reports. Wea. Forecasting ,27 (3), 684–699,
+https://doi.org/10.1175/WAF-D-11-00070.1.
+Eichner, J., 2019: Icy cricket balls from above. Accessed
+7 April 2023, https://www.munichre.com/topics-online/
+en/climate-change-and-natural-disasters/climate-change/
+Icy-cricket-balls-from-above.html.
+Fabry, F., V. Meunier, B. P. Treserras, A. Cournoyer, and B. Nelson,
+2017: On the climatological use of radar data mosaics: possibili-
+ties and challenges. Bull. Amer. Meteor. Soc. ,98 (10), 2135–2148,
+https://doi.org/https://doi.org/10.1175/BAMS-D-15-00256.1.
+Ferraro, R., J. Beauchamp, D. Cecil, and G. Heymsfield, 2015: A
+prototype hail detection algorithm and hail climatology developed
+with the advanced microwave sounding unit (AMSU). Atmos. Res. ,
+163, 24–35.
+Foote, G. B., 1984: A study of hail growth utilizing observed storm
+conditions. J.ClimateAppl.Meteor. ,23 (1),84–101,https://doi.org/
+10.1175/1520-0450(1984)023<0084:ASOHGU>2.0.CO;2.
+Frisby, E. M., and H. W. Sansom, 1967: Hail incidence in the
+tropics.J. Appl. Meteor. ,6 (2), 339–354, https://doi.org/10.1175/
+1520-0450(1967)006<0339:HIITT>2.0.CO;2.
+Gabella, M., and R. Notarpietro, 2002: Ground clutter characterization
+andeliminationinmountainousterrain. ProceedingsofERAD ,305–
+311, https://www.copernicus.org/erad/online/erad-305.pdf.
+Goldstein, T., and S. Osher, 2009: The split Bregman method for
+L1-regularized problems. SIAM J. Imaging Sci. ,2 (2), 323–343,
+https://doi.org/10.1137/080725891.
+Gu, J.-Y., A. Ryzhkov, P. Zhang, P. Neilley, M. Knight, B. Wolf, and
+D.-I. Lee, 2011: Polarimetric attenuation correction in heavy rain
+at C band. J. Appl. Meteor. Climatol. ,50 (1), 39–58, https://doi.org/
+https://doi.org/10.1175/2010JAMC2258.1.
+Gunturi, P., and M. K. Tippett, 2017: Managing severe thunderstorm
+risk: Impact of ENSO on US tornado and hail frequencies. Tech.
+rep., Tech. Rep.
+Hanstrum, B. N., K. J. Wilson, and S. L. Barrell, 1990a: Pre-
+frontal troughs over southern Australia. Part I: a climatology. Wea.
+Forecasting ,5 (1), 22–31, https://doi.org/https://doi.org/10.1175/
+1520-0434(1990)005<0022:PTOSAP>2.0.CO;2.
+Hanstrum, B. N., K. J. Wilson, and S. L. Barrell, 1990b: Pre-
+frontal troughs over southern Australia. Part II: a case study of
+frontogenesis. Wea. Forecasting ,5 (1), 32–46, https://doi.org/https:
+//doi.org/10.1175/1520-0434(1990)005<0032:PTOSAP>2.0.CO;2.
+Heistermann, M., S. Jacobi, and T. Pfaff, 2013: Technical note: an
+open source library for processing weather radar data (wradlib).
+Hydrol. Earth Syst. Sci. ,17 (2), 863–871, https://doi.org/10.5194/
+hess-17-863-2013.
+Homeyer, C. R., and K. P. Bowman, 2017: Algorithm description doc-
+ument for version 3.1 of the three-dimensional gridded NEXRAD
+WSR-88D radar (GridRad) dataset. Tech. rep.
+Homeyer, C. R., J. D. McAuliffe, and K. M. Bedka, 2017: On the
+development of above-anvil cirrus plumes in extratropical convec-
+tion.J. Atmos. Sci. ,74 (5), 1617–1633, https://doi.org/10.1175/
+JAS-D-16-0269.1.23
+Hung, C.-W., and M. Yanai, 2004: Factors contributing to the onset of
+the Australian summer monsoon. Q. J. R. Meteor. Soc. ,130 (597) ,
+739–758, https://doi.org/https://doi.org/10.1256/qj.02.191.
+Kaltenboeck, R., and A. Ryzhkov, 2013: Comparison of polarimet-
+ric signatures of hail at S and C bands for different hail sizes.
+Atmos. Res. ,123, 323–336, https://doi.org/https://doi.org/10.1016/
+j.atmosres.2012.05.013.
+Kumjian, M. R., K. Lombardo, and S. Loeffler, 2021: The evolution of
+hailproductioninsimulatedsupercellstorms. J.Atmos.Sci. ,78 (11),
+3417–3440, https://doi.org/10.1175/JAS-D-21-0034.1.
+Kunz, M., and P. I. S. Kugel, 2015: Detection of hail signatures from
+single-polarizationC-bandradarreflectivity. Atmos.Res. ,153,565–
+577, https://doi.org/10.1016/j.atmosres.2014.09.010.
+Lakshmanan,V.,T.Smith,K.Hondl,G.J.Stumpf,andA.Witt,2006: A
+real-time, three-dimensional, rapidly updating, heterogeneous radar
+mergertechniqueforreflectivity,velocity,andderivedproducts. Wea.
+Forecasting ,21 (5), 802–823, https://doi.org/10.1175/WAF942.1.
+Langston, C., J. Zhang, and K. Howard, 2007: Four-dimensional dy-
+namic radar mosaic. J. Atmos. Ocean. Technol. ,24 (5), 776–790,
+https://doi.org/10.1175/JTECH2001.1.
+Laroche, S., and I. Zawadzki, 1994: A variational analysis method for
+retrieval of three-dimensional wind field from single-Doppler radar
+data.J. Atmos. Sci. ,51 (18), 2664–2682, https://doi.org/10.1175/
+1520-0469(1994)051<2664:AVAMFR>2.0.CO;2.
+Levizzani, V., and M. Setvák, 1996: Multispectral, high-resolution
+satellite observations of plumes on top of convective storms. J. At-
+mos.Sci.,53 (3),361–369,https://doi.org/10.1175/1520-0469(1996)
+053<0361:MHRSOO>2.0.CO;2.
+Louf, V., and A. Protat, 2023: Real-time monitoring of weather radar
+networkcalibrationandantennapointing. J.Atmos.Ocean.Technol. ,
+https://doi.org/https://doi.org/10.1175/JTECH-D-22-0118.1.
+Lukach, M., L. Foresti, O. Giot, and L. Delobbe, 2017: Estimating the
+occurrence and severity of hail based on 10 years of observations
+from weather radar in Belgium. Meteor. Appl. ,24 (2), 250–259,
+https://doi.org/10.1002/met.1623.
+May, P. T., A. R. Jameson, T. D. Keenan, P. E. Johnston, and C. Lucas,
+2002: Combined wind profiler/Polarimetric radar studies of the ver-
+tical motion and microphysical characteristics of tropical sea-breeze
+thunderstorms. Mon.Wea.Rev. ,130 (9),2228–2239,https://doi.org/
+10.1175/1520-0493(2002)130<2228:CWPPRS>2.0.CO;2.
+McAneney, J., B. Sandercock, R. Crompton, T. Mortlock, R. Musulin,
+R. Pielke, and A. Gissing, 2019: Normalised insurance losses from
+Australian natural disasters: 1966–2017. Environ. Hazards ,18 (5),
+414–433, https://doi.org/10.1080/17477891.2019.1609406.
+McMaster, H., 2001: Hailstorm risk assessment in rural new south
+wales.Nat Hazards ,24 (2), 187–196, https://doi.org/10.1023/A:
+1011820206279.
+Mroz, K., A. Battaglia, T. J. Lang, D. J. Cecil, S. Tanelli, and F. Tri-
+don, 2017: Hail-detection algorithm for the GPM core observa-
+tory satellite sensors. J. Appl. Meteor. Climatol. ,56 (7), 1939–1957,
+https://doi.org/10.1175/JAMC-D-16-0368.1.
+Murillo,E.M.,andC.R.Homeyer,2019: Severehailfallandhailstorm
+detectionusingremotesensingobservations. J.Appl.Meteor.Clima-
+tol.,58 (5), 947–970, https://doi.org/10.1175/JAMC-D-18-0247.1.Murillo, E. M., C. R. Homeyer, and J. T. Allen, 2021: A 23-year
+severe hail climatology using GridRad MESH observations. Mon.
+Wea. Rev. ,149 (4), 945–958, https://doi.org/https://doi.org/10.1175/
+MWR-D-20-0178.1.
+Ni, X., C. Liu, D. J. Cecil, and Q. Zhang, 2017: On the detection of
+hail using satellite passive microwave radiometers and precipitation
+radar.J.Appl.Meteor.Climatol. ,56 (10),2693–2709,https://doi.org/
+10.1175/JAMC-D-17-0065.1.
+Nisi, L., A. Hering, U. Germann, and O. Martius, 2018: A 15-year
+hail streak climatology for the alpine region. Q. J. R. Meteor. Soc. ,
+144 (714) , 1429–1449, https://doi.org/10.1002/qj.3286.
+Ortega, K., 2018: Evaluating multi-radar, multi-sensor products for
+surface hailfall diagnosis. Electron. J. Sev. Storms Meteor. ,13 (1).
+Ortega, K. L., T. M. Smith, and G. J. Stumpf, 2006: Verification of
+multi-sensor, multi-radar hail diagnosis techniques. Symp. on the
+Challenges of Severe convective Storms .
+Potts, R. J., T. D. Keenan, and P. T. May, 2000: Radar
+characteristics of storms in the Sydney area. Mon. Wea.
+Rev.,128 (9), 3308–3319, https://doi.org/10.1175/1520-0493(2000)
+128<3308:RCOSIT>2.0.CO;2.
+Prein, A. F., and G. J. Holland, 2018: Global estimates of damaging
+hail hazard. Wea. Clim. Extremes ,22, 10–23, https://doi.org/https:
+//doi.org/10.1016/j.wace.2018.10.004.
+Protat,A.,D.Bouniol,E.J.O’Connor,H.KleinBaltink,J.Verlinde,and
+K. Widener, 2011: Cloudsat as a global radar calibrator. J. Atmos.
+Ocean. Technol. ,28 (3), 445–452, https://doi.org/https://doi.org/10.
+1175/2010JTECHA1443.1.
+Protat, A., V. Louf, J. Soderholm, J. Brook, and W. Ponsonby,
+2022: Three-way calibration checks using ground-based, ship-
+based, and spaceborne radars. Atmos. Meas. Tech. ,15 (4), 915–926,
+https://doi.org/10.5194/amt-15-915-2022.
+Pulkkinen, S., D. Nerini, A. A. Pérez Hortal, C. Velasco-Forero,
+A. Seed, U. Germann, and L. Foresti, 2019: Pysteps: an open-
+source python library for probabilistic precipitation nowcasting
+(v1.0).Geosci. Model Dev. ,12 (10), 4185–4219, https://doi.org/
+10.5194/gmd-12-4185-2019.
+Punge, H. J., K. M. Bedka, and M. Kunz, 2018: Continental scale
+hailfrequencyestimationfromgeostationarysatellitedetection. EGU
+General Assembly Conference Abstracts , 15737.
+Punge, H. J., K. M. Bedka, M. Kunz, S. D. Bang, and K. F. Itterly,
+2021: CharacteristicsofhailhazardinSouthAfricabasedonsatellite
+detection of convective storms. Nat. Hazards Earth Syst. Sci. ,2021,
+1–32, https://doi.org/10.5194/nhess-2021-342.
+Raupach, T. H., J. Soderholm, A. Protat, and S. C. Sherwood,
+2023: An improved instability–shear hail proxy for Australia. Mon.
+Wea. Rev. ,151 (2), 545–567, https://doi.org/https://doi.org/10.1175/
+MWR-D-22-0127.1.
+Ravasi,M.,andI.Vasconcelos,2020: Pylops—Alinear-operatorpython
+libraryforscalablealgebraandoptimization. SoftwareX ,11,100361,
+https://doi.org/10.1016/J.SOFTX.2019.100361.
+Riemann-Campe, K., K. Fraedrich, and F. Lunkeit, 2009: Global cli-
+matology of convective available potential energy (CAPE) and con-
+vectiveinhibition(CIN)inERA-40reanalysis. Atmos.Res. ,93 (1-3),
+534–545.24
+Rudin, L. I., S. Osher, and E. Fatemi, 1992: Nonlinear total variation
+basednoiseremovalalgorithms. Phys.D:NonlinearPhenom. ,60 (1-
+4), 259–268.
+Ryzhkov, A. V., M. R. Kumjian, S. M. Ganson, and A. P. Khain,
+2013: Polarimetric radar characteristics of melting hail. Part I:
+theoretical simulations using spectral microphysical modeling. J.
+Appl.Meteor.Climatol. ,52 (12),2849–2870,https://doi.org/10.1175/
+JAMC-D-13-073.1.
+Saltikoff,E.,andCoauthors,2019: Anoverviewofusingweatherradar
+forclimatologicalstudies: successes,challenges,andpotential. Bull.
+Amer. Meteor. Soc. ,100 (9), 1739–1752, https://doi.org/10.1175/
+BAMS-D-18-0166.1.
+Schmetz, J., S. A. Tjemkes, M. Gube, and L. v. de Berg], 1997:
+Monitoring deep convection and convective overshooting with ME-
+TEOSAT. Adv. Space Res. ,19 (3), 433–441, https://doi.org/https:
+//doi.org/10.1016/S0273-1177(97)00051-3.
+Schuster, S. S., R. J. Blong, and K. J. McAneney, 2006: Relationship
+between radar-derived hail kinetic energy and damage to insured
+buildings for severe hailstorms in eastern Australia. Atmos. Res. ,
+81 (3), 215–235, https://doi.org/https://doi.org/10.1016/j.atmosres.
+2005.12.003.
+Schuster, S. S., R. J. Blong, and M. S. Speer, 2005: A hail climatology
+of the greater Sydney area and New South Wales, Australia. Int. J.
+Climatol.,25 (12), 1633–1650.
+Shapiro, A., C. K. Potvin, and J. Gao, 2009: Use of a verti-
+cal vorticity equation in variational dual-Doppler wind analysis.
+J. Atmos. Ocean. Technol. ,26 (10), 2089–2106, https://doi.org/
+10.1175/2009JTECHA1256.1.
+Shapiro, A., K. M. Willingham, and C. K. Potvin, 2010: Spatially vari-
+ableAdvectioncorrectionofradardata.PartII:testresults. J.Atmos.
+Sci.,67 (11), 3457–3470, https://doi.org/10.1175/2010JAS3466.1.
+Skripniková, K., and D. Rezáčová, 2014: Radar-based hail detection.
+Atmos. Res. ,144, 175–185.
+Soderholm, J., V. Louf, J. Brook, and A. Protat, 2022: Australian op-
+erational weather radar level 1b dataset. National Computing Infras-
+tructure.
+Soderholm,J.S.,H.McGowan,H.Richter,K.Walsh,T.M.Weckwerth,
+andM.Coleman,2017a: An18-yearclimatologyofhailstormtrends
+and related drivers across southeast Queensland, Australia. Q. J. R.
+Meteor.Soc. ,143 (703) ,1123–1135,https://doi.org/10.1002/qj.2995.
+Soderholm, J. S., H. A. Mcgowan, H. Richter, K. Walsh, T. Wedd, and
+T. M. Weckwerth, 2017b: Diurnal preconditioning of subtropical
+coastal convective storm environments. Mon. Wea. Rev. ,145 (9),
+3839–3859, https://doi.org/10.1175/MWR-D-16-0330.1.
+Soderholm, J. S., K. I. Turner, J. P. Brook, T. Wedd, and J. Callaghan,
+2019: High-impactthunderstormsoftheBrisbanemetropolitanarea.
+J. South. Hemisphere Earth Syst. Sci. ,69.
+Stržinar,G.,andG.Skok,2018: Comparisonandoptimizationofradar-
+based hail detection algorithms in Slovenia. Atmos. Res. ,203, 275–
+285, https://doi.org/https://doi.org/10.1016/j.atmosres.2018.01.005.
+Stumpf, G. J., T. M. Smith, and J. Hocker, 2004: New hail diagnostic
+parameters derived by integrating multiple radars and multiple sen-
+sors.Preprints, 22nd Conf. on Severe Local Storms, Hyannis, MA,
+Amer. Meteor. Soc. P , Vol. 7.Sturman, A. P., and N. J. Tapper, 1996: The weather and climate of
+Australia and new Zealand . Oxford University Press, USA.
+Taszarek, M., J. T. Allen, T. Púčik, K. A. Hoogewind, and H. E.
+Brooks,2020: SevereconvectivestormsacrossEuropeandtheunited
+states. Part II: ERA5 environments associated with lightning, large
+hail, severe wind, and tornadoes. J. Clim.,33 (23), 10263–10286,
+https://doi.org/https://doi.org/10.1175/JCLI-D-20-0346.1.
+Tippett, M. K., J. T. Allen, V. A. Gensini, and H. E. Brooks, 2015:
+Climateandhazardousconvectiveweather. Curr.Clim.ChangeRep. ,
+1 (2), 60–73, https://doi.org/10.1007/s40641-015-0006-6.
+Troupin, C., and Coauthors, 2012: Generation of analysis and con-
+sistent error fields using the data interpolating variational anal-
+ysis (DIVA). Ocean Model. ,52-53, 90–101, https://doi.org/https:
+//doi.org/10.1016/j.ocemod.2012.05.002.
+Waldvogel, A., W. Schmid, and B. Federer, 1978: The ki-
+netic energy of hailfalls. Part I: hailstone spectra. J. Appl. Me-
+teor.,17 (4), 515–520, https://doi.org/10.1175/1520-0450(1978)
+017<0515:TKEOHP>2.0.CO;2.
+Walsh, K., and Coauthors, 2016: Natural hazards in Australia: storms,
+windandhail. ClimChange ,139 (1),55–67,https://doi.org/10.1007/
+s10584-016-1737-7.
+Wapler, K., and T. P. Lane, 2012: A case of offshore convec-
+tive initiation by interacting land breezes near Darwin, Australia.
+Meteor. Atmos. Phys. ,115 (3), 123–137, https://doi.org/10.1007/
+s00703-011-0180-6.
+Warren, R. A., A. Protat, S. T. Siems, H. A. Ramsay, V. Louf, M. J.
+Manton, and T. A. Kane, 2018: Calibrating ground-based radars
+against TRMM and GPM. J. Atmos. Ocean. Technol. ,35 (2), 323–
+346, https://doi.org/10.1175/JTECH-D-17-0128.1.
+Warren, R. A., H. A. Ramsay, S. T. Siems, M. J. Manton, J. R. Peter,
+A. Protat, and A. Pillalamarri, 2020: Radar-based climatology of
+damaging hailstorms in Brisbane and Sydney, Australia. Q. J. R.
+Meteor. Soc. , https://doi.org/10.1002/qj.3693.
+Wendt,N.A.,andI.L.Jirak,2021: Anhourlyclimatologyofoperational
+MRMS MESH-diagnosed severe and significant hail with compar-
+isons to storm data hail reports. Wea. Forecasting ,36 (2), 645–659,
+https://doi.org/https://doi.org/10.1175/WAF-D-20-0158.1.
+Wilson, C., K. Ortega, and V. Lakshmanan, 2009: Evaluating multi-
+radar, multisensor hail diagnosis with high resolution hail reports.
+25thConf.onInteractiveInformationProcessingSystems ,American
+Meteorological Society, Phoenix, AZ.
+Witt, A., M. D. Eilts, G. J. Stumpf, J. T. Johnson, E. D. W. Mitchell,
+and K. W. Thomas, 1998: An enhanced hail detection algorithm for
+the WSR-88D. Wea. Forecasting ,13 (2), 286–303, https://doi.org/
+10.1175/1520-0434(1998)013<0286:AEHDAF>2.0.CO;2.
+York, D., 1966: Least-squares fitting of a straight line. Can. J. Phys. ,
+44 (5), 1079–1086.
+Zhou, Z., Q. Zhang, J. T. Allen, X. Ni, and C.-P. Ng, 2021: How
+many types of severe hailstorm environments are there globally?
+Geophys. Res. Lett. ,48 (23), e2021GL095485, https://doi.org/https:
+//doi.org/10.1029/2021GL095485.
