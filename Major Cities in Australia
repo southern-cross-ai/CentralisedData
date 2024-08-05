@@ -1,0 +1,16 @@
+# Major Cities in Australia
+
+This document provides the latitude, longitude, and radius (in meters) of major cities in Australia.
+
+| City         | Latitude  | Longitude | Radius (m)    |
+|--------------|-----------|-----------|---------------|
+| Sydney       | -33.8688  | 151.2093  | 62,830        |
+| Melbourne    | -37.8136  | 144.9631  | 56,380        |
+| Brisbane     | -27.4698  | 153.0251  | 70,980        |
+| Perth        | -31.9505  | 115.8605  | 45,120        |
+| Adelaide     | -34.9285  | 138.6007  | 32,190        |
+| Hobart       | -42.8821  | 147.3272  | 23,240        |
+| Darwin       | -12.4634  | 130.8456  | 31,700        |
+| Canberra     | -35.2809  | 149.1300  | 16,080        |
+| Gold Coast   | -28.0167  | 153.4000  | 20,600        |
+| Newcastle    | -32.9283  | 151.7817  | 9,100         |
