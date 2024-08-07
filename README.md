@@ -234,10 +234,6 @@ The output will be a JSON file named reviews_two_columns.json containing:
 ]
 ```
 
-## Conclusion
-
-This script helps you easily convert text files with place reviews into a more manageable JSON format. 
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
