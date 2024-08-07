@@ -219,15 +219,17 @@ Run the script as follows:
 python txt_to_json.py reviews.txt
 ```
 
-The output will be a JSON file named `reviews_one_column.json` containing:
+The output will be a JSON file named reviews_two_columns.json containing:
 
 ```json
 [
     {
-        "Place_Reviews": "Central Park: Beautiful place to visit."
+        "Place_Reviews": "Central Park: Beautiful place to visit.",
+        "Additional_Info": ""
     },
     {
-        "Place_Reviews": "Statue of Liberty: Iconic landmark."
+        "Place_Reviews": "Statue of Liberty: Iconic landmark.",
+        "Additional_Info": ""
     }
 ]
 ```
