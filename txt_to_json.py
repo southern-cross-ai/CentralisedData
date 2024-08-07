@@ -2,7 +2,6 @@ import json
 import sys
 import os
 
-
 def txt_to_json(txt_file):
     with open(txt_file, 'r', encoding='utf-8') as file:
         lines = file.readlines()
@@ -44,16 +43,15 @@ def txt_to_json(txt_file):
         place['Reviews'] = " ".join(reviews)
         places.append(place)
 
-    # Create a new list of dictionaries with only one combined column
-    one_column_data = [{'Place_Reviews': f"{place['Place']}: {place['Reviews']}"} for place in places]
+    # Create a new list of dictionaries with two columns
+    two_column_data = [{'Place_Reviews': f"{place['Place']}: {place['Reviews']}", 'Additional_Info': ""} for place in places]
 
-    json_file = os.path.splitext(txt_file)[0] + '_one_column.json'
+    json_file = os.path.splitext(txt_file)[0] + '_two_columns.json'
 
     with open(json_file, 'w', encoding='utf-8') as file:
-        json.dump(one_column_data, file, ensure_ascii=False, indent=4)
+        json.dump(two_column_data, file, ensure_ascii=False, indent=4)
 
     print(f"Conversion complete. Output file: {json_file}")
-
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
