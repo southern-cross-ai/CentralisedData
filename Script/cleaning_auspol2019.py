@@ -55,4 +55,4 @@ cleaned_tweets_df.to_csv('auspol2019.csv', index=False)
 # Save to a new JSON file
 cleaned_tweets_df.to_json('auspol2019.json', orient='records', lines=True)
 
-print("CSV and JSON files with cleaned Australian tweets created successfully.")
+
