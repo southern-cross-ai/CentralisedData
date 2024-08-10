@@ -2,9 +2,9 @@
 #
 # # Initialize the Reddit instance with your credentials
 # reddit = praw.Reddit(
-#     client_id="ew9nIcL6pVhWdHrhwhRj5w",
-#     client_secret="s8kfXLXMmKtHuc4h4zpEbhAyyHIptg",
-#     user_agent="Peanut by Any-Ear-8842",
+#     client_id="YOUR_CLIENT_ID",
+#     client_secret="YOUR_CLIENT_SECRET",
+#     user_agent="USER_AGENT",
 # )
 #
 # # Choose the subreddit you want to crawl
