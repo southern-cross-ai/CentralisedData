@@ -1,41 +1,11 @@
-# import praw
-#
-# # Initialize the Reddit instance with your credentials
-# reddit = praw.Reddit(
-#     client_id="YOUR_CLIENT_ID",
-#     client_secret="YOUR_CLIENT_SECRET",
-#     user_agent="USER_AGENT",
-# )
-#
-# # Choose the subreddit you want to crawl
-# subreddit_name = "python"
-# subreddit = reddit.subreddit(subreddit_name)
-#
-# # Number of posts to crawl
-# num_posts = 10
-#
-# # Crawl the subreddit for the latest posts
-# for post in subreddit.new(limit=num_posts):
-#     print(f"Title: {post.title}")
-#     print(f"Score: {post.score}")
-#     print(f"URL: {post.url}")
-#     print(f"Text: {post.selftext}\n")
-#
-#     # Crawl comments for each post
-#     post.comments.replace_more(limit=0)
-#     for comment in post.comments.list():
-#         print(f"Comment by {comment.author}: {comment.body}\n")
-#
-#     print("=" * 40)
-
 import os
 import praw
 
 # Initialize the Reddit instance with your credentials
 reddit = praw.Reddit(
-    client_id="ew9nIcL6pVhWdHrhwhRj5w",
-    client_secret="s8kfXLXMmKtHuc4h4zpEbhAyyHIptg",
-    user_agent="Peanut by Any-Ear-8842",
+     client_id="YOUR_CLIENT_ID",
+     client_secret="YOUR_CLIENT_SECRET",
+     user_agent="USER_AGENT",
 )
 
 # Choose the subreddit you want to crawl
