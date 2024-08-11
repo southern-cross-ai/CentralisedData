@@ -1,8 +1,8 @@
-# Academic Paper
+# Academic Paper Dataset
 
 # Arxiv papers
 
-## Announcement (Optional)
+## Announcement
 - Copyright: The crawling used Arxiv API to get the papers
 - Repository public available
 
