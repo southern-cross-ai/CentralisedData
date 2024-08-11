@@ -26,26 +26,23 @@ def extract_text_with_langchain_pdf(pdf_path, txt_path):
         print(f"The file {pdf_path} does not exist.")
         return
 
-    # get the name of the PDF file
+    # Get the name of the PDF file without extension to create the TXT filename
     pdf_file = os.path.basename(pdf_path)
+    txt_filename = os.path.splitext(pdf_file)[0] + '.txt'
+
+    # If txt_path is a directory, join it with the txt_filename
+    if os.path.isdir(txt_path):
+        txt_path = os.path.join(txt_path, txt_filename)
 
     # use the UnstructuredFileLoader to load the PDF file
     loader = UnstructuredFileLoader(pdf_path)
     documents = loader.load()
     pdf_pages_content = '\n'.join(doc.page_content for doc in documents)
 
-    # check if the text directory exists
-    if not os.path.exists(txt_path):
-        os.makedirs(txt_path)
-
-    # save the extracted text to a text file
-    txt_file_name = os.path.splitext(pdf_file)[0] + '.txt'
-    txt_file_path = os.path.join(txt_path)
-
-    with open(txt_file_path, 'w', encoding='utf-8') as txt_file:
+    with open(txt_path, 'w', encoding='utf-8') as txt_file:
         txt_file.write(pdf_pages_content)
 
-    print(f"Extracted text from {pdf_file} and saved to {txt_file_name}")
+    print(f"Extracted text from {pdf_file} and saved to {txt_path}")
 
 
 
