@@ -1,11 +1,53 @@
 import os
 from PyPDF2 import PdfReader
+from pdfminer.high_level import extract_text
+from langchain.document_loaders import UnstructuredFileLoader
+import nltk
+
+# Download the necessary NLTK data
+nltk.download('punkt_tab')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger_eng')
+nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('maxent_ne_chunker')
+nltk.download('omw-1.4')
 
 # Directory containing PDF files
 pdf_dir = 'files'
 # Directory to save text files
 txt_dir = 'text_files'
 os.makedirs(txt_dir, exist_ok=True)
+
+
+def extract_text_with_langchain_pdf(pdf_path, txt_path):
+    # check if the PDF file exists
+    if not os.path.exists(pdf_path):
+        print(f"The file {pdf_path} does not exist.")
+        return
+
+    # get the name of the PDF file
+    pdf_file = os.path.basename(pdf_path)
+
+    # use the UnstructuredFileLoader to load the PDF file
+    loader = UnstructuredFileLoader(pdf_path)
+    documents = loader.load()
+    pdf_pages_content = '\n'.join(doc.page_content for doc in documents)
+
+    # check if the text directory exists
+    if not os.path.exists(txt_path):
+        os.makedirs(txt_path)
+
+    # save the extracted text to a text file
+    txt_file_name = os.path.splitext(pdf_file)[0] + '.txt'
+    txt_file_path = os.path.join(txt_path)
+
+    with open(txt_file_path, 'w', encoding='utf-8') as txt_file:
+        txt_file.write(pdf_pages_content)
+
+    print(f"Extracted text from {pdf_file} and saved to {txt_file_name}")
+
+
 
 # Function to convert a single PDF to text
 def convert_pdf_to_txt(pdf_path, txt_path):
@@ -28,6 +70,15 @@ def convert_pdf_to_txt(pdf_path, txt_path):
     except Exception as e:
         print(f"Error converting {pdf_path}: {e}")
 
+def pdfminzer_pdf_to_txt(pdf_path, txt_path):
+    try:
+        text_content = extract_text(pdf_path)
+        with open(txt_path, 'w', encoding='utf-8') as text_file:
+            text_file.write(text_content)
+        print(f"Successfully converted {pdf_path} to {txt_path}")
+    except Exception as e:
+        print(f"Error converting {pdf_path}: {e}")
+
 # Iterate through all PDF files in the directory
 for filename in os.listdir(pdf_dir):
     if filename.endswith('.pdf'):
@@ -36,4 +87,5 @@ for filename in os.listdir(pdf_dir):
         txt_path = os.path.join(txt_dir, txt_filename)
 
         # Convert PDF to text
-        convert_pdf_to_txt(pdf_path, txt_path)
+        extract_text_with_langchain_pdf(pdf_path, txt_path)
+

@@ -1,643 +1,101 @@
-0 0 0 2
-
-b e F 4 2
-
-1 v 7 6 4 2 0 0 0 / h p - o r t s a : v i X r a
-
-Mon. Not. R. Astron. Soc. 000, 000–000 (1994)
-
-Printed 4 December 2018
-
-(MN plain TEX macros v1.6)
-
-An Australia Telescope survey for CMB anisotropies
-
-Ravi Subrahmanyan1,2, Michael J. Kesteven1, Ronald D. Ekers1, Malcolm Sinclair1 and Joseph Silk3 1Australia Telescope National Facility, CSIRO, PO Box 76, Epping, NSW 2121, Australia 2Raman Research Institute, Sadashivanagar, Bangalore 560 080, India 3Departments of Astronomy and Physics and Centre for Particle Astrophysics, University of California, Berkeley, CA 94720, USA
-
 ABSTRACT We have surveyed six distinct ‘empty ﬁelds’ using the Australia Telescope Compact Ar- ray in an ultra-compact conﬁguration with the aim of imaging, with a high brightness sensitivity, any arcmin-scale brightness-temperature anisotropies in the background radio sky. The six well-separated regions were observed at a frequency of 8.7 GHz and the survey regions were limited by the ATCA primary beams which have a full width at half maximum of 6 arcmin at this frequency; all ﬁelds were observed with a resolution of 2 arcmin and an rms thermal noise of 24 µJy beam−1. After subtracting foreground confusion detected in higher resolution images of the ﬁelds, residual ﬂuctu- ations in Stokes I images are consistent with the expectations from thermal noise and weaker (unidentiﬁed) foreground sources; the Stokes Q and U images are consistent with expectations from thermal noise.
-
 Within the sensitivity of our observations, we have no reason to believe that there are any Sunyaev-Zeldovich holes in the microwave sky surveyed. Assuming Gaussian- form CMB anisotropy with a ‘ﬂat’ spectrum, we derive 95 per cent conﬁdence upper limits of Qf lat < 10–11 µK in polarized intensity and Qf lat < 25 µK in total intensity. The ATCA ﬁlter function peaks at l = 4700 and has half maximum values at l = 3350 and 6050.
-
-Key words: cosmic microwave background – cosmology: observations – radio contin- uum: general – techniques: interferometric
-
-1
-
-INTRODUCTION
-
 of CMB anisotropy measurements in constraining structure formation models).
-
 Today, we are fairly conﬁdent that the large scale struc- ture grew out of primordial seed perturbations by gravita- tional instabilites in a dark matter dominated universe. The physics that dominates the coupling between matter inho- mogeneities and the cosmic microwave background (CMB) radiation anisotropies is diﬀerent on diﬀerent angular scales and the multifarious coupling mechanisms are believed to result in a complicated spectrum of radiation anisotropies (see, for example, Hu, Sugiyama & Silk 1996 for a recent review).
-
-The primary anisotropies in the CMB that result from sub-horizon couplings via gravitational, Doppler and acous- tic eﬀects are expected to create features in the anisotropy spectrum on angular scales exceeding several arcmin; the cutoﬀ at small angular scales depends on photon diﬀusion, recombination physics, any reionization at late epochs and the cosmological parameters that determine the angular size-redshift relation. Improvements in the precision of mea- surements of the band powers in anisotropies in the CMB, combined with large-scale-structure observations, lead to re- ﬁnements in the parameters of the background cosmology, models for structure generation and matter content of the universe (see Bond & Jaﬀe 1997, Lawrence, Scott & White 1998 and Gawiser & Silk 1998 for examples of the values
-
 The power in the CMB anisotropy spectrum towards small angular scales is expected to be strongly damped: the spectral cutoﬀ may constrain the ionization history of the primordial gas and mechanisms for reionization (Dodelson & Jubas 1995). Reionization may erase primary anisotropies on small angular scale; however, via the ‘Vishniac eﬀect’, reion- ization may generate secondary ﬂuctuations of signiﬁcant magnitude (Hu, Scott & Silk 1994). Gravitational lensing by large-scale structure may also transfer anisotropy power from larger to smaller scales enhancing the amplitude of pri- mary anisotropies at small scales (Metcalf & Silk 1997). The time dependence of the gravitational potential during late non-linear structure formation may imprint anisotopies on the CMB via the ‘Rees-Sciama eﬀect’ and this may be the dominant anisotropy on sub-arcminute scales (Seljak 1996). Another plausible source for small-angular-scale anisotropy is the Sunyaev-Zeldovich eﬀect in the relativistic plasma co- coons of radio galaxies (Yamada, Sugiyama & Silk 1999). Anisotropies in the CMB on arcmin scales could also pro- vide a powerful constraint on any cosmological magnetic ﬁeld (Subramanian & Barrow 1998).
-
-If structure forms by the growth of initial small per- turbations, the CMB anisotropies are expected to be par- tially polarized. This is because the matter inhomogeneities
-
-2
-
 R. Subrahmanyan et al.
-
 cause the radiation to be anisotropic, and Thomson scatter- ing of the anisotropic radiation at the last scattering sur- face generates linear polarization (Bond & Efstathiou 1984; Hu & White 1997). The fractional polarization in the pri- mary anisotropies is expected to be greater at smaller an- gular scales and the detection of polarization in the CMB anisotropies may be a fundamental test of, and provide an additional observational constraint on theories for structure formation.
-
 The secondary anisotropies result from interactions in the post-recombination era and during non-linear struc- ture formation. An important eﬀect here is the Sunyaev- Zeldovich (S-Z) scattering of the CMB as it encounters hot gas in the deep potential wells of clusters of galaxies (see Birkinshaw 1998 for a recent review). The expectations for the CMB anisotropy arising from this eﬀect are diﬃcult to compute, and depend on the abundances of dark matter halos with cluster masses that are formed at diﬀerent cos- mic epochs, and the processes by which the gas accumu- lates in these potential wells and is heated. Nevertheless, using models for the evolution of the intracluster medium and estimates of the abundances of cluster potentials from the Press-Schechter formalism or self-similar evolutionary models, distribution functions have been derived for the S- Z sources and these have been used to estimate the CMB anisotropies in diﬀerent cosmological models and scenarios for the evolution of the gas (Bartlett & Silk 1994; Marke- vitch et al. 1994). Blind surveys for S-Z clusters are expected to provide valuable inputs to our understanding of the late stages of structure formation.
-
 A deep radio survey with the VLA in an HST medium deep survey ﬁeld does appear to have detected a radio decre- ment (Richards et al. 1997); independently, a Ryle-telescope observation towards a pair of quasars has also shown a ‘hole’ in the radio sky (Jones et al. 1997). In both cases, follow-up in the optical and X-ray bands have not revealed any cluster in these directions. Because the Compton y parameter which determines the magnitude of any S-Z decrement towards a hot-gas cluster is distance independent, the S-Z ﬂux den- sity (the integrated decrement) may be observable to higher redshifts as compared to the optical/X-ray luminosities. The absence of luminous counterparts in other bands indicates that any clusters that may be responsible for the decrements via the Sunyaev-Zeldovich eﬀect should be at moderately high redshifts: the existence of collapsed massive structures at early epochs deﬁes conventional wisdom (Bartlett, Blan- chard & Barbosa 1998) and has led to alternate hypotheses for microwave decrements (Natarajan & Sigurdsson 1999). In 1990, we commenced a programme to search for arcmin-scale anisotropies with the Australia Telescope Com- pact Array (referred to as the ATCA experiment). The ﬁrst results based on a deep survey of a single ﬁeld were reported in Subrahmanyan et al. (1993); the sensitivity was improved with further observations using improved receivers and the derived upper limits were reported in Subrahmanyan et al. (1998). We have now used the Australia Telescope to im- prove the sky area covered and imaged six independent sky regions with high brightness temperature sensitivity. Our goal was to make a blind search for any ‘holes’ in the mi- crowave sky apart from deriving estimates of the arcmin scale CMB anisotropy in total intensity and polarization. In this paper, we present these observations.
-
-2 ATCA OBSERVATIONS
-
 The Australia Telescope Compact Array (ATCA; see The Australia Telescope 1992) is an E-W array with ﬁve 22-m diameter antennae movable on a railtrack. The best surface brightness sensitivity is achieved when the array is in a close- packed conﬁguration and we have conﬁgured the ATCA in a 122-m array, with the ﬁve antennae equispaced along the E-W track on stations 30.6 m apart, for these observations. In this conﬁguration, observations at declinations lower than −50◦ would be shadowed in some hour angles and shadowing results in spurious correlations in the baseline pairs involv- ing antennae whose projected areas overlap. The brightness sensitivity in the observations would progressively decrease for ﬁelds at higher declinations because of the increase in projected baselines at large hour angles. The 22-m antennae cannot be placed on stations closer than 30.6 m; therefore, we have made all observations in ﬁelds located about −50◦ in declination so that the projected spacings between adja- cent antennae would be close to the shadowing limit of 22 m over a large range of hour angles. The observations would have the best brightness sensitivity without shadowing re- lated problems.
-
 Most physical mechanisms for primary anisotropies in the CMB result in wavelength-independent ﬂuctuations in the CMB thermodynamic temperature. At centimetre wave- lengths, where the sky brightness of the 2.73 K CMB radia- tion may be approximated by the Rayleigh-Jean’s law, these CMB brightness temperature ﬂuctuations may be consid- ered to be wavelength independent. On small angular scales the dominant cause of CMB temperature anisotropy may be the S-Z eﬀect: this has a wavelength dependence. However, for this eﬀect, a fairly constant temperature decrement is expected at centimetre wavelengths.
-
 The anisotropy power in the CMB sky is usually de- scribed in terms of Cl’s in multipole l-space, where Cl = h| Clm |2i and Clm’s are the coeﬃcients in the spherical har- monic expansion of the fractional temperature anisotropy on the celestial sphere. The anisotropy variance, which is ex- pected in any diﬀerential measurement of the sky brightness temperature, and is made with an l-space window function of octave width, will be about l(l +1)Cl; therefore, the CMB anisotropy spectrum is usually a plot of l(l + 1)Cl versus l. As discussed earlier, the anisotropy power due to primary anisotropies is expected to cut oﬀ at small angles and con- sequently on arcmin scales, the expected variance in most experimental eﬀorts may be expected to be lower if the eﬀec- tive beam is smaller. There have been estimates of the CMB anisotropy spectrum arising from the decrements due to the thermal S-Z eﬀect in a cosmological distribution of clusters containing hot gas; the resulting l(l + 1)Cl is fairly ﬂat in the l-space regime corresponding to arcmin scales (Molnar 1998).
-
-In any image made with the ATCA in its ultra com- pact array conﬁguration with the ﬁve 22-m antennae located 30.6 m apart along the E-W track, provided the observations are made with same times and using receivers with the same system temperatures, the brightness sensitivity (i.e., the rms noise in the image in units of brightness temperature) would be independent of observing frequency. Observations made at higher frequencies would have smaller beams and the win- dow function corresponding to the measurements would be
-
 located higher up in l-space. Consequently, ATCA observa- tions made at higher frequencies would be attempting to make measurements of the CMB spectrum at larger l, but would be less likely to detect any primary anisotropies. On the other hand, ATCA observations at all frequencies would be equally sensitive to ‘ﬂat band’ anisotropies.
-
-The ATCA currently operates in the 20, 13, 6 and 3 cm wavelength bands; in its ultra-compact conﬁguration, the images at all these wavelengths would be confusion lim- ited at levels above those required to detect most CMB anisotropies. The confusion at these wavelengths arises from unresolved extragalactic synchrotron sources which typically have a steep ﬂux-density spectrum with a mean spectral in- dex α ≈ −0.6 (we deﬁne the spectral index by the relation Sν ∼ ν α). These sources have an integral number count that approximately follows the relation N (> S) ∼ ν −0.6S−1.2Ω, where S is the ﬂux density, ν is the observing frequency and Ω is the beam solid angle. We may assume that the discrete sources are Poisson random distributed on the sky and that the rms confusion noise is roughly the ﬂux den- sity at which we may expect one source in every synthesized beam. Because the synthesized beam scales as Ω ∼ ν −2, we may expect the rms confusion noise to scale as ∆S ∼ ν −2.2. The brightness temperature scales as T ∼ S/(Ων 2) and it follows that the rms brightness temperature ‘noise’ on the image would scale as ∆T ∼ ν −2.2. Every octave in- crease in frequency reduces the confusion noise by a factor about 4.6; therefore, we have opted to make the ATCA CMB anisotropy observations in the highest available 3 cm band. When observing with the ATCA in the ultra compact 122-m array conﬁguration, with ﬁve antennae equi-spaced 30.6-m apart along the E-W railtrack, images made using just the four 30.6-m baselines — instead of using all ten baselines — give the highest surface brightness sensitivity. Images made using just the four 30.6-m baselines between adjacent antennae would have an rms thermal noise that is a factor 10/4 larger, and a synthetic beam that is at least a factor four larger in solid angle. Because the brightness temperature sensitivity depends on the rms thermal noise (in units of ﬂux density per beam) and inversely on the beam solid angle, the images made omitting baselines exceeding 30.6 m would have a brightness sensitivity that is at least a factor 4/ 10/4 better. For this reason, the images that represent the CMB anisotropy search have been constructed using the four 30.6-m baselines alone; images made using the remaining six baselines exceeding 30.6 m have been used to derive the foreground discrete source confusion in the ﬁelds. As discussed in section 6.1 below, the CMB anisotropy search using the four 30.6-m baselines is sensitive to anisotropy power in an l-space window deﬁned by the tele- scope ﬁlter function. The observations are sensitive to CMB anisotropy with spatial frequencies that are covered by the 30.6-m baseline and, therefore, the ﬁlter function would have a smaller fractional bandwidth (and appear to be narrower) in the case of observations closer to the celestial pole where the projected baseline is, on the average, larger. As stated above, the observations are restricted to declinations south of −50◦ to avoid shadowing. Consequently, the brightness sensitivity of the 30.6-m interferometer, as also the frac- tional bandwidth covered by the interferometer in l-space, is a maximum for observations at declination −50◦. For ob- servations at declination −50◦, the 30.6-m baseline would
-
-p
-
-p
-
-ATCA survey for CMB anisotropies
-
 have a projected baseline close to the dish diameter of 22 m for a signiﬁcant fraction of the observing time; consequently, the ﬁlter function would not be narrow.
-
 The half power width of the synthesized beam for these low-resolution images is about 2 arcmin for 3-cm observa- tions at −50◦ declination. This beam size is more or less right for the detection of S-Z anisotropies due to clusters at moderate redshifts.
-
-2.1 Field selection criteria Four regions were initially selected at about −50◦ decli- nation, where highest-surface-brightness observations were possible in the 122-m array without shadowing. These were located well oﬀ the Galactic plane. The Molonglo 408 MHz survey (Large et al. 1981) lists sources with ﬂux densities exceeding 0.7 Jy at this declination and is believed to be complete to 1 Jy, the PMN survey at 4.85 GHz (Wright et al. 1994) lists sources exceeding 40 mJy with 90 per cent completeness: the selected regions had no listed sources in either of these catalogues within 30 arcmin of their centres. There are also no strong sources listed in either of these catalogues that are in the vicinity of the selected regions. We have examined the DSS data of the UK Schmidt IIIaJ plates of these regions to verify that there are no obvious peculiarities in the optical — no obvious nebulosities, clus- ters, or higher than usual star counts. The coordinates of the centres of the selected regions are in Table 1. Two pairs of regions were selected that were about 12 hr apart in right ascension, so that the deep surveys for CMB anisotropies could be made in 12-hr LST ranges that did not overlap, and the observations could use the entire time the ATCA was specially conﬁgured in the 122-m array for the CMB anisotropy experiment.
-
 These four regions were ﬁrst observed at 20 cm with the ATCA in its 750 m array conﬁguration. The aim was to detect weaker confusing sources in the regions for the purpose of using the images to select a set of small ﬁelds for deep 3 cm imaging for CMB anisotropy. The observa- tions were made during November 14-17, 1996, in the 0.75A conﬁguration and using two 64-MHz wide bands centred at 1344 and 1434 MHz. Visibility measurements over spatial wavelengths 360–3400 λ may be expected to be sensitive to confusing sources with angular scales up to a few arcmin and these images would be useful in selecting the ﬁelds for CMB anisotropy searches on arcmin scales. The absolute ﬂux den- sity scale was set by short observations of PKS 1934−638 whose ﬂux density was adopted to be 15.01 and 14.83 Jy re- spectively at 1344 and 1434 MHz. Each region was observed for about 11 hr using dual linear polarizations; the arcmin resolution images had rms noise of about 0.17 mJy beam−1 before any correction was made for the attenuation due to the primary beam.
-
-Sources may be reliably detected in the images with ﬂux density exceeding about 0.5 mJy beam−1. The ATCA primary beam has half power width of about 33 arcmin at 21 cm. Adopting an integral source count
-
-N (> S) = 1966S
-
-−0.76 J y
-
-sr
-
-−1
-
 at 1.4 GHz, based on the diﬀerential source counts in the ﬂux density range 1-50 mJy compiled in Windhorst et al.
-
-3
-
-(1)
-
-4
-
 R. Subrahmanyan et al.
-
 Table 1. Regions surveyed for confusion-free ﬁelds.
-
-Region RA(J2000)
-
-DEC(J2000)
-
-Peak Flux density Total Flux density
-
-A B C D
-
-03 28 26.40 −51 00 00.00 01 43 26.40 −50 48 21.60 14 39 33.84 −50 10 51.42 11 45 23.04 −50 57 08.64
-
-at 20 cm 16.6 mJy beam−1 19.5 mJy beam−1 16.6 mJy beam−1 21.1 mJy beam−1
-
-at 20 cm 145 mJy 205 mJy 199 mJy 207 mJy
-
 The peak and total ﬂux densities at 20 cm are quoted for images not corrected for the attenuation due to the primary beam.
-
-(1985), regions with 33 arcmin diameter may be expected to have about 2 sources exceeding 25 mJy. The peak and total ﬂux densities in the 20 cm images of the individual regions are also listed in Table 1. No surveyed region has sources exceeding 25 mJy implying that the four regions surveyed have relatively moderate numbers of the stronger sources.
-
 The imaging for CMB anisotropies was done in the 3 cm wavelength band where the ATCA primary beam drops to 10 per cent of its peak value at a radial distance of 5 arcmin. In any region with radius 5 arcmin, about 3 sources may be expected on the average at 21 cm wavelength with ﬂux den- sity exceeding 0.5 mJy. We identiﬁed ﬁeld centres within the four regions surveyed that do not have sources with 21 cm ﬂux density exceeding about 0.5 mJy within 5 arcmin radii. Assuming a mean spectral index α = −0.5, the ﬁelds may not be expected to have sources exceeding about 0.2 mJy at 8.7 GHz. A short ATCA observation at 8.7 GHz revealed a > 0.5 mJy source in a potential sub-ﬁeld in region A — an inverted spectrum source — and this ﬁeld centre was consequently rejected.
-
 Table 2. Fields observed for CMB anisotropies.
-
-Field RA(J2000) DEC(J2000) Observing Time A2 B1 B2 C1 D1 D2
-
-03 27 07.68 −50 56 22.0 01 43 50.84 −50 57 55.0 01 42 04.21 −51 00 47.0 14 39 36.72 −50 15 15.0 11 46 07.71 −51 00 55.0 11 44 38.95 −50 55 37.0
-
-44 hr 36 hr 47 hr 45 hr 46 hr 46 hr
-
 tor sources/ﬁeld centres, but with the array phased towards a sky position oﬀset 2m in right ascension and 30 arcmin in declination. This oﬀset between the pointing and phas- ing centres is not expected to cause any signiﬁcant visibility amplitude de-correlation within the spectral channels; on the other hand, systematic errors of various kinds that of- ten appear at the phase centre in Fourier-synthesis images would, in our case, be about 36 arcmin from the ﬁeld cen- tre (pointing centre) and several primary beamwidths away. The visibility data were time averaged 30 s online.
-
 A total of six ﬁeld centres were selected for the deep survey at 8.7 GHz, their coordinate centres are listed in Ta- ble 2.
-
-2.3
-
-Imaging
-
 The visibility data were imaged using the miriad data re- duction software.
-
-2.2 Observing strategy
-
 The strategy adopted was the same as that in previous ATCA searches for CMB anisotropy (Subrahmanyan et al. 1993; Subrahmanyan et al. 1998). The observations were made during July 10–29, 1997, in the 122B conﬁguration of the ATCA. The ﬁve ATCA antennae provided four 31- m baselines, three 61-m baselines, two 92-m baselines and one 122-m baseline. All ﬁelds were observed in full Earth- rotation Fourier-synthesis mode using the E-W array in 12- hr sessions so as to obtain visibilities along complete ellip- tical (u, v)-tracks in the spatial frequency domain. Observa- tions were made in a pair of 128-MHz wide bands centred at 8640 and 8768 MHz. All four polarization products — XX, YY, XY and YX — were measured for every antenna pair between the X and Y orthogonal linearly polarized sig- nals from each antenna. The visibility data were recorded in spectral line mode with 32 channels covering the 128 MHz bands.
-
-The ﬂux density scale was set by short observations of PKS 1934−638 made daily; the ﬂux density of this primary calibrator was adopted to be 2.84 & 2.79 Jy respectively at 8640 and 8768 MHz. Secondary calibrator sources were observed in short 3-min scans every 20 min during the ob- servations. The secondary calibrators and the ﬁelds were both observed with the antennae pointing at the calibra-
-
 Because the ATCA correlator has an inherent triangular weighting for the lag-spectrum in the 128-MHz bandwidth mode, alternate channels are redundant in the 33-channel frequency spectrum. Any oﬀsets in the signal sampler levels, or coupling of the sampler clock birdies into the RF signal, are expected to lead to errors in the end channels of the spectrum, and these may spill-over to the even numbered channels. For these reasons, we rejected all even numbered channels and the end channels. We also rejected channels numbered 3 and 31 because the signal-to-noise ratio was poor in these channels close to the band edges. A total of 13 useful spectral channels were retained giving an eﬀective bandwidth of 104 MHz.
-
 The phase centres were changed oﬀ-line to coincide with the antenna pointing centres (ﬁeld centres) by appropriate corrections to the channel visibility phase for the secondary calibrator and ﬁeld data. The complex antenna gains, the complex spectral response (bandpass) and the polarization leakages were derived from the secondary calibrator obser- vations and these were used to calibrate the ﬁeld visibil- ities. The ﬁeld visibilities were then averaged over the 13 frequency channels and transformed into the four Stokes pa- rameters.
-
-Images were made from concatenated data bases sepa- rately for each of the six ﬁelds. No tapering was applied to the visibility data and the 30-s visibilities were weighted
-
-ATCA survey for CMB anisotropies
-
 Figure 1. LR images of the six ﬁelds in Stokes I made using visibilities in the 0–1 kλ range. Contours at 24.2 µJy beam−1 × (−10, −8, −6, −4, −2, 2, 4, 6, 8, 10, 12, 14, 16). In this ﬁgure, as also in all the following ﬁgures, the locus of the ﬁrst null in the primary beam pattern is shown as a dotted circle with a 7 arcmin radius.
-
-5
-
-6
-
 R. Subrahmanyan et al.
-
 based on the recorded system temperatures to minimize the image noise. Hereinafter, we refer to images made us- ing the 30.6-m baseline visibilities (with spatial wavelengths less than 1 kλ) and rejecting all spacings other than those between adjacently located antennae as LR images. Those images made using exclusively the longer spacings exceeding 1 kλ are referred to as HR images. All images were synthe- sized with 10 arcsec pixels and 512 pixels a side, the choice ensured that the synthesized beams were well oversampled and the total area imaged well exceeded the primary beam size. While synthesizing each LR and HR image, the cor- responding synthetic beam pattern images were also made and these point-spread-function images are referred to as LR-PSF and HR-PSF images. The images were not decon- volved.
-
 In Table 2 are listed the total observing time on each of the six ﬁelds, the harmonic mean time per ﬁeld was 43.6 hr. The average system temperature of the 3 cm ATCA system at the observing frequency was about 42 K (Gough 1994). Given that the observations were made in dual polarization and in a pair of bands each with an eﬀective bandwidth of 104 MHz, and adopting values of 0.88 for the correlator eﬃ- ciency and 0.64 for the aperture eﬃciency of the ATCA an- tennae, it follows that the ‘naturally weighted’ images made using all the 10 baselines would be expected to have an rms noise of about 15.1 µJy beam−1. The LR images would be expected to have an rms noise that is a factor 10/4 larger, i.e., 23.9 µJy beam−1, and the HR images would be ex- 10/6 larger, pected to have an rms noise that is a factor i.e., 19.5 µJy beam−1.
-
-p
-
-p
-
 LR images of the six ﬁelds, made in Stokes I, are dis- played in Fig. 1 as contour images. HR images of these ﬁelds made in Stokes I are displayed in Fig 2. The images have not been corrected for the attenuation due to the primary beam and have not been deconvolved. The primary beam regions are indicated in the images as dotted circles repre- senting the location of the ﬁrst null of the primary beams, these have radii of 7 arcmin. We have derived the weighted rms intensity in these images by weighting the image pixel intensities by the value of the primary beam at the pixel locations. These image rms computed for the individual LR images and HR images are listed in Table. 3.
-
 Most radio sources in the sky have extremely small, if any, circular polarization. Therefore, Stokes V images are expected to be almost entirely thermal noise images. This noise is uniform over synthesized images and does not follow any taper due to the primary beam. We have constructed Stokes-V LR and HR images of the six ﬁelds and computed the image rms noise over large areas of the individual im- ages. The rms noise values are listed in Table 3. These represent our best estimates of the thermal noise compo- nent of the pixel variances in the images in Fig. 1 and 2. It may be noted that the mean variance in these Stokes V images is (24.2 µJy beam−1)2 for the LR images and (19.5 µJy beam−1)2 for the HR images. These are within 3 per cent of our estimates made above of the thermal noise based on our knowledge of the telescope parameters.
-
-3 FOREGROUND CONFUSION
-
-Clearly, the image rms in Stokes I exceeds that expected from thermal noise (the Stokes V image rms values); at least
-
 in the case of the ﬁelds A2, B1, B2 and D1 some part of the excess variance will be due to the discrete sources seen in the corresponding HR images.
-
-3.1
-
-Subtracting confusion models
-
 We have developed an algorithm for modelling the discrete sources in the ﬁelds based on the HR images and used these to subtract a signiﬁcant part of the confusion. The inputs to the algorithm are the LR and HR images of any ﬁeld as well as the corresponding synthetic beams: the LR-PSF and HR-PSF images.
-
 The algorithm iteratively identiﬁes point-source com- ponents in residual HR images. Whenever point sources are to be subtracted from any image, the corresponding syn- thesized beam (PSF) image, scaled in amplitude to have a peak equal to the point-source ﬂux density and shifted in sky position to the location of the component, is subtracted.
-
-In each iteration, ﬁrst, a residual HR image is made by subtracting the component list identiﬁed in the previous iteration. Second, estimates are derived for the rms intensity in source-free regions using pixels more than 14 arcmin from the centre. No further components are added to the model and the iterations are stopped if
-
-(i) the number of components in the model is six, or (ii) the peak in the residual HR image <∼ four times the
-
-rms in source free areas, or
-
-(iii) the image rms within 14 arcmin of the centre is within 10 per cent of the rms in source-free regions and no peak exceeds 5 times this rms.
-
 New components are added to the component list in each iteration by locating the peak pixel in the residual HR im- age within 20 arcmin of the centre. An initial estimate of the ﬂux density and position of this new component is derived by ﬁtting a 7 × 7-pixel HR-PSF beam patch to a 7 × 7-pixel im- age patch around the position of the peak. Having updated the component list with this estimate for the parameters of the new component, the iteration ends by optimizing all the component parameters jointly by minimizing the variance in a residual HR image obtained by subtracting the compo- nents.
-
 In Table 4, we have listed the components identiﬁed in the six ﬁelds. It may be noted here that all components were constrained to be positive, and the estimation of com- ponent parameters did not use the LR images in any way. The residual LR and HR images obtained by subtracting these components are shown in Figs 3 & 4.
-
 The rms of the pixel intensities in the residual LR and HR images, computed after weighting the pixels by the pri- mary beam, are also listed in Table 3. It may be noted that the variance in these residual images are, in every case, in excess of the variance in the corresponding Stokes V images. The ﬁeld B1 appears to have a signiﬁcant negative feature close to the image centre. Visual comparisons between the residual LR and HR residual images do not show any corre- spondence in the positions of the peaks in the images.
-
-The variance in the Stokes V images are a measure of the thermal noise in the images of the various ﬁelds. We have computed the weighted mean of the variances in the Stokes I images of the six ﬁelds, separately for the LR and HR images, using the Stokes V image variances
-
-ATCA survey for CMB anisotropies
-
 Figure 2. HR images of the six ﬁelds in Stokes I made using visibilities exceeding 1 kλ. Contours at 19.5 µJy beam−1 × (−6, −4, −2, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20).
-
-7
-
-8
-
 R. Subrahmanyan et al.
-
 Table 3. Rms pixel intensities in the observed ﬁelds.
-
-Field
-
-A2 B1 B2 C1 D1 D2
-
-LR image Stokes I 97.4 121.8 152.9 48.3 165.0 54.7
-
-LR image Stokes V 23.9 26.9 23.0 25.5 23.0 22.8
-
-Residual Residual LR image HR image HR image HR image Stokes I Stokes I 27.8 52.3 28.5 87.9 20.9 41.1 25.2 48.3 27.3 46.0 20.1 30.3
-
-Stokes I 47.9 49.6 56.5 25.2 80.3 24.3
-
-Stokes V 19.1 21.3 18.3 20.4 19.1 18.5
-
 All rms noise values are in µJy beam−1. The rms in Stokes I images were computed from primary-beam weighted intensities.
-
-Table 4. Confusion models for the observed ﬁelds. Field Component ﬂux density RA oﬀset DEC oﬀset (arcmin) −0.3 −1.2 1.8 −0.4 0.9 −0.3 −3.9 −16.9
-
-(µJy) 183 169 107 253 321 163 99 90
-
-(arcmin) −0.4 1.4 7.8 1.1 0.4 −0.6 −8.3 −9.1
-
-A2
-
-B1 B2
-
-C1 D1 D2
-
-455 94
-
-−0.8 −0.4
-
-0.2 1.8
-
 No sources were subtracted from ﬁeld C1.
-
 as weights. Before subtracting the confusion models, the mean variance was (51.7 µJy beam−1)2 in the HR and (117.1 µJy beam−1)2 for the LR images; after confusion subtraction, the mean variances were (25.0 µJy beam−1)2 for the HR and (52.0 µJy beam−1)2 for the LR images. The weighted mean thermal noise (Stokes V image variance) is (19.4 µJy beam−1)2 for the HR and (24.1 µJy beam−1)2 for the LR images. The ‘excess’ variance is (15.8 µJy beam−1)2 for the HR and (46.1 µJy beam−1)2 for the LR images.
-
-3.2 Residual confusion
-
-Windhorst et al. (1993) have derived the radio source counts at µJy ﬂux densities using deep images made at 8.44 GHz with the VLA. Adopting a mean spectral index α = −0.5 at these frequencies, the diﬀerential source counts are
-
 scale as (dN/dS) ∼ S−2.3, the variance contribution from sources in logarithmic intervals in ﬂux density would scale as σ2 ∼ S0.7, implying that weak sources below this range — which may be expected to be present in large numbers in every synthesized beam — would contribute little to the image variance. Our ﬁelds are selected to be devoid of strong sources exceeding 0.5 mJy.
-
 For the simulations, weighted-mean synthesized beam patterns were computed by combining all the visibilities (of all the six ﬁelds) and computing LR and HR synthe- sized beams for the combined data base. In each simulation, the sources were convolved by these beam patterns to pro- duce separate LR and HR images. Thermal noise, whose autocorrelation was consistent with the square of the cor- responding synthesized beam patterns, and with variance (19.4 µJy beam−1)2 for the HR and (24.1 µJy beam−1)2 for the LR images, were added to the simulated images.
-
 The simulated images were processed by the same algo- rithm, described in section 3.1, to subtract discrete source confusion. The residual LR images had a mean variance of (58.8 µJy beam−1)2 whereas the HR images had a mean variance of (24.5 µJy beam−1)2. We have grouped the sim- ulations in lots of six, to simulate our observations of six independent ﬁelds, and computed the mean residual vari- ance in the groups of six ﬁelds. Their distribution implies that the observed rms pixel intensity, when computed as an average over six residual LR ﬁelds, may be expected to have a ±1-σ spread of 50.8–65.8 µJy beam−1. The corre- sponding ±1-σ spread in the HR image rms values is 23.2– 25.6 µJy beam−1. The observed values of the rms pixel in- tensity as computed from the residual LR and HR images are 52.0 µJy beam−1 and 25.0 µJy beam−1 and lie within the expected ±1-σ spreads.
-
 dN dS when scaled to 8.7 GHz. S40 µJy denotes the ﬂux density in units of 40 µJy and the errors in the normalization and in the index are for a power-law ﬁt that has the ﬂux density S normalized to 40 µJy.
-
-−3S
-
-−2.3±0.2 40 µJy
-
-−1 arcmin
-
-−2 (2)
-
-= (−5.05 ± 0.80) × 10
-
-µJy
-
 The conclusion we make from the simulations is that the ‘excess’ variance we observe in the LR as well as HR images, after subtracting the derived confusion models, is consistent with the ‘excess’ expected from undetected weak sources. All of the ‘excess’ variance may be attributed to unsubtracted confusion.
-
-We have simulated skies with a Poisson random dis- tribution of faint sources adopting the source counts given in equation 2 with the nominal values quoted for the nor- malization and index. Areas of the sky of about 2 arcmin in diameter, roughly corresponding to the half-power areas of the synthesized beams of the LR images, would be ex- pected to have one source on the average exceeding 70 µJy. In the simulations, sources in the ﬂux density range 0.1– 500 µJy were included: because the diﬀerential source counts
-
-4 FIELD B1
-
-The residual image of ﬁeld B1, in Fig. 3, shows a sig- niﬁcant negative close to the ﬁeld centre. A ﬁt to the LR visibility data yields a value of −202 µJy and a position oﬀset −17′′ in RA and −28′′ in Dec from the ﬁeld centre. The peak of the negative feature is a factor 7.5 times the rms thermal noise. The corresponding residual HR image of
-
-ATCA survey for CMB anisotropies
-
 Figure 3. LR images of the six ﬁelds in Stokes I with the sources listed in Table 4 subtracted. Contours at 24.2 µJy beam−1 × (−8, −7, −6, −5, −4, −3, −2, 2, 3, 4, 5). Using equation 10, we may regard these images as representing contours of brightness temperature at 28.7 µK × (−8, −7, −6, −5, −4, −3, −2, 2, 3, 4, 5).
-
-9
-
-10
-
 R. Subrahmanyan et al.
-
 Figure 4. HR images of the six ﬁelds in Stokes I after subtracting the sources listed in Table 4. Contours at 19.5 µJy beam−1 × (−4, −3, −2, 2, 3, 4). From the telescope ﬁlter function corresponding to the HR beam, we derive the relation ∆S = 0.15Qf lat. Using this factor, the contours may be regarded as being at 131 µK × (−4, −3, −2, 2, 3, 4).
-
-ATCA survey for CMB anisotropies
-
 Figure 5. LR and HR images of the B1 OFFSET ﬁeld. The ﬁeld centre is shifted 2.2 arcmin from the centre of the B1 ﬁeld. No sources have been subtracted. Contours at 40 µJy beam−1 × (−6, −5, −4, −3, −2, 2, 3, 4, 5, 6). The position of the possible negative decrement is indicated by the star symbol in the LR image. We may regard these images as representing contours of brightness temperature at (−6, −5, −4, −3, −2, 2, 3, 4, 5, 6) × 47 µK for the LR image and 270 µK for the HR image.
-
 Field B1, shown in Fig. 4, shows no evidence for any nega- tive at this sky position: the HR image value at the position of the negative (in the LR image) is 70 µJy beam−1.
-
 It may be noted here that the negative peak in the LR image of the residual B1 ﬁeld (Fig. 3) does not appear to have the sidelobe pattern expected for an unresolved nega- tive source: this means that either the negative source has structure on this scale or that the negative arises from a chance superposition of negative sidelobes of weak confus- ing sources in the ﬁeld.
-
-2σ level.
-
 We have examined the residual LR images created by our simulations to infer the decrements that may be ex- pected from the negative sidelobes of residual unsubtracted positive confusing sources in the ﬁelds. We ﬁnd that one in six ﬁelds may be expected to have a decrement exceeding −250 µJy beam−1. A decrement of the magnitude observed in Field B1, which is −206 µJy beam−1, may be expected in 35 per cent of the observed ﬁelds. The simulations indicate that the observed decrement in B1 may well be owing to residual confusion.
-
 With the aim of examining the reality of this fea- ture, we made a separate observation of the ﬁeld with the ATCA antennae pointed towards position RA(J2000) = 01h 43m 37.s36, Dec.(J2000) = −50◦ 58′ 27.′′33. This ﬁeld centre was oﬀset 2.′2 (−127′′ in RA and −32′′ in Dec) from the previous pointing centre. We refer to this ﬁeld centre as B1 OFFSET. The 253 µJy source detected in the HR image of the B1 ﬁeld is now 3.2 arcmin from the ﬁeld cen- tre and may be expected to appear in the HR image of the B1 OFFSET ﬁeld with a ﬂux density of 120 µJy. Because the shift corresponds to about 40 per cent of the primary beam FWHM, we may expect a signiﬁcant change in the im- age ﬂuctuations that arise from the numerous weak sources in the sky. The position of the negative peak, which was seen in the residual B1 image, should now be 1.8 arcmin from the new ﬁeld centre. Correcting for the attenuation due to the primary beam, we may expect the negative to appear with a value −159 µJy beam−1.
-
 Because the B1 OFFSET image has not conﬁrmed the decrement, and because the decrement in the B1 ﬁeld does not have the sidelobe structure expected, we are led to ques- tion the reality of the decrement. We hypothesize that the decrement probably arises as a result of (i) weak confusion in the LR B1 image, and (ii) as a result of errors in the pa- rameter estimates of the strong confusing source seen in the HR image of ﬁeld B1: these errors may be due to confusion in the HR image.
-
-5 HOLES IN THE MICROWAVE SKY?
-
-In any sky image made at fGHz GHz with a beam which has a half-maximum size of θ arcmin × φ arcmin, the measured ﬂux density decrement (∆SJ y) at any image pixel may be converted to brightness temperature units using the relation:
-
-We display HR and LR images of the B1 OFFSET ﬁeld in Fig. 5. No sources have been subtracted from these im- ages. The rms thermal noise is 53 µJy beam−1 in the LR image and 42 µJy beam−1 in the HR image as estimated from the corresponding Stokes V images. At the position in the HR image, where we expect a 120 µJy source, the pixel intensity is 73 µJy beam−1. At the position of the possible decrement (indicated by the star symbol in Fig. 5), the pixel intensity is −45 µJy beam−1. The negative is not seen at the
-
-∆T = 4.6
-
-(cid:20)
-
-8.6 fGHz (cid:21)
-
-2
-
-(cid:20)
-
-1 θ × φ (cid:21)
-
-∆SJ y.
-
-In Table 5, we have listed the peak decrement detected in each of the six ﬁelds observed. The values are listed for the residual LR images and are computed over the half-power areas of the primary beams (regions of 3 arcmin radius) and using images that have been corrected for the attenuation
-
-11
-
-(3)
-
-12
-
 R. Subrahmanyan et al.
-
 Table 5. Peak decrements ob- served in the residual LR im- ages.
-
-Field A2 B1 B2 C1 D1 D2
-
-(µJy beam−1) −178 −206 −192 −93 −162 −108
-
-(µK) −254 −311 −275 −131 −232 −153
-
 The average half maximum beam size in the LR images is 106 arcsec.
-
 due to the primary beam. These values for the peak decre- ments may be considered limits on the magnitude of any decrements in the ﬁelds for comparisons with models pre- dicting S-Z source counts in blank sky regions.
-
 It may be noted here that the peak decrements listed in Table 5 for the ﬁelds A2, D1 and, in particular, B2 appear similar to the decrement listed for ﬁeld B1. However, the peak decrements seen in the A2, D1 and B2 ﬁelds are all located almost 3 arcmin from the ﬁeld centres and appear (in images prior to corrections for the attenuation due to the primary beam) at levels less than 4 times the thermal rms noise. On the other hand, the decrement in the B1 ﬁeld is seen at a level 7.5 times the rms thermal noise and is located 0.5 arcmin from the ﬁeld centre.
-
 The sky area searched for decrements, in Table 5, is six ﬁelds of size 3 arcmin in radius, corresponding to a total of 0.05 degrees2. The limit to the magnitude of decrements in this sky area is about 0.2 mJy at 8.7 GHz.
-
 The Sunyaev-Zeldovich decrement in the CMB bright- ness temperature has been detected along the lines of sight to several clusters of galaxies (see Birkinshaw 1998 for a recent review). For example, an interferometric image of the high-redshift cluster CL 0016+16 (z = 0.541) with a beam of arcmin size showed a decrement corresponding to −426 µK, at lower redshifts, Abell 773 has been seen to show a −312 µK dip (Carlstrom, Joy & Grego 1996). The S-Z decrements detected towards clusters of galaxies in target- ted observations have yielded central decrements of several hundred µK. The decrement observed along lines of sight through the centre of a cluster depends on the integral of the thermal gas pressure along the path and is independent of the distance to the cluster; therefore, it is unlikely that any rich cluster of galaxies lies in the surveyed region.
-
 Several authors have estimated the CMB anisotropies caused by cosmological populations of clusters of galaxies (Markevitch et al. 1994; Bartlett & Silk 1994; Barbosa et al. 1996). Bartlett et al. (1998) estimate the S-Z source counts at 0.75 mm wavelength adopting the Press-Schechter for- malism for the mass function and normalizing the matter density power spectrum to the present day cluster abun- dances as measured by the X-ray temperature distribution function. The limit from the ATCA observations translates to a limit of 30 mJy ﬂux density at 0.75 mm wavelength. In an Ω0 = 1 universe, we may expect about 0.1 sources in the ATCA survey region; in an Ω0 = 0.2 universe the expecta- tion is about 1 source. The ATCA survey places constraints on models with Ω0 < 0.2.
-
 Two separate interferometric images made of sky re- gions devoid of obvious clusters appear to have detected decrements. Jones et al. (1997) report a −410 µJy integrated decrement in a Ryle-telescope (RT) image, containing a pair of quasars, made with a 110′′ × 175′′ beam at a frequency of 15 GHz. A second ﬁeld showed no decrement. These corre- spond to one ∼ 20 mJy S-Z source at 0.75 mm wavelength in 0.034 degree2 sky area. Richards et al. (1997) report a −27 µJy integrated ﬂux density feature in their 30′′ resolu- tion Very-large-array (VLA) images at 8.4 GHz. A separate VLA ﬁeld observed previously showed no such decrement. The VLA results correspond to one 4 mJy source at 0.75 mm in a sky area of 0.018 degree2. These limits, as well as re- sults from the SuZIE (Church et al. 1997) and and OVRO RING experiments (Myers et al. 1993) are compared with the expected S-Z source counts by Bartlett et al. (1998).
-
 The constraints imposed on the source counts by the ATCA survey are the same as those inferred from the other experiments. It may be noted, however, that (i) the ATCA survey region considerably exceeds the sky areas covered in the other interferometric imaging surveys, and (ii) the ATCA survey is truly a ‘blank ﬁeld’ search as against the RT images which were made towards ﬁelds known to have quasars. We would also like to point out that the residual variance in the ﬁelds are dominated by, and consistent with, the expectations from residual unsubtracted confusion: con- straining the S-Z source counts to be limited to the allowed residual variance, after accounting for the variance from weak unsubtracted confusion, will be expected to provide better limits on S-Z sources and hence on allowed cosmolog- ical models.
-
-6 GAUSSIAN-FORM CMB ANISOTROPIES
-
 Some CMB anisotropies may be modelled as being Gaus- sian random in their temperature distribution. As discussed earlier, these anisotropies are usually (and completely) de- scribed by the power spectrum which is the distribution of l(l + 1)Cl in l-space. The complex spectral amplitudes at diﬀerent multipole orders are assumed to be random phase and the ﬂuctuations on diﬀerent scales are assumed to be uncorrelated.
-
-Assuming further that the anisotropy spectrum is ﬂat implies that l(l +1)Cl is a constant in l-space. The spectrum is then completely speciﬁed by its normalization which may be parametrized as
-
-l(l + 1)Cl =
-
-(cid:16)
-
-24π 5 (cid:17)
-
-(Qf lat)2.
-
-The ﬂat-spectrum CMB anisotropy results in a sky variance given by
-
-(∆T )2 =
-
-Xl
-
-6(2l + 1) 5l(l + 1)
-
-(Qf lat)2.
-
 The normalization Qf lat is referred to as the quadrupole normalization because (∆T )2 = (Qf lat)2 for l = 2 implying that Qf lat is the rms of the quadrupole anisotropy.
-
-6.1 ATCA telescope ﬁlter function
-
-In any CMB anisotropy experiment, the instrument characteristics, observing strategy and data analysis method
-
-(4)
-
-(5)
-
 Figure 6. ATCA telescope ﬁlter function corresponding to the sky variance estimate that was derived as a weighted mean of the variances in the six LR residual images.
-
-together determine a ‘telescope ﬁlter function’ (TFF) which is an l-space ﬁlter Fl that deﬁnes the sensitivity of the ob- servation to the CMB anisotropy power in diﬀerent multi- pole orders. The ATCA LR images at 8.7 GHz have a beam of about 2 arcmin and this scale corresponds to multipole orders of several thousand. In the large-l limit, the LR im- age rms ∆S expected from a ﬂat-spectrum CMB anisotropy spectrum may be approximately written in the form
-
-(∆S)2 = (Qf lat)2
-
-Xl
-
-12 5l
-
-Fl,
-
-where Fl has units (Jy beam−1 K−1)2. As discussed in Ap- pendix A of Subrahmanyan et al. (1998), the TFFs vary across the synthesized image and may be computed at any image pixel position (θ◦, φ◦) from the ‘product beam’ b(θ, φ), which is the product of the primary beam centred at the an- tenna pointing centre and the synthesized beam centred at (θ◦, φ◦). The TFF is given by
-
-2π
-
-Fl =
-
-1 2π
-
-Z 0
-
-|IF(l, ξ)|2dξ
-
-(cid:16)
-
-2k λ2
-
-(cid:17)
-
-2
-
-,
-
-where
-
-IF(l, ξ) =
-
-Z Z
-
 b(θ, φ)ei(θlcosξ+φlsinξ)dθdφ.
-
-The sky variance was estimated as a weighted average of the variances in the six LR residual images; the weights used were inversely proportional to the thermal-noise variances. Therefore, the synthesized beam used in the computation of the TFF was obtained by concatenating all the LR data and constructing a synthesized beam pattern by weighting the data based on the system temperatures recorded along with the individual visibility measurements. Because the rms in the individual images were computed by weighting the pixels using the primary-beam pattern, the TFFs computed at dif- ferent image pixel positions were averaged using the squared primary-beam pattern as weights. The resulting ATCA TFF is shown in Fig. 6. The ﬁlter function Fl peaks at l = 4900
-
-(6)
-
-(7)
-
-(8)
-
-ATCA survey for CMB anisotropies
-
-and has half-maximum values at l = 3520 and 6200. Sum- ming over the ﬁlter values yields
-
-Xl
-
-12 5l
-
-Fl = 0.713
-
-(cid:18)
-
-µJy beam−1 µK
-
-(cid:19)
-
-2
-
-.
-
-A ﬂat-spectrum CMB anisotropy spectrum with normaliza- tion Qf lat would, consequently, be expected to result in an image rms
-
-∆S = 0.844 Qf lat, where Qf lat has units of µK and ∆S is in µJy beam−1.
-
 It may be noted here that the aperture illumination of the ATCA antenna — apart from the visibility-domain (u, v)-track of the 30.6 m baseline — determines the shape of the TFF proﬁle. We have modelled the primary-beam pattern in the aperture domain taking into account the cen- tral blockage of the Cassegrain optics and a radial aperture illumination proﬁle. The parameters were determined from measurements of the beam pattern.
-
-6.2 Polarized CMB anisotropies
-
 The visibility data on the six ﬁelds have been used to construct LR images in Stokes Q and U in a search for po- larized anisotropies on arcmin scales. The image rms were computed separately for the six ﬁelds after weighting the image intensities by the antenna primary-beam pattern and these values are listed in Table 6. As discussed earlier, the expected image rms due to thermal noise may be derived from the corresponding Stokes V images and these values are also listed in the table for comparison.
-
 We have used the thermal-noise variances (variance in the corresponding Stokes V images) as weighting factors and computed the mean variance in the Stokes Q images to be (22.2 µJy beam−1)2 and that in the Stokes U images to be (21.8 µJy beam−1)2. The weighted-mean thermal noise is 24.1 µJy beam−1. There does not appear to be any ‘excess’ variance in the polarized intensity images.
-
 Examining the images without any correction for the primary-beam attenuation, the image intensities within the main lobes of the primary beams (within 7 arcmin of the image centres) are seen to be in the range +86– −81 µJy beam−1. Simulations of LR images that contain exclusively a thermal-noise variance of 24.1 µJy beam−1 re- veals that the image intensities may be expected to span the range ±82 µJy beam−1 in any random sample contain- ing 12 images. We conclude that the Stokes Q and U images of the six ﬁelds do not contain any features apart from those expected due to thermal noise.
-
-Following the procedure described in Subrahmanyan et al. (1998), we have simulated sky images assuming that the sky is devoid of sources — this is probably a reasonable as- sumption for the Stokes Q and U images — and contains only ﬂat-spectrum CMB variance. The polarized intensity LR images may be assumed to have contributions from ther- mal noise and any polarized CMB ﬂuctuations: because the ﬂuctuations owing to these two contributors would be un- correlated, we have separately simulated images containing CMB ﬂuctuations and thermal noise. Variance estimates are derived from the simulations — separately for the thermal noise and CMB contributions — in the same fashion as for
-
-13
-
-(9)
-
-(10)
-
-14
-
 R. Subrahmanyan et al.
-
 Figure 7. Likelihood functions — derived from simulations — that refer to the case of the Stokes Q and U images where there is no signiﬁcant discrete source confusion. The dotted line represents the probability distribution of the thermal-noise contribution to the observed image variance. The dashed line is the distribution expected for the CMB variance contribution assuming Qf lat = 16 µK. The continuous line is the convolution of these two curves and represents the likelihood of obtaining any observed variance conditional on Qf lat = 16 µK.
-
 Table 6. Rms pixel intensities in Stokes Q, U and V images.
-
-Field A2 B1 B2 C1 D1 D2
-
-Stokes Q 25.2 24.5 25.4 24.0 28.5 18.4
-
-Stokes U Stokes V
-
-28.6 20.5 20.6 24.0 15.7 19.8
-
-23.9 26.9 23.0 25.5 23.0 22.8
-
 All rms noise values are in µJy beam−1. The rms in these Stokes Q and U images were computed from pixel intensities weighted by the primary beam.
-
-the observations: primary-beam weighted rms is derived for each simulated image and the average variance is computed for sets of six images. In Fig. 7 we show the probability distributions for the variance contributions as inferred from the simulations; the CMB anisotropy has been assumed to have Qf lat = 16 µK and the thermal noise in the LR images is assumed to have an rms of 24.1 µJy beam−1. It may be noted here that these distribution functions do not follow a simple chi-square functional form because the image vari- ances have been estimated as a weighted sum of the squares of the pixel intensities. The mean variance in the simulated CMB-anisotropy images is (13.6 µJy beam−1)2 and this is consistent with that expected from the derived ATCA TFF (equation 10). The convolution of the two distribution func- tions — one for exclusively CMB anisotropy and the other corresponding to purely thermal noise — gives the distri- bution expected for the observed images and this is also
-
 shown in Fig. 7. The result of the convolution represents the likelihood of observing any variance value assuming CMB anisotropy with Qf lat = 16 µK.
-
 We use the likelihood-ratio test to derive upper limits on any polarized anisotropy in the CMB on arcmin scales. The null hypothesis IH1 is that Qf lat is zero in the l-space window covered by the ATCA TFF and that the observed LR images in polarized intensity have only thermal-noise variance. The likelihood function IP(σ2 obs | 0) is the probability that the observed variance is σ2 obs conditional on Qf lat = 0 and is given by the dotted line in Fig. 7. If we make the hypothesis IH2 that the CMB anisotropy has a ﬂat-band power Qf lat in addition to the expected thermal noise, the likelihood function IP(σ2 obs | Qf lat) gives the probability distribution of the observed variance. For the particular case of Qf lat = 16 µK, this likelihood function is given by the continuous curve in Fig. 7.
-
 The decision variance is the observed variance σ2 obs. If we make the hypothesis IH2 that the CMB anisotropy has a ﬂat-band power exceeding Qf lat, the probability of rejecting this hypothesis when it is true is given by the integral of the likelihood function IP(σ2 obs | Qf lat) up to the decision variance σ2 obs. This integral is referred to as the size α of the test of hypothesis IH2; 1 − α is the conﬁdence with which the observations with variance σ2 obs reject the hypothesis. The probability of accepting the hypothesis IH2 when the null hypothesis IH1 is true deﬁnes the quantity 1 − β, where β is referred to as the power of the test.
-
-The observed variance in Stokes Q and U are less than the expected variance from thermal noise. If we adopt the values of the observed variances in Stokes Q and U as the
-
-ATCA survey for CMB anisotropies
-
 Figure 8. Likelihood functions — derived from simulations which include discrete-source confusion as well as thermal noise — that refer to the case of the Stokes I images. The dotted line represents the probability distribution of the combined contribution to the image variance from thermal noise + residual confusion. The dashed line is the distribution expected for the CMB variance contribution assuming Qf lat = 28 µK. The continuous line is the convolution of these two curves and represents the likelihood of obtaining any observed variance conditional on Qf lat = 28 µK.
-
 decision variance to reject hypotheses, the tests will have powers β < 0.5. If choose to adopt the thermal-noise vari- ance of (24.1 µJy beam−1)2 as the decision variance; this will yield tests with power β = 0.5. With this choice, we reject the hypothesis that Qf lat exceeds 16 µK with 95 per cent conﬁdence. Adopting, instead, the observed Stokes Q variance of (22.2 µJy beam−1)2 as the decision variance, we conclude that Qf lat < 11 µK with 95 per cent conﬁdence; this test has a power β = 0.23. The corresponding limit based on the observed variance of (21.8 µJy beam−1)2 in Stokes U is Qf lat < 10 µK with 95 per cent conﬁdence and power β = 0.17.
-
 to thermal noise and the unsubtracted confusion. This is consistent with the observed variance in the residual images and we conclude that there is no evidence in the LR images for any CMB anisotropy contribution.
-
 images also have a signiﬁcant variance in excess of the expected thermal noise — (25.0 µJy beam−1)2 as compared to the (19.4 µJy beam−1)2 thermal noise contribution — and this is also consistent with the simulations which predict a vari- ance (24.4±1.2 µJy beam−1)2 for the combined contribution from thermal noise and residual confusion.
-
-It may also be noted that the HR residual
-
-6.3 Limits on ﬂat-band total-intensity anisotropy
-
 We derive limits on ﬂat-band CMB anisotropies in total in- tensity from the LR images of the six surveyed ﬁelds. The residual images, shown in Fig. 3, are expected to have contri- butions from (i) the telescope thermal noise, (ii) ﬂuctuations due to residual unsubtracted weak sources in the ﬁelds and (iii) any CMB anisotropy. The weighted mean of the vari- ances in the six residual LR Stokes I images was derived to be (52.0 µJy beam−1)2. As discussed earlier, the tele- scope thermal noise variance contribution is estimated to be (24.1 µJy beam−1)2 from the LR Stokes V images and, therefore, there is a signiﬁcant variance in the observed im- ages apart from the thermal noise.
-
-The simulations of discrete-source confusion, discussed in section 3.2, indicated that if we adopt the nominal source counts given in equation 2, the residual images may be ex- pected to have a variance of (59 ± 8 µJy beam−1)2 owing
-
 We assume that the sky ﬂuctuations due to any CMB anisotropy is uncorrelated with the ﬂuctuations due to ther- mal noise and residual confusion. The simulations described in section 3.2, which provided random samples of images containing the expected contributions from thermal noise and residual confusion, were used to derive the expected distribution of image variance conditional on Qf lat = 0. This distribution, IP(σ2 obs | 0), is shown as the dotted line in Fig. 8 and represents the likelihood function for the null hypothesis IH1. The distribution function for the image vari- ance contribution from a ﬂat-band CMB anisotropy with Qf lat = 28 µK is shown in Fig. 8 as a dashed line. The convolution of the two yields the continuous line in the ﬁg- ure and represents the likelihood function IP(σ2 obs | Qf lat) for the particular assumption that Qf lat = 28 µK. The ob- served variance in the Stokes I images, (52.0 µJy beam−1)2, rejects the hypothesis that Qf lat exceeds 28 µK with 95 per cent conﬁdence.
-
-The LR images, before any confusion subtraction, have an rms that exceeds the thermal noise rms by a factor almost
-
-15
-
-16
-
 R. Subrahmanyan et al.
-
-5. After subtracting the confusion models, the residual LR images are still confusion limited with an rms that is a factor about 2 higher than the thermal noise. Therefore, the esti- mation of any CMB anisotropy contribution in the residual images is critically dependent on our knowledge of, and un- certainties associated with, the source counts at the 10-µJy level. Overestimations of the source-count normalization will result in spuriously low limits on any CMB anisotropy. How- ever, we do not believe we have overestimated the expected discrete source counts because (i) the variance in the resid- ual HR images exceeds the expected variance by 0.5σ and (ii) the source counts derived by Partridge et al. (1997) in independent observations nominally exceeds the counts we have adopted here at the 10 − µJy ﬂux density level. We have incorporated the uncertainties in the normal- ization and index of the diﬀerential source counts by sim- ulating ﬁelds with Gaussian random choices of parameters for the source counts; we adopt 1-standard-deviation spreads for the parameters corresponding to the uncertainties quoted in equation 2. These simulations show, as may be expected, a 12 per cent increase in the standard deviation of image variances; however, the mean image variance is biased to a larger value: (60.5 µJy beam−1)2. Using this distribution as the likelihood function IP(σ2 obs | 0) of the null hypothesis, and adopting the observed variance of (52.0 µJy beam−1)2 as the decision variance, we ﬁnd that the observations rule out ﬂat-band CMB anisotropy with Qf lat > 25 µK with 95 per cent conﬁdence.
-
-6.4 Discussion
-
 The 4-year COBE observations of CMB anisotropy (Ben- nett et al. 1996) correspond to a ﬂat-band spectral power of Qf lat = 18 µK in the multipole range 2 <∼ l <∼ 20. Sev- eral experiments measuring anisotropies in l-space windows with centres located at multipoles up to a few hundred have reported detections corresponding to much greater spectral powers (see the website www.sns.ias.edu/∼max/cmb/experiments.html maintained by Max Tegmark for a compilation of experimen- tal results). For example, the recent Python V results (Coble et al. 1999) report band powers rising from Qf lat = 15 to 63 µK over the multipole range l = 50 to 200.
-
 At multipoles exceeding l ∼ 103, there are no reports to date of the detection of Gaussian anisotropies in the CMB; observations have, however, detected isolated ‘holes’ in the CMB towards clusters of galaxies. As discussed earlier, the tentative detections of ‘holes’ in ‘blank ﬁelds’ are also pre- sumably owing to the S-Z eﬀect in distant clusters. The SuZIE experiment (Ganga et al. 1997) limit Qf lat < 27 µK at the 2-σ level in the multipole window l = 1330–3670. Ryle telescope observations of the Lynx 2 ﬁeld (Jones 1998) limit Qf lat < 12 µK, or ∆T /T < 6.6 × 10−6, in the window 4300 < l < 8300 with 67 per cent conﬁdence. The OVRO NCP experiment (Readhead et al. 1989) limit ∆T /T < 1.7 × 10−5 at an angular scale of 2 arcmin. VLA images at 8.7 GHz limit ∆T /T < 2.0 × 10−5 at an angular scale of 1 arcmin (Partridge et al. 1997). The VLA images also limit the sky anisotropy in linearly polarized intensity to ∆T /T < 1.0 × 10−5 on the 1-arcmin scale.
-
-The ATCA observations reported here cover six in- dependent regions with a combined sky area of about
-
-0.05 degrees2. The images limit the CMB anisotropy in the multipole range l = 3520–6200 to Qf lat < 25 µK in total in- tensity and 10 µK in linearly polarized ﬂuctuations. These correspond to upper limits of (∆T /T ) < 6 × 10−6 in linearly polarized intensity and < 1.4 × 10−5 in total intensity for ﬂuctuations with an angular scale of 2 arcmin. The limits on polarized intensity ﬂuctuations are the best to date; the limits on total intensity ﬂuctuations are comparable to those set by other experiments on arcmin scale. These results are an improvement over the results published in Subrahmanyan et al. (1998) in that the inevitable confusion variance contri- bution to arcmin-scale sky ﬂuctuations at 8.7 GHz has now been accounted for. The small-angle anisotropy experiments have consistently set limits that clearly establish the down- turn in the CMB anisotropy spectrum between l ∼ 102 and 103.
-
-7 CONCLUSIONS
-
 We have made sensitive observations of six ‘blank’ ﬁelds with the aim of examining the arcmin scale anisotropy in the CMB. After subtracting confusion models derived by higher resolution data, the residual images are consistent with the expected thermal noise and residual confusion from weak undetected sources. We do not believe we have detected any S-Z decrements in the blank ﬁelds. This database is useful for deriving constraints (i) on the gas in cosmological distribu- tions of clusters of galaxies, and (ii) on the CMB anisotropy power spectrum in total intensity and polarization at arcmin scales.
-
 The variance in the images at 8.7 GHz is consistent with the expectations from thermal noise and the source counts at µJy ﬂux density levels derived by Windhorst et al. (1993). Assuming Gaussian-form CMB anisotropy with a ‘ﬂat’ spectrum, we derive 95 per cent conﬁdence upper limits of Qf lat < 10–11 µK in polarized intensity and Qf lat < 25 µK intensity. These correspond to upper limits on in total (∆T /TCM B) of 5.7–6.2 × 10−6 in polarized intensity and 1.4 × 10−5 in total intensity, where TCM B = 2.73 K and 1 ∆T = [l(l + 1)Cl/2π] 2 . The ATCA ﬁlter function peaks at l = 4700 and has half maximum values at l = 3350 and 6050.
-
 The ATCA observations are confusion limited and im- provements in detection capability require observations at higher frequencies where the confusion is less. The ATCA is currently being upgraded to operate in the 16–25 GHz band and a north spur is being added to the railtrack to allow 2-dimensional close-packed array conﬁgurations. As discussed in section 2, we expect the confusion noise to re- duce as ∆S ∼ ν −2.2, and observations at 18 GHz would have a confusion rms noise reduced by a factor 5 as com- pared to the current observations at 8.7 GHz. The angu- lar scale of the imaging would be reduced by a factor 2 to about 1 arcmin. High-brightness-sensitive observations with an ultra-compact ATCA at 18 GHz may improve limits on CMB anisotropy on arcmin scales. In particular, the upgrade would be useful in resolving the sub-structure in the X-ray gas of high-redshift clusters — detected in future blank-ﬁeld S-Z surveys — by imaging their S-Z decrement.
-
-The ATCA CMB anisotropy research website is located
-
 at www.atnf.csiro.au/research/cmbr/cmbr atca.html.
-
-ACKNOWLEDGMENTS
-
 The Australia telescope is funded by the Commonwealth of Australia for operation as a National facility managed by CSIRO.
-
-REFERENCES
-
-Barbosa D., Bartlett J.G., Blanchard A., Oukbir J., A&A, 314,
-
-13
-
-Bartlett J.G., Silk J., 1994, ApJ, 423, 12 Bartlett J.G., Blanchard A., Barbosa D., 1998, A&A, 336, 425 Bennett C.L., et al. 1996, ApJ, 464, L1 Birkinshaw M., 1998, Phy. rep., 310, 97 Bond J.R., Efstathiou G., 1984, ApJ, 285, L45 Bond J.R., Jaﬀe A.H., 1998, Phil. Trans. R. Soc. Lond. A, ‘Discus- sion meeting on Large scale structure in the Universe’, Royal Society, London, March 1998
-
-Church S.E., Ganga K.M., Ade P.A.R. et al., 1997, ApJ, 484, 523 Coble K., et al., 1999, ApJL, 519, 5 Dodelson S., Jubas J.M., 1995, ApJ, 439, 503 Ganga K., Ratra B., Church S.E., Ade P.A.R., Holzapfel W.L., Mauskopf P.D., Wilbanks T.M., Lange A.E., 1997, ApJ, 484, 523
-
-Gawiser E., Silk J., 1998, Science, 280, 1405 Gough R., 1994, Australia Telescope Technical Document
-
-AT/39.2/022
-
-Hu W., Scott D., Silk J., 1994, PRD, 49, 648 Hu W., Sugiyama N., Silk J., 1997, Nature, 386, 37 Hu W., White M., 1997, New Astronomy, 2, 323 Jones M.E., 1997, Proc. of the Particle physics and the Early
-
-Universe conf., Cambridge, April 1997
-
-Jones et al., 1997, ApJ, 479, L1 Large M.I., Mills B.Y., Little A.G., Crawford D.F., Sutton J.M.,
-
-1981, MNRAS, 194, 693
-
-Lawrence C.R., Scott D., White M., 1999, PASP, 111, 525 Metcalf R.B., Silk J., 1997, ApJ, 489, 1 Markevitch M., Blumenthal G.R., Forman W., Jones C., Sunyaev
-
-R.A., 1994, ApJ, 426, 1
-
-Molnar S.M., 1998, PhD Thesis, University of Bristol Myers S.T., Readhead A.C.S., Lawrence C.R., 1993, ApJ, 405, 8 Partridge R.B., Richards E.A., Fomalont E.B., Kellermann K.I.,
-
-Windhorst R.A., 1997, ApJ, 483, 38
-
-Readhead A.C.S., Lawrence C.R., Myers, S.T., Sargent W.L.W.,
-
-Hardebeck H.E., Moﬀet A.T., 1989, ApJ, 346, 566
-
-Richards E.A., Fomalont E.B., Kellermann K.I., Partridge R.B.,
-
-Windhorst R.A., 1997, AJ, 113, 1475
-
-Seljak U., 1996, ApJ, 460, 549 Subrahmanyan R., Ekers R.D., Sinclair M., Silk J., 1993, MN-
-
-RAS, 263, 416
-
-Subrahmanyan R., Kesteven M.J., Ekers R.D., Sinclair M., Silk
-
-J., 1998, MNRAS, 298, 1189
-
 Subramanian K., Barrow J.D., 1998, PRL, 81, 3575 The Australia Telescope, 1992, special issue of J. Electr. Electron.
-
-Eng. Aust., 12, June
-
-Windhorst R.A., Miley G.K., Owen F.N., Kron R.G., Koo D.C.,
-
-1995, ApJ, 289, 494
-
-Windhorst R.A., Fomalont E.B., Partridge R.B., Lowenthal J.D.,
-
-1993, ApJ, 405, 498
-
-Wright A.E.,Griﬃth M.R., Burke B.F., Ekers R.D., 1994, ApJS,
-
-91, 111
-
-Yamada M., Sugiyama N., Silk J., 1999, ApJ, 522, 66
-
 This paper has been produced using the Royal Astronomical Society/Blackwell Science TEX macros.
-
-ATCA survey for CMB anisotropies
-
-17

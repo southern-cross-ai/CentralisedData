@@ -91,7 +91,7 @@ for result in search.results():
     print(f"Number of search results: {num_results}")
 
     # Optionally save DataFrame to CSV file
-    csv_file_path = 'arxiv_papers_metadata.csv'
+    csv_file_path = 'arxiv_papers_summary.csv'
     df.to_csv(csv_file_path, index=False)
 
     print(f"Metadata saved to {csv_file_path}")

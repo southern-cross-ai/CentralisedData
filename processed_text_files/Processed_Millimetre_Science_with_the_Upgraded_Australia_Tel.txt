@@ -1,445 +1,72 @@
-2 0 0 2
-
-g u A 1 1
-
-2 v 2 5 1 7 0 2 0 / h p - o r t s a : v i X r a
-
-To appear in the Publications of the Astron. Soc. Aus. Preprint typeset using LATEX style emulateapj v. 25/04/01
-
-MILLIMETRE SCIENCE WITH THE UPGRADED AUSTRALIA TELESCOPE
-
 T. Wong1 and A. Melatos2 To appear in the Publications of the Astron. Soc. Aus.
-
-ABSTRACT A new astronomical window into the southern skies has been opened with the high-frequency up- grade to the Australia Telescope Compact Array (ATCA), which allows radio-interferometric mapping of sources at wavelengths as short as 3mm. In anticipation of the upgrade’s completion, a two-day work- shop was held at the University of Melbourne in November 2001. The workshop covered a diverse range of ﬁelds, tied together by a common theme of identifying key areas where ATCA observations can have an impact. More than half of the talks were concerned with molecular clouds and star formation, with the remainder covering topics such as molecular gas in the Galactic Centre, Seyfert nuclei, and high- redshift objects. Some early results from the 3mm and 12mm prototype systems were also presented. In consultation with the speakers, we are presenting in this article a summary of the talks. The original slides are available from the ATNF website. Subject headings: instrumentation: interferometers, ISM: molecules, stars: formation, galaxies: ISM,
-
-galaxies: high-redshift, masers
-
-introduction
-
-1.
-
 summarise the meeting in a cohesive way, we have been rather selective in our recollections. Slides from the talks are available for download from the ATNF website3.
-
 Millimetre (mm) astronomy has grown rapidly in the past decade, spurred by advances in receiver sensitivity and growing scientiﬁc interest in what might be termed the “cold universe.” While molecular lines are still the “bread and butter” of millimetre astronomy, a wide range of continuum sources can also be studied at these wave- lengths, and today mm astronomy spans nearly the full range of astrophysical research, from solar-system studies to cosmology.
-
-2. the atca as a millimetre interferometer
-
 The Australia Telescope Compact Array, situated near Narrabri, New South Wales (longitude 150◦ E, latitude 30◦ S) consists of six 22m diameter Cassegrain antennas. Five of the antennas are transportable along a 3km long east-west track—now supplemented by a 200m north spur extending from the centre of the track—and are being out- ﬁtted with new 3mm (85-105 GHz) and 12mm (16-26 GHz) receiver systems. The sixth antenna is ﬁxed at a station 3 km west of the track’s end and will likely be outﬁtted with a 12mm receiver only. At the time of the meeting, a 3-element prototype system was available at frequencies of 85-91 GHz and 16-22 GHz; for the current status of the upgrade see the online documentation for observers4.
-
-The success of centimetre-wave interferometry, demon- strated by facilities such as the Westerbork Synthesis Ra- dio Telescope (WSRT), led to the development of mil- limetre interferometers in the 1970’s and 1980’s. There are currently four dedicated mm arrays, all located in the Northern Hemisphere at latitudes of 35◦ to 45◦. A much larger array, to be built in Chile by an international con- sortium, will provide a manyfold increase in collecting area over all existing mm arrays put together. This Atacama Large Millimeter Array (ALMA) will be completed around 2011. In the meantime, however, another millimetre array is making its debut in the Southern Hemisphere: the Aus- tralia Telescope Compact Array (ATCA), being upgraded to operate at wavelengths as short as 3mm, is poised to open a new astronomical window into the southern skies. In anticipation of the completion of the ATCA upgrade, a workshop on millimetre-wave science was convened at the University of Melbourne on 29-30 November 2001. Participants from the Australian astronomical community, as well as guests from overseas, came to discuss and learn about areas of science that could be addressed with the new ATCA. As is inevitable with a small meeting, many areas could not be properly represented—including, but not limited to, cosmology and VLBI—so this summary should be considered only a sampling of what might be possible. We also apologise in advance if, in trying to 1 CSIRO Australia Telescope National Facility, PO Box 76, Epping NSW 1710, Australia; e-mail: Tony.Wong@csiro.au 2 School of Physics, University of Melbourne, Parkville VIC 3010, Australia; e-mail: a.melatos@physics.unimelb.edu.au 3 http://www.atnf.csiro.au/whats on/workshops/mm science2001 4 http://www.atnf.csiro.au/observers/
-
 Designed primarily as a cm array, the ATCA suﬀers from several problems as a mm array: a small primary beam, few baselines, poor aperture eﬃciency, and a far from ideal site at an elevation of 200m. In addition, the present correlator provides a maximum bandwidth of 128 MHz at each of two frequencies, much less than the 1 GHz or more that is typical at mm wavelengths (see Table 1). The velocity range that can be achieved by placing the two frequency windows side-by-side (allowing for some overlap) is limited to ∼600 km s−1 at 90 GHz. This limitation will be overcome once a new wideband (2 GHz) FX correla- tor is installed, as described during the meeting by W. Wilson. That project, to be undertaken in conjunction with development for the Square Kilometre Array (SKA), is due for completion around 2006.
-
-Despite the ATCA’s limitations as a millimetre array, once the initial stage of the upgrade (ﬁtting complete re- ceiver systems on 5 antennas) is complete in 2003, it will
-
-1
-
-2
-
-Table 1 Upgraded ATCA Compared with Other Millimetre Arrays
-
-Array
-
-ATCA BIMA IRAM NMA OVRO
-
-Altitude (km) 0.2 1.0 2.6 1.3 1.2
-
-n
-
-5 10 6 6 6
-
-D (m) 22 6.1 15 10 10.4
-
-nD2 (m2) 2420 370 1350 600 650
-
-ηA No. of Polns 2 1 1 1 1
-
-0.4 0.7 0.7 0.6 0.7
-
-Freq. Range (GHz) 16–26, 85–105 70–116, 210–270 80–116, 210–250 85–116, 213–237a 86–116, 210–270
-
-BW bmax (km) (GHz) 3.0 0.3 1.5 1.6 0.4 1.0 0.4 1.0 0.4 4.0
-
 aAlso 126–152 GHz. KEY: n—number of antennas; D—diameter of each antenna; ηA—aperture eﬃciency of each antenna; BW—continuum bandwidth after combining both sidebands or IFs, if available; bmax—maximum baseline.
-
-possess several unique strengths:
-
 Enormous collecting area, giving it an eﬀective aper- ture (ηAnD2) comparable to that of the Plateau de Bure interferometer.
-
 Ability to observe two polarisations simultaneously.
-
 Wide-bandwidth mixers based on indium phosphide MMIC technology, which need only be cooled to about 20 K, as opposed to 4 K for typical SIS junc- tions.
-
 with “ﬁrst light” in 2000 November. These included ob- servations of molecular clouds in the Milky Way and LMC and detection of dense molecular gas in nearby galaxies like NGC 253 (Figure 1) and Circinus. The highlight thus far has been the absorption spectrum of Centaurus A in the HCO+ and HNC lines, which provides the ﬁrst ∼1′′ resolution measurement of gas motions in front of the core of this radio galaxy (Figure 2). A search for CO absorption in the quasar PKS 1921-293 was also conducted.
-
 A maximum baseline of 3 km, allowing resolution as ﬁne as 0.′′2 once radiometric phase correction is implemented.
-
 As discussed at the meeting by T. Wong, mm inter- ferometry is much more challenging than cm interferom- etry, as a result of more stringent technical requirements (e.g. surface accuracy, pointing, and baseline determina- tion) and the strongly variable eﬀects of the atmosphere. In particular, ﬂuctuations in the H2O vapour layer lead to ﬂuctuations in atmospheric opacity and observed inter- ferometric phase that must be monitored with frequent calibrations. These ﬂuctuations tend to be more severe in the daytime and in summer, so winter nights are expected to oﬀer the best observing conditions. As the ﬂuctuations occur on a range of size scales, longer baselines will suﬀer from greater atmospheric phase noise under the same ob- serving conditions. Long-baseline experiments also suﬀer from a lack of absolute ﬂux calibrators, since the planets, which are the best primary ﬂux calibrators, are likely to be resolved out.
-
 The eﬀects of atmospheric phase noise can be largely undone if the relative H2O vapour column above each an- tenna in the direction of the source is known. One way to determine the water vapour column is to accurately mea- sure the strength of an H2O emission line, such as that at 22.2 GHz. This “water vapour radiometry” technique was discussed by R. Sault and is currently being tested at the ATCA, with some encouraging results. The system observes the 22 GHz line in four channels to better iso- late line from continuum emission and reduce systematic errors.
-
-B. Koribalski presented some of the ﬁrst science obser- vations made with the prototype 3mm system, beginning
-
 Fig. 1.— Deconvolved image of the nucleus of NGC 253 in the HCO+ (1–0) line. The beam size in 19.′′4 × 2.′′9. Redshifted emision (VLSR > 230 km s−1) is shown as solid contours, and blueshifted emission (VLSR < 230 km s−1) as dashed contours. The data were taken with the 3-element system on 5 October 2001 over a period of 5.5 hours, with about two hours of on-source integration.
-
 R. Manchester presented the ﬁrst image of the SN 1987A remnant at 17–19 GHz, made with the 3-element 12mm system in 2001 October. The image, based on a 12-hour synthesis, shows a ∼20 mJy source that is moder- ately resolved with a synthesised beam of 2.′′8 × 1.′′8 (see Figure 3). A ﬁt of a thin shell to the uv data gives a diam- eter of 1.′′5 and a ﬁt of a Gaussian gives a FWHM of 1.′′1. An IAU Circular (Manchester & Gaensler 2001) has been released, and follow-up observations at higher resolution are planned.
-
-Millimetre Science with ATCA
-
 Fig. 2.— Absorption spectrum of the HCO+ (0–1) line in front of the continuum source in Centaurus A. Three hours of on-source integration were obtained with baselines of 46, 77, and 122m on 6 October 2001. All three baselines have been averaged together to produce the ﬁnal spectrum. The amplitude scale is in arbitrary units.
-
 tion are poised to beneﬁt immensely—most of the Galaxy’s nearby star-forming regions (e.g. Chamaeleon, Corona Australis, Lupus, Ophiuchus), not to mention the Galactic Centre, are located in the southern sky.
-
 Fig. 3.— Image of the remnant of SN 1987A derived from a 10-hour synthesis at the ATCA. Data from two frequencies (17 and 19 GHz) have been combined. The synthesised beam (2.′′8 × 1.′′8) is shown at the lower right. The contour levels are −1, 1, 2, 5, and 10 mJy beam−1. Courtesy R. Manchester.
-
 While almost all of the gas in molecular clouds consists of H2 and He, these species do not emit radiation under conditions typically found in molecular clouds. Except in rare cases where H2 absorption against a UV source can be measured, the amount of molecular gas must be inferred indirectly. A common technique is to observe emission lines from tracer molecules like CO that have millimetre or submillimetre rotational transitions. Not only can these lines provide information on the distribution and velocity of the molecular gas, but diﬀerent molecular tracers can be used to probe diﬀerent density regimes within a cloud. The ATCA’s ability to study nearby molecular clouds is limited by its small ﬁeld of view, lack of sensitivity to extended structure, and inability to observe the bright CO(1–0) line at 115 GHz (this last constraint may be overcome in a future upgrade). Thus, studies of the frag- mentation of molecular clouds into clumps and cores (cf. Williams et al. 2000) are best undertaken with other in- struments. Better suited to the ATCA will be studies of more distant clouds, such as in the Galactic Centre and Magellanic Clouds, and studies of dense molecular cores where star formation is occurring or likely to occur.
-
-3. molecular clouds and star formation
-
-Studies of molecular clouds and star formation within them occupy a prominent place in millimetre astronomy, and were the subject of much discussion during the work- shop. Indeed, as one of the ATCA’s greatest attractions lies in its southern location, studies of Galactic star forma-
-
-3.1. Molecular clouds near the Galactic Centre
-
-Cornelia C. Lang proposed several experiments that the ATCA can perform to increase our understanding of the Galactic Centre. Long-term monitoring of the millime-
-
-3
-
-4
-
 tre ﬂux from the radio source Sgr A∗, thought to be asso- ciated with the central black hole, will help to determine whether the circumnuclear accretion disk is transitory or stable. Existing NH3, HCN, and HCO+ images of the circumnuclear disk, taken with the VLA and BIMA inter- ferometers, show ﬁlamentary streamers of molecular gas falling onto the disk, providing direct evidence of inward gas transport (McGary et al. 2001; Wright et al. 2001). However, they are inconclusive on the issue of disk stabil- ity.
-
 Single-dish mapping of molecular gas in the vicinity of the Galactic Centre Radio Arc has revealed that it is phys- ically related to the ionised gas in this region as well as to the radio non-thermal ﬁlaments (NTFs). Recently, in- terferometric studies made with OVRO reveal a complex geometrical arrangement and kinematic structure in the molecular gas (Lang, Goss & Morris 2002, submitted). The associations between the ionised and molecular gas suggest that the action of energetic winds from young stel- lar clusters (such as the Arches cluster) plays an impor- tant role in this region. The NTFs are thought to trace a large-scale, poloidal ﬁeld normal to the Galactic plane in the inner 250 pc of the Galaxy. The interfaces between the NTFs and molecular clouds may be sites where twist- ing and reversal of magnetic ﬁeld lines occurs, followed by magnetic reconnection which accelerates the electrons to relativistic speeds (e.g., Serabyn & Morris 1994). With its superior view of the Galactic Centre, high spectral resolu- tion, and dual polarisation capability, the ATCA can help elucidate these processes.
-
-Millimetre images of the Galactic Centre can be com- pared with the recent Chandra Galactic Center Survey (Wang et al. 2002), which covers the central 300 × 100 pc with a resolution (∼1′′) that is well matched to the ATCA. Such multiwavelength studies will help to resolve puzzles like the origin of the diﬀuse Fe line emission at 6.4 keV from the G.C. molecular clouds: is this ﬂuorescent line ex- cited by an energetic outburst from Sgr A∗ (Koyama et al. 1996), or from a more local source of X-rays responsible for driving the expanding molecular shells in the region (Mart´ın-Pintado et al. 1999)?
-
-3.2. Shocked molecular gas
-
-The structure and chemical composition of a shock in the ISM are controlled by the shock speed vs. In J-type, or ‘fast’, shocks, which occur for vs & 40 km s−1, molecular gas is dissociated and ionised to a substantial degree imme- diately upstream and downstream from the shock, both by collisions and by UV radiation produced at the shock front. It is only far downstream from the shock, where the gas cools to ≈ 500 K, that molecule reformation occurs. J-type shocks are ineﬃcient emitters of infrared line radiation, but strong emitters of far-infrared continuum (because the UV ﬂux is reprocessed by grains). On the other hand, in C-type, or ‘slow’, shocks, which occur for vs . 40 km s−1, the shock front is broadened by ambipolar diﬀusion, and molecules are not dissociated to the same extent. The en- ergy radiated by such shocks appears mainly in infrared lines (atomic and ionic ﬁne-structure lines and molecular rotation-vibration transitions). Since the molecules are not destroyed, they can reach much higher temperatures than in J-type shocks (Kaufman & Neufeld 1996), driving
-
 endothermic reactions and hence interesting chemistry.
-
 An important consequence of C-shocks discussed by M. Wardle at the meeting is the eﬃcient production of H2O from atomic oxygen (O → OH → H2O). This can give rise to intense water maser emission at 22 GHz and at submil- limetre wavelengths (Kaufman & Neufeld 1996). Within supernova remnants (SNRs), a strong X-ray ﬂux releases high-energy electrons which can excite the Lyman and Werner bands of H2. The resulting far-UV ﬂux can dissoci- ate some of the H2O back into OH (Wardle 1999), thereby accounting for the strong OH maser activity at 1720 MHz associated with SNRs (Frail et al. 1994). The associations between shocked H2 and OH masers in the SNRs G359.1- 0.5 (Lazendic et al. 2002) and G349.7+0.2 (Lazendic et al., in preparation) are consistent with this picture, but direct observations of H2O, using the ATCA at 22 GHz, would be valuable.
-
 Wardle also suggested a number of lines in the 3mm band which could be used to probe shock regions. Good targets are the interaction regions between a supernova remnant and a cloud; many are distant, so a 30′′ ﬁeld of view is acceptable. If X-ray induced dissociation of water is indeed occurring, one would also expect the SO2/SO ra- tio to be aﬀected, since SO2 is more easily dissociated than SO. This could be tested by observations of the SO(32–21) transition at 99.3 GHz and the SO2(313–202) transition at 104 GHz. With the existing prototype system, the ATCA can already image the shock-tracing SiO(2–1) line at 86 GHz. The presence of SiO in the gas phase is an indica- tion of grain sputtering (Schilke et al. 1997).
-
-3.3. Identifying molecular cores
-
 As reviewed by T. Bourke, molecular cores have typ- ical masses of 1–10 M⊙ and sizes of 0.1–0.5 pc. They therefore occupy a small fraction of the mass and an even smaller fraction of the volume of an entire cloud. Since cores with embedded young stellar objects (YSO’s) will be heated, they can be detected in wide-ﬁeld maps of molecular clouds in infrared or submillimetre dust emis- sion. Such maps will be provided by focal plane arrays on single-dish telescopes, such as the SEST Imaging Bolome- ter Array (SIMBA), and by an upcoming Legacy project on the Space Infrared Telescope Facility (SIRTF). With its high resolution and sensitivity, the ATCA will be im- portant for detailed studies of the cores identiﬁed by such surveys.
-
 Starless cores, which by deﬁnition are not (yet) infrared sources, are probably best identiﬁed using line emission from dense gas tracers such as NH3 (23 GHz), CS (98 GHz), and N2H+ (93 GHz). The system of NH3 lines is also useful for determining densities and temperatures within cores. Temperature diagnostics are essential be- cause observed linewidths may be dominated by turbulent motions.
-
-While nearby clouds like Taurus are important labo- ratories for studying low-mass star formation, identifying sites where massive (>10 M⊙) star formation is occurring is considerably more diﬃcult, due to the rapid evolution- ary timescales for massive stars, their tendency to form in clusters where source confusion is a problem, and their relative scarcity (hence, they tend to be observed at larger distances). The basic technique, as outlined by Bourke, is
-
-Millimetre Science with ATCA
-
 to search for cores with dense gas (as traced by CS emis- sion) and hot dust (as traced by IRAS far-infrared ﬂuxes) where the massive protostar has not yet ionised its sur- roundings (i.e., no detectable 5 GHz emission from an H II region). A useful starting point would be the catalogue by Bronfman et al. (1986).
-
 Masers are another important signpost for massive star formation, as pointed out by V. Minier. Class II methanol masers, especially the lines at 6.7 and 12.2 GHz, appear to be strongly correlated with the early stages of massive star formation, namely outﬂows and hot molecu- lar cores, but maser activity apparently peaks before the emergence of an ultracompact H II region (Minier et al. 2001).
-
 they allow better discrimination between the diﬀerent ef- fects (infall, rotation, outﬂow, and turbulence) which can be superposed in a single-dish beam. Indeed, the best- known candidate for a collapsing protostar, in the isolated globule B335 (Zhou et al. 1993; Choi et al. 1995) looks less clear-cut when viewed at higher resolution (Wilner et al. 2000). This raises the question of whether single- dish data alone can suﬃciently constrain the range of pos- sible models. To date, the most convincing evidence for infall motions—line proﬁles with the “inverse P Cygni” shape (blueshifted emission with redshifted absorption)— has been gathered with interferometers (e.g., Di Francesco et al. 2001), where the beam is suﬃciently small to see the infalling gas in absorption.
-
-3.4. From dense cores to protostellar disks
-
 The formation of protostellar disks is still poorly un- derstood. Schematically, it appears that dense cores form within molecular clouds (perhaps at the intersections of ﬁlamentary structure) and then collapse gravitationally to form rotationally supported disks. Yet the dynamical pro- cesses and timescales involved in disk formation are still quite uncertain. A useful idealised model (neglecting rota- tion and magnetic ﬁelds) is the “inside-out” collapse model of Shu (1977), which represents the collapse of a singular isothermal sphere. This model predicts power-law density and velocity proﬁles of n(r) ∝ r−1.5 and v(r) ∝ r−0.5 in the inner, collapsing regions (see Evans 1999).
-
 G. Blake pointed out that high angular resolution is also needed to study the transition from the embedded phase, where most of the gas is in an infalling envelope, to the T Tauri phase, where most of the gas is in a rotating disk, as the angular size scales involved are ∼1000 AU, or 7′′ at the distance of Taurus. This transition appears to occur quite rapidly, given the apparent paucity of tran- sitional forms (one example is proposed by Hogerheijde 2001). Disk envelopes can be traced via the HCO+ and HCN lines, both of which are accessible with the ATCA prototype system, while the disk itself should be trace- able in continuum emission, especially once the wideband correlator is available.
-
-3.5. Modelling disk evolution
-
 M. Hunt described how millimetre spectroscopy can be used to determine chemical abundances and physical conditions in molecular cloud cores. She presented the results of single-dish studies of southern molecular clouds with Mopra and SEST. Of particular interest are molecules that can be observed at several optically thin transitions, so that a “rotation diagram” (Goldsmith & Langer 1999) can be used to infer the kinetic temperature, under the as- sumption that the level populations are in local thermody- namic equilibrium (LTE). Corrections for departures from LTE can be made using the large velocity gradient (LVG) approximation. Among the potential tracers for ATCA studies are CH3OH (at least 7 thermal transitions from 86–115 GHz), HC3N (3 transitions), and OCS (3 transi- tions). The ATCA will be able to perform these studies at much higher resolution, reducing the uncertainties associ- ated with averaging over a ﬁnite beam.
-
 As reviewed by S. Maddison at this meeting, simula- tions are an important tool for understanding the evolu- tion of protostellar disks. Massive disks are susceptible to gravitational instabilities, which can induce mass accre- tion and hence feed back on the gravitational potential. These eﬀects are diﬃcult to model analytically but are well-suited for N-body simulations. An important obser- vational input is the mass surface density of the disk, which can be crudely estimated from the mass and radius. In the early stages of accretion, when the disk is massive, gravi- tational instabilities dominate and can lead to spiral arm formation or disk fragmentation—which can in turn lead to binary or giant planet formation. In later stages, most of the mass has accreted to the centre, the disk rotation is nearly Keplerian, and accretion is driven by turbulent viscosity.
-
 T. Bourke reviewed the rapidly growing literature con- cerned with spectroscopic infall signatures in dense cores. The most common signature, observed in optically thick lines like HCO+, is an asymmetric line proﬁle skewed to- wards the blue, since the red side of the line is formed at larger (hence cooler) radii from the central source than the blue side (see explanation in Evans 1999). In addition, the presence of a cold, static envelope outside the collapse region leads to a self-absorption feature near the systemic velocity. Examples of line proﬁles that match these pre- dictions are given in studies by Gregersen et al. (1997) of embedded YSO’s and Lee et al. (1999) of starless cores. These authors also show that blue-skewed proﬁles are not seen in optically thin tracers like N2H+ or H13CO+, in agreement with infall models.
-
-While most of these observations were made with single- dish telescopes, high-resolution data are important in that
-
 A nice example of concordance between theory and observation occurs in the case of circumbinary disks. Subarcsecond-resolution observations of GG Tau (Guil- loteau et al. 1999) show a central hole in the dust dis- tribution, consistent with the gap that should be cleared by resonant torques in a binary system. Observations at still higher resolution, however, will be needed to test the more detailed predictions of the simulations, such as the formation of bisymmetric spiral structure and accretion streams feeding the stars.
-
-3.6. Disks around pre-main-sequence stars
-
-G. Blake reviewed observations of protoplanetary disks, such as those associated with T Tauri stars. With radii of order 100 AU (1′′ at the distance of Taurus), sub- arcsecond resolution will be needed to study such disks. Such resolution has recently been achieved by other mm
-
-5
-
-6
-
 arrays (e.g., Simon et al. 2001, using the IRAM Plateau de Bure), and should be achievable by the ATCA once the radiometric phase correction system is operational. Even with a small number of baselines and relatively incom- plete coverage of the visibility plane, the basic structure of disks can be investigated by modelling the visibilities directly (e.g., Guilloteau & Dutrey 1998).
-
 Molecular lines can be a valuable probe of disk kine- matics, but the large ranges in density and temperature around YSO accretion disks lead to a complex chemistry which is vital to understand. An important phenomenon is the depletion of molecules onto dust grains that occurs primarily at high densities and low temperatures but can be reversed by irradiation and shocks. The commonly em- ployed molecular tracer CO, for instance, may be depleted even when H2 remains in the gas phase. Such “freeze-out” is especially likely near the disk midplane, where densi- ties are highest. Where CO is detectable, it is likely to be optically thick and trace only the disk’s outer layers; observing rarer CO isotopes, such as 13CO (110.2 GHz) and C18O (109.8 GHz), will be crucial for probing the vertical structure of disks. This will be a key focus for future high-resolution studies, and a strong argument for 110 GHz capability at the ATCA.
-
 Another way to trace the disk kinematics is via maser emission. The relative fringe phase between maser spots is insensitive to baseline errors and atmospheric eﬀects (Wright & Plambeck 1983), and can be used to deduce their relative positions to hundredths of an arcsecond if the spots are separated in velocity (e.g., Plambeck et al. 1990). In addition, once the instrumental baseline has been determined by observing quasars across a wide range of hour angles and declinations, absolute position informa- tion is also available (e.g., Forster et al. 1978).
-
 For deducing physical quantities such as density, tem- perature, and chemical composition, observations of mul- tiple lines, including (for density and temperature) transi- tions between diﬀerent energy levels of the same molecule, are necessary. Because of the ATCA’s limited frequency range, many of the commonly used molecular tracers will only be observable in a single transition (generally the J = 1 → 0 line). Nonetheless, an interferometer map may still provide useful constraints on source geometry to complement single-dish measurements. Examples of stud- ies that have exploited this method include Dutrey et al. (1997) and Hogerheijde et al. (1997). Infrared spectra can also provide complementary information on physical con- ditions, with the advantage that many lines can be ob- served simultaneously in a given spectrum (see e.g. the review by van Dishoeck & Blake 1998).
-
-3.7. Bipolar Outﬂows
-
 Outﬂows from star-forming cores are ubiquitous, as pointed out by T. Bourke, but are often so embedded in dust that they can only be studied in the radio. Fine velocity resolution is critical, as the outﬂow speeds can be as little as a few km s−1. Spatial resolution is essential as well, especially in crowded regions where identifying the source of the outﬂow can be problematic. Some of the ob- vious southern targets are regions around ρ Ophiuchi, R Coronae Australis, and Circinus.
-
-While CO is the usual tracer because of its high abun-
-
 dance and low critical density, other molecular lines (e.g. from CS or NH3) can provide additional information. Of particular importance for the ATCA in the near term is the thermal SiO line at 86.8 GHz, which falls within one of the frequency windows available to the 3-element pro- totype system. The SiO molecules are liberated from dust grains shocked by the outﬂow, and thus trace the outﬂow more directly than a general gas tracer like CO. The pres- ence of an outﬂow is often indicated in single-dish spectra by broad line wings at relative velocities of up to ∼60 km s−1.
-
 Although the origin of bipolar outﬂows remains contro- versial (see reviews by Shu et al. 2000; K¨onigl & Pudritz 2000), there is little doubt that magnetic ﬁelds play an im- portant role in accelerating and collimating the observed jets. Magnetic ﬁelds in dense molecular regions are usu- ally revealed by the linear polarisation of thermal emission from spinning dust grains. In regions where the continuum is weak, it is still possible to detect polarisation in molec- ular line transitions due to the Goldreich-Kylaﬁs (Goldre- ich & Kylaﬁs 1981) eﬀect, although this eﬀect is rarely observed. For recent detections see Greaves et al. (1999) and Girart et al. (1999). With its exceptional sensitivity and dual polarisation capability, the ATCA should be in a good position to exploit this technique.
-
 R. G. Smith stressed the importance of complemen- tary infrared observations. IR absorption spectra are sen- sitive to the presence of ices, since the same molecule produces diﬀerent absorption proﬁles in the gas vs. solid phase. Optical and near-infrared polarimetry can be used to reveal light that has been scattered by a disk. These techniques were illustrated in the case of OH231.8+4.2, an evolved star in which numerous molecular lines have been observed (Morris et al. 1987; S´anchez Contreras et al. 2000). Of particular interest among these is HCO+, which appears to be enhanced in the lobes of the outﬂow, per- haps due to shock-induced reactions.
-
-3.8. Debris Disks
-
 Late in their evolution, protostellar disks have dispersed most of their gas and a debris disk remains, with a mass only a few percent of the central star. Observations of such disks (and their immediate precursors, the disks around T Tauri and Herbig Ae/Be stars) were reviewed by Chris Wright. Debris disks were ﬁrst identiﬁed as ex- cess far-infrared emission around main sequence stars like Vega (α Lyrae) and β Pictoris. Ground-based (and more recently HST) imaging and spectroscopy revealed dusty disks around these stars, sometimes with warps and gaps indicative of planetary perturbers.
-
 A primary motivation for studying these systems is to determine the timescale for disk dispersal, which is impor- tant for constraining theories of planet formation. This is best done by comparing the dust emission from disks in various stages of evolution (e.g., Holland et al. 1998). Although inferring dust masses from millimetre or submil- limetre continuum emission is hardly straightforward, one can get a handle on the grain properties using mid-infrared spectroscopy of the 10µm and 20µm silicate features.
-
-Studying the disk rotation and gas-phase chemistry re- quires molecular line observations. However, searches at millimetre wavelengths for gas in debris disks have gener-
-
-Millimetre Science with ATCA
-
 ally been unsuccessful (e.g., Liseau & Artymowicz 1998). Direct observations of H2 with the Infrared Space Obser- vatory (ISO) indicate that there is indeed molecular gas present (Thi et al. 2001), so CO must be strongly depleted (by 2 to 3 orders of magnitude) compared to typical re- gions of molecular clouds. The reason for this depletion could be a combination of photodissociation and freeze- out onto grains. In addition, at temperatures above 20 K, the J = 2 and higher levels of CO are preferentially pop- ulated compared to J = 1, and the CO(1–0) line is thus relatively weak (Liseau & Artymowicz 1998). Indeed, the disk around the nearby T Tauri star TW Hya has been de- tected more strongly in the higher J transitions (Kastner et al. 1997), with no CO(1–0) detected at Mopra (upper limit ∼0.3 K in a 30′′ beam). These results suggest that heating of the disk is rather eﬃcient, probably due to ﬂar- ing of the outer parts of the disk (cf. HST observations by Burrows et al. 1996).
-
-4.
-
-interstellar and circumstellar masers
-
-4.1. Methanol masers
-
 Methanol (CH3OH) masers are generally found in ac- tive star-forming regions, and have traditionally been di- vided into two empirical classes. Class I masers are well-separated from compact continuum sources and OH masers. Class II sources are generally associated with ul- tracompact H II (UCHII) regions, although this associ- ation has become less convincing with higher resolution data. Nonetheless, since certain maser lines are only seen in Class I sources and the rest only in Class II sources, the distinction between the two classes appears to have a physical basis. Methanol maser lines have been detected at numerous frequencies from 6.7 to 157 GHz, with the brightest lines being the Class II transitions at 6.7 and 12.2 GHz. The maser “spots” themselves have sizes of or- der 1 milliarcsecond, although they are typically found in clusters of up to an arcsecond in size.
-
 V. Minier reviewed observations of the spatial distribu- tion of masers, many of them conducted at milliarcsecond resolution with VLBI. Interestingly, it appears that the 6.7 and 12.2 GHz masers are often oﬀset from their nearest UCHII regions by several arcseconds (Walsh et al. 1998; Minier et al. 2001). In these cases, they appear to coincide instead with hot molecular cores (HMCs) seen in NH3 and CH3CN. A possible evolutionary scenario was presented, in which methanol masers form in the protostellar (HMC) phase, the young star begins to ionise its surroundings and destroy the masers, and ﬁnally an UCHII region emerges without maser activity. Testing this scenario requires re- solving individual protostars using high-resolution instru- ments, inferring their masses from continuum ﬂuxes, and inferring their ages by comparing observed spectral line ratios with chemical models (e.g., Rodgers & Charnley 2001). Much of this work should be possible with the ATCA.
-
-A. Sobolev discussed how physical conditions can be inferred from observations of molecular masers and ther- mal lines. Besides CH3OH, a number of other maser tran- sitions can be studied, including H2O, OH, SiO, and NH3. Among the transitions of particular interest for the ATCA upgrade is the 95.2 GHz Class I methanol maser. A south- ern survey of these masers was recently conducted with
-
 the Mopra telescope by Val’tts et al. (2000). The spectra independently of methanol masers often show multiple, varying components that are generally attributed to mo- tions within the molecular cloud, and can thus be used to probe the turbulent velocity spectrum. For example, the positions and spectra of masers near 25 GHz detected in the Orion Molecular Cloud (Johnston et al. 1992) can be modeled in terms of Kolmogorov-like turbulence, al- though the spectrum appears to fall more steeply with wavenumber than the standard Kolmogorov law (Sobolev et al. 1998). Meanwhile, thermal lines, such as CS(2–1) at 96.4 GHz, SiO(2–1) at 86.8 GHz, and CH3OH (2K–1K) at 96.7 GHz, provide useful information about tempera- ture, density, and shock chemistry, while high-resolution (interferometric) mapping can be used to study jets and shocks.
-
 A more detailed look at the excitation of Class II methanol masers was provided by D. Cragg. Although the formation of inverted populations (“pumping”) that can lead to masing remains an area of ongoing investiga- tion, Class II transitions are thought to be pumped radia- tively by infrared photons from the warm dust surrounding young massive stars. While the IR photons produce the population inversion, bright masers are the result of high methanol abundance, together with beaming and/or am- pliﬁcation of the UCHII background continuum. Sobolev & Deguchi (1994) and Sobolev et al. (1997b) have mod- eled these processes in detail to reproduce the high ob- served brightness temperatures of the 6.7 and 12.2 GHz masers. Strong masing is found to occur for dust temper- atures Td > 150 K, gas densities 106 < nH [cm−3] < 108, and methanol abundances relative to H2 of > 10−7. The models also predict Class II masers at 81.0, 85.6, 86.6, 86.9, 94.5, 108.9, and 111.2 GHz (Sobolev et al. 1997a), in addition to the relatively strong line at 107.0 GHz, which has already been detected in over 25 sources (Val’tts et al. 1999; Caswell et al. 2000). Observational progress in de- tecting new maser transitions has been rapid, with recent detections of the 86.6 and 86.9 GHz masers in the proto- typical Class II source W3(OH) reported by Sutton et al. (2001) using BIMA, and of the 85.6, 86.6, and 86.9 GHz masers in the rich southern source G345.01+1.79 reported by Cragg et al. (2001) using SEST and Mopra.
-
-4.2. Late-type variable stars
-
 Molecular masers are also observed around late-type variable stars such as Miras, which are characterised by pulsation periods in the range of ∼100 to ∼500 days, strong molecular bands in their optical spectra (TiO and VO for type M, ZrO for type S, CN and C2 for type C), and bright Balmer emission lines. The Balmer lines are pro- duced by strong atmospheric shocks driven by the stellar pulsations; the outgoing, spherical pressure wave steep- ens to form a shock as it propagates into a decreasing density gradient. Mass loss at a rate of up to 10−5 M⊙ yr−1 creates a circumstellar envelope which hosts masers such as OH, H2O, SiO, and HCN. The SiO and HCN masers are believed to arise close to the stellar photosphere (R ∼ 1014 cm), whereas the H2O masers are associated with the expanding shell at distances R ∼ 1014–1016 cm, and OH masers with the outer parts of the shell at dis- tances R & 1016 cm.
-
-7
-
-8
-
 The light curves of late-type variables vary with wave- length, as discussed by G. Rudnitskij. For example, the near-infrared maxima lag behind the optical maxima by about 0.1P , where P is the period (Lockwood & Wing 1971). The H2O maser ﬂux also appears to lag behind the optical ﬂux, by about 0.05–0.35P in RS Virginis (Lekht et al. 2001). Such a large phase lag appears to rule out ra- diative pumping; instead, it is proposed that the arrival of a periodic shock into the masing region leads to enhanced collisional pumping of the maser (Rudnitskij & Chuprikov 1990). Consistent with this hypothesis is the presence of a peak in the cross-correlation function at a lag of 3–5P (where P ≈ 1 yr), roughly the time for a shock to travel from the stellar surface to the region where masers can form (R ≈ 1014 cm). Shock pumping is also suggested for the H2O maser ﬂare in R Leo that was observed ∼18 months after an Hα ﬂare (Esipov et al. 1999). Although the H2O and SiO maser spots are expected to be unre- solved by the ATCA, it was noted that if they are suﬃ- ciently bright and appear at distinct velocities, then their relative positions can be determined to a fraction of a beam (Plambeck et al. 1990; see §3.6).
-
 Rudnitskij closed his presentation with the provocative suggestion that Hα ﬂares may be due to a Jovian-sized planet in an eccentric orbit at a few AU, which has sur- vived the red giant phase and excites strong atmospheric shocks during each periastron passage. If the stellar mass loss is asymmetric, a highly eccentric planetary orbit can be maintained against the circularising action of viscous torques.
-
-5.
-
-interstellar medium in galaxies
-
 S. Curran noted that the ATCA is well suited to mapping the spatial distribution of molecular gas within Seyfert galaxies. Notably, the two nearest star- burst/Seyfert hybrids, NGC 4945 and Circinus, are only observable with southern telescopes. An important obser- vation would be to demonstrate the ability of a dusty cir- cumnuclear torus to collimate a molecular outﬂow: Curran et al. (1999) argued for the existence of such an outﬂow in Circinus based on SEST mapping, but higher resolu- tion observations are needed to conﬁrm its association with the observed ionisation cone (Veilleux & Bland-Hawthorn 1997, and references therein).
-
 Another unresolved issue centres on the question of how well the dense gas tracer HCN correlates with star for- mation. NGC 4945 shows a higher HCN/CO ratio, and a higher HCN/FIR (far-infrared) ratio, than Circinus de- spite lower gas densities (∼ 104 vs. 105 cm−3) (Curran et al. 2001). In light of BIMA maps of the Seyfert galaxy NGC 1068 which show that most of the HCN is concen- trated towards the centre, whereas CO and star formation are located in a ring ∼1 kpc in radius (Helfer & Blitz 1995), this suggests that much of the HCN emission in NGC 4945 comes from more diﬀuse gas associated with the dusty torus in the inner ∼10 pc, whereas in Circinus it is associated with star-forming cores in the ∼500-pc-radius molecular ring. However, better angular resolution will be needed to test this hypothesis.
-
-M. Dopita discussed the implications of recent theo- retical work on the predicted spectrum of dust emission at millimetre wavelengths. First of all, while the dust
-
 absorption coeﬃcient κ is usually assumed to scale as κ ∝ ν0.7 at low frequencies, implying a steeply declining emission spectrum with wavelength, laboratory measure- ments by Mennella et al. (1998) indicate that κ (and hence the emissivity) is strongly temperature-dependent, so that hot dust would show excess emission at long (millimetre) wavelengths. This could be an important consideration for interpreting mm/sub-mm continuum ﬂuxes from galac- tic nuclei. Secondly, electric dipole radiation from small (∼100 atoms) aspherical, rotating grains is predicted to peak at a rest frequency near 30 GHz (Draine & Lazar- ian 1998). This prediction follows from a consideration of several eﬀects including “plasma drag” (the interaction of the grain’s dipole moment with passing ions) and “electro- static focussing” (the change in the collisional cross section due to electrostatic attraction or repulsion), and may ex- plain the excess background emission near this frequency observed by Leitch et al. (1997) and others. Finally, mag- netic dipole radiation can be emitted by dust containing ferromagnetic materials (Draine & Lazarian 1999), with emission peaking in the tens of GHz (depending on the characteristic gyrofrequency).
-
-6. high-redshift molecular gas
-
 T. Wiklind reviewed the observability of molecular gas at high redshift. Studies of emission and absorption are complementary, with emission lines providing global prop- erties (gas content and rotational velocity) whereas ab- sorption lines probe the gas on much smaller scales and with much greater sensitivity. Although the number of detections to date is small, the fact that the CO line has already been observed out to z ∼ 5 has allayed concerns that low metallicities would render it undetectable. On the other hand, there is little doubt that metallicity does aﬀect the LCO/MH2 ratio (e.g., Maloney & Black 1988), so the objects detected (especially in emission) are likely to be unusually luminous and dusty. Moreover, optimistic early assessments of the detectability of CO at z > 5 (Silk & Spaans 1997) have been questioned by more recent sim- ulations (Combes et al. 1999).
-
 As of 2001 November, thirteen CO emission sources had been detected at z > 1 (all with interferometers, which provide the necessary gain stability for long integrations); more than half of the detected sources appear to be gravi- tationally lensed. The highest redshift source is at z=4.69 (Omont et al. 1996). Note that because of the increased cosmic microwave background (CMB) temperature at high redshift, higher J transitions of CO can be as bright or even brighter than the J=1→0 transition. Thus, high- redshift sources can still be detected in the 3mm band, as high J transitions are redshifted into this band. Figure 4 shows the redshift coverage of the ATCA system, assuming its frequency range can be extended to 115 GHz.
-
-Absorption lines can be detected out to any redshift as long as a suitably bright continuum source is available. For instance, one can achieve comparable signal-to-noise on the z > 0.89 quasar PKS 1830-211 (Wiklind & Combes 1996) as on a nearby galaxy like Cen A. The integrated opacity can be approximated as
-
-Z
-
-τν dν ∝
-
-Ntot T 2 x
-
-µ2 0
-
-where Ntot is the total column density of the molecule,
-
-Millimetre Science with ATCA
-
 Tx is the excitation temperature given by the level pop- ulations, and µ0 is the permanent dipole moment. This expression shows that absorption is particularly sensitive to cold gas, and that a molecule with a high dipole mo- ment like HCO+ can be as strong as CO in absorption, Including the HCO+ series of despite lower abundance. lines allows for even more complete redshift coverage in the 3mm band (Figure 4).
-
 With its excellent sensitivity, the ATCA should be a superb tool for detecting molecules in high-redshift galax- ies. Potential emission targets are best identiﬁed at sub- millimetre wavelengths (e.g., Frayer et al. 1998), where the strongly increasing dust emission with frequency oﬀ- sets the dimming due to increased cosmological distance (Hughes 1996). The SCUBA and SIMBA instruments on the James Clerk Maxwell Telecope (JCMT) and the SEST respectively are being utilised for such searches. Red- shifts can be determined by several techniques, listed here in order of decreasing accuracy: (1) optical spectroscopy (e.g., Ivison et al. 1998), (2) multi-colour optical pho- tometry (e.g., Mobasher et al. 1996), or (3) the radio-to- submillimetre spectral index (Carilli & Yun 1999). While optical redshifts (methods 1 and 2) are more accurate, Smail et al. (2000) have concluded that most of the SCUBA-detected sources are at z & 2 and do not have optical identiﬁcations. The third method, based on the assumption that the observed correlation between radio and far-infrared emission in star-forming galaxies (Condon 1992) is valid at high redshift, requires only ﬂux measure- ments at 1.4 and 350 GHz.
-
-Potential absorption targets can be selected from cata- logues of radio-loud (especially millimetre-loud) QSO’s. In principle, optical and/or near-infrared colors can be used
-
 to select quasars which are reddened by dust (Webster et al. 1995), as would be expected if there were intervening molecular gas. On the other hand, as noted by R. Web- ster and M. Drinkwater at the meeting, synchrotron emission may account for the reddened spectra in a large fraction of cases (Francis et al. 2001), highlighting the need for more reﬁned selection criteria. Yet another problem is choosing the observing frequency in the absence of a reli- able optical redshift (for either the background source or the absorber). Lacking redshift information, it should still be possible to scan across the 3mm band in a reasonable amount of time (e.g., Wiklind & Combes 1996), particu- larly once the ATCA’s bandwidth has been upgraded.
-
 An increased sample of molecular gas detections at high redshift would beneﬁt a variety of studies. By pro- viding accurate redshifts for submillimetre sources, they would signiﬁcantly improve our knowledge of the evolu- tion of massive galaxies and of the star formation rate. In addition, by observing multiple transitions of the same molecule and deriving the excitation temperature, one can place upper limits on the CMB temperature as a function of redshift.
-
-As discussed by M. Murphy and M. Drinkwater in the ﬁnal talk of the workshop, high signal-to-noise CO and H I spectra of absorption-line systems can be used to provide constraints on variations in the ﬁne-structure constant (α = e2/~c) with redshift. Speciﬁcally, the ratio of the H I hyperﬁne to the CO rotational line frequency is proportional to y = α2gp, where gp is the proton g-factor (Murphy et al. 2001a). A recent analysis by Murphy et al. (2001a) leads to an upper limit of ∆α/α < 3×10−6 at red- shifts of 0.25 and 0.68, assuming a constant gp. However, higher redshift systems are needed to test claims, based
-
-Fig. 4.— Observability of the CO and HCO+ lines at high redshift with a frequency coverage from 85–115 GHz. For each transition there
-
 is a redshift range (given by a horizontal bar) where the line falls within the observable band. Adapted from a ﬁgure by T. Wiklind.
-
-9
-
-10
-
 on optical QSO spectra, that ∆α/α deviates signiﬁcantly from 0 at z > 1 (Webb et al. 1999; Murphy et al. 2001b).
-
-acknowledgments
-
-Bronfman, L., Nyman, L.-A., & May, J. 1986, A&AS, 115, 81 Burrows, C. J. et al. 1996, ApJ, 473, 437 Carilli, C. L. & Yun, M. S. 1999, ApJ, 513, L13 Caswell, J. L., Yi, J., Booth, R. S., & Cragg, D. M. 2000, MNRAS,
-
-313, 599
-
-Choi, M., Evans, N. J., Gregersen, E. M., & Wang, Y. 1995, ApJ,
-
-448, 742
-
-Combes, F., Maoli, R., & Omont, A. 1999, A&A, 345, 369 Condon, J. J. 1992, ARA&A, 30, 575 Cragg, D. M., Sobolev, A. M., Ellingsen, S. P., Caswell, J. L., Godfrey, P. D., Salii, S. V., & Dodson, R. G. 2001, MNRAS, 323, 939
-
-Curran, S. J., Johansson, L. E. B., Bergman, P., Heikkil¨a, A., &
-
-Aalto, S. 2001, A&A, 367, 457
-
 Curran, S. J., Rydbeck, G., Johansson, L. E. B., & Booth, R. S.
-
-1999, A&A, 344, 767
-
-Di Francesco, J., Myers, P. C., Wilner, D. J., Ohashi, N., &
-
-Mardones, D. 2001, ApJ, 562, 770
-
 Draine, B. T. & Lazarian, A. 1998, ApJ, 494, L19 —. 1999, ApJ, 512, 740 Dutrey, A., Guilloteau, S., & Guelin, M. 1997, A&A, 317, L55 Esipov, V. F., Pashchenko, M. I., Rudnitskii, G. M., & Fomin, S. V.
-
-1999, Astronomy Letters, 25, 672 Evans, N. J. 1999, ARA&A, 37, 311 Forster, J. R., Welch, W. J., & Wright, M. C. H. 1978, ApJ, 221, 137 Frail, D. A., Goss, W. M., & Slysh, V. I. 1994, ApJ, 424, L111 Francis, P. J., Drake, C. L., Whiting, M. T., Drinkwater, M. J., &
-
-Webster, R. L. 2001, PASA, 18, 221
-
-Frayer, D. T., Ivison, R. J., Scoville, N. Z., Yun, M., Evans, A. S.,
-
-Smail, I., Blain, A. W., & Kneib, J.-P. 1998, ApJ, 506, L7 Girart, J. M., Crutcher, R. M., & Rao, R. 1999, ApJ, 525, L109 Goldreich, P. & Kylaﬁs, N. D. 1981, ApJ, 243, L75 Goldsmith, P. F. & Langer, W. D. 1999, ApJ, 517, 209 Greaves, J. S., Holland, W. S., Friberg, P., & Dent, W. R. F. 1999,
-
-ApJ, 512, L139
-
-Gregersen, E. M., Evans, N. J., Zhou, S., & Choi, M. 1997, ApJ, 484,
-
-256
-
-Guilloteau, S. & Dutrey, A. 1998, A&A, 339, 467 Guilloteau, S., Dutrey, A., & Simon, M. 1999, A&A, 348, 570 Helfer, T. T. & Blitz, L. 1995, ApJ, 450, 90 Hogerheijde, M. R. 2001, ApJ, 553, 618 Hogerheijde, M. R., van Dishoeck, E. F., Blake, G. A., & van
-
-Langevelde, H. J. 1997, ApJ, 489, 293
-
-Holland, W. S., Greaves, J. S., Zuckerman, B., Webb, R. A., McCarthy, C., Coulson, I. M., Walther, D. M., Dent, W. R. F., Gear, W. K., & Robson, I. 1998, Nature, 392, 788
-
-Hughes, D. H. 1996, in Cold Gas at High Redshift, ed. M. N. Bremer, P. P. van der Werf, H. J. A. R¨ottgering, & C. L. Carilli (Dordrecht: Kluwer), 311
-
-Ivison, R. J., Smail, I., Le Borgne, J.-F., Blain, A. W., Kneib, J.-P., Bezecourt, J., Kerr, T. H., & Davies, J. K. 1998, MNRAS, 298, 583
-
-Johnston, K. J., Gaume, R., Stolovy, S., Wilson, T. L., Walmsley,
-
-C. M., & Menten, K. M. 1992, ApJ, 385, 232
-
 Kastner, J. H., Zuckerman, B., Weintraub, D. A., & Forveille, T.
-
-1997, Science, 277, 67
-
-Kaufman, M. J. & Neufeld, D. A. 1996, ApJ, 456, 250 K¨onigl, A. & Pudritz, R. E. 2000, in Protostars and Planets IV, ed. V. Mannings, A. P. Boss, & S. S. Russell (Tucson: U. of Arizona Press), 759
-
-Koyama, K., Maeda, Y., Sonobe, T., Takeshima, T., Tanaka, Y., &
-
-Yamauchi, S. 1996, PASJ, 48, 249
-
-Lang, C. C., Goss, W. M., & Rodr´ıguez, L. F. 2001, ApJ, 551, L143 Lazendic, J. S., Wardle, M., Burton, M. G., Yusef-Zadeh, F., Whiteoak, J. B., Green, A. J., & Ashley, M. C. B. 2002, MNRAS, 331, 537
-
 Lee, C. W., Myers, P. C., & Tafalla, M. 1999, ApJ, 526, 788 Leitch, E. M., Readhead, A. C. S., Pearson, T. J., & Myers, S. T.
-
-1997, ApJ, 486, L23
-
-Lekht, E. E., Mendoza-Torres, J. E., Rudnitskij, G. M., &
-
-Tolmachev, A. M. 2001, A&A, 376, 928
-
-Liseau, R. & Artymowicz, P. 1998, A&A, 334, 935 Lockwood, G. W. & Wing, R. F. 1971, ApJ, 169, 63
-
 We would like to thank the staﬀ and students of Mel- bourne University for helping to make the workshop a success. We also appreciate the generosity of the MNRF International Collaboration Committee, which helped to support the travel costs of many of our visitors.
-
-REFERENCES
-
-Maloney, P. & Black, J. H. 1988, ApJ, 325, 389 Manchester, R. N. & Gaensler, B. M. 2001, IAU Circ., 7757, 2 Mart´ın-Pintado, J., Gaume, R. A., Rodr´ıguez-Fern´andez, N., de
-
-Vicente, P., & Wilson, T. L. 1999, ApJ, 519, 667
-
-McGary, R. S., Coil, A. L., & Ho, P. T. P. 2001, ApJ, 559, 326 Mennella, V., Brucato, J. R., Colangeli, L., Palumbo, P., Rotundi,
-
-A., & Bussoletti, E. 1998, ApJ, 496, 1058
-
 Minier, V., Conway, J. E., & Booth, R. S. 2001, A&A, 369, 278 Mobasher, B., Rowan-Robinson, M., Georgakakis, A., & Eaton, N.
-
-1996, MNRAS, 282, L7
-
-Morris, M., Guilloteau, S., Lucas, R., & Omont, A. 1987, ApJ, 321,
-
-888
-
-Murphy, M. T., Webb, J. K., Flambaum, V. V., Drinkwater, M. J.,
-
-Combes, F., & Wiklind, T. 2001a, MNRAS, 327, 1244
-
-Murphy, M. T., Webb, J. K., Flambaum, V. V., Dzuba, V. A., Churchill, C. W., Prochaska, J. X., Barrow, J. D., & Wolfe, A. M. 2001b, MNRAS, 327, 1208
-
-Omont, A., Petitjean, P., Guilloteau, S., McMahon, R. G., Solomon,
-
-P. M., & Pecontal, E. 1996, Nature, 382, 428
-
-Plambeck, R. L., Wright, M. C. H., & Carlstrom, J. E. 1990, ApJ,
-
-348, L65
-
-Rodgers, S. D. & Charnley, S. B. 2001, ApJ, 546, 324 Rudnitskij, G. M. & Chuprikov, A. A. 1990, AZh, 67, 293 S´anchez Contreras, C., Bujarrabal, V., Neri, R., & Alcolea, J. 2000,
-
-A&A, 357, 651
-
 Schilke, P., Walmsley, C. M., Pineau des Forˆets, G., & Flower, D. R.
-
-1997, A&A, 321, 293
-
-Serabyn, E. & Morris, M. 1994, ApJ, 424, L91 Shu, F. H. 1977, ApJ, 214, 488 Shu, F. H., Najita, J. R., Shang, H., & Li, Z.-Y. 2000, in Protostars and Planets IV, ed. V. Mannings, A. P. Boss, & S. S. Russell (Tucson: U. of Arizona Press), 789
-
 Silk, J. & Spaans, M. 1997, ApJ, 488, L79 Simon, M., Dutrey, A., & Guilloteau, S. 2001, ApJ, 545, 1034 Smail, I., Ivison, R. J., Owen, F. N., Blain, A. W., & Kneib, J.-P.
-
-2000, ApJ, 528, 612
-
-Sobolev, A. M., Cragg, D. M., & Godfrey, P. D. 1997a, MNRAS,
-
-288, L39
-
-—. 1997b, A&A, 324, 211 Sobolev, A. M. & Deguchi, S. 1994, A&A, 291, 569 Sobolev, A. M., Wallin, B. K., & Watson, W. D. 1998, ApJ, 498, 763 Sutton, E. C., Sobolev, A. M., Ellingsen, S. P., Cragg, D. M., Mehringer, D. M., Ostrovskii, A. B., & Godfrey, P. D. 2001, ApJ, 554, 173
-
-Thi, W. F., Blake, G. A., van Dishoeck, E. F., van Zadelhoﬀ, G. J., Horn, J. M. M., Becklin, E. E., Mannings, V., Sargent, A. I., van den Ancker, M. E., & Natta, A. 2001, Nature, 409, 60
-
-Val’tts, I. E., Ellingsen, S. P., Slysh, V. I., Kalenskii, S. V., Otrupcek,
-
-R., & Larionov, G. M. 2000, MNRAS, 317, 315
-
-Val’tts, I. E., Ellingsen, S. P., Slysh, V. I., Kalenskii, S. V., Otrupcek,
-
-R., & Voronkov, M. A. 1999, MNRAS, 310, 1077
-
-van Dishoeck, E. F. & Blake, G. A. 1998, ARA&A, 36, 317 Veilleux, S. & Bland-Hawthorn, J. 1997, ApJ, 479, L105 Walsh, A. J., Burton, M. G., Hyland, A. R., & Robinson, G. 1998,
-
-MNRAS, 301, 640
-
-Wang, Q. D., Gotthelf, E. V. & Lang, C. C. 2002, Nature, 415, 148 Wardle, M. 1999, ApJ, 525, L101 Webb, J. K., Flambaum, V. V., Churchill, C. W., Drinkwater, M. J.,
-
-& Barrow, J. D. 1999, Physical Review Letters, 82, 884
-
-Webster, R. L., Francis, P. J., Peterson, B. A., Drinkwater, M. J., &
-
-Masci, F. J. 1995, Nature, 375, 469
-
-Wiklind, T. & Combes, F. 1996, Nature, 379, 139 Williams, J. P., Blitz, L., & McKee, C. F. 2000, in Protostars and Planets IV, ed. V. Mannings, A. P. Boss, & S. S. Russell (Tucson: U. of Arizona Press), 97
-
-Wilner, D. J., Myers, P. C., Mardones, D., & Tafalla, M. 2000, ApJ,
-
-544, L69
-
-Wright, M. C. H., Coil, A. L., McGary, R. S., Ho, P. T. P., & Harris,
-
-A. I. 2001, ApJ, 551, 254
-
-Wright, M. C. H. & Plambeck, R. L. 1983, ApJ, 267, L115 Zhou, S., Evans, N. J., Koempe, C., & Walmsley, C. M. 1993, ApJ,
-
-404, 232

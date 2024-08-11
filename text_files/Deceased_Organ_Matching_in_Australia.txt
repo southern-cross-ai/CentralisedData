@@ -1,176 +1,99 @@
-arXiv:1710.06636v1  [cs.GT]  18 Oct 2017Deceased Organ Matching in Australia
+7 1 0 2
+
+t c O 8 1
+
+] T G . s c [
+
+1 v 6 3 6 6 0 . 0 1 7 1 : v i X r a
+
+Deceased Organ Matching in Australia
+
 Toby Walsh
-UNSW Sydney, Data61, and TU Berlin
-Email: tw@cse.unsw.edu.au
-Abstract. Despite efforts to increase the supply of organs from living donors,
-most kidney transplants performed in Australia still come f rom deceased donors.
-The age of these donated organs has increased substantially in recent decades as
-the rate of fatal accidents on roads has fallen. The Organ and Tissue Authority
-in Australia is therefore looking to design a new mechanism t hat better matches
-the age of the organ to the age of the patient. I discuss the des ign, axiomatics
-and performance of several candidate mechanisms that respe ct the special online
-nature of this fair division problem.
+
+UNSW Sydney, Data61, and TU Berlin Email: tw@cse.unsw.edu.au
+
+Abstract. Despite efforts to increase the supply of organs from living donors, most kidney transplants performed in Australia still come from deceased donors. The age of these donated organs has increased substantially in recent decades as the rate of fatal accidents on roads has fallen. The Organ and Tissue Authority in Australia is therefore looking to design a new mechanism that better matches the age of the organ to the age of the patient. I discuss the design, axiomatics and performance of several candidate mechanisms that respect the special online nature of this fair division problem.
+
 Introduction
-Kidney disease is a major problem in Australia. Thousands of people are on dialysis.
-Many spend years waiting for a transplant, each costing the h ealth care budget hundreds
-of thousands of dollars. In addition, as dialysis takes up se veral days each week, many
-are unable to work and depend on support from the state. The to tal cost to the Australian
-economy runs into billions of dollars annually. In 2016, 85% of transplants involved
-a kidney coming from a deceased person, whilst only 15% of tra nsplants came from
-a living donor. Whilst there has been considerable focus in t he literature of late on
-increasing the supply of organs by developing mechanisms fo r paired exachange, only
-2.5% of these living donations came from paired exchange. Mo st living donors were a
-spouse, family member or friend of the recipient.
-Organs coming from deceased people still provide the majori ty of all transplanted
-kidneys. Many come from people killed in road trafﬁc acciden ts. Matching such organs
-to patients on the waiting list is becoming more challenging as roads become safer. The
-mean age of donated organs has increased from 32 years in 1989 to 46 years in 2014.
-Advances in medicine mean that doctors are also now willing t o transplant older kid-
-neys. In 2014, the oldest organ transplanted came from a pers on who was 80 years old.
-This compares to 1989, the ﬁrst year for which records are ava ilable, when the oldest
-organ transplated came from a person aged just 69. The Organ a nd Tissue Authority of
-Australia, the government body charged with the task of allo cating organs to patients
-fairly and efﬁciently, is therefore looking to develop a new matching mechanism. Their
-goal is to develop a new procedure which matches the age of the patients and organs.
+
+Kidney disease is a major problem in Australia. Thousands of people are on dialysis. Many spend years waiting for a transplant, each costing the health care budget hundreds of thousands of dollars. In addition, as dialysis takes up several days each week, many are unable to work and depend on support from the state. The total cost to the Australian economy runs into billions of dollars annually. In 2016, 85% of transplants involved a kidney coming from a deceased person, whilst only 15% of transplants came from a living donor. Whilst there has been considerable focus in the literature of late on increasing the supply of organs by developing mechanisms for paired exachange, only 2.5% of these living donations came from paired exchange. Most living donors were a spouse, family member or friend of the recipient.
+
+Organs coming from deceased people still provide the majority of all transplanted kidneys. Many come from people killed in road trafﬁc accidents. Matching such organs to patients on the waiting list is becoming more challenging as roads become safer. The mean age of donated organs has increased from 32 years in 1989 to 46 years in 2014. Advances in medicine mean that doctors are also now willing to transplant older kid- neys. In 2014, the oldest organ transplanted came from a person who was 80 years old. This compares to 1989, the ﬁrst year for which records are available, when the oldest organ transplated came from a person aged just 69. The Organ and Tissue Authority of Australia, the government body charged with the task of allocating organs to patients fairly and efﬁciently, is therefore looking to develop a new matching mechanism. Their goal is to develop a new procedure which matches the age of the patients and organs.
+
 Organ matching mechanisms
-The mechanism used at present in Australia does not explicit ly take age of the patients
-or organs into account. As a result, young organs will be offe red to old patients, and oldorgans to young patients. Neither are very desirable. Even i f an old patient would like a
-young organ, from a societal perspective, this is not a very g ood outcome. The old pa-
-tient will die from natural causes with an organ inside them t hat could have continued to
-function in a younger patient. And transplanting an old orga n into a young patient is not
-a good outcome for both the individual or society. The graft w ill likely fail after a few
-years, meaning the patient will need a new transplant. In add ition, the patient’s immune
-system will now be highly sensitized, so that a new match will be more difﬁcult.
-The Organ and Tissue Authority is looking therefore to devel op a new mechanism
-in which organs are ranked by the Kidney Donor Patient Index ( KDPI). This is an
-integer from 0 to 100 that is calculated from the age of the don or, and a number of other
-factors like diabetic status. A donated organ with a KDPI of X % has an expected risk
-of graft failure greater than X% of all donated organs. Simil arly the Organ and Tissue
-Authority wish to rank patients waiting transplant with the Expected Post-Transplant
-Survival (EPTS) score. This is also an integer from 0 to 100 th at is calculated from
-the age of the recipient, and a number of other factors like di abetic status, and time on
-dialysis. A patient on the waiting list with a lower EPTS is ex pected to have more years
-of graft function from high-longevity kidneys compared to c andidates with higher EPTS
-scores. Our goal is to provide the Organ and Tissue Authority with a new mechanism
-that is fair and efﬁcient, matching organs so that the KDPI of an arriving organ is as
-close as possible to the EPTS score of their allocated patien t.
+
+The mechanism used at present in Australia does not explicitly take age of the patients or organs into account. As a result, young organs will be offered to old patients, and old
+
+organs to young patients. Neither are very desirable. Even if an old patient would like a young organ, from a societal perspective, this is not a very good outcome. The old pa- tient will die from natural causes with an organ inside them that could have continued to function in a younger patient. And transplanting an old organ into a young patient is not a good outcome for both the individual or society. The graft will likely fail after a few years, meaning the patient will need a new transplant. In addition, the patient’s immune system will now be highly sensitized, so that a new match will be more difﬁcult.
+
+The Organ and Tissue Authority is looking therefore to develop a new mechanism in which organs are ranked by the Kidney Donor Patient Index (KDPI). This is an integer from 0 to 100 that is calculated from the age of the donor, and a number of other factors like diabetic status. A donated organ with a KDPI of X% has an expected risk of graft failure greater than X% of all donated organs. Similarly the Organ and Tissue Authority wish to rank patients waiting transplant with the Expected Post-Transplant Survival (EPTS) score. This is also an integer from 0 to 100 that is calculated from the age of the recipient, and a number of other factors like diabetic status, and time on dialysis. A patient on the waiting list with a lower EPTS is expected to have more years of graft function from high-longevity kidneys compared to candidates with higher EPTS scores. Our goal is to provide the Organ and Tissue Authority with a new mechanism that is fair and efﬁcient, matching organs so that the KDPI of an arriving organ is as close as possible to the EPTS score of their allocated patient.
+
 Other applications
-This work ﬁts into a broader research programme to design mec hanisms for resource
-allocation problems that better reﬂect the complexity and r ichness of the real world
-[1,2]. Unlike traditional resource allocation problems [3 ], one of the fundamental fea-
-tures of the deceased organ matching problem is that it is onl ine. We do not know when
-organs will arrive to be match. And we must match and transpla nt them shortly after
-they arrive, before we know what organs or patients will arri ve in the future. At the end
-of the year, we could ﬁnd an optimal allocation. However, we d o not have the luxury
-of waiting till the end of the year as organs must be transplan ted immediately. There
-are many other domains where resources are allocated in a sim ilar online manner. A
-food bank might start allocating and distributing food to ch arities soon after it is do-
-nated [4]. An airport must start allocating landing slots be fore all demands are known.
-A particle accelerator might start allocating beam time bef ore all requests have come in.
-An university might allocate rooms to students for the curre nt term, not knowing what
-rooms might be wanted in future terms. This work offers a case study in how we can
-efﬁciently and fairly solve such online allocation problems. We study axiomatic prop-
-erties of such online fair division problems, as well as run e xperiments on real world
-organ data [5]. Axiomatic analysis covers such properties a s fairness and efﬁciency (e.g.
-[6]-[11]), as well as strategic behaviour and manipulation (e.g. [12]-[18]). Insights from
-this research may prove valuable in a range of other domains. In future, we plan to iden-
-tify and study phase transition behaviour [19]-[24] which h as proved valuable in a wide
-range of computational domains [25]-[33] including social choice [34,35,36].References
-1. Walsh, T.: Allocation in practice. In: Proceedings of 37t h German Conference on Artiﬁcial
-Intelligence (KI-2014). Lecture Notes in Artiﬁcial Intell igence, Springer (2014) 13–24
-2. Walsh, T.: Challenges in resource and cost allocation. In : Proceedings of the 29th AAAI
-Conference on AI, Association for Advancement of Artiﬁcial Intelligence (2015) 25–30
-3. Chevaleyre, Y ., Dunne, P., Endriss, U., Lang, J., Lemaitr e, M., Maudet, N., Padget, J., Phelps,
-S., Rodriguez-Aguilar, J., Sousa, P.: Issues in multiagent resource allocation. Informatica
-(Slovenia) 30(1) (2006) 3–31
-4. Aleksandrov, M., Aziz, H., Gaspers, S., Walsh, T.: Online fair division: analysing a food bank
-problem. In Yang, Q., Wooldridge, M., eds.: Proceedings of t he Twenty-Fourth International
-Joint Conference on Artiﬁcial Intelligence, (IJCAI 2015). (2015) 2540–2546
-5. Mattei, N., Safﬁdine, A., Walsh, T.: Mechanisms for onlin e organ matching. In: Proceedings
-of the 26th International Joint Conference on AI, Internati onal Joint Conference on Artiﬁcial
-Intelligence (2017)
-6. Bouveret, S., Lang, J.: A general elicitation-free proto col for allocating indivisible goods. In
-Walsh, T., ed.: Proceedings of the 22nd International Joint Conference on Artiﬁcial Intelli-
-gence (IJCAI 2011), IJCAI/AAAI (2011) 73–78
-7. Kalinowski, T., Narodytska, N., Walsh, T.: A social welfa re optimal sequential allocation
-procedure. In: Proceedings of the 23rd International Joint Conference on Artiﬁcial Intelli-
-gence (IJCAI-2013), International Joint Conference on Art iﬁcial Intelligence (2013)
-8. Baumeister, D., Bouveret, S., Lang, J., Nguyen, N., Nguye n, T., Rothe, J., Safﬁdine, A.:
-Axiomatic and computational aspects of scoring allocation rules for indivisible goods. In:
-5th Int. Workshop on Computational Social Choice (COMSOC), (2014)
-9. Aziz, H., Gaspers, S., Mackenzie, S., Walsh, T.: Fair assi gnment of indivisible objects under
-ordinal preferences. In Bazzan, A., Huhns, M., Lomuscio, A. , Scerri, P., eds.: International
-conference on Autonomous Agents and Multi-Agent Systems, A AMAS ’14. (2014) 1305–
-1312
-10. Aziz, H., Walsh, T., Xia, L.: Possible and necessary allo cations via sequential mechanisms.
-In Yang, Q., Wooldridge, M., eds.: Proceedings of the Twenty -Fourth International Joint
-Conference on Artiﬁcial Intelligence, IJCAI 2015. (2015) 4 68–474
-11. Aziz, H., Kalinowski, T., Walsh, T., Xia, L.: Welfare of s equential allocation mechanisms
-for indivisible goods. In Kaminka, G., Fox, M., Bouquet, P., H¨ ullermeier, E., Dignum, V .,
-Dignum, F., van Harmelen, F., eds.: ECAI 2016 - 22nd European Conference on Artiﬁcial
-Intelligence. Frontiers in Artiﬁcial Intelligence and App lications, IOS Press (2016) 787–794
-12. Roos, M., Rothe, J.: Complexity of social welfare optimi zation in multiagent resource al-
-location. In: Proceedings of the 9th International Confere nce on Autonomous Agents and
-Multiagent Systems. AAMAS10 (2010) 641–648
-13. Kalinowski, T., Narodytska, N., Walsh, T., Xia, L.: Stra tegic behavior when allocating in-
-divisible goods sequentially. In: Proceedings of the Twent y-Seventh AAAI Conference on
-Artiﬁcial Intelligence (AAAI 2013), AAAI Press (2013)
-14. Aziz, H., Walsh, T., Xia, L.: Possible and necessary allo cations via sequential mechanisms.
-In Yang, Q., Wooldridge, M., eds.: Proceedings of the Twenty -Fourth International Joint
-Conference on Artiﬁcial Intelligence, (IJCAI 2015). (2015 )
-15. Aziz, H., Gaspers, S., Mackenzie, S., Mattei, N., Narody tska, N., Walsh, T.: Manipulating
-the probabilistic serial rule. In Weiss, G., Yolum, P., Bord ini, R., Elkind, E., eds.: Proc. of
-Int. Conference on Autonomous Agents and Multiagent System s, AAMAS 2015. (2015)
-16. Nguyen, N., Baumeister, D., Rothe, J.: Strategy-proofn ess of scoring allocation correspon-
-dences for indivisible goods. In: Proceedings of the 24th In ternational Joint Conference on
-Artiﬁcial Intelligence (IJCAI 2015), IJCAI (2015)17. Aziz, H., Schlotter, I., Walsh, T.: Control of fair divis ion. In Kambhampati, S., ed.: Pro-
-ceedings of the Twenty-Fifth International Joint Conferen ce on Artiﬁcial Intelligence, IJCAI
-2016, IJCAI/AAAI Press (2016) 67–73
-18. T, W.: Strategic behaviour when allocating indivisible goods. In Schuurmans, D., Wellman,
-M., eds.: Proceedings of the Thirtieth AAAI Conference on Ar tiﬁcial Intelligence, AAAI
-Press (2016) 4177–4183
-19. Huberman, B., Hogg, T.: Phase Transitions in Artiﬁcial I ntelligence Systems. Artiﬁcial
-Intelligence 33(1987) 155–171
+
+This work ﬁts into a broader research programme to design mechanisms for resource allocation problems that better reﬂect the complexity and richness of the real world [1,2]. Unlike traditional resource allocation problems [3], one of the fundamental fea- tures of the deceased organ matching problem is that it is online. We do not know when organs will arrive to be match. And we must match and transplant them shortly after they arrive, before we know what organs or patients will arrive in the future. At the end of the year, we could ﬁnd an optimal allocation. However, we do not have the luxury of waiting till the end of the year as organs must be transplanted immediately. There are many other domains where resources are allocated in a similar online manner. A food bank might start allocating and distributing food to charities soon after it is do- nated [4]. An airport must start allocating landing slots before all demands are known. A particle accelerator might start allocating beam time before all requests have come in. An university might allocate rooms to students for the current term, not knowing what rooms might be wanted in future terms. This work offers a case study in how we can efﬁciently and fairly solve such online allocation problems. We study axiomatic prop- erties of such online fair division problems, as well as run experiments on real world organ data [5]. Axiomatic analysis covers such properties as fairness and efﬁciency (e.g. [6]-[11]), as well as strategic behaviour and manipulation (e.g. [12]-[18]). Insights from this research may prove valuable in a range of other domains. In future, we plan to iden- tify and study phase transition behaviour [19]-[24] which has proved valuable in a wide range of computational domains [25]-[33] including social choice [34,35,36].
+
+References
+
+1. Walsh, T.: Allocation in practice. In: Proceedings of 37th German Conference on Artiﬁcial Intelligence (KI-2014). Lecture Notes in Artiﬁcial Intelligence, Springer (2014) 13–24 2. Walsh, T.: Challenges in resource and cost allocation. In: Proceedings of the 29th AAAI Conference on AI, Association for Advancement of Artiﬁcial Intelligence (2015) 25–30 3. Chevaleyre, Y., Dunne, P., Endriss, U., Lang, J., Lemaitre, M., Maudet, N., Padget, J., Phelps, S., Rodriguez-Aguilar, J., Sousa, P.: Issues in multiagent resource allocation. Informatica (Slovenia) 30(1) (2006) 3–31
+
+4. Aleksandrov, M., Aziz, H., Gaspers, S., Walsh, T.: Online fair division: analysing a food bank problem. In Yang, Q., Wooldridge, M., eds.: Proceedings of the Twenty-Fourth International Joint Conference on Artiﬁcial Intelligence, (IJCAI 2015). (2015) 2540–2546
+
+5. Mattei, N., Safﬁdine, A., Walsh, T.: Mechanisms for online organ matching. In: Proceedings of the 26th International Joint Conference on AI, International Joint Conference on Artiﬁcial Intelligence (2017)
+
+6. Bouveret, S., Lang, J.: A general elicitation-free protocol for allocating indivisible goods. In Walsh, T., ed.: Proceedings of the 22nd International Joint Conference on Artiﬁcial Intelli- gence (IJCAI 2011), IJCAI/AAAI (2011) 73–78
+
+7. Kalinowski, T., Narodytska, N., Walsh, T.: A social welfare optimal sequential allocation procedure. In: Proceedings of the 23rd International Joint Conference on Artiﬁcial Intelli- gence (IJCAI-2013), International Joint Conference on Artiﬁcial Intelligence (2013)
+
+8. Baumeister, D., Bouveret, S., Lang, J., Nguyen, N., Nguyen, T., Rothe, J., Safﬁdine, A.: Axiomatic and computational aspects of scoring allocation rules for indivisible goods. In: 5th Int. Workshop on Computational Social Choice (COMSOC), (2014)
+
+9. Aziz, H., Gaspers, S., Mackenzie, S., Walsh, T.: Fair assignment of indivisible objects under ordinal preferences. In Bazzan, A., Huhns, M., Lomuscio, A., Scerri, P., eds.: International conference on Autonomous Agents and Multi-Agent Systems, AAMAS ’14. (2014) 1305– 1312
+
+10. Aziz, H., Walsh, T., Xia, L.: Possible and necessary allocations via sequential mechanisms. In Yang, Q., Wooldridge, M., eds.: Proceedings of the Twenty-Fourth International Joint Conference on Artiﬁcial Intelligence, IJCAI 2015. (2015) 468–474
+
+11. Aziz, H., Kalinowski, T., Walsh, T., Xia, L.: Welfare of sequential allocation mechanisms for indivisible goods. In Kaminka, G., Fox, M., Bouquet, P., H¨ullermeier, E., Dignum, V., Dignum, F., van Harmelen, F., eds.: ECAI 2016 - 22nd European Conference on Artiﬁcial Intelligence. Frontiers in Artiﬁcial Intelligence and Applications, IOS Press (2016) 787–794 12. Roos, M., Rothe, J.: Complexity of social welfare optimization in multiagent resource al- location. In: Proceedings of the 9th International Conference on Autonomous Agents and Multiagent Systems. AAMAS10 (2010) 641–648
+
+13. Kalinowski, T., Narodytska, N., Walsh, T., Xia, L.: Strategic behavior when allocating in- divisible goods sequentially. In: Proceedings of the Twenty-Seventh AAAI Conference on Artiﬁcial Intelligence (AAAI 2013), AAAI Press (2013)
+
+14. Aziz, H., Walsh, T., Xia, L.: Possible and necessary allocations via sequential mechanisms. In Yang, Q., Wooldridge, M., eds.: Proceedings of the Twenty-Fourth International Joint Conference on Artiﬁcial Intelligence, (IJCAI 2015). (2015)
+
+15. Aziz, H., Gaspers, S., Mackenzie, S., Mattei, N., Narodytska, N., Walsh, T.: Manipulating the probabilistic serial rule. In Weiss, G., Yolum, P., Bordini, R., Elkind, E., eds.: Proc. of Int. Conference on Autonomous Agents and Multiagent Systems, AAMAS 2015. (2015) 16. Nguyen, N., Baumeister, D., Rothe, J.: Strategy-proofness of scoring allocation correspon- dences for indivisible goods. In: Proceedings of the 24th International Joint Conference on Artiﬁcial Intelligence (IJCAI 2015), IJCAI (2015)
+
+17. Aziz, H., Schlotter, I., Walsh, T.: Control of fair division. In Kambhampati, S., ed.: Pro- ceedings of the Twenty-Fifth International Joint Conference on Artiﬁcial Intelligence, IJCAI 2016, IJCAI/AAAI Press (2016) 67–73
+
+18. T, W.: Strategic behaviour when allocating indivisible goods. In Schuurmans, D., Wellman, M., eds.: Proceedings of the Thirtieth AAAI Conference on Artiﬁcial Intelligence, AAAI Press (2016) 4177–4183
+
+19. Huberman, B., Hogg, T.: Phase Transitions in Artiﬁcial Intelligence Systems. Artiﬁcial Intelligence 33 (1987) 155–171
+
 20. Hogg, T.: Reﬁning the phase transition in combinatorial search. Artiﬁcial Intelligence 81(1–
+
 2) (1996) 127–154
-21. Cheeseman, P., Kanefsky, B., Taylor, W.: Where the reall y hard problems are. In: Pro-
-ceedings of the 12th IJCAI, International Joint Conference on Artiﬁcial Intelligence (1991)
-331–337
-22. Mitchell, D., Selman, B., Levesque, H.: Hard and Easy Dis tributions of SAT Problems.
-In: Proceedings of the 10th National Conference on AI, Assoc iation for Advancement of
-Artiﬁcial Intelligence (1992) 459–465
-23. Gent, I., Walsh, T.: The SAT phase transition. In Cohn, A. G., ed.: Proceedings of 11th ECAI,
-John Wiley & Sons (1994) 105–109
-24. Gent, I., Walsh, T.: Easy problems are sometimes hard. Ar tiﬁcial Intelligence (1994) 335–
-345
-25. Gent, I., Walsh, T.: Phase transitions from real computa tional problems. In: Proceedings of
-the 8th International Symposium on Artiﬁcial Intelligence . (1995) 356–364
-26. Gent, I., Walsh, T.: Phase transitions and annealed theo ries: Number partitioning as a case
-study. In: Proceedings of 12th ECAI. (1996)
-27. Gomes, C., Selman, B.: Problem structure in the presence of perturbations. In: Proceedings
-of the 14th National Conference on AI, Association for Advan cement of Artiﬁcial Intelli-
-gence (1997) 221–226
-28. Gomes, C., Selman, B., Crato, N.: Heavy-tailed distribu tions in combinatorial search. In
-Smolka, G., ed.: Proceedings of Third International Confer ence on Principles and Practice
-of Constraint Programming (CP97), Springer (1997) 121–135
-29. Gomes, C., Selman, B., McAloon, K., Tretkoff, C.: Random ization in backtrack search:
-Exploiting heavy-tailed proﬁles for solving hard scheduli ng problems. In: The Fourth Inter-
-national Conference on Artiﬁcial Intelligence Planning Sy stems (AIPS’98). (1998)
-30. Gent, I., Walsh, T.: The TSP phase transition. Artiﬁcial Intelligence 88(1996) 349–358
-31. Gent, I., Walsh, T.: Beyond NP: the QSAT phase transition . In: Proceedings of the 16th
-National Conference on AI, Association for Advancement of A rtiﬁcial Intelligence (1999)
-32. Bailey, D., Dalmau, V ., Kolaitis, P.: Phase transitions of PP-complete satisﬁability problems.
-In: Proceedings of the 17th IJCAI, International Joint Conf erence on Artiﬁcial Intelligence
-(2001) 183–189
-33. Walsh, T.: From P to NP: COL, XOR, NAE, 1-in-k, and Horn SAT . In: Proceedings of
-the 17th National Conference on AI, Association for Advance ment of Artiﬁcial Intelligence
-(2002)
-34. Walsh, T.: Where are the really hard manipulation proble ms? The phase transition in ma-
-nipulating the veto rule. In: Proceedings of 21st IJCAI, Int ernational Joint Conference on
-Artiﬁcial Intelligence (2009) 324–329
-35. Walsh, T.: An empirical study of the manipulability of si ngle transferable voting. In Coelho,
-H., Studer, R., Wooldridge, M., eds.: Proc. of the 19th Europ ean Conference on Artiﬁcial In-
-telligence (ECAI-2010). V olume 215 of Frontiers in Artiﬁci al Intelligence and Applications.,
-IOS Press (2010) 257–262
-36. Walsh, T.: Where are the hard manipulation problems? Jou rnal of Artiﬁcial Intelligence
-Research 42(2011) 1–39
+
+21. Cheeseman, P., Kanefsky, B., Taylor, W.: Where the really hard problems are. In: Pro- ceedings of the 12th IJCAI, International Joint Conference on Artiﬁcial Intelligence (1991) 331–337
+
+22. Mitchell, D., Selman, B., Levesque, H.: Hard and Easy Distributions of SAT Problems. In: Proceedings of the 10th National Conference on AI, Association for Advancement of Artiﬁcial Intelligence (1992) 459–465
+
+23. Gent, I., Walsh, T.: The SAT phase transition. In Cohn, A.G., ed.: Proceedings of 11th ECAI, John Wiley & Sons (1994) 105–109
+
+24. Gent, I., Walsh, T.: Easy problems are sometimes hard. Artiﬁcial Intelligence (1994) 335– 345
+
+25. Gent, I., Walsh, T.: Phase transitions from real computational problems. In: Proceedings of the 8th International Symposium on Artiﬁcial Intelligence. (1995) 356–364
+
+26. Gent, I., Walsh, T.: Phase transitions and annealed theories: Number partitioning as a case study. In: Proceedings of 12th ECAI. (1996)
+
+27. Gomes, C., Selman, B.: Problem structure in the presence of perturbations. In: Proceedings of the 14th National Conference on AI, Association for Advancement of Artiﬁcial Intelli- gence (1997) 221–226
+
+28. Gomes, C., Selman, B., Crato, N.: Heavy-tailed distributions in combinatorial search. In Smolka, G., ed.: Proceedings of Third International Conference on Principles and Practice of Constraint Programming (CP97), Springer (1997) 121–135
+
+29. Gomes, C., Selman, B., McAloon, K., Tretkoff, C.: Randomization in backtrack search: Exploiting heavy-tailed proﬁles for solving hard scheduling problems. In: The Fourth Inter- national Conference on Artiﬁcial Intelligence Planning Systems (AIPS’98). (1998) 30. Gent, I., Walsh, T.: The TSP phase transition. Artiﬁcial Intelligence 88 (1996) 349–358 31. Gent, I., Walsh, T.: Beyond NP: the QSAT phase transition. In: Proceedings of the 16th National Conference on AI, Association for Advancement of Artiﬁcial Intelligence (1999)
+
+32. Bailey, D., Dalmau, V., Kolaitis, P.: Phase transitions of PP-complete satisﬁability problems. In: Proceedings of the 17th IJCAI, International Joint Conference on Artiﬁcial Intelligence (2001) 183–189
+
+33. Walsh, T.: From P to NP: COL, XOR, NAE, 1-in-k, and Horn SAT.
+
+In: Proceedings of the 17th National Conference on AI, Association for Advancement of Artiﬁcial Intelligence (2002)
+
+34. Walsh, T.: Where are the really hard manipulation problems? The phase transition in ma- nipulating the veto rule. In: Proceedings of 21st IJCAI, International Joint Conference on Artiﬁcial Intelligence (2009) 324–329
+
+35. Walsh, T.: An empirical study of the manipulability of single transferable voting. In Coelho, H., Studer, R., Wooldridge, M., eds.: Proc. of the 19th European Conference on Artiﬁcial In- telligence (ECAI-2010). Volume 215 of Frontiers in Artiﬁcial Intelligence and Applications., IOS Press (2010) 257–262
+
+36. Walsh, T.: Where are the hard manipulation problems? Journal of Artiﬁcial Intelligence Research 42 (2011) 1–39
