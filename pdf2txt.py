@@ -3,6 +3,8 @@ from PyPDF2 import PdfReader
 from pdfminer.high_level import extract_text
 from langchain.document_loaders import UnstructuredFileLoader
 import nltk
+import logging
+from datetime import datetime
 
 # Download the necessary NLTK data
 nltk.download('punkt_tab')
@@ -13,6 +15,9 @@ nltk.download('stopwords')
 nltk.download('maxent_ne_chunker')
 nltk.download('omw-1.4')
 
+# Set up logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
+
 # Directory containing PDF files
 pdf_dir = 'files'
 # Directory to save text files
@@ -21,9 +26,12 @@ os.makedirs(txt_dir, exist_ok=True)
 
 
 def extract_text_with_langchain_pdf(pdf_path, txt_path):
-    # check if the PDF file exists
+    start_time = datetime.now()
+    logging.info(f"Starting conversion of {pdf_path}")
+
+    # Check if the PDF file exists
     if not os.path.exists(pdf_path):
-        print(f"The file {pdf_path} does not exist.")
+        logging.error(f"The file {pdf_path} does not exist.")
         return
 
     # Get the name of the PDF file without extension to create the TXT filename
@@ -34,16 +42,19 @@ def extract_text_with_langchain_pdf(pdf_path, txt_path):
     if os.path.isdir(txt_path):
         txt_path = os.path.join(txt_path, txt_filename)
 
-    # use the UnstructuredFileLoader to load the PDF file
-    loader = UnstructuredFileLoader(pdf_path)
-    documents = loader.load()
-    pdf_pages_content = '\n'.join(doc.page_content for doc in documents)
+    try:
+        # Use the UnstructuredFileLoader to load the PDF file
+        loader = UnstructuredFileLoader(pdf_path)
+        documents = loader.load()
+        pdf_pages_content = '\n'.join(doc.page_content for doc in documents)
 
-    with open(txt_path, 'w', encoding='utf-8') as txt_file:
-        txt_file.write(pdf_pages_content)
+        with open(txt_path, 'w', encoding='utf-8') as txt_file:
+            txt_file.write(pdf_pages_content)
 
-    print(f"Extracted text from {pdf_file} and saved to {txt_path}")
+        logging.info(f"Successfully converted {pdf_file} and saved to {txt_path}")
 
+    except Exception as e:
+        logging.error(f"Error converting {pdf_file}: {e}")
 
 
 # Function to convert a single PDF to text
