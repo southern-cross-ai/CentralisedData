@@ -1,0 +1,50 @@
+I don’t know where else to ask. I usually buy all tickets on my phone. This past Tuesday I tried to click a live nation presale link on my phone (before trying any other device) and it told me access denied. I thought it may have had something to do with the presale but I was able to go through and buy tickets with my laptop, work phone and work computer. All 3 were let in. I thought it was very strange to block my first log in but not 3 more? Especially on a device with a huge buying history.
+    
+Now a few days later I wanted to go in and buy tickets to something else, only to find I have access denied for their whole site. I can’t even visit the Ticketek website on my browser. If I go through the app I can browse concerts, but if I click in to view tickets for any event I get access denied again. This is the same on both chrome and safari on my phone.    
+I have tried resetting my phone, deleting the Ticketek app and reinstalling it, none of it has worked. 
+    
+I’m at a loss now and I don’t know who to ask for help. I buy almost all tickets on my phone, there’s no justifiable reason for me to be blocked.
+   
+Their customer service is non existent, so I’m really hoping another fellow Aussie can help me.
+this happens for me when I've got my vpn on. So, if you are using a vpn, disconnect it and try again.
+It's a common ticketek issue (happens to a lot of people trying to get tickets when they bump you into a queue), and can easily be solved by clearing the ticketek cookie from your browser (or trying again in a incognito/private window). Good luck getting tickets!
+Lay off the crack, it's probably just a technical error.
+Try private browser. If that works then clear all your cookies/session data.
+Do you have a VPN installed in your browser, even if it’s not connected?
+You seem to be accessing the HTTP site rather than HTTPS. You could try adding an s? No idea if that will help but it was the first thing I noticed.
+Could try restarting router or trying 5G
+Are you using Starlink via wifi? Can mess with stuff from time to time
+Tried a different browser? Made sure this one is updated? Tried on your phone? Even try browser in private mode?
+I don't think you've been individually targeted.
+
+However, you can be banned from using their services.
+
+Ticketek are fucking pieces of shit that deserve to be investigated for all of their bullshit practices. So, in short, they're cunts.
+Just buy a new phone
+Good suggestion, but sadly I’m not using a vpn. Even my ad block is off.
+What crack? And how long is this technical error supposed to last? 2 weeks? 6 months? I should be able to access their website. How would you like to lose access to buying any ticket to any event?
+This! I find when I’m unable to access sites for no apparent reason, it’s because I need to clear my cache. 
+Good luck!
+They're accessing the secure URL, hence the padlock, the site itself seems to be trying to access insecure URL.
+
+Likely a server side error and effecting everyone.
+Looks like OP is accessing a HTTPS site, but there's possibly a misconfiguration between CDN (Akamai) and Ticketek servers.
+For within the app, you can’t change it. The screenshot with the back option on the top left side is from within the app. The browser one is https but same problem :(
+If you’re in iOS maybe private relay?
+Sometimes CGNAT can be misclassified as a VPN as it looks the same to the remote site. Have this issue with Wikipedia, who keep blocking me because of abuse from other people with the same ISP.
+I can tell you're frustrated, but please remember, you're not important!
+Have you asked to speak to the manager?
+You can still access it on your other devices, right? It sucks, sure, but it's not the end of the world. Try clearing your cache.
+> What crack?
+
+The idea you seem to have that a million dollar company would block you and only you specifically from accessing their website on one single device you own for no apparent reason.
+
+Seriously, I've known less paranoid meth heads.
+You are talking like it’s your right to buy tickets using ticketek? they don’t owe you shit m8
+They are doing you a favor.  Tiketek is a cesspit of surcharges.
+Sadly it’s not affecting anyone. I’m a member of an Aussie fan group for this band and I can’t find anyone else reporting this issue, let alone blocked from every single concert of every artist. I even tried clicking to buy football and it blocked me.
+Why is everyone using akamai these days?
+I actually had to Google what that was because I’ve never heard of it before. In my settings it was off, so I turned it on and tried again. Same results :(
+Do they use CGNAT on mobile networks?
+You're not *blocked*, it's an error, try a different browser/device.
+Yeah

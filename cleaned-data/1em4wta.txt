@@ -1,0 +1,46 @@
+Can't find a link on their website, but Westpac is updating their online banking password requirements according to this message they left me. Previously/currently, it's an absolutely absurd 6-character limit, so it's good to see them finally change it.
+
+>Hi <name>,
+
+>Customers have expressed to us that they want to be able to set longer and more complex passwords. Therefore, we've updated our password policy to give you a greater degree of flexibility to create passwords that are unique and meaningful to you.
+‎
+‎
+
+>**What do I need to do?**
+
+>If you have not already updated your password to meet our new password policy, you will be required do so upon sign in, in the coming months.
+
+>Alternatively, you can update your password now, using the Change Password option in your Security settings.
+
+>Your new password must have:
+
+>•  between 8 and 30 characters
+
+>•  at least 1 number, letter, and special character (@ # % ^ etc)
+
+>•  no more than 2 repeating characters in a row (AAB is ok, AAA is not)
+
+>•  no spaces
+
+>Upper and lower case letters are allowed.
+If they were serious about security, they'd require TOTP 2FA or similar.
+
+I mean, we're talking about *online* banking here - if you're accessing it, you're almost certainly using something that can run a stand-alone authentication app...
+Fan-fucking-tastic. Auth app would be even better but this drags it over the line into 'could not be guessed by a 12 yr old on her moms old laptop'. 
+
+Now do ING.
+They are the only company I've ever heard of in 2024 who puts a 6 character limit and requires a symbol, etc. Did they do basic math at school or what? And I'm sure an extra 4 characters on passwords won't break their database. 
+
+And it was annoying af to remember. 
+
+
+Now that I think about it I guess it is to get you to set something different than your other passwords, but by that logic they could have just said, must be 10-12 characters long. 
+
+Either way, two factors are far superior. 6 digits, anything can be cracked in seconds. Yes, it can locked out, but that doesn't mean it's 100% secure.
+Banking login password length / complexity is security theatre, in that it sounds nice but adds little extra security.  No one is guessing passwords in 2024, and if you do, the account will be locked in 3-5 attempts.  2FA is the answer.
+Yeh just not intelligent people behind the wheel 🤣 this is how customer data ends up getting leaked like optus.
+I like how a certain other bank does it - 2FA for *some* things
+
+I can happily transfer money between my accounts or send it to people/accounts I've previously dealt with - but try to change any of the contact details, or initiate a transaction to a new account - then you need to authenticate
+
+Keeps it out of the way for day-to-day stuff - but do something out of the ordinary, and it's wanting verification

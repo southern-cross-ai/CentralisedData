@@ -1,0 +1,23 @@
+Hey guys, a bit of a weird question for this one. Is there any way to tell whether a postcode is considered to be remote/rural, or regional? 
+
+I am undertaking an experiment for rural and remote health care workers in Australia, and need to be able to quickly differentiate between whether the participant is remote/rural or regional, without having to individually search each of the postcodes one by one.
+
+I'm wondering whether there is some sort of number convention that easily splits them into categories (I know already that there are ways to see metropolitan vs other, but if there is a more specific list that would be fantastic! 
+Health use the [Modified Monash Model](https://www.health.gov.au/topics/rural-health-workforce/classifications/mmm) for determining remoteness
+
+[Here’s the list](https://www.health.gov.au/sites/default/files/documents/2019/12/modified-monash-model-mmm-suburb-and-locality-classification-home-care-subsidy-modified-monash-model-suburb-and-locality-classification-home-care-subsidy_0.pdf)
+Offhand, this is the most up-to-date one I know (it used to be *very* out of date, but was updated last year). Can search by everything from street address up to LGA, including just postcode:
+
+[Health Workforce Locator](https://www.health.gov.au/resources/apps-and-tools/health-workforce-locator/app?language=en)
+
+edit: Results include ratings/categories from a few different standard Australian remoteness indices.
+There's a kind of list like that used by Government to facilitate visa applications:
+
+
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list/regional-postcodes
+It doesn't go by postcode but you can check townships here: https://www.ato.gov.au/businesses-and-organisations/hiring-and-paying-your-workers/fringe-benefits-tax/in-detail/fringe-benefits-tax-remote-areas
+
+It's a list of areas that the ATO defines as remote. It won't have everything but you can look up your town and see what's nearby. Once you remember suburbs you can do a quick Google sense check which is a bit faster.
+Awesome thank you!
+Thank you so much! Will be looking into it!
+Thanks for the reply!! Will check it out

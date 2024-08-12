@@ -1,0 +1,102 @@
+Hi everyone,
+
+Sorry for the generic post, I know there are others on this topic, but I wanted to ask for advice on my specific situation, which is a bit different from the others.
+
+I'm seeking your advice on whether Australia is a good place to move to. 
+I'm 22, born and raised in Italy, but my mother is Australian, so I have dual citizenship and the aussie passport. Relatives on my mother's side are in Australia. 
+I’m about to start a Master’s degree in Electrical Engineering and English isn’t a problem for me (I scored a C2 on the Cambridge C1 Advanced exam). Between my Bachelor’s and Master’s degrees, I did a 6-month internship at General Electric. I'm planning on doing an erasmus experience somewhere in Europe towards the end of my Master's.
+
+For various reasons, I have decided not to build my future in Italy. Currently my choice is between Australia and Northern Europe (I’m also considering Asia).
+I’ve been to Australia a few times and really enjoyed the cities and nature, but I didn’t travel enough to form a clear opinion, plus I was a teenager at the time. 
+
+I'm very concerned about the cost of housing and living, especially if I go there alone and have to live initially with a single income. Could you share your thoughts on this? 
+Additionally, what salary and salary growth can I expect as an electrical engineer in Australia? How would that support me and potentially a family? What kind of lifestyle is reasonably achievable? 
+
+Lastly, what’s the social scene like for young people? Is it difficult to make good friends and meet partners?
+
+I'm young, consider myself ambitious, and I'm excited about the prospect of living and working in different places and seeing the world. Do you recommend moving to Australia right after my Master's (at 24/25 years old) and starting my career there early on, or should I build some experience in other countries first to negotiate a higher starting salary later?
+
+Thank you very much for your help! 
+EE, OP could find work in semiconductor in France, Germany, Ireland, Poland, Czechia. Australia has no industry to speak of outside of extraction, so while there are jobs for EEs, it's not the best. 
+
+Europe has a much more complex economy than Australia. It also has industry links to the US, so OP could build a career in Europe a while to open doors there. 
+
+Australia is a technical career dead end outside of a few specific fields. Do not recommend.
+It’s safe, it’s clean, politically stable, people are generally cool, good weather (mostly).
+
+But it is insanely expensive.
+It's expensive and far as fuck from anywhere. 
+
+
+Best Country on the planet.
+There’s a lot of Italian culture still in Australia, so that’s a bonus.
+You’ll like the coffee
+OP listen, this sub doesn’t reflect Australia well as it is made up of a narrow subset of the population.
+
+Cost of living in Aus is not all that bad, in many categories they are better than Europe and the salaries in power systems engineering right now in Australia are among the highest for power systems engineers in the world.
+
+DM if you need further advice from someone in the industry
+Generally your prospects in Europe, speaking as a fellow european, aren't looking too bright right now. Unless you want to go into the defense sector, which is probably the only growing industry worth looking at for an electrical engineer. I probably wouldn't, though. To me, too, Australia seems a tempting proposition. It's comparative climate to the south of europe, easy going, young and otherwise european style society has a lot going for it. And with a good career path, you could pick worse places.   
+Electrical engineering is a career option with a lot going for it in places like Germany, but then again, Germany is full of Germans. Whereas Australia is full of Australians, and I've never met one who isn't charming off the scale, from my own perspective. As to how the work market is down there, better ask someone else. 
+
+Just a side note. I'd severely doubt it when Australians claim it's expensive. I'm from Norway, and I find Italy expensive. And Australians find Norway extremely expensive, so go figure. If your choice was between Norway and Australia, I'd seriously lean towards Australia right now. Norway isn't a good place for foreign labour atm, with our currency in decline. Access to the labor market might be easier, but the move is going to be costly either way. I'd save some money, travel down to Australia, and look for jobs (if you haven't got an offer already) and apply for citizenship there if you could. Keep Northern Europe as a Plan B, it's not a bad place, but genuinely, Australia is looking more and more interesting, the way things are going over here.
+after living in europe for 5-6years, a lot has changed for the worse in Aus. 
+
+Still the best country on the planet though, we don't realise just how good we have it here.
+Just avoid Sydney and Melbourne, as they're Australia's most vicious and nastiest cities. And I'm not just talking about the cost of living there.
+To be honest I'm more into power systems engineering, not electronics (grid infrastructures, electrical machines and drives). What do you think about this field? And what about northern europe?
+Also, I really don't like the states, so leaving that option out.
+What are the main pros in your opinion?
+Thanks for taking the time to read and answer! 
+(Just a side note: as specified in the post, I already have the Australian citizenship)
+I was actually considering Denmark. 
+What do you think about asian countries?
+And since you live in Norway, what other northern countries would you recommend?
+Can you elaborate a bit the last sentence?
+Electrical engineer here. I now work in building services (construction) , however I know for a fact you'll have no problem finding a job in power systems and infrastructure. If you're chasing $$$, the big salaries are all in mining. They are always looking for skilled engineers.
+
+There are also big opportunities in renewables at the moment. WA for instance has some very large renewable products in early design phases. 
+
+Another is the electrification of existing services as the country is moving away from gas sources. In my particular field, a new Greenstar (sustainability rating and certification body) requirement is all new buildings, and existing redevelopments, to switch from gas to electric.
+If you work in power systems move to Australia, it’s the place to be right now
+I have no direct experience in the field. Certainly we have a power grid in Australia, and some local site grids. But I do not know that we are doing anything remarkable in that space or that jobs are outstanding that aren't being filled by locals.
+Probably it's stability, lack of pollution is great too.
+we  never  had  a civil war  here.
+It's nice to live in a cheap country in SE asia, until you get to the point where you have to deal with the government, or integrate into the culture. Australia is pretty much free of corruption in the day-to-day government interractions, it's easy to understand its' various systems, and they have all the social security and safety nets you come to expect living in Europe. I don't think I'd recommend working in other Asian countries. Arguably Japan, but the barrier to entry as an imigrant is so much higher and more difficult than Aus, and it's expected that you already know the language to a degree. That's gonna take time and resources that Australia most likely won't demand of you to the same extent. 
+
+Of the northern countries, probably look to whatever countries are trying to transition from coal/gas to green energy. There will be a lot of opportunities in that regard. Some countries are trying to switch on their angry rocks again, so the nuclear field might be looking for people like you. That will not be happening quickly, so it could be a long term oppurtunity.   
+Northern Europe hasn't got much of a manufacturing industry (apart from Germany, but I reiterate. It's Germany. It's not worth it.) but there's a lot of investment in green and solar. Not a market analysist, can't say what will be viable here in a couple of years. Denmark or Sweden, maybe. I wouldn't hold my breath, as finding a job will be mostly down to experience. Since Uni is free here, the barrier to entry for engineering is very low, and the salaries are decidedly common compared to places like the US. Norway may do a lot of work on the energy sector, but we are very hesitant to upgrade the currently over 90% green network. So unless you want to work in the oil and gas industry, would probably not recommend. Also, cost of living in all of Northern Europe is at an all time high combined with a decline in the value of currency both in Norway and Sweden.
+We don't have the gun violence of the USA
+
+We have universal health care - like much of western europe.
+
+Our democracy is better than many (unlike the USA) - not much violence or terrorists, and very peaceful for the most part.
+
+We have clean beaches - so that will be familiar to people from Italy.
+
+We have clean water, high-quality food and housing (but the housing is very expensive)
+
+And we're mostly isolated from much of the political troubles of the northern hemisphere.
+
+Most migrants are very welcome. If you're willing to embrace the change and become an Australian, you'll be OK.
+
+The 2032 Olympics will be held in Brisbane and nearby, so there's lots of demand for qualified trades in the next 8 years, you shouldn't have a problem getting a job.
+We have a thing in Australia called chicken salt. That's why it's the best country on the planet - chicken salt.
+If you don’t know then why comment
+Our housing isn't high standard by most developed nations standards
+We no longer have universal health care. We do have free hospitalisation but you will pay if you want to see a GP.
+No envious, hateful people
+
+Society is humble , respectful, rational, smart and polite
+
+The legal system and justice are working
+And good coffee, something that an Italian will appreciate I think
+Typical r/Australia arts graduate
+
+As an engineer, all I will say is we cannot get enough EE’s in the market. There are billions of dollars being spent on transitioning to renewables, and thousands of kilometres of new cabling. A lot of my colleagues got poached to the US for $300-400k USD salaries and Australian salaries are catching up. 
+
+OP will find a job within a week.
+Because the person to whom I responded asked me a direct question in the comment to which I responded. They clarified that they were interested in the power transmission side of the work, not the device electronics side, and asked a question about that. When one is asked a question to which one does not have a complete answer, it is appropriate to respond stating something to that effect. 
+
+I hope this clears up the matter for you.
+Both of your comments are just mindless waffle tbh.

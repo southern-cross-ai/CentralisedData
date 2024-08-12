@@ -1,0 +1,415 @@
+Hi everyone, 
+
+This is in the ACT, we have been told by our real estate agent that their bank (Macquarie) has with short notice cancelled their direct debit function. So that as a result we cannot pay our rent via direct debit, and instead have to move to a third-party payment platform. 
+
+Has anyone else had this happen to them and/or is normal or is the rat I'm smelling real? 
+
+EDIT: Thanks all for the help, it's much appreciated. 
+
+***Further update***
+
+So it turns out Macquarie bank actually has turned off Direct Debit for some of their accounts for some strange reason. So the REA wasn't lying which I was shocked at tbh. We're going to go down the BPAY route with them. Thanks to everyone who helped, great community and much appreciated. 
+
+Cheers,
+This post has been marked as non-political. Please respect this by keeping the discussion on topic, and devoid of any political material. 
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/australia) if you have any questions or concerns.*
+Ask for their bank details BSB and account and set up an auto transfer to them for each rent payment. 
+
+Refuse the third party platform, they charge fees and are unnecessary.
+
+I'm not sure what the law in the ACT is but forget those third party rent payment platforms.
+A lot of REA's are pushing people on to these platforms that charge fees.
+
+>"It is best practice for the landlord to not require the tenant to pay rent in a method that incurs a fee for transfer or deposit of funds. This includes fees charged by third party payment systems."
+
+It seems the ACT does not outright prevent this currently where other states have begun to.
+
+I would still demand they provide a method where you are not charged any excess fee.
+
+Edit: some useful posts here: https://www.reddit.com/r/canberra/comments/r4t3u0/how_can_i_get_out_of_using_deft/
+We hear about this more often.  
+  
+ Was it Ray White whose owner's grandson made one of these apps that charges ridiculous extra fees? And the agency is pushing all their tenants to use it?  
+
+  
+It's pretty disgusting that real estate agencies abuse their position of power in a rental crisis to squeeze out extra fees from people needing shelter.  
+  
+Does your lease say anything about this or payments in general?
+My partner and I had this happen, took it up with the REA (Ray White) who claimed because it was technically "legal" they weren't doing anything wrong. Anyway another tenant complained to the landlord directly, who found it outrageous that the REA were pushing his tenants onto an app and charging a fee, when he already pays them. The landlord ended up giving them an earful, stopped using them to look after his 5 or so properties, and now deals with us all as tenants himself.
+I'd read my lease agreement to check what it says about payment options, but a bank removing a direct debit feature is ... well, bizarre. I'd be questioning it.
+My understanding is that they need to provide one fee-free option for paying rent, though I'm not sure if this applies in the ACT. Usually ACT is better than other states/territories on renter's rights, so I'd be surprised if it didn't apply there.
+
+That said, the fee-free option might be inconvenient on purpose. Couldn't hurt to ask what fee-free option or other options they provide
+Have a look at your lease and the required payment method there. 
+
+You can agree to change it but you don't have to. 
+
+Have a look at page 37 of the renting book for ACT under the heading "Method of Payment".
+
+https://www.justice.act.gov.au/__data/assets/pdf_file/0008/2443472/Renting-Book-May-2024.pdf
+this smells like bullshit. 
+
+as others have suggested, check your lease. if direct debit is listed as a valid payment method, they cannot make you change to something else.
+"Dear Property Manager,
+
+Im sorry to hear your bank is cancelling your Direct Debit facility, that must be frustrating for you !
+
+I appreciate your suggestion I pay via XYZ instead, but Im not comfortable with that idea for many reasons I wont bore you with.
+
+Send me your BSB and Account number, and I'll push the payment through myself each Xday. Let me know what reference you'd like me to use so you know the payment is from me.
+
+If you'd prefer not to give me your Bank details for this purpose, thats your perogative but the only options I can accomodate are Direct debit, direct depost, or cash brought to your office each week.
+
+3rd party payment processors are simply not an option (sorry).
+
+Cheers,
+Tenant
+
+P.s. take as long as you need to get back to me with those details. I'll just put the rent aside each rent day, until im provided suitable payment options"
+"[Once agreed at the start of the tenancy,
+the way in which rent is to be paid cannot be changed unless both parties agree to the
+change.](https://www.justice.act.gov.au/__data/assets/pdf_file/0009/2333934/Renting-Book-October-2023-Update.pdf)"
+
+So don't agree to any change that requires you to pay fees.  If they want you to use a platform with fees, that's fine ... provided *they* pay the fees.  Note that the document says "tenancy," not "lease," so starting a new lease doesn't work around this requirement for you to agree.
+
+If the agent assures you that there are no fees, make sure you have this promise in writing before agreeing.
+First port of call I'd read your lease agreement.  What payment options there suit you?
+This is just the REA money grabbing.
+
+The landlord pays each month a property management fee.  In my view, that should include the payment methods so that the tenant can make payments and (most importantly for the landlord) they can get paid the rent!
+
+It's not right that the REA is charging a second fee for the tenant - particularly not at the rates some of them are (of the order of $20).
+Sounds like bullshit. Check with the bank. Fucken hate REAs..
+It's illegal in ACT. According to the renting book, once the payment method has been set in the rental agreement, it cannot be changed unless you all agree. So they can suck it.
+
+They will be able to force that once the tenancy agreement expires / renews though, so be careful with that.
+Yup. My real estate cancelled our direct debit and asked to create an account with Macquarie Bank’s DEFT systems. 
+
+It had charges and I simply deleted the account and moved to pay through BPAY. 
+
+Have set up auto payment. No stress. Just that I’ll be paying two days earlier than before.
+When our real estate agency changed for the property we are renting they got us to move away from direct debit, which we had been using for years no issue, into their third party method which would pull the money from our account instead of us sending it to them. 
+
+System would double charge rent on one occassion and when we signed a new lease the payment amount was higher than agreed to and just pulled it from my account.
+
+Eventually, after working back and forth with our borderline useless agent for weeks who would never get in contact with us, I said I wanted out of their system and will be transferring via bank transfer going forward and that option, which originally disappeared, suddenly was an option again. 
+
+Your real estate saying their bank doesn’t accept bank transfers is a load of baloney.
+Thanks all for the advice, it's much appreciated.
+This happened to me a few months ago. Ray White (Ryde in NSW) use Alio registered in the web domain https://ailo.io  
+There’s an app that has to be downloaded and you pay through that. It was sold as a positive to schmuck renters as giving us the ability to pay by credit card(!)
+Unless you want to manually insert your bank account details each time - you have to pay a fee to use the automatically remembered system! 
+The system is a pain in the arse. Every time rent is coming up, it will email you a reminder!
+I wrote to Ray White explaining how full my inbox would be if every time a bill was falling due I would get a reminder beforehand? (“We’ll get used to it”)
+Meaning of course, YOU’LL get used to it. 
+The other real annoyance with the system is that it doesn’t deduct the money from your account straight away. Meaning that if you’re living on the edge like me, you have to be aware to keep that money still in your account for a few days. 
+
+I haven’t used the hassle-free credit card method so I don’t know how much the fees are. 
+
+In my opinion, it’s just another unnecessary parasitic company added to the already unnecessary parasitic company in between two parties who want to conduct business together.
+From the ACT Government's "The Renter's Book"
+
+>  
+Method of payment The residential tenancy agreement should also state how rent will be paid e.g. directly into a bank account, cash, Bpay or by a payment app. Once agreed at the start of the tenancy, the way in which rent is to be paid cannot be changed unless both parties agree to the change. For example, if your agreement states that your rent is to be paid into a bank account, the landlord cannot demand that you start using a third party payment app to pay your rent. Be aware that some methods of payment may involve processing or administrative fees.
+
+So, check your tenancy agreement and check what it says about payment method. They can't force a change without your agreement.
+This has happened to my wife and I on almost every property we’ve rented. 
+
+We’ve taken great delight in choosing the most painful option for the agent that’s not one of those platforms. I’ve happily gone the cheque route lol. 
+
+Eventually they give up. Hopefully everyone keeps fighting the good fight!
+They are lying the bank has not cancelled direct debit.
+They just want you to use the app to help them.
+Just set up an auto recurring payment using their account details. 
+
+My REA tried to make us do the same, I just set up a regular payment.
+Just request their trust account and pay it directly into that. No fees. And they legally have to have a trust account so...
+When has a bank ever done anything to PREVENT money going into one of their accounts?
+
+The REA is lying to your face.
+Direct debit should go away. It is a system to allow 3rd party to draw funds from your account as if you 100% trust them. They can draw whatever amount whenever they want. Surprised someone decided to ditch direct debit. But it’s likely that the 3rd party payment system is going to be direct debit with extra steps (and fees).
+Rent seeking in my rent seeking.
+Ayo, which REA? Also in the ACT
+You should be able to schedule payment using BPAY. That's what I have done.
+Update:
+
+Macquarie has confirmed they did in fact turn off direct debit for some accounts, no idea why and they wouldn't say. Have put an update in the original post.
+Not sure about ACT, but do know in NSW by law they have to give you a fee free option. I’d be surprised if it’s not the same elsewhere
+Same happened to us but in Brisbane. Pay with card online $17.85 fee. Pay at post office $5 fee. Other option is direct debit if I leave my card details on file & that ain’t happening. Not Ray White.
+Demand a payment method where you don't have to sign up or pay fees.
+
+If they're unwilling to provide a fee free way they can cover the fee for you via rent reduction.
+
+Don't sign up for anything though. It should be unlawful to force you to agree to any terms of service. Especially not in your human right to shelter.
+Not sure if this is happening across other states. I'm in Qld and new legislation will require a fee-free option to be available.  
+
+All my google searches default to Qld info but maybe this will help, esp. if it is a thing in the ACT.
+
+> Queensland's new rental laws will require agents to give tenants a fee-free way to pay but these will only "take effect on a day to be advised", the Residential Tenancies Authority (RTA) said. 
+The third party systems are fucked. They changed the due date for our rent arbitrarily without telling us and deducted a fortnight payment, they refused to return it until we involved qstar (qld tenancy support). It was a fucking nightmare and then we were speaking to a 19yr property manager who kept crying when I walked her through what had happened. 
+
+Would never do one again.
+My REA also sent an email saying Macquarie Bank was turning off direct debit due to increase in scams/fraud. Also said we will now have to send through our rent payments manually each week with our reference code.
+Nope! They’ve been trying this crap for 20 years. Check out the terms of the tenancy act and quote it back to them. You don’t need to use a third party payment entity.
+I sometimes wonder, do the landlords know of these shenanigans that REA pull??
+Ask for a rent repayment book.
+When I moved into my new place, I signed up for RentPay because I was lazy and forgot to add the funds to my bank account before the first payment.... Got charged a $5 dishonour fee
+
+Fucked that shit right off
+Legally they have to offer a fee free way to pay.  They make it hard. I had to manually enter the bank details each week and it was annoying
+I am also the victim of this. Had direct debit going perfectly fine and then Ray White forced me to change to an app. I was on the phone for about 20 minutes in a shouting match before I ended up having to just accept it. I now pay a fee to pay my rent, unless I go into the app every week or fortnight and put in my bank details *manually* to make it as difficult as possible. I am now paying for what I was doing for free previously for about a year.
+
+As valid as all these comments are, technically, these apps *are* providing you with a free-way to pay your rent, they just make it really difficult to do. It’s a loophole, and it’s fucking disgusting. 
+
+In this cost-of-living crisis, we are now paying for the convenience of what we were doing for free via bank transfer. 
+
+It’s wrong and the government needs to step in and make legislation banning this. Nobody should have to pay to pay for their rent.
+PayTo is a new payment system is being rolled out to replace direct debit that many banks are already implemented. It gives people more controls about direct debits 
+
+Most likely Macquarie is shifting to that system, but agent use it as an opportunity to get people on the app instead.
+Australia is so bad at delivery of anything. Way too many accountants, lawyers, finbros and marketing/spin doctors.
+While businesses can refuse to accept cash as payment, one of the core tenants of "legal Currency" is it cannot be refused to settle a debt.
+
+To put it plainly - Businesses can refuse to sell something to you for cash, but if you owe them a debt, they MUST accept cash.
+
+Therefore, you can cancel your direct debit agreement with your landlord's agent, refuse to enter into any payment platform or pre-authorization and tell them if they don't give you their BSB and Account number, they'll see you bright and early at their office with your rent in cash one day after it's due.
+We should all write to our MP about this. It's a fairly easy narrative for them and the media to pick up nowadays.
+Make sure you are paying $0 in fees
+That's crazy, you have to pay a fee to pay money...
+Why not direct credit them instead by transferring to their trust account’s BSB and account number?
+You should just be able to transfer them directly with their acc details (BSB & acc no.). That's what we do with our REA.
+
+Ours has a reference number specific to us that we add in to any rent related transfers so that they know it's us!
+3rd party platforms are also interested in getting your information, where it ends up is anyone’s guess.
+I now have to pay rent through an app called ailo - and it also takes a fee. 
+If I pay say $300 for my rent, I get charged $301.25.
+Yes. Many years ago my agent advised me that I could no longer pay by bpay and had to use this company that was absolutely terrible and lots of fees
+I'm nearly sure that they have to provide an option that doesn't incur fees
+I recommend getting an old fashioned cheque book and posting your rent to their office. The cost of the stamps will be less than the fees via the app and they will hate having to deposit cheques into their bank
+Can always play the personal freedom card. 
+
+"I will only accept the application so long as it is Free/Libre software with open source code for inspection. Otherwise this is in infringement on my rights as I am being asked to deploy software on a personal device that cannot be trusted."
+
+Worth a shot.
+Nope surely that is wrong
+Who is the real estate agent? 
+Our RE did this to us too, I asked for the bank details to direct deposit and they said they could not give me the owners account number.  (This was bullshit)  Two months later the payment app crashed and we  couldn't pay rent and there solution was ..... here is the owners Acc and BSB, pay directly into that.   Such a waste of everyone's time.
+Most Real Estates are dishonest.   Mine put my rent up and 6mths later my landlord still didn't know about it.  He happened to come over to fix something and I told him.  He was furious.  They were keeping that little profit for themselves!  They're too scared now to do anything wrong by me lol
+The app that I was pushed onto by my REA has a fee free option. I just have to type my BSB and account number each time which is fine.
+The services sell themselves to the REAs and pay them commissions. The REA will have a script to argue against this. OP, don't fold, insist on a fee-free method to pay.
+>Ask for their bank details BSB and account and set up an auto transfer to them for each rent payment.
+
+My REA canned this payment method about a year ago, said they would no longer accept payment by bank transfer. I would have fought it but they offered BPAY as a replacement, which is still free and automated for me so I didn't argue. It did feel a bit like a boiling the frog red flag though.
+
+I draw the line at using one of these third party platforms. I will never use one. I would rather be petty and take cash into the REA office than give my details or a cent to these man in the middle scam platforms.
+In NSW they have to give you an option that is readily available and where you do not have to pay additional costs.
+Well that's just heartless. The man in the middle who does nothing and adds no value, still needs to buy another investment property to keep rents high.
+
+Oh, won't you think of the middle man?
+>I would still demand they provide a method where you are not charged any excess fee
+
+Totally this
+
+And state that you don't want the data collection these apps do either, given all the breaches we have in this country
+> some useful posts here
+
+Most importantly, if it's DEFT, you can pay for free with BPAY which means you push the funds from your account.  You can just set up a recurring BPAY payment using your bank's online system.  Don't use those options where you give the other party your account details and authorisation to pull money from it.  Remember when One.Tel went broke and continued to pull from people's accounts for weeks afterwards.
+>Was it Ray White whose owner's grandson made one of these apps that charges ridiculous extra fees?
+
+I believe that the Ailo app was created by the grandson. Certainly RW forces renters onto the useless piece of crap app
+The disgusting thing is that our governments refuse to protect tenants from this gouging
+Now that is a landlord doing it right! Props to them
+These REAs honestly need some bricks thrown through their windows.
+I feel like if you have to argue that something is “technically” legal, you’ve lost all possible ground. 
+
+Good on that landlord, I’d do exactly the same. Fuck REAs.
+I got all the messages about moving to Alio, which I ignored and I just continued to pay into the account anyway from my bank. They haven’t said anything, it’s been like a few months now and they send me my receipt each time.
+it's BS. the REA is making an excuse to try and scam fees out of tenants.
+I asked Macquarie and it seems to be the case apparently for some of their accounts. No idea why they're doing it but I don't bank with them so I don't care overly much. More focused on ensuring the REA doesn't screw us.
+I actually can verify that Macquarie is doing this, they’ve done it to my agent too — but my agent just had me start sending my rent to their new account at ANZ instead of trying to push anyone to a bullshit app. All REAs are bastards, but mine is slightly less of a bastard than some, I guess.
+Direct Debit is in fact going away. But it’s being replaced with PayTo that does away with paper forms.
+If they're asking for 3rd party payment u better believe the fee free option is a pain in the ass. 
+
+For example my last rentals fee free option was pay roll deduction... I'm not even sure how many businesses are going to accommodate that.
+
+The only way I got around this 3rd party app thievery is to pay rent monthly via bank cheque using ING as bank cheques over $1000 with ING are free. It's a lot of effort to make sure it arrives on time every month, just to save around $40-60 a year on fees but imo it was worth it. The REA fucking hated  having to drive to some bank every month to cash my little cheque.
+It *was* a valid payment option *while* Macquarie Bank operated their direct debit system. But now that Macq Bank has decided to cancel direct debits, it's still a *legal* option but not a *possible in practice* option.
+Very helpful draft, thank you!
+>If they want you to use a platform with fees, that's fine ... provided *they* pay the fees.
+
+It's still not fine, these platforms farm and sell your information. They are also another risk avenue for data leaks.
+Giving away your details to a third party, is still a cost to you and it has been ruled in the courts as such.
+
+
+Basically, even if they paid you to use it, you wouldn't even use it. Fuck their platform. It doesn't need to exist.
+I feel a lot of this could be solved if we were allowed to punch REAs.
+Thanks for this, how did you get the correct bank details to set up BPAY?
+It was 1.5% when I looked it up, so if you're paying $4000 a month rent the fee is $60. What an absolute scam. My real estate has just forced me onto Ailo as well. Currently thinking about the best way I can make my real estates/Ailos life more difficult for forcing this change.
+Not true. Macquarie Bank **are** turning off direct debit. My REA however has not pushed any app. Just told us we have to pay weekly the old way (you know, direct deposit).
+…which is probably the same account the payment app deposits the funds after they take their payment fee!
+The banks are aware that major changes are about to occur in legislating banks to be more responsible for customers being defrauded. They are trying to say "look, we know scams are a problem. We are trying to protect our clients. We enacted A, we provided B, and we disabled C. We are responsible and are doing right by our clients. Also please don't penalise us by legislating harsher stuff for us to comply with."
+Macquarie Bank has turned off direct debits. I wonder what other actions other banks might take.
+It did sound rather odd. The only explanation I could think of was that the REA was in trouble because of dodgy accounting, illegal activity or something so the bank was restricting their accounts.
+Don't want to post it here, why do you want to know? I'll PM you.
+Going down that route, thank you for this.
+They have to offer a fee free way. Ask what that is and do it, even if it’s a pain for you (it’ll be a pain for them too)
+I'm fine with that tbh.
+In the country where you pay to pay for groceries and that is acceptable for many. Many are so companionate about businesses costs and think that, for instance, surcharges are legit.
+I thought of this too ... but it won't work for at least two reasons:
+
+* rent must be paid in advance, before any debt exists; and
+* contracts are allowed to specify a payment method other than cash.
+
+As evidence that this is true, some states have legislation that requires a fee-free payment method for rent.  The NSW rule probably protects the ACT to some extent since I assume many real estate agents work across the border.
+Not to disparage how shit that it that it's the the done thing nowdays, going by recent posts on Reddit REAs are already selling the details of anyone who gives them contact details when dealing with them just to apply for a rental or express interest in a for sale property anyway.
+That app is harvesting your data and onselling it. Fee free means you are the product, not the customer.
+Landlord here in Melbourne - as above, insist on a fee free option and dont back down!
+When I asked my landlord for a fee free option they told me I could pay in cash at a post office. Fuck doing that, so I ended up having to use their platforms and pay them a service fee for the privilege of collecting my rent. Scum.
+At least in NSW, they legally have to offer you one fee-free option. But I’ve heard stories of some choosing Australia Post Cheque as that option to really fuck you over. (In person deposit at the post office during business hours)
+In my case, the REA had been incorrectly using the same trust fund that was meant to exist solely for the purposes of temporarily holding bond funds prior to them being sent to the RTBA (which is the Victorian entity that manages all rental bonds).
+
+After my continuing rejection of being moved to the payment platform that was started and operated by a member of the family that have their name on the agency, they provided an alternative BSB for the purposes of payment.
+My mate said his only free option is to go into their office to pay..
+Do note you can avoid paying fees with ailo by doing a manual transfer.
+my LL is getting on in age and so I have started taking the rent to his home instead of him collecting it from mine.
+
+last night when i did so, he gave me a bag of oranges from his garden.
+My local realestate spent a blast about Alio in may.
+
+It caused a massive blow up on the local community page with both tenants and landlords cracking a stink about it (alio apparently also charges the Landlord fees) and they’ve since withdrawn the change.
+So weirdly and to my shock, Macquarie confirmed they are in fact disabling it for some of their accounts.
+REAs trying to push the blame onto their bank for their own incompetence and greed it seems.
+I wouldn't trust the payroll guy at my job to remember to pay my rent! He's always making mistakes with our pays.
+Yeah it greatly varies by REA. All of the rentals I've had in the past decade have had both bpay and some shitty app.
+Thank you for your service.
+Why is that the Tennant's problem? If the REA has a contract with the Tennant's for direct debit, shouldn't it be up to th to find another bank to maintain their contractual obligation?
+The real estate agent has probably already had your data leaked and stolen anyway. 
+> Basically, even if they paid you to use it, you wouldn't even use it.
+
+Unless the alternative was homelessness, which is the case for a very large number of people.  As long as the third-party platforms provide a fee-free payment method then real estate agents can force people to use them.
+
+> Fuck their platform. It doesn't need to exist.
+
+As much as I agree, politicians aren't going to ban them in the foreseeable future.
+Yes. Ask the RE to setup a BPAY for you. There should be at least one charge-free method for you to pay the rent.
+Ask the agent for the bpay details.
+I let the Real Estate Agent know about the issues I was having with Alio. 
+
+If you are locked into an unpleasant marriage with these blood-suckers you can pay using the direct bank deposit method without paying fees. 
+
+I used to pay a few weeks ahead but I don’t sufficiently trust Alio to be solvent whilst in charge of my money. 
+
+So my level of trust of this unwanted interloper is limited to say the least.
+Oh really, well that sucks, but you still should not have to use the app, you can set up your own automatic transfer.
+Wanna prep if it hits me, yeah PM me
+The free option is having my card details saved on the website, but that makes me feel so uneasy.
+Honestly, I'd love to see someone take this to court, or at least VCAT (or your state equivalent). I suspect you'd be successful because no REA can be bothered to fight it when you are actually willing to pay.
+
+If you're right (and you may very well be), I'd say it's the latter point (that you'd be in breach of contract) rather than the former.
+
+I had a friend who used to both be a tenant and a landlord, (Owned in Melbourne, lived in the country) and he knew the eviction rights to the letter. At the time, you couldn't serve notice to someone until they were 7 days in arrears by legislation - which over-rode any terms the agent might want to push on you (for example, like the standard practice of making you pay 2 weeks up front).
+
+So he'd agree to all the terms on signup, do all the forms and move in. Then as soon as he moved in he'd cancel the direct debit, politely but firmly ask for bank details, then let his rent lapse until he was six days behind (which was a full 20 days after the date the agent's due date). Then he'd pay in full, and do it automatically on the day.
+
+He'd get bombarded with texts from the agent, but they couldn't actually do anything about it.
+
+This was 15 years ago now though, laws change...
+Landlord here is Brisbane, just tell them you can only do direct transfer to a bank. Fuck em, even I'm getting tired of shit property managers. Thinking about doing it myself. Have really good tenants and don't want to loose them.
+Meanwhile, I am exactly this petty.
+It should be a banned practice. It adds no value but adds cost to the renter.
+We did cheques for about three months until the option to direct debit came mysteriously back
+"That app doesn't work on my new phone"
+10c coins at their office and pay weekly. They’ll quickly find another way to let you pay.
+I would be lining up at the post office with my cash every week/fortnight or whatever. But I am a determined bloody minded individual.
+Yeah, fuck the landlord in that case. I'd have just said money is waiting for you, until you give me your account details.
+Well, that's your fault. Lol. They gave you a fee free option that thousands use every day, and you turned it down.
+Someone took this to NCAT and the Tribunal found that a third party app involved giving up personal data and that giving up personal data was considered a ‘cost’ to tenants. They also found that Aus Post money orders weren’t a sufficient fee free alternative. Anyone who wants to avoid using an app please contact your local tenants advice service via the NSW Tenants Union
+The other way they screw you is that they do offer a fee free method of paying via the third party app. The fee free method however has to be done manually every week because the app won't save your payment/bank details. Our REA just moved to this and thankfully we'll be moving out into our new place in the next month or so, so I couldn't be bothered fighting it and just set up the auto payment for the small fee for the few weeks we have left. Can't wait to be free of these scumbags again after needing to rent for the last 18 months.
+About 15 years ago, the fee free option given to me by a property manager was a physical card I could use at St George to make payment over the counter.
+They wouldn't give me a BSB+Acc to pay into.
+Fuckers.
+I'm Qld as well
+And I can do that, but I only have small bills so expect lots of $5, $10 and $20s..... fuck them REAs
+That’s a bluff and a half. They do not want to waste man hours dealing with payments in person.
+
+I’d rock up with notes no higher than $20 and at least $10 in change. I’ll bet the BSB and acc number get discovered pretty quick.
+I'd start getting a $3 money order at Auspost every week and paying with that.
+
+It's a fucking pain to get cash from. You can't just take them to the bank.
+Jesus. Time to harrass the local MP over that
+Yep, that's what I do.
+It's still a crappy system. We were on direct debit and then our agent was absorbed by RW and forced onto the app.
+But if you switch to Ailo they will be able to charge late payment fees whereas an REA can't.
+That is very cute
+that is weird. 
+
+... real estate agents are still jerks though
+The contract isn't for direct debit though. The contract is for a set payment per week/fortnight/month of the rent amount. The opted payment method was direct debit since the bank allows for that. As long as there is an option to select a payment method that is fee free, there are no legal issues on any side. Hence why most of us will be selecting recurring (set and forget) BPAY payments which is already available to us without signing up to something new and it's also fee free. It's actually better than direct debit as we set the amount and the time frame rather than the debitor (i.e. REA) having the *ability* to be pulling money from our account for any amount at any given moment, which is why the banks are going to be cutting down heavily on this option in the future.
+Most of us are not using the app due to fees and data protection weariness. If your bank already allows for BPAY payments then they can be set to recurring payments and are also fee free. Win-win for us as the ball is now in our court rather than the REA debiting us.
+Credit/debit card? That’s the same as subscribing to say Netflix then.
+
+You could always get a refillable credit card and just have an auto transfer from your savings a day or two before rent is due.
+Honestly for the use rea's are, you are paying them to do nothing but infuriate your tenants, and advise you on the best course of action to pay more fees.
+
+If you have good tenants, ditch the rea
+...did someone say a wheelbarrow full of coin?
+Should be a cost to the RE really… IMHO
+It is in SA:
+
+"56A—Manner etc of payment of rent
+
+(1) A landlord under a residential tenancy agreement must ensure that rent may be paid by the tenant under the agreement in a reasonably convenient manner and, in particular, must permit the tenant to pay by at least 1 means that is electronic and does not involve the collection of rent from the tenant by a third party who charges a fee for the collection service.
+
+Maximum penalty: $25 000.
+
+Expiation fee: $1 500"
+This is perfect! Cheques will probably cost the REA bank fees 🤣
+Perfect. They would hate that 🤣
+I was forced by my REA to pay with cheques for years until covid came about, and then bank transfers suddenly became acceptable.
+The app is not getting installed on my phone, do something else.
+*old phone. Many apps have unsupported operating system versions. This is more likely to be a problem than a new OS not being supported.
+I would look them dead in the eye and say I don't have a smart phone.
+"use a computer"
+They can refuse the payment in silver coins btw
+It's the rea not the land lord
+Send an invoice to your landlord for the fee amount, plus handling cost.
+I'd be going to my bank first and getting coins.
+
+
+You make my life hard. I make yours harder
+Make sure to include some “sock money” too.
+Rock up at 4:58 on a Friday. Make sure your about $17 short so you have to recount it several times. Then cough up the extra in loose change. 
+
+I'm sure you'd get an account number by the second week.
+You don’t have to use the app. NCAT has found that tenants can’t be forced to use apps to pay rent because handing over their personal data is considered a ‘cost’ to tenants. If you don’t want to use the app, push back. If you need help doing so, contact the Tenants Union
+LoL.. same, my agent also got brought by Ray White
+I don't know how that works, I'm always a month ahead on rent.
+That's a great idea. Thank you!
+100%, my landlord ditched the cunts years ago, they were doing fuck all if I had an issue I’d call him anyway and we’d sort it out.
+It's not the poor post office workers fault... dump the coin to the REA though
+"I couldn't tick the box to approve the privacy policy".
+While holding it in my hand, and just keep repeating “I don’t have a smart phone”
+[Not entirely](https://banknotes.rba.gov.au/legal/legal-tender/)
+
+>not exceeding 20c if 1c and/or 2c coins are offered (these coins have been withdrawn from circulation, but are still legal tender);
+
+>not exceeding $5 if any combination of 5c, 10c, 20c and 50c coins are offered; and
+
+>not exceeding 10 times the face value of the coin if $1 or $2 coins are offered.
+Just hand them an envelope, if they don't want to accept the silver coins then they will have to return them to you.
+u/FoundationTiny1603 specifically mentioned the LL, and not the REA
+It's like a dollar a week, I'd rather just pay it and never have to speak to them again after the next few weeks.
+Unfortunately, they can and do  place limits on how much coin they accept. Notes are much less likely to be an issue! At least the first few times .
+
+People like me are the reason for rules like that 🤣 😂 🤣
+ass pennies
+Whilst true, no renter wants to rock the boat in this market.
+It should be a trend, use the vultures for initial vetting.  Because sifting through all the applications as a private landlord would be a pain.  But if intending to renew after a year, drop them.
+That's a good one!
+Yeah I'm not sure if someone's rent is $5 in 2024
+Ewww…
+Yeah, but you can do up to $5 in small crap, then $30 in less small, then the rest in $5s and $10s
+
+It's not as annoying as a wheelbarrow full of shrapnel, but it should get the message across
+Yes but the argument was all in 10c pieces

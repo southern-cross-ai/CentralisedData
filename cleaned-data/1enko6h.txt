@@ -1,0 +1,7 @@
+
+Bloody woeful that we get bombared with security questions doing very low risk transactions, but when it comes to rolling someones super or changing their bank account details on the linked ATO service there's no real time notification or alert and there's no extra authentication / reconfirmation MFA step.
+Mygov sucks and I hate it and I wish the government would hire people to work in branches of centrlink and Medicare and so on to help us in person.
+they can easily just make sure the payee name will match.
+How? APP announced something is in the works but I haven’t seen anything useable now?
+
+Don’t say Payid because that’s not how it works.

@@ -1,0 +1,44 @@
+I received an SMS with a MyGov code tonight. As I didn't request it I signed in and it is showing someone was successful in a new sign in 15 minutes earlier.   
+  
+I have checked for any changes to ATO etc. I have changed my password and turned off email login - which I didn't know was an option as I always used the username. I have checked the connected devices.   
+  
+I had set up the account many years ago and never changed my password, and then re-used the password elsewhere, forgetting that I had already used it as it was saved in my browser. Totally my fault. I understand how they found my email/password due to the large number of hacks that I have been impacted by (Medibank Private, Optus and half a dozen other places.) But how is that possible that they could get past the 2FA? How do I find out if my phone has been compromised in some way??
+
+
+
+
+This post has been marked as non-political. Please respect this by keeping the discussion on topic, and devoid of any political material. 
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/australia) if you have any questions or concerns.*
+Usually your email is compromised at the same time, often because it's the same password.
+If the history from earlier only says “you entered your username and password- success” then they didn’t bypass 2FA, they just knew your password. 
+
+A full login will also say something about “you entered a code sent by SMS” - if the earlier login says that then you have something to worry about.
+Someone tried to brute force my account this week and locked it. I think it's the season for it.
+What I'm finding weird is there's this whole app - mygovid - that you \*can\* use to sign in to [my.gov](http://my.gov), but apparently there's no way to say "Please make this the only way"
+I suggest getting a password manager to store different passwords securely. That way, you can have random 64 letter passwords that are much harder to compromise, and you don't have to remember them.
+They didn't get past 2fa... that what the text was? It went to **your** phone right? If they got past it, it would have gone to theirs.
+They can’t log to an active session where they can perform actions without using your mfa code. 
+
+Either that, or they’ve identified a myGov 0-day mfa bypass (unlikely).
+
+The only other way they could have access inside your account is by stealing a session token from your web browser when after you’ve logged in with your mfa - this is usually difficult with contemporary controls, but not impossible, especially if you’ve installed plugins /extensions in your web browser.
+
+Do the standard process of changing your password to something completely unique. If the problem continues, they’ve taken control of your browser’s password vault and you’re going to need to reinstall everything
+Yer when I talk to them about someone trying to get in, the first thing they said was use a diffrent email, while on the phone I sore the options for disableing email. I ask can I just do that, the person was like ooo yer that could help. who ever runs this has no idea.
+Thanks all for the clarification. It was the middle of the night and the way the account history was showing in My Gov confused me. As I mentioned, it was totally my fault. I have changed the login requirements to username only, as well as updating the email address and password.
+Likely suggested that if you've used the same password and email combination, there's a chance it's been leaked in the past, do you have 2FA? ON your email address?
+I bet it doesn't help their 2FA app is some one-of-a-kind, in-house thing. I can't imagine it's up to the same standards as the widely used ones, mostly backed by tech giants.
+Yep this. You can also change the settings to disable using your email address as the username to login to prevent further alerts like this.
+That is good to know. Thank you.
+This happened to me a month back and I thought the same. Good to know this is likely what happened.
+Had the same thing happen.
+Probably would cause problems if someone lost their phone and then had no way of accessing MyGov.
+I work in a smart centre for CL and having an email address as your user name exposes you to data breaches,what you need to do to lock it down is to use https://my.gov.au/en/about/help/digital-id
+Pisses me off to no end when companies (and gov) think they’re so special they can roll their own MFA instead of just implementing the TOTP standard and let me use my own token app.
+
+Absolutely incompetent.
+Yes I did that last night.
+True, but same issue if you switch to MyGov Code Generator? And you can put that as the only 2FA method.
+
+Seems inconsistent!

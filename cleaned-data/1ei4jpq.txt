@@ -1,0 +1,411 @@
+How cheeky is your workplace? Mine has added 2FA to log in to access any part of the work system, leave, emails, etc. and expects you to either use one of two apps, register your private phone to receive a verification code.
+
+Now tax lets us claim “incidental” usage of our phone and so we get a % but this is just taking the piss. It’s now a requirement that our private device is available and used for work, they won’t issue a device for installing the app or receiving the sms on “because everyone’s got a phone” yeah mate that I bloody pay for!
+
+Sure let’s increase security but don’t ask me to foot the bill, nor to install any crap onto my personal device. 
+
+So what’s the tax implications since it’s now 100% required vs ‘incidental use’? Why do we put up with this nonsense, I’m not registering my device with your azure device management, and I’m not adding your security certificates to my phone either.
+
+Anyone else have a story about this happening in their workplace? 
+
+
+Edit - It’s kind of sad watching so many people in this thread get rabid over wanting to foot the bill to save their employer money. They would fire you in an instant to save their bottom line and you’re out here defending them and actions like this as though it doesn’t matter.
+Do you need to register the device purely for 2FA purposes?
+
+I use my personal phone for a couple authenticator apps (ie to get the verification code) but that doesn’t require registering my device.
+
+If I wanted to use Slack/Teams/view work emails then I would have to register the device, so I keep all that off my personal phone.
+> Anyone else have a story about this happening in their workplace?
+
+If they wanted to they could provide you with a hardware token, this is very possible and what my company has done for some uh... older staff that struggle with 2FA.
+
+Personally I was big on the 'it's my phone not installing your app' but then we had a major breach and i swapped to using the Microsoft Authenticator app and it's a total non-issue. I get the fight I do, but I didnt need certs or anything just the MS authenticator app, they can't wipe it or anything. 
+
+This is a custom thing your IT team is doing, this is not required in most cases.
+
+> So what’s the tax implications since it’s now 100% required vs ‘incidental use’?
+
+What % of your device is work purposes vs personal would be the test no...? 
+
+Just like every other situation (home internet, rent, vehicle).
+fighting this at work at the moment. so cheeky to expect staff to use personal devices. I've ordered tokens but getting the run around. And security certificate associated with authenticator apps can limit your ability to send emails from your phone
+“Oh shit sorry I’ve got a Huawei and those 2FA apps won’t work without Google.”
+We’ve had this issue at work
+
+“I don’t want to install the app on my phone”
+
+“No worries, here is a keyring token you can carry around and use”
+
+“Oh… on second thought I’ll just install the app”
+My wife had a dumb phone when her work brought in 2fa. After they finally realised that she couldn't install an app on it, they supplied her with a 2fa USB dongle that she just plugged into her laptop and scanned her finger on. Maybe they can supply you with something like that?
+I agree with you OP, it's bullshit. I'm going to ask work to provide something like YubiKey for work authentication. It's a security issue imo.
+Then quit.
+
+More workplaces will require this moving on. They need to know all data and access to company apps are safe. That's really it.
+
+I'm part of an internal helpdesk, we require every employee, including us, to have MFA when accessing anything company related. I don't like it, but I understand why it needs to be done.
+Imagine not using some sort of password manager that doesn’t allow for 2FA already for all your other shit outside of work.
+Edit: no one should be using SMS for 2FA either.
+I get it, but it's a pretty minor hill to die on.
+
+Do you want to throw away your job for an app?
+
+Just buy a cheap phone and only put that on it?
+What about a hardware token,  token2 is compatable with azure, you need a mobile to set it up but once going to you can delete the app or just use a work / not yours mobile
+Cookers be cooking. It's a fucking credential, if you need to use your phone apportion it appropriately on your tax. E.g. 5% of whatever your device operating costs are, not the whole thing. Opsec is so important move on.
+My work place does that and they are about to get rid of swipe cards and make you use an app
+If they allow FIDO2 keys, get one. You can use the same key with other accounts. And FIDO2 is phishing resistant
+I just asked for a hardware token and my IT dept got one for me. Wasn't really an issue at all.
+I never ever had a mobile phone (available for work).   If they wanted/required me to have one they can provide it. YMMV, but I contract worked until I retired. 
+
+Giving people your mobile phone number seems co-joined to instant availability 24x7 because they somehow are incapable of planning their tasks and endless streams of why didn't you answer your phone. FFS. 
+
+What is the cheapest device you can buy and SIM cards are 15/month. Should all be a tax write off.
+That's normal.
+
+Unless you didn't own a phone at all, I don't see how it's costing you anything to use your phone for 2FA. It doesn't cost you anything to receive a text or install an authenticator app.
+Normal in large organisations.
+
+Dont like it quit but centerlink uses 2FA...
+Just put 1password on your work laptop? Supports TOPT.
+Do Coles phones and $10 a month plans still exist?
+
+Then you just claim it on tax and you're not messing around calculating percentages and stuff.
+The apps require a certificate in addition, so whatever the root certificate may or may not want to do. Frankly even if it didn’t register my device, it’s a personal device, not a work tool.
+
+I’m just not sure that this is ‘incidental usage’ because it seems my device is now the ‘master key’ to the work chain link fence and while they’ve given me the key to the warehouse, I can’t get in without my device. So why am I paying for it in full, and only receiving a pathetically small tax benefit in comparison to work providing a device or paying the bill.
+
+I shouldn’t be required to have a personal device for work purposes, that’s no longer a personal device and I’m not funding work equipment.
+It’s also “their” security issue to handle, not requiring you to provide the fix.
+
+Why would a personal device with who knows what apps, screen capturing spyware, etc. zero policy or profile controls, ever be considered appropriate to a business IT department, that’s some of the worst pseudo IT security theatre ever. But apparently it works so 10/10 to those gurus.
+They can assuage their fears by providing a “secure company owned phone” that prevents the user from installing bogus apps or data harvesting screen capturing software from random websites then.
+
+The argument that my personal device should play a part in a company security system is really not that great.
+Imagine wanting to keep work and private life separate.
+
+Imagine advocating for saving your company money by paying for it yourself.
+>Do you want to throw away your job for an app?
+
+I highly doubt there is any serious course of action for denying to put an app on a personal device and if there was I'd be following up with whatever legal action is available. 
+
+I'd love to see "we terminated X due to them not installing a work related application on their personal device" I just don't think they have a leg to stand on.
+Being exploited by your employer is never a small hill and is always worth fighting against.
+
+Yet everyone here seems happy to allow their employer to save money that is definitely not being passed on as a pay rise.
+They won’t provide a work mobile. Work laptop requires the 2FA to log into their portal & apps but the laptop cannot run the 2FA.
+
+Regardless if it’s an sms either no registration etc, every-time we log in we will need to be receiving a text, something I pay for, why am I footing the bill AND putting my details under their security to not get leaked worse than they already are?
+
+It’s just another thing dumped on employees from companies who want to save a dollar. If they can’t afford to provide a system to do this, they can’t expect us to pay for it, it’s a joke, and any workplace that has this sort of thing going on needs to be told to bugger off.
+
+Stop giving your personal devices to your workplace, it’s not theirs to expect anything from, much less rely on it for their security.
+Maybe check out the DigiNotor hack or the various Chinese agencies who released compromised certificates and the data exposed through them, to understand why granting root access to a personal device is a bad idea. 
+
+If your boss told you to pick them up and drop them off because you’re already driving to work everyday and it’s on the way you’d be posting on r/aita wanting to know if you should have said no to allowing your personal property to be used by your employer regardless of situation. Here is the exact same thing, but you’re saying MORE private owned property should be used by employers!
+So they are taking the provided swipe cards and swapping that business cost over to an employee cost? Sounds about right.
+
+“Oh people lost the cards, they don’t lose their devices” … doesn’t matter it isn’t yours to use for your business.
+Sadly they’re refusing any alternatives hence my issue with it, they’re citing “cost” as a justification, so there’s that I suppose…
+Tax benefits do not equate to the full cost of doing that, and I refuse to subsidise my works expenses.
+
+I also refuse to accept they have ‘acceptable’ security measures to prevent my personal number from being part of the next data breach when I provide it for such measures.
+
+It’s just more exploitation of workers, more costs to be employed, and less ability to say “no”.
+
+I know what you mean about 24/7 availability too, I’ve had that experience when the “emergency contact” also became a contact when I didn’t answer calls out of hours, it was …not… an emergency.
+It costs me paying a bill each month.
+
+It works out to approximately 20c every time I sit at my desk. (Based upon a tax deduction %)
+
+Would we be okay with paying our employer 20c every time we go to log in? 
+
+If not, why are we okay with this, why are so many people in this thread saying this isn’t worth talking about and saying no over?
+
+
+Edit- the Authenticator app also requires a root certificate to be installed, IT refuse to elaborate on what it does or doesn’t do.
+Slightly different because while Centrelink / myGov/ etc use it, they aren’t your employer.
+
+Normal and right are not synonymous and if your employer was billing you 20c every time you logged on people would be rioting, yet because there’s no physical cash being handed over we’re happy to do exactly that? (Based upon tax offset claims we would pay about 20c per log on that we receive as a tax deduction)
+>Dont like it quit but centerlink uses 2FA...
+
+It's not mandatory. You can log into the website with just a pseudo-randomly generated username, password, and bogus answers to bogus security questions. You don't actually need a phone self-service "voiceprint" or PIN, either.
+Doesn’t meet IT requirements/rules. No further discussion. 
+
+
+It’s such an arrogant position that employers are taking. And so many here are supporting it.
+Why should we pay for tools work requires us to use? I’m not an independent contractor, if work requires me to use a specific application and hardware they need to provide it and not lob the cost of business onto their employees.
+So you would happily pay $120 a year, only to get ~25% of that back (as in you would still lose nearly $100 a year)?
+
+OP is just looking for things to complain about. Just embrace it and play on your phone during work hours. If you get pulled up say you were trying to fix your authenticator.
+Well said. 
+
+And, surly your workplace can't force you to install what could be a 24h work related performance and tracking app on your personal devices??? 
+
+As its premise alone completely skips the in home always on two way telly screens of George Orwell's 1984, and goes straight to the work issued always on you, professional companion & holistic telemetry ~~logger~~ app, designed for remote virtual whippings.
+
+It was said quite recently. That people trying to keep their personal information private, are guilty of having something to hide.
+
+JK, just word grinding
+
+edit: its > It
+
+All the best,
+
+peace  .
+“Their” security issue is caused by staff giving their passwords out like candy.
+
+They’d prefer not to have to do this!
+The argument that a company should use their money to give you a new device is hilarious. I'd say go argue with your IT department and see what happens. 
+
+I'm not advocating for whatever company you're a part of, but understand you are a number on a spreadsheet. If you don't do it, they'll find someone who will.
+Who’s advocating for your saving your company money?
+If your company is too tight that they won’t fork out for a 1Password teams licence that allows you to have specific vaults for your team, the company has bigger problems.
+
+Having a tool like that on your phone is not a hill worth dying on. If they were asking you to install some sort of monitoring software (be it an AV tool, or something compliance related like Vanta) on personal devices that is one thing, but this ain’t it chief.
+Don't let the fools here get you demoralised, you're 100% in the right on this.
+
+I find it funny how many on this sub will say stuff like "we need to be like France and riot" when the government does something they don't agree with but then shout someone down for criticising their employer for trying to place even more burdens on their employees without actually compensating them for it.
+would be such a crying shame if you lost or broke your phone and it took a few weeks to get a new one. Or if you bought the most backdoored Chinese android brick of dodgyness just for work use. Bonus points if you ensure it’s on the work network.
+
+I’ve always wondered about this, what if you don’t want a phone. Or are on a carrier that doesn’t get good reception at your workplace. Or you are just so in love with your old Nokia or windows phone that you insist on not upgrading?
+
+If they don’t offer SMS as an option, the other way forward is a dumb phone. Can’t load the app if you can’t load apps at all.
+You really are making a mountain out of a mole hill. If anything they are giving you more money in your pocket. You could claim even more of the cost of your phone now. It isn’t costing you anything to do this.
+They are doing it to save money. Apparently each card costs them $5 which adds up when there's 45,000 staff. But the dumb thing is you need an id card anyway and the last place I worked just used that as your swipe because you need it for the printer anyway so it has to be able to do it.
+I mean, I would go through the policies you signed on for when you signed your contract, but if there is nothing in there, I would strongly suggest that they supply you with a mobile, if they are actually making you install Azure device manager and NOT just something like microsoft authenticator then that is a significant security overstep.  
+Just to be be 100% clear, You don't need azure device management (an MDM) to do what Microsoft Authenticator can do (2FA)
+Those calls are never an emergency. BTDT.
+
+Umm, if device is  100% for work then taxable income is reduced by full cost as is 12 monthly fees for service.
+
+Also, 2FA isn't that secure but I've forgotten the gist of the paper.
+
+I get entirely what you are saying and fighting.
+But would you not pay that bill regardless? Unless you didn't have a phone at all and your employer has made you go buy one, where is that 20c cost coming from? There aren't incoming text fees in Australia, the data use is going to be so negligible you couldn't even measure it, so where's the expense?
+Because as you say it’s a tax deduction, your not paying for it. It’s like every other item your required to buy for work and claim on tax like uniforms and cars and shit. It’s for security of everyone involved these days thanks to hackers and shit. As much as I hate it, your the middle man for the device now. The tax payer is now funding your phone for work purposes.
+they require you you wear shoes and pants in the office as well, but are under no obligation to buy them for you.
+A tradesperson provides their own tools at construction sites.
+Bonus though when a breach happens now they can blame a private device with spyware and maintain their contract!
+
+
+Perhaps they could develop a working security system that doesn’t have the same points of failure from the 60s, yes social engineering is a thing and users are all awful, but these companies use the same ideas over and over again are apparently the answer despite being the factor that enabled these breaches by doing nothing but the same as everyone else?
+
+
+That’s got to be the best industry ever, never innovate, barely close the gate, and blame hackers later because ‘our’ system was flawless it was the users fault! 
+
+
+It isn’t a personal responsibility to provide the key for the fence, it is the employer, if they wish these systems to be used the need to provide the device to access that system end of story. None of this blame shifting, it’s a work requirement, it’s a work responsibility.
+They wont get rid of him if he refuses they’ll just give him a YubiKey
+
+Stop talking out of your ass
+And that’s the problem isn’t it. “We will exploit whoever will allow us to exploit them” and we’re all here going “oh well it’s what it is” rather than collectively saying piss off?
+Funding the hardware that is required for work privately vs work funding the hardware required for work IS a hill worth dying on. You probably already have a computer at home so just bring it into the office to use, same with a desk, and a chair, and a kettle, and your own fridge for storing your lunch in, and a dining table and chair to eat at.
+
+All of that is absurd and so too is the “small” burden of using your own private device when every other resource is provided.
+I’m pretty far down the misery spiral with other stuff in my life. But I’ve always stood up for my colleagues and tried to do what’s right, certainly hasn’t made me popular with management but I feel okay with the guy in the mirror, I imagine lots of folks here may not.
+
+I always thought that small things were the easiest to get support for change over, but apparently most people don’t realise when we let the small stuff slip through, the bigger things follow. No wonder every contract worsens, every negotiation weakened, every union devastated, when these people are actively working against their fellow worker and saying “stop overreacting” as though their workplace is going to reward them with a pay rise and gold toilet.
+It shouldn’t matter whether a person has the latest greatest phone, or a 5110, it’s a personal item and our workplace has no right to expect that we will use it in a workplace capacity.
+
+It just shows how exploitative employers are, take everything they can, and they still want more.
+Ah yes, being exploited at a “low level” is acceptable and shouldn’t be spoken about.
+
+What happened to standing up against dodgy crap from employers?
+
+Every mountain is just sand upon sand, each grain a contribution to its height. How much sand we allow is how tall the mountain we must carry.
+
+
+
+Also yes I’m making a big deal about this, I got a cancer diagnosis and I’m worried as shit about that but don’t want to face it, so this is where I’m pointing my rage currently rather than thinking about what could happen, and how my kids are going to take it.
+RFID tags are dirt cheap, you can buy hundreds and a reader/encoder from your favourite retailer. They also get to claim that as a business expense but let’s put that cost onto our employees that’s a budget secret!
+Even still, we should be permitted to keep work on work devices and not permit it to encroach on private spaces. Regardless if it’s adding a work email or an app, or a 2fa key, none of it is “personal” and so we should be permitted to refuse to add it, nor be required to do so.
+
+I don’t particularly care if work wants complex security and policy to be followed, I’ll follow it, with work devices and equipment. But asking me to put any work onto my non-work equipment is a big no, I won’t be party to it and neither should anyone else. I’m shocked so many people are okay with crossing that line, it means every time you use 2fa for whatever your “work” is also popping up, reminding you of it, every time you open your email to clear your spam and respond to the Nigerian prince your work communication is there in your home on your time, it’s never allowing you to mentally “not” be working.
+I also pay my mortgage “regardless” but I’m not about to let my company warehouse their stock in my living room. 
+
+The expense is not the point, it’s the expectation that my personal items are the property of my employer; that they somehow have a right to demand their usage in the course of business.
+Just because something is a tax deduction doesn’t mean you “don’t pay for it”. It means you don’t pay tax on the amount you claim. If something cost you $100 and is a “tax deduction, you only get back your top marginal rate in tax, which for the median employee in australia is 30% (or $30 per my example).
+If they require a logo on them they must provide significant tax benefits.
+
+If they are street clothes then yes, but again you gain certain tax benefits.
+
+Clothing in society is different than an optional personal item, and to be honest if my employer wanted access to my pants …well.
+
+
+
+You’re making an argument in support of my position, I’m guessing though that wasn’t your purpose.
+And they receive more than “incidental usage %” tax breaks because of it. In my field we do not, nor do we have the ability to claim depreciation on the “incidental usage” items.
+What would your solution be?
+Fuck you.
+
+I don't come here to argue. I've only spoken about my own experience and what I've seen.
+
+Eat a dick
+Well then see who you can rally up.
+Companies that give you your own devices are rare
+
+And even if they do, you now need to keep everything compliant in Intune which a whole other thing
+Any 2FA app should also be able to be installed on a work provisioned machine as well (or viewed from a browser). 1Password, LastPass etc all provide it. There should be no need to even install anything on your phone.
+
+What industry is this in out of curiosity?
+
+Asking employees to BYOD is not the same as asking that they install a password manager.
+It's extremely hard to watch what Australian apathy has resulted in. Keep fighting the good fight, we need more people like you around.
+I do totally agree with you and your stance. I used to have a work phone and a personal phone, but after temp leaving the position i lost the work phone. I haven’t pushed the point too hard, and do have the Microsoft authentication, but it’s just the app and didn’t require me signing in or having a managed phone. No teams/outlook or anything on it though. In fact I don’t even have a deskphone or soft phone, teams is all I get. Makes it challenging when IT helpdesk can’t wrap their head around the mandatory phone field not being filled in on tickets.
+You sound like you need to relax
+
+
+If you are getting your bee in a bonnet over this, you're not going to have fun in this life 
+I feel like most reasonable people realise that there is some give and take though, if you're getting sms'd a 2fa code there is literally no privacy concern etc, whereas asking an employee to put a mobile management suite on their software is completely out of line, you can say personal phone, don't want X on it, but at some point it becomes unreasonable as well. Especially when you can claim not only your phone but also your phone plan on tax.
+
+"I’m shocked so many people are okay with crossing that line, it means every time you use 2fa for whatever your “work” is also popping up, reminding you of it"   
+You only get 2fa popups When you ARE working...
+
+"every time you open your email to clear your spam and respond to the Nigerian prince your work communication is there in your home on your time"
+
+If you have 2fa and email and mdm on your PERSONAL device and it wasn't part of what you signed on to, then yeah that's really dumb.
+*the expense is not the point*
+
+yet you keep making the argument. or you did, until someone pointed out that it was fallacious.
+Nothing about using your mobile for 2FA makes it the property of your employer.
+
+I assume your employer also expects you to wear clothes, right? But that doesn't make your clothing their property.
+Example: calculating phone expenses
+Sebastian uses his mobile phone for work purposes. He is on a set plan of $49 a month and rarely exceeds the plan cap.
+He receives an itemised account from his phone provider each month that includes details of his individual phone calls.
+At least once a year, Sebastian prints out his account and highlights the work-related phone calls he made. He makes notes on his account for the first month about who he is phoning for work – for example, his manager and clients.
+Out of the 300 phone calls he has made in a 4 week period, Sebastian works out that 30 (10%) of the individual phone call expenses billed to him are for work and applies that percentage to his cap amount of $49 a month.
+He works out his phone calls for work purposes as follows:
+Total work phone calls ÷ total number of phone calls = work use percentage for phone calls:
+30 ÷ 300 = 0.10 (that is 10%)
+Sebastian can claim 10% of the total bill of $49 for each month for work purposes, that is:
+$49 × 0.10 = $4.90
+Since Sebastian was only at work for 46 weeks of the year (10.6 months), he calculates his work-related mobile phone expense deduction as follows:
+10.6 months × $4.90 = $51.94
+
+https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/in-detail/occupation-and-industry-specific-guides/l-q/office-workers-income-and-work-related-deductions/deductions-for-work-expenses/office-worker-expenses-ps#ato-Phonedataandinternetexpenses
+
+Op won’t exceed 50 bucks in a year and like everyone can just claim 50 bucks no questions asked, to me that’s 100% of the work cost associated with the phone
+You can claim a percentage of your phone bill as a work expense. If you need to log in 2FA with it daily then you have a solid reason.
+
+Isn't depreciation only on assets like vehicles. I never claimed this on tools, but I hear some take the piss.
+Provide staff with employer funded devices that are managed by the same security protocols instead of asking employees to use personal devices?
+
+I don’t know enough about system security to design a solution, but if my employer wants to use a certain option, then they should provide the means to use it not shirk the responsibility and cost onto their staff.
+That’s the cost of doing business isn’t it?
+
+How could any business say “let’s use personal devices, with no security, no policy controls, random apps, whatever screen capturing spyware they’ve installed as part of our infrastructure!” With a straight face while claiming it’s for security?
+I’m plenty relaxed, but I’m also seeing myself “low level exploited” and aware that everything we allow today will continue tomorrow, and low level becomes mid level, becomes high level and I can’t accept that our children will never know otherwise, and that people like yourself believe we should just accept it rather than say “no”.
+You open Microsoft Authenticator to look at codes for some things, and workplace is listed there too, there’s no mental switch off. Hence not even entertaining the idea of it even if you can hide things, it’s a reminder, and from a mental health position it’s not good to never be able to disconnect from work.
+
+I get the give and take, but I think it would be pretty rare for a company to give more than it takes, hell most break rooms have the bare minimum provided, not even Milo etc. the cheap teabags and if you’re lucky blend 43 over international roast. Where’s the good brands, decent milks, variety etc, this is an opportunity for two minutes of kindness yet virtually no workplace does this long term for every employee because of ‘cost’ but the benefits of loading your staff with a stimulant means they do the minimum to achieve that.
+
+It always seems ‘almost’ reasonable when they ask us to do just “one more little thing” but rarely does it benefit the staff more than the employer and rarely does the employer get to ask for “one more little thing” in their favour and have it granted, that’s more take than give.
+….. it’s a personal item. That while I pay for, so sure there’s the cost I refer to the cost because for some reason everyone is fixated on how “not a big deal” so by putting a $ value onto it sometimes helps people understand there are implications beyond “the physical item” or “the bandwidth” or whatever other justification helps them deal with being exploited little by little
+
+
+It’s a PERSONAL item. 
+
+Why does my employer have an entitlement to that item? Why are they entitled to require that I allow them to install a root certificate allowing their policies to be embedded without disclosing WHAT those policies are, that I allow them to use my device as part of their security system?
+Their security root certificate certainly suggests they want more control/access than they’re paying for.
+
+Okay so I used a rhetorical suggestion in my speech, but the point is they have NO right to expect my personal property WILL be used for business purposes.
+Yeah you’re right with your calculations but a deduction is what you are reducing your taxable income by NOT the amount you get back. If your top marginal rate is 30% then you only effectively get back $15.58 of that in your return. People spouting that deductions = no cost is and always has been wrong.
+
+The ato doesn’t do a very good job of explaining what deductions actually do. This page is probably the best example I can find 
+
+https://www.etax.com.au/tax-deductions/
+I’m not certain of the rules around what can and cannot be claimed as depreciation but as I understand it, you can only claim it on assets that are majority work related.
+
+So here I have an asset that although required, to access work, is only spent for a few moments a day, so it probably doesn’t pass the pub test, yet I must have it, and pay for it and use it for work.
+
+Anything for work should be either provided by work or subsidised via tax adjustment and this is sneaky because it’s not.
+Their likely isn’t budget to give everyone a $700 phone and a $60/m sim plan. 
+
+But they might be able to issue a hardware token which does a similar job - have you asked about alternatives?
+
+https://www.token2.com/home
+ if they're totally incapable your cyber team have just about everything blocked with Airlock and now your phone is a bureaucratic nightmare to get every app whitelisted.
+
+Like I said, not advocating for your company, but I know it gets much worse
+"You can't just say 'I declare relaxed-ruptcy', Michael"
+"open Microsoft Authenticator to look at codes for some things, and workplace is listed there too, there’s no mental switch off." this seems pretty petty if I'm being honest.
+
+At the end of the day, If you hate your workplace so much, go elsewhere. I'm not required specifically to have these things on my phone, but at the end of the day if you're going to practically the extent of, no not even an SMS 2fa code is acceptable because I might scroll through my texts and see a 2fa text and BAM I just can't switch off anymore, then you're being pretty unreasonable too.
+
+The condemnation on the variety of teas and coffee's is entirely a business by business thing, but they don't have to provide you with even that, and some businesses have vastly different benifits, so your point just feels like you're having a vent, which, sure, go for it, but it just feels like you're having a pity party.
+
+"It always seems ‘almost’ reasonable when they ask us to do just “one more little thing” but rarely does it benefit the staff more than the employer"
+
+In this case it literally is a win win though, business doesn't have to buy a phone that their employee doesn't need (on the scale of the entire business that's a pretty great saving) and the employee can now claim part of their phone plan and phone on tax.
+
+I am no fan of being reminded of work, but does seeing a text message really affect me? does seeing another option in my 2fa app affect me, does carrying a hardware token with me affect me? 
+
+My work gives me a key, I put it on my keyring, by your logic, just seeing it means that I just can't switch off from work, if you're genuinely that mentally frail, you should probably talk to a professional about it.
+
+Your work controlling you phone, is very different, as is getting constant notifications about work, but you're either being silly, or genuinely need to step away for a while if it is affecting you so much.
+the installation of a custom root cert in *no way* gives your work control or access to your device. 
+
+all it does is allow secure communication between your device and their servers.
+*However, if you spent $3,500 throughout the year on work-related expenses, your taxable income is reduced to $61,500*
+
+As it says in your link,if I spend 50 on my phone bill and claim 50 I takes it off my total gross income by 100%
+Forget depreciation of assets. 
+
+If you must use 2 factor authentication at work which requires you to use your phone, there will likely be a work process or instruction you can use to justify claiming a percentage of your phone bill for work related expenses.
+
+It's not going to be much, maybe 10-15 bucks a month dependant on your plan, but something none the less.
+
+I get your point on it being a shit move, but it's not the worst thing in the world. Perhaps talk to colleagues on how they are going to manage it.
+  
+Amaysim/Crazytel/(?) do $15/month and you do not need a $700 phone. Perhaps a cheap opel?
+I have, and they won’t due to ‘cost’.
+
+It’s kind of sad watching so many people in this thread get rabid over wanting to foot the bill to save their employer money.
+Australia literally had to legislate the right to disconnect laws because of industrial overreach and because the research showed constant work related ‘events’ are damaging.
+
+You can pretend that it has no impact on you, but that would suggest significant mental health issues if seeing a reminder of work didn’t cause you to think about work, however fleetingly, the effect is the same “work” is a thought and anyone who knows someone with ptsd will tell you that a small thought can trigger a significant shift in thought and wellbeing, as such you don’t need to have ptsd or trauma to be put into “work” mode even temporarily, and that’s not how I want to spend my weekends or time off.
+
+If you’d like to learn more you can read the investigative report that informed the legislative action.
+
+We don’t need work to be in our personal spaces and we don’t need people telling us to get used to it and accept it.
+You didn’t notice the cloud strike “root access” situation a week or so ago huh?
+
+
+Regardless of what it can or cannot do, why would I want my company to install anything on my personal device? And why should anyone be expected to do so?
+Yes but that doesn’t make it free.
+Ah look, it’s mostly just me having had a shit day, wanting a whinge etc. as you said $10-15 per month, is a cost.
+
+If work expected you to pay I don’t know 20c every-time you sat down at your desk people would be losing their minds over it but that’s what it works out to the difference being the physical transfer of cash sure, but the principle of the thing screams that it isn’t okay.
+
+Somewhere along the way we all gave up telling our boss to get stuffed, and we’ve suffered ever since.
+Okay man, gotcha, you've got PTSD from work, I get it, Jesus Christ. If you wanted you could have just responded to my give and take comment with, there can be zero give and take and we could have left it there.
+the cloud strike issue had nothing to do with root certificates. you have no idea what you're talking about.
+Reimbursed. 50 - 50 = 0.  Op isn’t footing the bill really either.
+>as you said $10-15 per month, is a cost.
+
+Sorry I was unclear, I meant claim 20% of your bill per month at tax time.
+
+>mostly just me having had a shit day,
+
+It's the weekend. Have a good one
+It’s OK, I’m with you on this mate.
+
+OP’s concerns are valid but his take is demented, with the constant conflation with his detractors being bootlickers, attempts at shaming us for not unifying under his autistic rallying cry, comparing the situation with major cyber intrusions (which this tech would actually do far, far more to prevent than engineer) or just downright refusal to entertain any take other than his own.
+
+For reference, I have to use MS Authenticator for my work, but it only needs to be done once per day and it literally has zero effect on my management of separating my work and personal life (I don’t have work email or anything else on my phone, etc.). I literally don’t even think about until I need it.
+
+As a modern day father working a full-time job and dealing with the day-to-day, this issue just isn’t that big a deal.
+
+That may change, true, but I’m not going to shorten my life expectancy with tin-foil paranoia over it.
+Cloudstrike had root access and yes it is different, beyond that I don’t care because my point is about employers exploiting their staff little by little.
+
+Returning to the earlier point why should anyone allow their employer access to their personal property in this manner? Requiring software and certificates to be installed in order to “work”.
+You do not get back $50 when you claim a 50 dollar deduction! It reduces your income by that much. Your effective return on that is only equal to your highest marginal rate.
+Yeah I know, but as most people don’t understand how tax deductions work, it was easier to transfer it to a specific cost breakdown.
+
+Anyway, seems the general public is okay with personal property being used by their employer.
+
+
+Cheers mate, hope things go well for you.

@@ -1,0 +1,24 @@
+Has anyone had mygov linked accounts suddenly unlinked? I've recently updated all my login details to be more secure and went into my account and now the ATO is not linked anymore? 
+
+I like to think I'm pretty diligent (have password manager and use unique passwords and 2FA where I can and don't click dodgy links) so I'm not sure what else I can do to keep things secure 
+This post has been marked as non-political. Please respect this by keeping the discussion on topic, and devoid of any political material. 
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/australia) if you have any questions or concerns.*
+I started using MyGov ID to access MyGov  recently and everything stayed linked.
+Did you change any preferences for how the ATO contacts you about things? I know sometimes the link will be severed if you want to be contacted using paper, or if you update an email, not always with the email thing, but sometimes the link between mygov and ATO can be funny like that. it should be pretty easy to re-link yourself.
+
+The system is weird, if you have mygov linked, it will treat it as the only way you can be contacted for a lot of things, for instance, you couldn't have both a paper link and mygov, its one or the other. Maybe something you changed when updating your preferences has accidentally severed the link.
+Unlinking of previously linked services may suggest the service has been linked to a new myGov account. 
+
+I'd strongly suggest contacting the ATO directly to seek insight and advice,   
+as well as contacting [IDCare.org](http://IDCare.org)
+Stop clicking on links, thanks
+Same here, someone was trying to access my account using my email, change to using ID and it stopped
+ Every thing looked the same
+I'm not some boomer who goes around clicking random links but thanks for the advice champ
+I've unchecked my email to login, and have mygovID enabled. Anything else I need to do?
+There's no logical way a 2FA can be hacked without cloning your device MEID iD and number, so yeah, you're the problem.
+2fa, and I am now in the habit of checking my accesses logs when I log in.
+I've also just created an email address only for myGov, banking and super.
+
+Might be overly cautious, but with so many data compromises, it feels worth it.

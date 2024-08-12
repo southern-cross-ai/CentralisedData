@@ -1,0 +1,74 @@
+
+All your identity, tax, health, organ donor etc records in one login. What could possibli go wrong.
+This is the same government that doesn't hold businesses to account for failing to take any reasonable steps to secure our personal data,  so is it really that surprising?
+Pikachu shocked face.
+I called my gov last week. Someone logged into my account with the correct email and password. They didn’t get past the two factor. 
+They were helpful. And didn’t ask for my details. Seems as I showed knowledge of the system. Guided me to change setting and how to keep an eye out. 
+
+Turned out some idiot hadn’t changed his password in a long time. And it was the same password that’s been in a few data breaches. Silly me. 
+
+You think oh they won’t target me as a single in a million person data breach. 
+
+They did.
+Ive just joined SA this week and today we went through the My Gov help desk protocols,i'm def showing this to my trainer tommorow as we supposed to go live next week.
+And the government wants to force Digital ID's onto everyone.
+Not surprised. 
+
+
+I have worked as a consultant to several government departments. 
+
+
+Whenever I found a security hole I got in trouble for embarrassing IT. 
+
+
+I have as little information in myGov as I can. 
+as a minimum they could stop one click entire super transfer direct from mygov
+
+criminal levels of negligence and lack of due diligencr at mygov followed by victim blaming
+Give the government nothing and this is rendered more useless than it already is.
+Important infrastructure and technology being under-funded and underdeveloped in Australia? well I'm shook
+Just open or change the mygov / bank account at a police station.
+I can't log in to do my tax return, it gives me a message about my digital ID then sends me back to the start.  I can call them up, they will put me on hold for ages then they tell me to log into my account to fix it.  That's why I called you guys I can't log in, if I could actually access what I needed to do I wouldn't be calling you and sit on hold for two hours.
+[Single Point of Failure](https://en.m.wikipedia.org/wiki/Single_point_of_failure). It is sometimes desirable to have it fail at a single point, but myGov is not one of those reasons.
+"Worlds best practice, punching above our weight with the worlds highest contract prices for IT contracts" and we still get  a amateur result.  
+
+What annoys me the most is that the people who get these IT contracts are supposed to be the best of the best where they  do desktop audits on security  and every aspect of the code that they write. Now if they were real security experts crap security code would not have made it into MyGov in the first place. This leads me    to believe that they were amateurs or it was a " inbuilt design feature"  or security logic bomb for future work. I also get annoyed that the government does not have clauses and penalties in their contracts that state that the company responsible should fix these flaws at the contractors cost.
+"Worlds best practice, punching above our weight with the worlds highest contract prices for IT contracts" and we still get  a amateur result.  
+
+What annoys me the most is that the people who get these IT contracts are supposed to be the best of the best where they  do desktop audits on security  and every aspect of the code that they write. Now if they were real security experts crap security code would not have made it into MyGov in the first place. This leads me    to believe that they were amateurs or it was a " inbuilt design feature"  or security logic bomb for future work. I also get annoyed that the government does not have clauses and penalties in their contracts that state that the company responsible should fix these flaws at the contractors cost.
+Why wouldn’t they target you? It’ll all just be a credential file fed into a Python script.
+For starters, digital ID is a framework, not a product. Australia Post and Mastercard also offer digital ID’s that conform to the federal governments specifications.
+
+And secondly, the Optus breach would be no where near severe if they used digital ID’s. Basically you sign up to a service, submit your identity documents and the the identity provider keeps flags of what you’ve verified and how ‘trusted’ your account is.
+
+So then, when you sign up for Optus or whatever, you use your digital ID and all Optus gets in return is that the person has submitted a passport, drivers license and birth certificate to prove their identity. You can trust they are who they say they are without needing to witness/store any documents yourself.
+
+This means that all Optus get to store are a bunch of flags and the time they are breached, there’s nothing there that can be used in identity fraud.
+
+And finally, I think it’s great that the ombudsman reviewed this process- so we know if the same thing is happening for companies like Telstra or banks? It’s fair to criticise the government for the short comings, but where do they rank among their peers?
+Did you read the article it’s the morons working help desk not doing their jobs correctly and terrible scripts not flagging multiple actions as possible fraud.
+I am a software consultant, a government contract is just an easy meal and attracts the worst kind of lazy developer with no respect or pride in their work. 
+
+
+I'm not saying every gov developer is useless, I'm just saying these contracts attract the worst of the bunch.
+\^What opackersgo is saying is that when sites get hacked, the customer login details often gets stolen. These are then sold off to ppl running/leasing bot farms. They use those bots to spam various important sites with those same login details in the hopes that you reused your login name (likely email account) and password.
+
+Never reuse passwords. 
+
+At the very least: DO NOT REUSE OR CHOOSE SIMPLE  PASSWORDS FOR YOUR GOOGLE OR OTHER EMAIL ACCOUNTS, AND TURN ON 2FA.
+
+If a hacker gains access to your main email account you will be in a whole host of problems as many people use it for 2FA and a password reset target for most online sites.
+
+I highly recommend using a cloud-based or offline Password Vault like Bitwarden or Keypass, so that you only ever have to remember ONE Important Unique Password. You can use the vault to store all your other passwords and moreover is safe from hacking thefts as the vault contents are permanently encrypted with the only thing in the world that can unlock it, your Password Key that only you know (and maybe the NSA :/).
+You know what’s worse. I run 1Password. I should have really paid attention to the watch dog. lol 
+
+2nd tip. In Mygov you can disable your email address as a log in credential. 
+
+I only ever logged in using that weird username sent originally. Hence why I knew it wasn’t me. 
+
+Not fun waking at 5am with two 2factor sms’s sitting in your phone. 
+
+3rd tip. My gov also shows log in history. With decent detail. Eg successfully used name, password. And 2factor entry. 
+
+Saw their attempts. Then my successful entry.
+Chrome (and hopefully other browsers too) will offer you strong unique passwords when making accounts and I've seen warnings when a password you enter or one you have saved was found in a breach.

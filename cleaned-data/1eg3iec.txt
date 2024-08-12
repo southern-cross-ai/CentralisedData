@@ -1,0 +1,9 @@
+Twice in the last 2 days Ive woken up to an email from MyGov telling me my account has been locked because the wrong details have been entered too many times. Is this happening to anyone else? 
+This post has been marked as non-political. Please respect this by keeping the discussion on topic, and devoid of any political material. 
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/australia) if you have any questions or concerns.*
+Yes.  
+Disable login for mobile and email.   
+Disable SMS MFA. 
+Enable the MFA App authentication method.  
+Change password to a secure passphrase or use a password vault to generate a value

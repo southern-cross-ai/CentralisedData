@@ -1,0 +1,73 @@
+Binge keeps telling me to disable my VPN as they don't allow it. Trouble is I don't have a VPN. Ive also been using this same wifi for 18 months. Not changed a thing. Has anyone else had this issue and can offer advice? 
+
+Yes I know Binge is crap but it does  have content I like to watch.
+
+UPDATE - RESOLVED. Thanks so much to the very helpful contributors.  I thought I'd put the resolution here so the next numpty googling this gets a summarised solution. My ISP is Superloop they had CGNAT applied to my connection. I called their tech line, they removed this and Binge started working. Superloop confirmed CGNAT had been applied since activation. With my simple smooth brain I can't understand why this setting was fine for at least 12 months and then wasn't..  but here ya go. Fixed.
+This post has been marked as non-political. Please respect this by keeping the discussion on topic, and devoid of any political material. 
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/australia) if you have any questions or concerns.*
+CGNAT maybe, Google it and talk to your RSP.
+Had the same problem, turned out Norton was applying a VPN every time the PC booted up, check your antivirus for a VPN you may not know about.
+Binge IS crap. 
+
+No access when travelling overseas. Makes it extremely difficult to unsubscribe.
+
+Ended up calling the credit card issuer to block this merchant from charging me. The several emails telling me Binge is unable to charge me were some of the best emails I’ve received.
+Kayo does this too
+Thats a frustrating glitch! Its like Binge’s way of making sure you’re not sneaking around, even if you’re not. Maybe try clearing your cache or contacting their support—sometimes, even the simplest tech hiccups need a quick fix
+This is one reason i pirate now. Can't watch while on VPN, or while overseas.
+
+Why pay for them to make the product shittier?
+What does https://myip.expert/ say about your IP address?  In particular, what does it list for your ISP and organization?
+
+> Ive also been using this same wifi for 18 months.
+
+Your WiFi might be the same but your router will sometimes get a new IP address from your ISP.
+
+You've probably been caught in the crossfire between the VPN companies and streaming services.  The VPN companies are always using new ranges of IP addresses to avoid being blocked and the streaming companies are always trying to block these ranges.
+
+You'll probably have to contact Binge to complain.
+Thanks for trying to help bit you may as well be talking Swahili to me.
+
+Why has if worked for almost 18 months and suddenly won't.
+
+I logged out of Binge and ilback in and it worked for one movie.
+I'm connecting direct to the wifi from the router.
+its because they only have local content licenses. they cant legally allow it to be used overseas or they breach contracts and would be shut down. its very annoying though that most local platforms outright disable access from any ip range that is not in australia.
+Clearing cache doesn't fix it.
+Thanks for trying to be so helpful, well at least trying. Myip.expert says I'm with Superloop and proxy is No. ASN is AS38195
+
+I suspect I shouldn't give out the IP publicly....
+With what device though?
+Superloop uses CGNAT, the thing mentioned above. You can jump on their live chat and ask them to remove it :)
+>I suspect I shouldn't give out the IP publicly....
+
+Correct, that's as if you were to give out your residential address publicly.
+TCL TV connecting to a tp-link router
+Thanks. I wonder why it hasn't previously been a problem but thanks for explaining further. I have no idea what CHNAT is....
+Thank you, Superloop confirms I've had CGNET enabled and are disabling...they confirm is has been previously enabled. 
+
+I can't help but wonder why Binge worked until today. I really wish someone would explain it to me like I'm five 🙂
+I would consider a factory reset of your router and TV then. Also, when you say router, do you mean modem+router?
+Cgnat is carrier grade network address translation. It's a tech that allows an IP address to be shared with other customers of the carrier. It's common in. 4g internet connections. 
+
+What's changed is that binge shitlisted the shared IP
+I suppose it is a modem router. I've turned it off for 30sec and back on and binge still thinks I'm on a VPN.
+Shirley this should be resolvable without having to set up my entire system again. Netfix, Stan and Prime are unaffected. Shit I can even access iView and I know you have to be in Australia for that...
+Factory reset means a hard reset of all settings in the modem/router. You will lose any thing saved (including all settings e.g. password/username, and even VPNs if they’ve somehow turned themself on). To do so, you will need to make sure you know any required password/usernames and usually a thin bit of metal (like a paper clip). You can look up the device on the internet to find where you do it. 
+
+The TV can usually be done through menu and then settings. But the same thing applies, all settings will be wiped back to factory.
+Are you not in Australia?
+Yep. See update. CGNAT applied from. ISP seems to be the issue. Now fixed.
+CGNAT is a way for an ISP to group a bunch of customers under the same IP address (as there is currently a shortage of unique IP address).
+
+But because it means you share your IP address with randoms, if a random does something dodgy then all sharing the same IP will experience any backlash (so being banned from sites/games etc).
+
+Turning off CGNAT means you get your own (and different) IP address. Therefore bypassing any bans etc on the IP you were just sharing.
+Thanks for that excellent explanation. I wish the Superloop tech support explained it as simply. All makes complete sense now.
+
+You'd think the help file on Binge would identify this common cause.
+
+The Superloop tech support said this was rare but as more and more people move to using VPNs I'm assuming it must be getting much more common.
+
+Thanks again.

@@ -1,0 +1,255 @@
+
+The 3G Shutdown has been extremely poorly managed by the Telcos, Government and Regulators. 
+
+I contacted the Minister back in June 2023 to point out the compatibility issues that exist with 4G Calling (VoLTE) and the confusing situation it would pose for customers & the most vulnerable. It took 4 months to get a response, and the letter I received completely ignored the issues I raised. We then had the Department and Minister scrambling to get on top of this issue in March this year.
+
+To date the Media has also failed to properly inform people about the implications of the 3G switch-off, and still the full implications have **not** been properly reported on in the media. In August 2023 both 7 News & 9 News talked about the switch-off but failed to mention that people with 4G and 5G devices could be affected.
+
+There are massive compatibility and standardisation issues with 4G calling and the industry has failed to ensure interoperability between devices and networks. With 2G/3G you can make calls, emergency calls and roaming calls with any phone or network in the world. 
+
+With VoTLE (4G) Calling there is no consistent standardisation and people are prevented from using devices on different networks. It's not just very old 3G smartphones, anything older than Android 12 (2021) does not have the ability to make roaming calls on 4G.
+
+Devices from **Android version 4 to 11 (2020) make up 60-70%** of the Global Android Device Market.
+
+By stark contrast France isn't expected to switch-off 3G until 2028/2029 and the UK will be keeping a 2G network until around 2030/2033. Without 2G/3G many roaming users will no longer be able to call emergency numbers after the network is switched-off.
+
+In November I wrote to the Optus Outage Senate Inquiry about these issues and the unintended consequences of the 3G switch-off. 
+
+Additionally in November I contacted an AU tech YouTuber 'Hugh Jeffreys' about this issue, and he published a video which goes into a lot more detail.
+
+**Carriers are Killing 4G & 3G Devices - Your 4G Phone May Soon Stop Working:** 
+https://www.youtube.com/watch?v=Q6qb9dml6So
+
+Following on from that I made a very detailed 27 page submission to the 3G Shutdown Inquiry which goes over how the providers are putting their commercial interests above the interests of consumers and public safety. It also explains how the industry has been aware of the compatibility issues for years but has done nothing to fix it. (Submission #32)
+
+**3G Network Shutdown - Senate Inquiry Submissions**
+https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Rural_and_Regional_Affairs_and_Transport/3GNetworkShutdown/Submissions
+
+After making a submission I was called as a witness for the 23 July Hearing. 
+I spoke to the Senate Committee for over an hour (originally scheduled for 30 minutes)
+
+The hearings were very interesting. A lot of concerning issues brought up by other witnesses and some good questions asked by the Committee. For anyone interested you can listen to my testimony at the link below.
+
+**Senate Rural & Regional Affairs & Transport References Committee - 3G Network Shutdown Hearing - 23/07/2024 (Starts 2:10:32):** 
+https://www.youtube.com/live/Tlofv0UfoI0?t=7833s
+
+The Government has failed to protect consumers and public safety. 
+As the providers aren't listening the Minister must now intervene, it remains to be seen if that happens.
+Christ every time the phone drops back to 4G briefly in some deadzone it’s like its 1985 again with the 300 baud modem.
+
+3G would be horrible. Better than nothing, I guess, but horrible.
+I travel regional a fair bit and while my phone shows 3G it doesn’t actually work anyway so I wonder how many people actually think they’re getting service when they’re not really
+Horse yards said the same thing when the Automobile was coming.
+
+I understand it doesn't suit everyone, but aren't all telcos offering free phone upgrades in many cases?
+Thank you for your advocacy on this issue
+I watched your whole video. Thankyou for what you’ve done. 
+Thank you for that interesting submission.  You said there was an Indian company that had an app that allowed people to make calls in other companies 4G networks.  Can you provide any more details?  Would it work in Australia?
+
+I used to use a VOIP app on my phone which worked quite well but that meant paying two different companies which is not optimal.
+
+I'll also note here that telcos for years have gotten away with enormous prices for phone calls and text.  With 4G and greater being underlying data services and with voice over wifi and voice over 4G and 5G and probably 6G these ways of pricing calls and text are looking ever more like gouging.  Especially with the growth of fairly good messaging apps that do text/voice/video like signal, whatsapp, google and probably many others.  Of course they mostly don't do emergency calls, although there is an app for that and the telcos could add that to their bloatware.
+There's alot of random stuff that still runs on 3G, random water meters, elec meters etc. will be interesting to see what stops working when they turn it all off.
+No signal at all is an jssue, but a main concern is 3g is used for voice calls. If your phone doesn't support volte (voice over lte), you can't make calls when 3g goes
+
+Many do but there are many older ones that don't
+As a regional Victorian, I have at times had to drop back to 3G so I can use my phone as 4G has been too patchy.
+3G spectrum has already been reduced. Often it isn’t good enough to send/receive emails.
+How fast to you really need you mobile internet to be? 4K video streams perfectly on 4G with good signal. On the other hand I work in SW Sydney and I only get very patchy 4G reception at work (and only with Telstra), 3G used to give us reliable service for basic things like sending and receiving calls and messages.
+
+Around a month ago Telstra changed something and we now don’t get 3G data, (so messaging app that use the internet are very unreliable) but we can still make calls and send SMS.
+
+All this is happening within Sydney, I can only imagine how much worse it is in regional and remote areas. All so some people in cities can have even faster mobile internet.
+Yeah I’ve had this experience too. Could have 4 bars of 3G but it doesn’t work. I’ve also had full bars of 5G in the cbd and it not work. Then again I’m with Optus which is why I have a Telstra network eSIM for when I’m rural
+Except that at least there’s a chance if you got that 3G reception.  Even with boosters I rarely get 4G where I am.
+It's not about internet access, it's about voice and text, both of which largely run on 3G. VoLTE has a whole host of issues, including whitelists on both carrier (thankfully, none of the Australian carriers do this) and phone (which means good luck trying to get an imported phone working).
+
+LTE itself is an open standard but VoLTE is not, and carriers own configurations can differ which again, requires phone manufacturers to have a specific configuration file for regions. This means a ton of the imports you buy online from aliexpress, kogan, etc won't work from now on. There are workarounds of varying levels of difficulty (xiaomi just has a dialler code to disable carrier check), it is beyond the ability of the average consumer to perform.
+The article mentions that, but it’s about waiting for the 4G/5G network to built out to be equal or greater than 3G before switching it off. The 3G spectrum will be freed up for 5G. I don’t even know if it can be run in parallel?
+Lots of people live in areas with only 3G coverage, it's not about replacing your phone, it's about not having 4G/5G coverage.
+Nope! They are sending messages to people with 4 and 5g phones telling them to buy a new phone when they don't need one. There is a tonne of old legacy 3g stuff out there, ideally it would be good if they could continue to support 3g if possible. There is also the problem of lots of older devices no longer being able to call 000 with the 3g shut off. 
+
+The shutoff is inevitable though so I don't think they should delay the shutoff, I just think we actually needed to approach it like Y2K. It needs a strong push from telcos and the government for a transition which I haven't seen.
+That’s a terrible analogy. They didn’t kill all the horses and leave people with no alternative to automobiles. The changeover happened naturally because people liked the new product.
+Appreciate the kind words, it's been something I've spent quite a lot of time on over the past year. 
+I've probably sent over 100 emails on the topic to Media, Politicians and regulators trying to get some more action and attention on this issue, most of those emails were largely ignored. 
+
+I even had an hour long on-camera interview with one major TV News station in September last year. As I mentioned in another comment (and in my Inquiry Submission #32) on 21 August both 7 News and 9 News aired stories about the 3G switch-off with their 6PM Bulletins. Both TV Networks included interviews from the providers however the **fact that 4G and 5G devices could be affected wasn’t mentioned once!** 
+
+I contacted both networks to let them know their coverage was misleading and that people with 4G and 5G devices would be affected, and in sizable numbers. 
+
+One of the networks did respond and wanted to do an exclusive interview. 
+
+I had an hour long on camera interview at the beginning of September, the reporter was very surprised to hear that 4G and 5G devices could be affected and lose the ability to make calls and emergency calls. 
+
+However the network never aired the story. No explanation was provided. After a number of follow-up emails, on 15 November they finally advised *"At this stage we aren’t running the story sorry."* I even got that response after the Optus outage. Not long after that I was in contact with Hugh and he uploaded his video on the topic.
+Yes it's absolutely possible for the telcos to develop a (VoIP) Calling app for affected customers. An app would at the very least mitigate some of the compatibility issues experienced by consumers. People could have continued to use their existing 4G & 5G devices that don't have native VoLTE support on the network/s. However the telcos would rather sell people new phones as it's easier and more profitable.
+
+Instead of using the stock phone dialer on your phone, you would make and receive calls (to your regular mobile number) via the calling app. This same solution was introduced in 2017 by Jio Mobile in India. Jio launched as a 4G Only network and in order to gain market share they developed an app called "JioCall". The app allows their customers with 4G non VoLTE enabled phones to make and receive calls via that app using their 4G Data connection. Customers don't have to sign up to a third party VoIP service to have working calling.
+
+This option is available to the providers, but as heard at the 3G Senate Inquiry hearing on 24 July they are not interested in providing apps or rolling out updates to affected devices. You even had the ACMA deny that an app could be developed and cite new hardware would be required when that is just not even remotely true. Jio is also not the only carrier to provide such an app to customers.
+
+**3G Senate Inquiry - Public Hearing 24 July 2024:** 
+https://www.youtube.com/live/HvDvnfWTou0?t=355
+
+If you want to read more have a look at my Supplementary submission to the 3G Shutdown Senate Inquiry (#32 an 32.1)
+
+**3G Network Shutdown - Senate Inquiry Submissions** https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Rural_and_Regional_Affairs_and_Transport/3GNetworkShutdown/Submissions
+Yep, that's exactly right. A lot of remote fire interface panels rely on 3g sim cards for communication to the brigrade.
+
+3g isn't just for mobile phones.
+There's also many that do, but due to Telstra's network config, they fail to register for VoLTE / VoWiFi but work okay on Optus/Voda. I had to buy a new phone because while my Redmi Note 9 could do VoLTE/WiFi, Telstra has some compatibility problem and so it wouldn't have worked at 3G switch off, and tbh I had no idea my 4G phone would stop working when 3G was turned off until a month or two ago.
+VoLTE has been around for more than 10 years, so if your phone is older than that then buy a new one.
+I'm not even regional and my 4g coverage is abysmal at home, calls are barely legible for me. (1-2 bars, constant cutouts and dropped calls, 3g call experience is the total opposite.)
+Nope they don’t work either, my Telstra iPhone regionally if it says 3G will just fail to connect or go straight to voice mail (hell it even happens on the hume and western highway in spots)
+That's a fair point. I live in a major city and often forget about regional folk - not deliberately mind you.
+This isn't true.
+
+An older friend just got sent a free handset courtesy of Telstra, to replace his 3G one.
+I'm not promoting Telstra, but they say they are giving away [12,000 complimentary phones](https://www.telstra.com.au/exchange/helping-customers-say-goodbye-to-3G#:~:text=We're%20giving%20some%20customers,closure%20on%2031%20August%202024.&text=From%20today%2C%20we%20will%20be,live%20rurally%20or%20are%20elderly). 
+
+I recall Optus doing something similar.
+I think it should be treated like they did with the digital TV roll-out, where they gave people digital set top boxes of their TV couldn't support digital TV. 
+
+If you are disadvantaged and can't afford a new volte capable phone, you'll be provided with a basic one (or at least subsidised).
+In hindsight, I agree with you.
+> Appreciate the kind words, it's been something I've spent quite a lot of time on over the past year. 
+
+Thank fuck you did. The timing of your January actions (contacting I-can’t-remember-the-name group overseas), and then the February/March government action makes it seem like that’s what finally got through to them.
+
+I can’t remember the words for that paragraph, though. And I don’t remember where in your 1hr testimony you said it. But you presumably know what I mean. 
+
+Thankyou again. We would have been so screwed without you. We might still be screwed, but less so. 
+
+During your testimony I was wondering about the effect on non-phone 3g devices - whether there are any safety/security/infrastructure devices that use the 3g voice calls, or whether they all rely only on data. 
+
+I’ve got a nasty feeling that a bunch of fall-alert pendants etc might be affected. I hope not; I know nothing about this stuff. 
+I smell them wanting to not put focus overly on their advertisers. Cynical I know. I'm sorry they wasted your time and energy but glad you have it to keep pursuing it elsewhere.
+Devices running the GSMA IR.92 'Open Market' Modem Configuration do work with Optus and Vodafone networks. 
+
+Where as for a device to work on Telstra it needs to be running a Telstra specific modem configuration, devices running the 'Open Market' config **do not** work and will **not** having working calling. Devices need to have the Telstra Modem configuration included in the firmware for calling to work correctly on Telstra. *(However even if you modify the firmware and flash the Telstra config, Telstra still forces the outbound message saying you need to upgrade every time you make a 4G call)*
+
+These issues exist because over many years the telecom industry has failed to properly standardise VoLTE 4G Calling. 
+There is no single standard (configuration) that all networks and devices support globally, unlike with calling on 2G/3G (GSM). 4G is data only.
+
+I was a witness at the 3G Senate Inquiry last week and spoke at length to the Committee about the standardisation and compatibility issues with 4G (VoLTE) Calling and the implications for competition and accessing emergency services.
+
+Up until recently most people had no idea that 2G/3G network switch offs could impact 4G and 5G devices.
+
+If you're interested you can listen to my testimony at the link below.
+
+**Senate Rural & Regional Affairs & Transport References Committee - 3G Network Shutdown Hearing - 23/07/2024 (Starts 2:10:32):** https://www.youtube.com/live/Tlofv0UfoI0?t=7833s
+
+My 27 page submission (& supplementary submission) contains a lot more in-depth information, it can be found on the Inquiry page below (Submission 32)
+https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Rural_and_Regional_Affairs_and_Transport/3GNetworkShutdown
+Thats not a Telstra's network config. It's up to the manufactor to include the VoLTE settings and often they don't include them for countires they dont sell phones in.
+This could be due to congestion or the fact they’ve just forgotten about the tower. there’s a bunch of reasons. 
+
+this isn’t just a 3G thing, this also happens on 4/5G especially with congestion. 
+
+I do believe that Telstra should be forced to operate their 3G network. They’ve got the widest coverage and it would be detrimental to shut it down in comparison to Optus or TPG (especially TPG).
+I think they estimated 700,000 devices that may not be compatible. They aren't really sure since from a technical standpoint its not actually possible to force all devices on their network to tell them if they can use 4G and 4G VoLTE. Also probably >100k devices that exclusively use 3G for 000 phone calls. That is a hardware feature built into those phones and its not trivial to determine that for phone owners and network providers alike. 
+
+I'm not saying they should compensate people or replace devices, its their network. I have replaced my devices and that's fine, the network being turned off will be better for the majority for Australians. But their are still a lot of 3G devices out there an inevitably there will be a bunch of people who have incompatible devices. 
+
+I keep getting a message that my device is incompatible despite buying it new this year. My phone is a compatible 5G phone, but apparently they have no way of knowing that.
+
+Telstra might be compensating some people who have purchased a Telstra phone, but if you didn't buy your phone form Telstra than obviously they are not replacing it.
+That's the thing, these issues could almost be entirely mitigated or resolved if the telcos and handset manufacturers were forced to provide updates to affected devices.
+
+Despite claims from the Department affected 4G devices are not 'hardwired' to make calls over 3G, these issues are entirely software problems and are entirely fixable. The telcos and the handset makers would rather sell people new phones than provide updates to existing devices. 
+
+Even if the telcos wanted to take the lazy approach they could have rolled-out a calling app that users could download via the Play Store
+
+Instead of using the stock phone dialer on your phone, you would make and receive calls (to your regular mobile number) via a VoIP calling app. 
+This same solution was introduced in 2017 by Jio Mobile in India. Jio launched as a 4G Only network and in order to gain market share they developed an app called "JioCall" that allows their customers with 4G non VoLTE enabled phones to make and receive calls via that app using their 4G Data connection.
+
+This option is available to the providers but as heard at the 3G Senate Inquiry hearing on 24 July they are not interested in providing apps or rolling out updates to affected devices. You even had the ACMA deny that an app could be developed and cite new hardware would be required when that is just not even remotely true. 
+
+If you want to read more have a look at my Submission and Supplementary submission to the 3G Shutdown Senate Inquiry (#32 an 32.1)
+
+**3G Network Shutdown - Senate Inquiry Submissions** https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Rural_and_Regional_Affairs_and_Transport/3GNetworkShutdown/Submissions
+[Testra are giving away 12,000 phones](https://www.telstra.com.au/exchange/helping-customers-say-goodbye-to-3G#:~:text=We're%20giving%20some%20customers,closure%20on%2031%20August%202024.&text=From%20today%2C%20we%20will%20be,live%20rurally%20or%20are%20elderly) and Optus are doing something similar.
+The major issue really isn't really long term phones. Issues I see are:
+
+Areas where there is 3G but no 4G coverage
+
+Phones that are listed as 4G but are not 4G emergency call capable. (Very dangerous as you only find out when you try to call 000)
+
+Grey phones that may not be 4G capable or 4G VoLTE activated, (but that's on the purchaser since you bypassed the Australian market).
+
+Random niche medical devices, Children smart watches, industrial remote sensors, man down alarms, and remote instrumentation.
+
+Some of the last category simply dont have an obvious 4G replacement, or the 4G replacement is very very expensive. Most of these systems cant easily be reconnected because they often don't have wifi or bluetooth capability. 
+
+Again, I don't think Telstra or Optus should be forced to compensate people but it will be disruptive to some people.
+Yes I know what you're talking about. 
+I got in contact with the Telecoms expert that made the presentation to the EENA in 2022. 
+
+According to some documents obtained under FOI (tabled at the Inquiry) the Telcos and Department were somewhat aware of the emergency calling issue already, but contacting him may have helped add another voice raising concerns and may in part lead to the establishment of the working group. It's hard to know, but it was the right thing to do in any event.
+
+I was also contacting and calling the offices of some Federal Senators about this issue in Jan and early February as well.
+Interesting. I've read through hundreds of posts on whirlpool and gsmarena where people have tried custom/global/extracting radio ROMs from working models and flashing them to affected phones to try to make it work. I have never seen any indication of success, hence upgrading my handset.
+
+
+Yours is the first comment I've come across which suggests that it is possible, and you clearly know what you are talking about. I'm mindful that it might be technically possible but not necessarily feasible for the mere mortal but your comment about the warning message suggests there are people who have worked around this problem that way.
+
+
+Can you link me to somewhere where this has been carried out successfully? I would like to flash the Telstra carrier settings onto my impacted handset.
+Telstra has confirmed that they don't have a whitelist but they have also told me that they do have a specific configuration for VoLTE that needs to be included in the firmware.
+I was unaware of the 000 3G thing. Now that I think about it there will be many devices which aren't phones relying on 3G. Years ago a mate purchased a tracking device for his car which allowed him to turn off ignition and other stuff remotely. I'd imagine there are lots of devices.
+Oh great! I hadn't heard of that (though I didn't look too much into it)
+I just did a quick google, and it’s not clear what the current deadline/timeframe is. Do you know? and what’s your pessimistic guess for how long they extend it.
+
+My iPhone was bought online from Apple, and then I set it up with Telstra. So it sounds like I’m one of the many people affected, unless they listen to you and suddenly require the telcos to develop a firmware fix. Dammit. 
+The feasibility will depend on the brand of handset, the particular SoC Platform (Qualcomm/MediaTek) and device firmware. 
+In many instances you will also require root, temp root or an unlockable bootloader. 
+
+I know users with OnePlus devices have been able to flash their modems with the Telstra configuration using EFS Tools, (for some other devices people have used QPST).
+
+https://reddit.com/r/oneplus/comments/1aebdxz/unlock_volte_in_australia_oneplus_5_6_7_8_9/
+
+If you look on XDA Forums you may find instructions for your specific device.
+
+Personally I primarily use Sony Devices as they are close to stock Android and Sony has their 'Open Devices' program which allows you to unlock your bootloader etc. 
+
+With Sony devices up to the XZ2 changing the Modem configuration is a simple as (root) editing a text file and flashing a modem reset instruction to the device. With this method I have tested over 70 different Qualcomm Network configurations for a number of telcos. 
+
+Based on my testing only about 33% of the Modem configurations for the Snapdragon 820/821 (e.g Pixel 1, Xperia XZ - 2016) and Snapdragon 835 (e.g Pixel 2, XZ1/XZP - 2017) support Emergency Calling over 4G. 
+
+The GSMA IR.92 Open Market Configurations have working VoLTE calling with Vodafone and Optus and working 4G Emergency Calling. 
+The Vodafone AU configurations from that era don't have working Emergency Calling support even though the Telstra and Optus versions do (SD835).
+
+If you want some more technical details, in November I wrote an extensive Google Doc for a video Hugh Jeffreys made about this issue.
+It's linked in the pinned comment and video description, within that document are links to a number of resources and testing instructions I wrote, including Emergency Calling Testing information.
+
+**Carriers are Killing 4G & 3G Devices - Your 4G Phone May Soon Stop Working:** 
+https://www.youtube.com/watch?v=Q6qb9dml6So
+xda developers and whirlpool has done this with Sony phones (Xperia 1 III and IV) to force them to allow 5G and VoLTE to work in unsupported regions.
+
+This is the guide to enable 5G, and VoLTE 
+
+https://xdaforums.com/t/enabling-4g-5g-on-xperia-1-iii-on-non-supported-regions-rooted.4539383/
+
+https://xdaforums.com/t/how-to-enable-volte-and-5g-without-permanent-root-on-xperia-5-iii-and-1-iii.4551847/
+Good luck, I hope it works out for you.
+Well Telstra wants to start switching off the network from the 31st of August and Optus from the 1st of September. 
+
+Like with the Vodafone shutdown (started 15 December 2023) a full shutdown is likely to occur gradually over the span of a month (or more). Vodafone 3G in Brisbane was only switched-off around Mid January for example. For regional areas we may see Telstra extend further, though on paper I expect both to stick to the official dates.
+
+In regards to your iPhone, anything iPhone 6 and newer should support VoLTE on any network and will support roaming with iOS 15 and above. The iPhone 5 and 5s are 4G Devices but don't support VoLTE. There are some models like the iPhone 8 that have issues with VoLTE Roaming and there are some networks overseas where VoLTE doesn't work on all iPhones.
+My Sony Xperia 1 III could never get VoLTE to work despite 5G working. It's kinda weird.
+
+Do you know what config I'd need to change in the carrier_policy file?
+Well the thing about 4G and 5G is neither have any native calling functionality (like 2G/3G), 4G and 5G are **data only** and calling is enabled through device firmware/software (VoLTE), so you can have working '5G' but that doesn't mean calling will work on all networks.
+
+As to getting VoLTE to work, that depends on what network you are wanting to use it on.
+If you can get the device loaded with the 'Open Market' Config *(either by flashing Official Firmware or otherwise)* it *should* work with Optus and Vodafone, Telstra is likely to be a trickier exercise as the Telstra Modem (MBN) configuration isn't always included with all devices (firmware). 
+
+With Xperia devices newer than XZ2 the modem provisioning system changed and it's a lot more involved than it is with some older devices. For example with the XZ1 and below series there are temp root exploits that you can use to modify the firmware without unlocking the bootloader.
+
+For the Xperia 1 Mk3 here is a general guide from XDA Forums.
+https://xdaforums.com/t/getting-volte-and-vowifi-on-unlisted-carriers-by-flashing-mbn-file.4467745/
+
+Based on the instructions you will need root access and likely an unlocked bootloader, as with other newer Qualcomm based Android devices you will need to flash a different modem configuration directly to the modem via QPST & EFS Tools.
+Yeah I've followed that guide and it didn't end up working lol, phone died anyway so I'm back on my old redmi which only needs a dialer code to disable volte carrier checks

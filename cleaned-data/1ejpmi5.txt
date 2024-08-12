@@ -1,0 +1,84 @@
+Asking her le as I have no idea where else to search for help.
+
+I live in Newtown, Sydney, have nbn and even wired connection to my computer but the internet in outlet house randomly drops on and out. Sometimes for 30 seconds, sometimes a couple minutes, sometimes 30-60 minutes. 
+
+We’ve changed service providers, routers, had internet men come out, nbn people come our, used wired and wireless, but still our internet is fucked.
+
+The worst thing is, when the wifi goes out, so does phone signal, so you can’t even hit spot yourself. 
+
+I don’t understand how even a wired connection has these issues. Are we just in a dead spot of satellite signal?
+
+Please help, I can’t handle it after over a year, at wits end.
+
+Edit: this has been ongoing for over a year and yes I’ve obviously turn wifi off on my phone, I mean my actual mobile network 4g also stops working at the same time my home wifi and Ethernet connections stop working
+
+TIA
+This post has been marked as non-political. Please respect this by keeping the discussion on topic, and devoid of any political material. 
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/australia) if you have any questions or concerns.*
+Ask your neighbours if they have a similar problem. This might help locate the source of the problem.
+You could try r/nbn.they should have some suggestions. 
+
+If your nbn goes down then it is logical that your wifi on your phone is down.
+
+Next time nbn is down,  turn off wifi on your phone and you should be able to use mobile internet on your phone. 
+
+Find out what type of nbn you have and post on the nbn site
+If it's only been this last month, NSW has been having NBN issues where it drops in and out for some customers.
+NBN and mobile internet are separate.  
+  
+NBN has fibre to the node (FTN), and fibre to the home (FTH). FTN goes to a router in the street and then uses the old Telstra copper system (thanks Liberals), and FTH has fibre to individual homes.
+
+Mobile internet/phone uses the 3G/4G/5G phone towers.
+
+NBN is known to have issues when it rains. The old copper network can be affected by rainfall entering the routers.
+
+I have never used NBN as its unreliable and expensive.  
+I have always used the mobile network.
+
+If your mobile signal is strong you can use a small 'pocket wi-fi' modem with a data SIM.  
+I used one of these in Ascot Vale, but when I moved to outer east it would drop out.  
+I upgraded to a Huawei Cube that I had and it was a bit better, but still had dropouts/slow issues.  
+I bought a Huawei B818 large 'cube' modem and its been good with no dropouts or slowness.
+What do you mean wired connection? Isn’t that just from your router to computer? Sounds like an NBN issue. 
+
+Phone sounds unrelated, have you turned off your wifi on phone? Otherwise your phone may be picking up wifi and trying rebroadcast that.
+Yep! It’s been every few days lately, and I’m in the same network area as you as far as NBN is concerned. Optus mobile has never been great in my suburb, so can’t say its any worse, but I also had constant dropouts tethering to my phone last week (NBN having another “unscheduled outage” specifically when I had an online lecture….the cunts!)
+
+Nfi what it’s about, but Newtown POI is fucked at the moment.
+Yeah the NBN got rekt when it was conceived sorry. Consider moving overseas or getting a starlink sub
+??? The only times I've heard of NBN (FTTN) issues coinciding with rain were faults in the pit out in the street. Which was fixable
+I get all that, so why does both nbn and mobile internet (4g) drop out at the exact same time? 
+
+Appreciate the reccomend actions but this wouldn’t work as phone signal is lost also
+Even turning off wifi on phone you have no mobile data connection. So both my home internet and my cell phone service internet go out at the same time, making me think it’s a dead spot where satellite signals can’t reach in my house and yes, wired as in Ethernet into the wall which would be connected to the router.
+That's the fault yep.  
+It rains and the NBN goes out.  
+Maybe it isn't fixable as it keeps happening.
+Is the 4G phone a backup as part of the NBN?
+Nothing will be using satellite, NBN will all be wired, mostly optical. I’d be pushing your provider, who will push NBN.  just keep a log for a while.
+Silly question - you've checked that the mobile internet works during times the home internet is fine?
+It is, I've had it repaired before. I told my provider I thought it was a pit fault as it was consistently during rain. They ran some tests on their end and then submitted a request for NBN to attend. They came along, yup, fault in the pit, turns out there was some other one out in the street too.  
+
+The fun part is getting your provider to forward it onto NBN, have heard some of them really drag their feet before doing it.
+No, it’s completely seperate service providers and contracts
+We’ve honestly contacted them so many times I don’t know what else to do.
+
+They say it could be the nbn cables which means they need to get under the street, I just don’t understand how the wires would 1. Work at times and not others 2. My mobile signal not working
+But why was the fault present in the first place I wonder?  
+Yes, trying to get it repaired may be a challenge.  
+Apart from that fault there's the issue of old copper wiring being the last link in the chain.  
+Bottlenecks and reliability would be issues.
+So they both can't 'go down' at the same time unless the mobile tower is offline at the same time as the NBN router in your street. It could happen, but not repeatedly.
+
+Sometimes towers are 'down' for maintenance. This is usually 1-2 days. But the other nearby towers are used, so it may slow speeds a little but not drop out completely unless you have only 1 tower being used.
+Who’s the provider? Can you change it?
+My place had internet issues before NBN because Telstra, who wasn't my provider but did own the lines, couldn't be bothered to do anything with the infrastructure :')
+They both do consistently go out of service. I have been living it for over a year. It's an every day thing. It's considered lucky to have more than an hour or two of consistent internet without dropping out.
+We already have and issues still persist 😥
+Oh man. Frustrating.   
+  
+They should be getting leasing payments, so no excuse.   
+Just normal large company poor service when you have 40% of the market.
+I would contact your mobile broadband provider about the drop outs.  
+How are you accessing the mobile broadband? i.e. straight to a phone, or wifi through a modem?

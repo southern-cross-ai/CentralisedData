@@ -1,0 +1,44 @@
+Hi all, 
+I bought a property in South East Qld last year with solar panels already installed. The panels are supposedly on about 6 or 8 years old, and have been cleaned every other tear.  The previous owner is a bit of a snake oil salesman, so i take what he has told me with a grain of salt.   
+
+I have trees close to the western side if the house, but otherwise the panels are in full sun.  The property is close to a quarry so thete is a fair bit of dust gettings around.  I have been on the roof and looked at the panels and they look a little dusty but not too bad.    
+
+My issue is, they dont seem to be functioning as well as other people's in my area.  Others claim they have barely any charges on their ergon bill, whereas mine is the same as when i lived without  panels.
+
+Is anyone able to give me sine advice on what the oroblem might be or who to contact to priblem solve with?
+
+I have attached a section of my ergon bill ti show the credits for the last quarter, and the inverter label. 
+From the looks of it you've got a 2kW inverter, which gives an indication of how much power your panels can produce. It's probable that your neighbours have 5kW (most common) or even 10kW inverters and are able to export considerably more to the grid/generate more for daily home usage, which would explain their lower bills.
+with a tiny 2kw inverter you probably only have 2-3kw of panels, if they're 8 years old they might be only 200-250w panels so that tracks as 2.7kw installs were pretty common as the bottom of the barrel budget option around that time, these days you can get panels with practically double the peak output and inverters significantly more powerful to actually make use of that power more efficiently. 
+
+I'd guess your neighbors are on 5kw inverters with 6.5kw or so of panels which was the most common fitout in 2016-18. I think it still is in many places with single phase power hookups.
+
+your system is pretty small by modern standards, there is a chance that you have one degraded panel, which in a standard install will pull the entire array way down, like having a single dead cell in a battery.
+
+Might be time to call out a solar technician to test what you have and see if its degraded and worth upgrading anything.
+I get about a $30-40 credit on my ergon bill per month. Same solar credit per kWh as you.
+5kw system, never cleaned panels in 5 years.
+
+Worth noting that the previous owners and neighbors are probably on the old solar export rates, which stopped as soon as you took over the billing.
+I'm just jealous you are getting \~13c/Kw exported. I only get about 3c.
+Do you know the following?  
+
+
+1)Size of the array?  
+2)How much the inverter says was generated at the start of the day and the end of the day?
+Our inverter (power one) not long shit the bed.
+Ran perfectly for close to 15 yrs.
+I see.  So if I upgraded the inverter I could export more power? Or would the panels need upgrading too?
+Thanks for the insight.  That does track with the previous owners' approach to installing features.
+Say what?! That's crazy!
+12 panels and I would have to get back to you on that.
+Probably both
+
+Panels (number/size/type) determine how much is available to the inverter - inverter determines how much of that is usable to you or the grid
+
+If the installer was anywhere near capable, then the panels and inverter are probably closely matched
+
+There is a possibility that some of the cells in the panel are broken - they can burn out for lots of reasons (ask me how I know? I'm getting half the capacity of mine...) That is often visible damage
+
+https://winaico.com/blog/common-solar-panel-defects/
+Thanks.  I will get a 'solar panel technician'? To check the panels out and clean them

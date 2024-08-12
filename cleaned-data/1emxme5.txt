@@ -1,0 +1,96 @@
+
+* Press Settings.
+* Press Mobile Data.
+* Press Mobile Data Options.
+* Press Voice & Data.
+* Press the indicator next to "VoLTE" to turn the function on (if off).
+* Press the Home key to return to the home screen.
+
+Then send an SMS containing "3" to 3498.
+Apparently... there are some phones that can use 4g data and voice but 000 is hardcoded to 3G which is why you are getting that message.
+You need to enable VoLTE - see /u/johnboxall response for details of how to do it.
+I have an iPhone SE2 and it’s compatible with the 3G switch off.  So no need to worry.
+I heard that 3G was being shut down but this is the first time they’ve told me my phone is not compatible. An extremely tight deadline if I truly need a new one.
+It could be. Telstra has a number you can sms and they will tell you if your iPhone will work. I have looked at a list of iPhones that might have a problem 5, 5C and 5S.
+
+Many phones do not use 4g for voice calls- instead they use 3g. Text the number 3 to 3498 and you should get a message back on your phone. 
+
+You might be able to set your phone to call via wifi or use VOLTE. 
+
+I still wondering if my wife's Samsung will work ringing 000 after 3g is turned off.
+What is your phones model number?
+Another post said you can do the following.
+
+Call a friend on speaker phone, look at the reception bar, if whilst on the call it drops for 4G to 3G, VoLTE is not enabled or your phone doesn't have VoLTE.
+
+If it remains on 4G during the call, you should be fine, especially if you are saying VoLTE is enabled.
+Its likely that it will still work, if its compatible with 4G. Just wait it out, you may not need to purchase a new phone. Call around, when the time comes, for mobile plans, providers if you have issues.
+Why don't you believe your telco who is running this assessment, and has people that will have worked out how to check which phones are or are not affected?
+Why do you want to risk having a phone that you can't call 000 on after 31 Aug 2024?
+https://www.belong.com.au/go/3g-closure
+This is the correct answer.
+Thanks, what does this actually do? Will it change any functionality?
+I have iOS 17.5.1 and don’t have the option to switch between 3G and 4G anymore. 
+
+
+
+I also have an SE2, and text the number and said it was fine though.
+dont know if what you said is true, but there are a non trivial ammount of phones that should work just fine but are actively blocked because telstra refuses to allow IMS registration from phones they dont actively or have actively sold in the past.
+
+https://www.reddit.com/r/Xiaomi/comments/1de2d0z/3g_telstra_shutdown_xiaomi_phones_australia/
+
+real scummy imo.
+Ok cool, thank you. Did you get the same messages?
+Like some have already said, some 4G marketed phones aren't actually VoLTE compatible or need to be changed in the settings to make sure they send voice over 4G / VoLTE
+
+It's the VoLTE and 000 compatibility, that's the real issue
+
+E. P.s not me downvoting you, but you did irk me a little with the time to notice comment. Probably the same with the downvoters
+What is an Apia? how do I do find this out?
+It turns on the ability for the phone to direct voice calls over the 4G network instead of previously relying on the soon-to-be-defunct 3G network. That's all.
+“you did irk me with time to notice comment”, sorry, what do you mean by this?
+Bloody autocorrect!
+Okay, actually when I go to this setting, 4G is already ticked and VoLTE is already on. Is there anything else I need to do?
+
+Edit: sorry what does sending the SMS do?
+Industry pros been banging on about this for at least a decade.
+
+Media about 6-12 months
+
+Redditors about 6-12months
+
+Some may argue you have your head in the sand and it's no excuse. Just offering insight, not feedback.
+
+I'm more of a perspective is a beautiful thing type of person, who knows what's going on in your personals. So you irked me but then I had some perspective.
+The SMS does a check that your phone will work. https://www.telstra.com.au/exchange/3gxt-3g-closure-sms
+Send the SMS.
+Ring someone, or yourself - does it say 4G at the top of the screen when the call is active?
+so… you just didn’t even read the comment that you are replying to?
+
+I had no reason to think my phone was going to be affected.
+its not actually that the phone is incompatible its that telstra actively block IMS registration from phones models they have not actively sold in australia, meaning your phone may be VOLTE compatible but telstra doesnt allow it because its not a whitelisted device.
+
+its scummy af and no fault of the end-user.
+
+this is a clear example of such a case, the model of phone supports VOLTE but is being blocked by telstra from IMS registration and thus cannot activate VOLTE
+Someone knowing their phone is 4G doesn't have their head in the sand when it's only recently there's been coverage of 4G phones not working or not calling 000 after the 3G shutdown. Most people don't know that much about VoLTE and would have no reason to think their 4G phone needs 3G even if they heard about the shutdown a year ago.
+Thanks, I have done this, but it doesn’t tell me if it’s compatible. All it says is I have an iPhone SE.
+Yes it still says 4G at the top, but as soon as I dialled it gave me a voice message saying when the 3G turns off “it’s likely theirs phone won’t be able to make calls”
+Weird. I have a 15 Pro Max, but I received this response:
+
+“Thanks for using our Telstra 3G checker. Good news - your device will work as normal after the 3G closure on 31 August 2024, so you dont have to do anything.”
+i don't know whhere you might find it, but on android you can check your SIM status and look for something called IMS registration status
+
+something like this: https://r2.community.samsung.com/t5/image/serverpage/image-id/4217147i57F8B5A3B9A65674/image-dimensions/2500?v=v2&px=-1
+
+if it is unregistered its because of your carrier, not your phone, they arent allowing your phone model to do the required IMS registration to active VOLTE.
+
+theres a bunch of phones from chinese markets like xiaomi that do the same thing, remains to be seen whether or not they will work with VOLTE after it gets shut off...
+
+edit: on android you can verify if calls are happening with VOLTE because they will be marked with a little "HD" flag/icon in your call history, dont know if this is the same for iphones.
+Gen 1 SE?
+If it still says 4G during a call then you're fine.
+Oh this is weird sorry I only just noticed, it says “Date checked 30 June 2024. If you have changed phones since then, check again in a few days.” But I’ve had the same phone since then.
+Yep I'm amongst the nervous Xiaomi phone owners - my phone is less than 12 months old, Volte enabled but apparently Telstra are not enabling IMS registrations for phones purchased from overseas. (They haven't confirmed this outright -  I have been unable to get any sort of confirmation on this when I have called to double check that they will enable the IMS before end of the month)
+If that's their decision then they should not be able to sell SIM only / bring your own device plans- its BS.
+well all it says is SE. But I have Gen 2. Even Gen 1 had 4G right?

@@ -1,0 +1,26 @@
+This is more for the search engines rather than anything because I tried earlier and lack of info/outdated info (5 years+ old posts) made me wait in call centre queues unnecessarily
+
+I had my Medicare directed to a closed bank account (old green UBank aka BSB 082991; another PSA for anyone who was once using them actively before they closed)
+
+My GP did my claim for me, which prompted me to check my bank details were correct
+
+They weren't, so I updated them, hoping it would catch it in time
+
+A day later, the claim said it was paid, but I hadn't received any money
+
+I called and they said they can see it was rejected, and it would be resent to the new account. I asked out of curiosity whether I needed to call in the future if this happened again, or if this is just auto-attempted. The agent told me it would happen automatically within 48 hours. So there you go!
+
+Hopefully useful information for the search engines to avoid the pain of waiting in call centre queues :)
+This post has been marked as non-political. Please respect this by keeping the discussion on topic, and devoid of any political material. 
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/australia) if you have any questions or concerns.*
+I had the same issue with UBank for my tax return, so I'll post this for the search engines too.
+
+The email from ATO seemed to suggest I needed to amend and completely resubmit my tax return, but it turns out you just need to open it and update the bank details section and hit save. No need to resubmit the whole claim again. It resent payment with the correct details a few days later.
+Can't this be done in my gov?
+Happened to me too. I called and they resent to the new bank account that i changed in the Medicare app
+
+You won't need to call again if you change your details to the correct bank account
+Yes - the bank account can be changed in myGov but once the claim is submitted, there is no way to see where that claim is going (and most likely, if it was submitted before you changed your bank account details, it is going to try the old bank account first).
+
+Then it will show up as claim paid by EFT even though you received nothing. The transaction will have bounced on Medicare's end (you can only confirm this by calling them), and according to the agent, it will auto-reattempt payment to your new bank account details.
