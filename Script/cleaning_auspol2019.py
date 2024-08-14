@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 # Path to the CSV file
-file_path = '/auspol2019.csv'
+file_path = '/Users/mamtagrewal/PycharmProjects/twitter/Raw_Data/Australian Election 2019 Tweets/auspol2019.csv'
 
 # Read the CSV file into a pandas DataFrame
 df = pd.read_csv(file_path)
@@ -26,10 +26,11 @@ def is_australian_location(location):
             return True
     return False
 
-# Function to clean tweets by removing links, hashtags, and emojis
+# Function to clean tweets by removing links, hashtags, @mentions, and emojis
 def clean_tweet(tweet):
     tweet = re.sub(r"http\S+|www\S+|https\S+", '', tweet, flags=re.MULTILINE)  # Remove URLs
-    tweet = re.sub(r'#\w+', '', tweet)  # Remove hashtags
+    tweet = re.sub(r'#\w+', '', tweet)  # Remove hashtags and the words following them
+    tweet = re.sub(r'@\w+', '', tweet)  # Remove @mentions and the words following them
     tweet = re.sub(r'[^\w\s,]', '', tweet)  # Remove emojis and other non-word characters
     tweet = re.sub(r'\s+', ' ', tweet).strip()  # Remove extra whitespace
     return tweet
@@ -46,6 +47,9 @@ australian_tweets_df = df[df['is_australian']].copy()
 # Clean the tweets
 australian_tweets_df.loc[:, 'cleaned_full_text'] = australian_tweets_df['full_text'].apply(clean_tweet)
 
+# Remove empty tweets after cleaning
+australian_tweets_df = australian_tweets_df[australian_tweets_df['cleaned_full_text'].str.strip().astype(bool)]
+
 # Create a new DataFrame with only one column for the cleaned tweets
 cleaned_tweets_df = australian_tweets_df[['cleaned_full_text']].rename(columns={'cleaned_full_text': 'tweet'})
 
@@ -54,5 +58,3 @@ cleaned_tweets_df.to_csv('auspol2019.csv', index=False)
 
 # Save to a new JSON file
 cleaned_tweets_df.to_json('auspol2019.json', orient='records', lines=True)
-
-
