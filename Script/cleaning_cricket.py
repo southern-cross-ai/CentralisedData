@@ -2,6 +2,7 @@ import pandas as pd
 import re
 import html
 import json
+import os
 
 # Read the CSV file
 twitter_data = pd.read_csv('/Users/mamtagrewal/PycharmProjects/twitter/Raw_Data/Cricket Tweets/cricket_tweets.csv')
@@ -24,7 +25,7 @@ def is_australian_location(location):
             return True
     return False
 
-# Total number of tweets before filtering
+# Calculate the total number of tweets before filtering
 total_tweets = twitter_data.shape[0]
 
 # Filter tweets to keep only those from Australian locations
@@ -44,8 +45,8 @@ twitter_data.drop_duplicates(inplace=True)
 
 print(f"Number of null values per column:\n{twitter_data.isnull().sum(axis = 0)}")
 
-# Keep only relevant columns
-twitter_data = twitter_data[['text']]
+# Keep only relevant columns and rename the column to "tweet"
+twitter_data = twitter_data[['text']].rename(columns={'text': 'tweet'})
 
 # Remove duplicate tweets
 print(f"Total duplicated rows: {sum(twitter_data.duplicated())}, Percentage duplicates: {sum(twitter_data.duplicated())/twitter_data.shape[0]*100}%")
@@ -78,11 +79,12 @@ def clean_tweets(tweet):
     tweet = multi_punct_regex.sub(r'\1', tweet)
     return tweet.strip()
 
-twitter_data['text'] = twitter_data['text'].apply(clean_tweets)
+twitter_data['tweet'] = twitter_data['tweet'].apply(clean_tweets)
 
 print("Saving cleaned data in JSON and CSV...\n")
+
 # Save to a new CSV file
-twitter_data.to_csv('cricket_tweets.csv', index=False, header=['tweet'])
+twitter_data.to_csv('cricket_tweets.csv', index=False)
 
 # Save to a new JSON file
 twitter_data.to_json('cricket_tweets.json', orient='records', lines=True)
