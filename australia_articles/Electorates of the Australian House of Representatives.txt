@@ -1,0 +1,31 @@
+Electorates (also known as electoral divisions or seats) of the Australian House of Representatives are single member electoral districts for the lower house of the Parliament of the Commonwealth. There are currently 151 electorates.
+
+Constitutional and legal requirements
+Section 24 of the Constitution of Australia specifies that the total number of members of the Australian House of Representatives shall be "as nearly as practicable" twice as many as the number of members of the Australian Senate. The section also requires that electorates be apportioned among the states in proportion to their respective populations; provided that each original state has at least 5 members in the House of Representatives, a provision that has given Tasmania higher representation than its population would otherwise justify. There are three electorates in the Australian Capital Territory and even though the Northern Territory should have only one electorate based on their population, parliament have legislated that they receive two (by setting the quota for seat allocation using the harmonic mean for territories, meaning only around 1.3 quotas rather than 1.5 quotas are needed to have two seats).
+In addition, Section 29 forbids electorate boundaries from crossing state lines, forcing populated areas along state and territory borders to be placed in different electorates, such as Albury in New South Wales being part of the electorate of Farrer, while nearby Wodonga in Victoria is part of the electorate of Indi. The same restriction does not apply to territories, and several current electoral divisions incorporate electors from multiple territories. This is currently the case for the Division of Bean (covering part of the ACT and the whole of Norfolk Island), the Division of Fenner (covering part of the ACT and the whole of Jervis Bay Territory), and the Division of Lingiari (covering part of the Northern Territory and the whole of Christmas Island and Cocos (Keeling) Islands).
+The Commonwealth Electoral Act 1918 sets out further provisions.
+
+Apportionment and redistribution
+The Australian Electoral Commission (AEC) determines the number of members of the House of Representatives to which each state and territory is entitled (called apportionment) and the boundaries of each electorate, in a process known as redistribution. Such apportionment and redistributions apply to the next federal election, but not to any by-elections. The last apportionment determination was made in July 2020.  The resulting redistribution took place during 2021 and was used in the 2022 federal election, which was held on 21 May 2022.
+Within each state and territory, electoral boundaries are redrawn from time to time. This takes place at least once every 7 years, or when the state's entitlement to the number of members of the House of Representatives changes. Boundaries are drawn by a Redistribution Committee, and redistributions within a state are on the basis of the number of enrolled voters, rather than total residents or "population". The number of enrolled voters in each division cannot vary by more than 10% from the average across a state or territory, nor can the number of voters vary by more than 3.5% from the average projected enrolment 3.5 years into the future. However, due to various reasons, larger seats like Cowper in New South Wales contain 80% more electors than that of smaller seats like Solomon in the Northern Territory. In 2018, seats in Victoria, Tasmania and South Australia were also abolished, in order to make way for seats in similar locations but with different names.
+At the 2022 Australian federal election, based on the 2021 apportionment, there were 151 divisions: 47 in New South Wales, 39 in Victoria, 30 in Queensland, 15 in Western Australia, 10 in South Australia, 5 in Tasmania, 3 in the ACT and 2 in Northern Territory.
+
+Naming
+The divisions of the House of Representatives are unusual in that many of them are not named after geographical features or numbered, as is the case in most other legislatures around the world. Most divisions are named in honour of prominent historical people, such as former politicians (often Prime Ministers), explorers, artists and engineers. There is also a preference for retaining names used since Federation.
+In some cases where a division is named after a geographical locality, the connection to that locality is sometimes tenuous. For instance, the Division of Werriwa, created in 1901, was named after the Aboriginal word for Lake George in the Canberra region. However, Werriwa has not contained Lake George for many decades, and has steadily moved some 200 km north to the south-western suburbs of Sydney over the past century.
+
+List of current electoral divisions
+The divisions that existed at the 2022 Australian federal election appear in the table below.
+
+Abolished divisions
+These divisions no longer exist:
+
+See also
+List of members of the Australian House of Representatives
+Australian electoral system
+
+External links
+Adam Carr's Electoral Archive: Index of House of Representatives Divisions 1901–2001
+
+
+== References ==

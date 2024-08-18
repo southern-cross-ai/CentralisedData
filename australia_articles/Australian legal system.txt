@@ -1,0 +1,69 @@
+The legal system of Australia has multiple forms. It includes a written constitution, unwritten constitutional conventions, statutes, regulations, and the judicially determined common law system. Its legal institutions and traditions are substantially derived from that of the English legal system, which superseded Indigenous Australian customary law during colonisation. Australia is a common-law jurisdiction, its court system having originated in the common law system of English law. The country's common law is the same across the states and territories.
+The Australian Constitution sets out a federal system of government. There exists a national legislature, with a power to pass laws of overriding force on a number of express topics. The states are separate jurisdictions with their own system of courts and parliaments, and are vested with plenary power. Some Australian territories such as the Northern Territory and the Australian Capital Territory have been granted a regional legislature by the Commonwealth.
+The High Court is Australia's apex court. It has the final say on the judicial determination of all legal matters. It hears appeals from all other courts in the country, and is vested with original jurisdiction.
+Prior to colonisation, the only systems of law to exist in Australia were the varied systems of customary law belonging to Indigenous Australians. Indigenous systems of law were deliberately ignored by the colonial legal system, and in the post-colonial era have only been recognised as legally important by Australian courts to a limited degree.
+
+History
+Indigenous customary law
+Indigenous Australian customary law varied between language groups, clans, and regions. It developed over time from accepted norms within indigenous societies. The laws regulated human behaviour and relationships, mandated sanctions for misdeeds, and connected people with the land and each other through a system of relationships.
+Such law is often intertwined with cultural customs, stories, and practices. These customs were and are passed on intergenerationally through oral tradition, often incorporated within cultural works such as songlines, stories and dance.
+
+Reception of English law
+The laws of England had evolved over centuries, with the common law emerging following the 1200s. This law was introduced to Australia through the colonisation of Australia by the British. By 1824, a court system based on the English model had been established through Acts of the British Parliament. The New South Wales Act 1823 provided for the establishment of a Supreme Court with the power to deal with all criminal and civil matters "as fully and amply as Her Majesty's Court of King's Bench, Common Pleas and Exchequer at Westminster". Inferior courts were also established, including courts of General or Quarter Sessions, and Courts of Requests.
+Despite the presence of indigenous inhabitants, Australia was determined to be "settled" rather than "conquered" and as a result all English law "applicable to the new
+situation and condition of the infant colony" applied, as opposed to the continuation of indigenous laws. This was confirmed by the Australian Courts Act 1828 an act of the Imperial Parliament which had the effect of ensuring that all English common and statute law up to  28 July 1828 was to have effect in New South Wales and Tasmania, and later Victoria and Queensland when they separated from New South Wales. The reception of English law in Western Australia and South Australia was later deemed by statute to have occurred on 1 June 1829 and 28 December 1836 respectively.
+The earliest civil and criminal courts established from the beginnings of the colony of New South Wales were rudimentary, adaptive and military in character. Although legality was not always observed, the courts limited the powers of the Governor, and the law of the colony was at times more egalitarian than in Britain.
+Representative government emerged in the 1840s and 1850s, and a considerable measure of autonomy was given to local legislatures in the second half of the nineteenth century. Colonial Parliaments introduced certain reforms such as secret ballots and female suffrage, which were not to occur in Britain until many years later. Nevertheless, Acts of the United Kingdom Parliament extending to the colonies could override contrary colonial legislation and would apply by "paramount force". New doctrines of English common law continued to be treated as representing the common law of Australia. For example, the doctrine of the famous case of Donoghue v Stevenson from which the modern negligence law derived, was treated as being latent already within the common law at the time of reception.
+
+Federation and divergence
+Following a number of constitutional conventions during the 1890s to develop a federal nation from the several colonies, the Commonwealth of Australia Constitution Act (Imp) was passed and came into force on 1 January 1901. Section 9 of this act contains Australia's constitution, to this day within a British act.
+Following federation, Britain's role in the government of Australia became increasingly nominal in the 20th century. However, there was little momentum for Australia to obtain legislative independence. The Australian States did not participate in the conferences leading up to the Statute of Westminster 1931, which provided that no British Act should be deemed to extend to the dominions without the consent of the dominion. The Australian Government did not invoke the provisions of the statute until 1942. The High Court also followed the decisions of the Privy Council during the first half of the twentieth century.
+Complete legislative independence was finally established by the Australia Act 1986, passed by the United Kingdom Parliament. It removed the possibility of legislation being enacted at the consent and request of a dominion, and applied to the States as well as the Commonwealth. It also provided for the complete abolition of appeals to the Privy Council from any Australian court. The Australia Act represented an important symbolic break with Britain, emphasised by Queen Elizabeth II's visit to Australia to sign the legislation in her legally distinct capacity as the Queen of Australia.
+Legislative independence has been paralleled by a growing divergence between Australian and English common law in the last quarter of the 20th century. In addition, a large body of English law received in Australia has been progressively repealed in state parliaments, such as in New South Wales by the Imperial Acts Application Act 1969.
+
+Sources of law
+Constitutional law
+The Australian colonies were federated into 'The Commonwealth' in 1901. To achieve this, the British Parliament enacted a written constitution drawn up by the Australian colonists. The document was influenced by constitutional systems of the UK, the United States, and Switzerland.
+Australia's constitution 'establishes the form of the federal government and sets out the basis for relations between the Commonwealth and the states'. Chapter I defines the role and powers of the legislature, Chapter II defines that of the Executive, and Chapter III defines that of the Judiciary.
+In addition to the document's text, Australian constitutional law is affected by the structure of the document. The division of the three branches of government into chapters is understood to establish a Separation of Powers doctrine in Australia.
+It is also known that a number of unwritten constitutional conventions are present within the document. E.g. the constitutional doctrines of responsible government, and the requirement of the governor-general to accept the advice of the prime minister.
+The Australian constitution is notable for not containing a bill of rights, and express constitutional restrictions upon Commonwealth power are minimal in number and scope. Nevertheless, some restrictions upon Commonwealth power have been recognised by implications drawn constitutional sections unconcerned with the establishment of rights. The stipulations of Section 7 and 24 that the members of the respective Commonwealth legislatures be 'directly chosen by the people'; have been interpreted by the High Court as giving rise to doctrines protecting freedom of political communication, and a right to vote.
+The constitution may only be amended by a national referendum, a provision inspired by the Swiss Canton system.
+The respective state governments of Australia also have constitutional documents, many of which have carried over from the colonial era. Those documents, however, are amenable to state legislation, and thus do not bind on the respective state parliaments in the same way that the Commonwealth and the States are bound by Australia's written constitution as supreme law. (see also: Marbury v. Madison)
+
+Statute law
+The legislative powers of the federal Parliament are limited to those set out under an enumerated list of subject matters in the Constitution. These powers include a power to legislate on matters "incidental" to the other powers. The Parliament of the Commonwealth can also legislate on matters referred to it by the Parliament of one or more States.
+
+In contrast, with a few exceptions the State legislatures generally have plenary power to enact laws on any subject. However, federal laws prevail in the event of collision, according to Section 109 of the Constitution of Australia.
+The process of creating a statute involves a Bill being drafted, usually by Parliamentary Counsel. The Bill is read, debated and sometimes amended in both houses of parliament before being approved. Once a bill has been passed it must be assented to by the representative of the sovereign. Legislation may also be delegated to local councils, statutory authorities or government departments. Usually, this is done in respect of minor statute laws such as road rules.
+Most statutes are applied by administrative decision makers rather than judges. When laws are brought before a court, judges are not bound to select an interpretation proffered by one of the parties and instead their role is to seek an objective interpretation of the law.
+The jurisprudence of statutory interpretation is not settled in Australia. Interpretive doctrines such as the literal rule, the golden rule, and the mischief rule; must comply with the Commonwealth's mandate in the Acts Interpretation Act that statutes be interpreted according to their purpose. The legitimate role of extrinsic materials is not settled law in Australia.
+
+Common law
+Australia's common law system originated in the system of common law in the UK. Although similarities remain, and the influence of UK common law decisions remain influential on Australian courts, there exists substantial divergence between each system.
+Until 1963, the High Court regarded decisions of the House of Lords binding, and there was substantial uniformity between Australian and English common law. In 1978, the High Court declared that it was no longer bound by decisions of the Judicial Committee of the Privy Council.
+The High Court has declared that Australia's system of common law is uniform across all states: this may be contrasted with other jurisdictions, like the United States, that have maintained distinct systems of common law within each state.
+
+International law
+Australia has entered into many treaties. Treaties are not automatically incorporated into Australian domestic law upon signature or ratification (aside from those terminating a state of war).
+The role of treaties in influencing the development of the common law is controversial. The text within a treaty is a valid interpretive aid to an act which attempts to give effect to that treaty.
+By reliance on the external affairs power, matters subject of a treaty may be legislated upon by the Commonwealth Parliament; even in the absence of the matter among other the heads of power.
+
+See also
+Law of the United Kingdom
+Law of the United States
+
+References
+Further reading
+Rosemary Barry, ed. The Law Handbook. Sydney: Redfern Legal Centre Publishing, 2007.
+John Carvan. Understanding the Australian Legal System. Sydney: Lawbook Co., 2002.
+Justin T. Gleeson, Ruth C. A. Higgins & Elisabeth Peden, eds. Historical foundations of Australian law. Annandale: Federation Press, 2013.
+
+External links
+
+"Jurisdiction and hierarchy of courts". State Library of NSW.
+Australian Government - Attorney-General's Department
+Australasian Legal Information Institute (AustLII)
+Australian Law Reform Commission
+Federal Register of Legislation
+Australian Treaties Library

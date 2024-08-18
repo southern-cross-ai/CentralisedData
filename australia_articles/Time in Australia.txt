@@ -1,0 +1,105 @@
+Australia uses three main time zones: Australian Eastern Standard Time (AEST; UTC+10:00), Australian Central Standard Time (ACST; UTC+09:30) and Australian Western Standard Time (AWST; UTC+08:00).
+Time is regulated by the individual state governments, some of which observe daylight saving time (DST). Daylight saving time (+1 hour) is used between the first Sunday in October and the first Sunday in April in jurisdictions in the south and south-east:
+
+New South Wales, Victoria, Tasmania, Jervis Bay Territory and the Australian Capital Territory switches to the Australian Eastern Daylight Saving Time (AEDT; UTC+11:00), and
+South Australia switches to the Australian Central Daylight Saving Time (ACDT; UTC+10:30).
+Standard time was introduced in the 1890s when all of the Australian colonies adopted it. Before the switch to standard time zones, each local city or town was free to determine its local time, called local mean time. Now, Western Australia uses Western Standard Time; South Australia and the Northern Territory use Central Standard Time; while New South Wales, Queensland, Tasmania, Victoria, Jervis Bay Territory, and the Australian Capital Territory use Eastern Standard Time. Daylight saving time is not currently used in Western Australia, the Northern Territory, or Queensland.
+The Cocos (Keeling) Islands uses UTC+06:30 year round, Christmas Island uses UTC+07:00 year round, while Norfolk Island uses UTC+11:00 as standard time and UTC+12:00 as daylight saving time.
+
+History
+The standardisation of time in Australia began in 1892, when surveyors from the six colonies in Australia met in Melbourne for the Intercolonial Conference of Surveyors. The delegates accepted the recommendation of the 1884 International Meridian Conference to adopt Greenwich Mean Time (GMT) as the basis for standard time.
+The colonies enacted time zone legislation, which took effect in February 1895. The clocks were set ahead of GMT by 8 hours in Western Australia; by 9 hours in South Australia (and the Northern Territory, which it governed); and by 10 hours in Queensland, New South Wales, Victoria, and Tasmania. The three time zones became known as Western Standard Time, Central Standard Time, and Eastern Standard Time. Broken Hill in the far west of New South Wales (strictly speaking, the county of Yancowinna) also adopted Central Standard Time due to it being connected at the time by rail to Adelaide but not Sydney.
+In May 1899, in a break with the common international practice of setting one-hour intervals between adjacent time zones, South Australia advanced Central Standard Time by thirty minutes after lobbying by businesses who wanted to be closer to Melbourne time and cricketers and footballers who wanted more daylight to practice in the evenings. It also meant that South Australia became one of only a few places in the world which uses a time-zone meridian located outside of its geographical boundaries. Attempts to undo this change in 1986 and 1994 failed.
+In 1911, when the Northern Territory was separated from South Australia and placed under the jurisdiction of the Federal Government, the Territory kept Central Standard Time. Likewise, when the ACT and Jervis Bay Territory were broken off from New South Wales, they retained Eastern Standard Time.
+Since 1899, the only major changes in Australian time zones have been setting of clocks half an hour later than Eastern time (GMT plus 10:30) on the territory of Lord Howe Island, and Norfolk Island changing from UTC+11:30 to UTC+11:00 on 4 October 2015.
+When abbreviating "Australian Central Time" and "Australian Eastern Time", in domestic contexts the leading "Australian" may be omitted; however, the prefix "A" is often used to avoid ambiguity with the time zone abbreviations "CST" and "EST" referring to the Central and Eastern Time Zones in North America.
+
+Civil time and legislation
+Though the governments of the states and territories have the power to legislate variations in time, the standard time within each of these is set related to Coordinated Universal Time (UTC) as determined by the International Bureau of Weights and Measures and set by section 8AA of the National Measurement Act of 1960 of the Commonwealth.
+Australia has kept a version of the UTC atomic time scale since the 1990s, but Greenwich Mean Time (GMT) remained the formal basis for the standard times of all of the states until 2005. In November 2004, the state and territory attorneys-general endorsed a proposal from the Australian National Measurement Institute to adopt UTC as the standard of all Australian standard times, thereby eliminating the effects of slight variations in the rate of rotation of the Earth that are inherent in mean solar time. All jurisdictions have adopted the UTC standard, starting on 1 September 2005.
+In Victoria, South Australia, Tasmania and the ACT, the starting and ending dates of daylight saving times are officially determined by proclamations, declarations, or regulation made by the State Governor or by the responsible minister. Such instruments may be valid for only the current year, and so this section generally only refers to the legislation. In New South Wales and Western Australia, the starting and ending dates, if any, are to be set by legislation.
+
+Australian Western Standard Time (AWST) – UTC+08:00
+Western Australia – Standard Time Act 2005
+
+Australian Central Standard Time (ACST) – UTC+09:30
+South Australia – Standard Time Act 2009 and the Daylight Saving Act 1971
+Northern Territory – Standard Time Act 2005
+Australian Western Central Standard Time (AWCST) UTC+8:45
+
+Small portion of south eastern corner of Western Australia as well as Border Village in South Australia
+Used in following towns: Border Village, Eucla, Mundrabilla, Madura, Cocklebiddy
+
+Australian Eastern Standard Time (AEST) – UTC+10:00
+Queensland – Standard Time Act 1894
+New South Wales – Standard Time Act 1987 No 149
+Australian Capital Territory and Jervis Bay Territory – Standard Time and Summer Time Act 1972
+Victoria – Summer Time Act 1972
+Tasmania – Standard Time Act 1895 and the Daylight Saving Act 2007
+
+Daylight saving time (DST)
+The choice of whether to use DST is a matter for the governments of the individual states and territories. However, during World War I and World War II all states and territories used daylight saving time (DST). In 1968 Tasmania became the first state to use DST in peacetime, followed in 1971 by New South Wales, Victoria, Queensland, South Australia, and the Australian Capital Territory.  Queensland abandoned DST in 1972.  Western Australia and the Northern Territory did not adopt it. Queensland and Western Australia have occasionally used DST since then during trial periods.
+The main DST zones are the following:
+
+(Australian) Central Daylight Saving Time (ACDT or CDST) – UTC+10:30, in South Australia and Broken Hill, New South Wales
+(Australian) Eastern Daylight Saving Time (AEDT or EDST) – UTC+11:00, in New South Wales, the ACT, Victoria, and Tasmania
+During the usual periods of DST, the three standard time zones in Australia become five zones. This includes the areas that do not observe DST: Western Australia (UTC+08:00), the Northern Territory (UTC+09:30), and Queensland (UTC+10:00).
+The change to and from DST takes place at 02:00 local standard time the appropriate Sunday. Until 2008, DST usually began on the last Sunday in October, and ended on the last Sunday in March. However, Tasmania, given its latitude further south, began DST earlier, on the first Sunday in October, and ended it later, on the first Sunday of April.
+On 12 April 2007, New South Wales, Victoria, Tasmania, and the ACT agreed to common beginning and ending dates for DST from 2008. DST in these states and South Australia began on the first Sunday in October and ended on the first Sunday in April. Western Australia was then the only state to use DST from the last Sunday in October to the last Sunday in March, but it abolished DST in 2009.
+
+Anomalies
+Unlike the rest of New South Wales, Broken Hill and the surrounding region (specified as Yancowinna County) observes Australian Central Standard Time (UTC+09:30), a time zone it shares with nearby South Australia and the Northern Territory.
+Heron Island, 72 km (45 mi) off the coast off Gladstone in Queensland, has two time zones: the island resort follows DST all year round, whereas the Marine Research Centre and the Parks and Wildlife office on the island remain on Eastern Standard Time. Resort manager Alistair Cooray says no-one is sure how the time zone came about. 'I believe it started in the late '50s early '60s as a way to give the guests a bit more daylight time on the island and no-one knows for sure though.'"
+Lord Howe Island, part of the state of New South Wales but 600 kilometres (370 miles) east of the Australian mainland in the Pacific Ocean, uses UTC+10:30 during the winter months (30 minutes ahead of the eastern states), but advances to UTC+11:00 in summer (the same time as the rest of New South Wales).
+A compromise between Western and Central time (UTC+08:45, without DST), unofficially known as Central Western Standard Time, is used in one area in the southeastern corner of Western Australia and one roadhouse in South Australia. Towns east of Caiguna on the Eyre Highway (including Eucla, Cocklebiddy, Madura, Mundrabilla and Border Village, just over the border into South Australia), follow "CWT" instead of Western Australian time. The total population of that area is estimated at 200 people. This area did not change when South Australia introduced DST. During the Western Australian trial of DST from 2006 to 2009, this area also sets its clocks ahead one hour during summer. This time zone is not officially recognised, but is marked by official road signs. It is tracked in the tz database, the record of time zones for computers, as "Australia/Eucla".
+A number of small towns in Outback Western Australia also follow UTC+09:30 rather than UTC+08. These towns include Blackstone, Irrunytju, Warakurna, Wanarn, Kiwirrkurra, and Tjukurla.
+The Indian Pacific train has its own time zone—a so-called "train time" when travelling between Kalgoorlie, Western Australia and Port Augusta, South Australia—which was at UTC+09:00 hours during November 2005 when DST was observed in the eastern and southern states.
+
+External territories
+Australia's external territories follow different time zones.
+
+Special events
+In 2000, all of the eastern jurisdictions that normally observe DST—New South Wales, Victoria, the ACT, and Tasmania—began DST early because of the Summer Olympic Games held in Sydney. These jurisdictions moved to DST on 27 August 2000. South Australians did not change their clocks until the usual date, which was 29 October 2000.
+In 2006, all of the states that followed DST (the above states and South Australia) delayed their return to Standard Times by one week, because of the 2006 Commonwealth Games held in Melbourne in March. DST ended on 2 April 2006.
+
+National times
+There are situations in which a nationwide time is in effect. In the case of business activities, a national time can be used. For example, a prospectus for the issue of stock in a company would usually set the closing time for offers at some location (e.g. Sydney) as the time when offers must be received, regardless of the source of the offer. Similarly, tenders for their sale of stock usually set out the time at a given location by which they must be received to be considered. Another example is the Australian Securities Exchange which operates on Sydney time.
+On the other hand, Federal legislation yields to state-regulated standard times in many diverse situations. For example, it yields in setting the normal working times of Federal employees, the recognition of public holidays, etc. The Federal government also relies on local times for Federal elections, so that the polls in Western Australia close two or three hours after those in the eastern states. Also, documents to be filed in a Federal Court may be filed based on the local time. The effect of this is that if there had been a failure to file a legal document on time in an eastern State, that document can sometimes still be filed (within two hours) in Western Australia.
+
+IANA time zone database
+The 18 zones for Australia as given by zone.tab of the IANA time zone database. Columns marked * are from the zone.tab.
+
+Debate, trials and referendums
+Queensland
+Queensland has had a particularly involved debate over daylight saving time, with public opinion geographically divided. The state's first trial of DST lasted one year, from 31 October 1971 to 27 February 1972. In 1973 the Committee on Daylight Saving analysed this trial and the effects of daylight saving on different demographics, and ultimately concluded not to adopt daylight saving time. The committee's reasons include Queensland's unsuitable geography and a lack of broad support from denizens.
+Later, another introduction of DST was trialled from 29 October 1989 to 4 March 1990, overseen by the daylight saving task force. At the task force's recommendation, the trial was extended from one to three years. The Legislative Assembly voted to hold a referendum on DST at the trial's conclusion in 1992, which was defeated with a 54.5 per cent negative vote. The referendum result displayed a distinct trend—that public opinion on DST in Queensland is geographically divided, with the negative vote being strongest in northern and western districts, while the positive vote being strongest in the southeastern region (e.g. in Brisbane). The holiday islands in the Whitsundays (Hayman, Lindeman and Hamilton) continued to observe DST in defiance of the Standard Time Act (The "Australia/Lindeman" Timezone in the tz database is based on this). However the practice was abandoned two years later in 1995. Heron Island, 72 km off the coast off Gladstone, has two time zones: the resort follows DST all year round, whereas "the Marine Research Centre and the Parks and Wildlife office on the island remain on Eastern Standard Time".
+Since the late 1900s, there have been a number of petitions submitted to the Legislative Assembly of Queensland, lobbying for the introduction of daylight saving time or for another referendum to be held. A petition in 2006 was signed by 62,232 people. In response to these petitions, then Queensland Premier Peter Beattie commissioned research to find out if it should be re-introduced into Queensland. Around this time, Beattie predicted that daylight saving in Queensland would increase the rate of skin cancer in the state, an assertion for which there is no evidence, according to the Queensland Cancer Fund.
+In October 2007, the government-commissioned research was presented to Anna Bligh, who had replaced Peter Beattie as the Premier of Queensland; she ruled out holding a new referendum, despite the report indicating that 59 per cent of the residents of Queensland and 69 per cent of those in southeastern Queensland to be in favour of adopting daylight saving.
+In December 2008, the Daylight Saving for South East Queensland (DS4SEQ) political party was officially registered, to advocate for the use of a two-time-zone system for DST in Queensland, with most of the state (in land area) using standard time. This party contested the March 2009 Queensland State election with 32 candidates, and it received about one per cent of the statewide primary vote.
+In early 2010, the DS4SEQ political party approached the independent member, Peter Wellington, to introduce a private member's bill for DST.
+Since Wellington agreed with the principles of the DS4SEQ proposal, specifically the dual-time-zone system, he drafted the Daylight Saving for South East Queensland Referendum Bill 2010 and he submitted this bill to Queensland Parliament on 14 April 2010. Wellington called for a referendum to be held at the next state election on the introduction of DST into southeastern Queensland under the dual-time-zone system.
+In response to this bill, Premier Anna Bligh announced a community consultation process, which resulted in over 74,000 respondents participating, 64 per cent of whom voted in favour of a trial, and 63 per cent of whom were in favour of holding a referendum. The decision announced by the Premier on 7 June 2010 was that her Government would not support the bill because rural Queenslanders were overwhelmingly opposed to DST. The Bill was defeated in Queensland Parliament on 15 June 2011.
+
+Western Australia
+Western Australia has also had a particularly involved debate over DST, with the issue being put to a referendum four times: in 1975, 1984, 1992, and 2009. All of these proposals to adopt DST were defeated. Voters registered a negative vote of 54.6 per cent in the 2009 referendum, the highest percentage for all four of these referendums. Each referendum followed a trial period during which the state observed DST. The first three followed a one-year trial, while the 2006 Western Australian Daylight Saving Bill (No. 2) 2006 instituted a trial of DST beginning on 3 December 2006, and lasting for three years.
+
+Deviances
+Some towns located near the border of another state or territory use a different time zone to the rest of their own state or territory and may follow the bordering state or territory's time zone instead. The most well-known example of this is Broken Hill and the surrounding area, which, despite being located in New South Wales, use the same time zone as South Australia year-round.
+
+Additionally, Gold Coast Airport, which straddles the border between New South Wales and Queensland (with the majority of the airport on the Gold Coast and a small portion of it in Tweed Heads), uses Australian Eastern Standard Time (AEST) throughout the airport all year round, despite New South Wales observing daylight savings (which Queensland does not observe).
+
+See also
+List of time zones
+List of military time zones
+UTC+10:00
+
+Notes
+References
+The Australian National Time System National Standards Commission Leaflet No. 8, January 2003, linked via Wayback Machine
+NSW Legislative Council Hansard, 2 March 2005
+Daylight Saving Petitions
+Daylight Saving Time – history of daylight saving time implementation dates at the Bureau of Meteorology website
+
+External links
+Information on time zones from official Government web site
+Daylight Saving for South East Queensland political party Official DS4SEQ website

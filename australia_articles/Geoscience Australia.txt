@@ -1,0 +1,53 @@
+Geoscience Australia is an agency of the Australian Government. It carries out geoscientific research. The agency is the government's technical adviser on all aspects of geoscience, and custodian of the geographic and geological data and knowledge of the nation.
+On a user pays basis it produces geospatial products such as topographic maps and satellite imagery. It is also a major contributor to the Australian Government's free, open data collections such as data.gov.au and portal.ga.gov.au.
+
+Strategic priorities
+The agency has six strategic priority areas:
+
+building Australia's resource wealth in order to maximise benefits from Australia's minerals and energy resources, now and into the future;
+ensuring Australia's community safety so that Australian communities are more resilient to natural hazards;
+securing Australia's water resources in order to optimise and sustain the use of Australia's water resources;
+managing Australia's marine jurisdictions in order to maximise benefits from the sustainable use of Australia's marine jurisdiction;
+providing fundamental geographic information in order to understand the location and timing of processes, activities and changes across Australia to inform decision-making for both natural and built environments; and
+maintaining geoscience knowledge and capability in order to maintain an enduring and accessible knowledge base and capability to enable evidence-based policy and decision-making by government, industry and the community.
+
+History
+Geoscience Australia came into being in 2001 when the Australian Surveying and Land Information Group (AUSLIG) merged with the Australian Geological Survey Organisation (AGSO). Its history dates back almost to Federation in 1901 when it was decided to set aside land for the national capital. This decision led to the establishment of the Australian Survey Office in 1910, when surveying began for the Australian Capital Territory.
+AUSLIG's main function was to provide national geographic information. It was formed in 1987, when the Australian Survey Office joined with the Division of National Mapping, which was formed in 1947. Another important component of AUSLIG was the provision of satellite imagery to industry and government, started by the Australian Landsat Station in 1979, renamed the Australian Centre for Remote Sensing (ACRES) in 1986.
+AGSO's predecessor organisation the Bureau of Mineral Resources, Geology and Geophysics (BMR) was established in 1946; with the name changing to AGSO in 1992.
+The BMR was a geological survey with the main objective was the systematic geological and geophysical mapping of the continent as the basis for informed mineral exploration.
+Geoscience Australia's activities have expanded and today it has responsibility for meeting the Australian Government's geoscience requirements. This role takes the Agency well beyond its historic focus on resource development and topographic mapping to topics as diverse as natural hazards such as tsunami and earthquakes, environmental issues, including the impacts of climate change, groundwater research, marine and coastal research, carbon capture and storage and vegetation monitoring as well as Earth observations from space. Geoscience Australia's remit also extends beyond the Australian landmass to Australia's vast marine jurisdiction.
+
+Summary of predecessor agencies
+Facilities
+It has a free place name search and its earthquake monitoring services can be freely accessed. The Library is the premier geoscience library in Australia providing services to geoscience organisations, universities, research centres, the mining and petroleum industries and the public.
+
+Economic Demonstrated Resources
+Geoscience Australia defines Economic Demonstrated Resources (EDR) as resources for which profitable extraction or production under defined investment assumptions
+is possible For EDR, tonnages and grades are computed from samples of the resource taken from points spaced to provide assured resource continuity.
+
+See also
+Geological Survey of South Australia
+Geological Survey of Western Australia
+List of national mapping agencies
+
+References
+External links
+Geoscience Australia home page.
+Geoscience Australia Data Discovery Portal.
+Geoscience Australia Geological Digital Twin.
+Community and Education Geoscience Discovery Digital Atlas.
+Australian Mines Atlas.
+Atlas of Australian Mine Waste.
+Australian Fundamental Gravity Network (AFGN).
+AusSeabed Marine Data Portal.
+Critical Minerals Mapping Initiative.
+Geochronology and Isotopes Data Portal.
+Geophysical Archive Data Delivery System (GADDS).
+AusH2 - Australia's Hydrogen Opportunities Tool.
+MinEx CRC National Drilling Initiative.
+Positioning Australia National Positioning Infrastructure.
+Geoscience Australia in Google Cultural Institute.
+As the cocky flies distance calculator
+International Map of the World
+XNATMAP's home page preserving NATMAP's (The Division of National Mapping) history and maintaining contact with the people who were part of that history.

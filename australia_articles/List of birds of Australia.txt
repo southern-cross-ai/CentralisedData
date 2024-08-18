@@ -1,0 +1,593 @@
+This is a list of the wild birds found in Australia including its outlying islands and territories, but excluding the Australian Antarctic Territory. The outlying islands covered include: Christmas, Cocos (Keeling), Ashmore, Torres Strait, Coral Sea, Lord Howe, Norfolk, Macquarie and Heard/McDonald. The list includes introduced species, common vagrants and recently extinct species. It excludes species only present in captivity. 975 extant and extinct species are listed.
+There have been three comprehensive accounts: the first was John Gould's Birds of Australia, the second Gregory Mathews, and the third was the Handbook of Australian, New Zealand and Antarctic Birds (1990-2006).
+The taxonomy originally followed is from Christidis and Boles, 2008. Their system has been developed over nearly two decades and has strong local support, but deviates in important ways from more generally accepted schemes. Supplemental updates follow The Clements Checklist of Birds of the World, 2022 edition.
+
+This list uses British English throughout. Bird names and other wording follows that convention.
+
+Ostriches
+Order: Struthioniformes   Family: Struthionidae
+
+1 species recorded [1 introduced]
+This order is not native to Australia, but feral populations of one species have become established in South Australia and possibly on the New South Wales/Victoria border.
+
+Cassowaries and emu
+Order: Casuariiformes   Family: Casuariidae
+
+2 species recorded [2 extant native]
+This family of flightless ratite birds is represented by two living species in Australia. Another two species are found in New Guinea. The extinct, geographically isolated King and Kangaroo Island emus were historically considered to be separate species to mainland emus. However, genetic evidence from 2011 suggests that all three are conspecific.
+
+Magpie goose
+Order: Anseriformes   Family: Anseranatidae
+
+1 species recorded [1 extant native]
+The family contains a single species, the magpie goose. It was an early and distinctive offshoot of the anseriform family tree, diverging after the screamers and before all other ducks, geese and swans, sometime in the late Cretaceous. The single species is found across Australia.
+
+Ducks, geese, and waterfowl
+Order: Anseriformes   Family: Anatidae
+
+30 species recorded [20 extant native, 3 introduced, 7 vagrant]
+The family Anatidae includes the ducks and most duck-like waterfowl, such as geese and swans. These are adapted for an aquatic existence, with webbed feet, bills that are flattened to a greater or lesser extent, and feathers that are excellent at shedding water due to special oils. In Australia, 30 species have been recorded, of which three have been introduced, and seven are vagrants.
+
+Megapodes
+Order: Galliformes   Family: Megapodiidae
+
+3 species recorded [3 extant native]
+Megapodiidae are represented by various species in the Australasian region, although only three species are found in Australia. They are commonly referred to as "mound-builders" due to their habit of constructing large mounds to incubate their eggs.
+
+Guineafowl
+Order: Galliformes   Family: Numididae
+1 species recorded [1 introduced]
+Numididae are not native to Australia, but feral populations of one species exist in Queensland.
+
+New World quail
+Order: Galliformes   Family: Odontophoridae
+1 species recorded [1 introduced]
+Odontophoridae are not native to Australia, but feral populations of one species survive in external territories and possibly the mainland.
+
+Pheasants, grouse, and allies
+Order: Galliformes   Family: Phasianidae
+
+8 species recorded [3 extant native, 5 introduced]
+Phasianidae consists of the pheasants and their allies. These are terrestrial species, variable in size but generally plump, with broad, relatively short wings. Many species are gamebirds or have been domesticated as a food source for humans. Three species are native to Australia, and five commonly domesticated species are feral, with most established populations persisting on offshore islands.
+
+Flamingos
+Order: Phoenicopteriformes   Family: Phoenicopteridae
+1 species recorded [1 vagrant]
+Australia has only a single record of any flamingo species, from the North Keeling Island. Several prehistoric species are also known to have existed.
+
+Grebes
+Order: Podicipediformes   Family: Podicipedidae
+
+4 species recorded [3 extant native, 1 vagrant]
+Grebes are small to medium-large freshwater diving birds. They have lobed toes and are excellent swimmers and divers. However, they have their feet placed far back on the body, making them quite ungainly on land. Three species have been regularly recorded in Australia, and a fourth is a vagrant.
+
+Pigeons and doves
+Order: Columbiformes   Family: Columbidae
+
+41 species recorded [27 extant native, 4 introduced, 7 vagrant, 2 extirpated native, 1 extinct native]
+Pigeons and doves are stout-bodied birds with short necks and short slender bills with a fleshy cere. In Australian territory 41 species have been recorded, four of which have been introduced, and another six are vagrants. One has become extinct since European colonisation.
+
+Bustards
+Order: Otidiformes   Family: Otididae
+1 species recorded [1 extant native]
+Bustards are large terrestrial birds mainly associated with dry open country and steppes in the Old World. They are omnivorous and nest on the ground. They walk steadily on strong legs and big toes, pecking for food as they go. They have long broad wings with "fingered" wingtips and striking patterns in flight. Many have interesting mating displays.
+
+Cuckoos
+Order: Cuculiformes   Family: Cuculidae
+
+21 species recorded [14 extant native, 7 vagrant]
+The family Cuculidae includes cuckoos, roadrunners and anis. These birds are of variable size with slender bodies, long tails and strong legs. The Old World cuckoos are brood parasites.
+
+Frogmouths
+Order: Caprimulgiformes   Family: Podargidae
+3 species recorded [3 extant native]
+The frogmouths are a distinctive group of small nocturnal birds related to swifts found from India across southern Asia to Australia. Three species are found in Australia.
+
+Nightjars and allies
+Order: Caprimulgiformes   Family: Caprimulgidae
+5 species recorded [3 extant native, 2 vagrant]
+Nightjars are medium-sized nocturnal birds that usually nest on the ground. They have long wings, short legs and very short bills. Most have small feet, of little use for walking, and long pointed wings. Their soft plumage is camouflaged to resemble bark or leaves.
+
+Owlet-nightjars
+Order: Caprimulgiformes   Family: Aegothelidae
+1 species recorded [1 extant native]
+The owlet-nightjars are a distinctive group of small nocturnal birds related to swifts found from the Maluku Islands and New Guinea to Australia and New Caledonia. One species is found in Australia.
+
+Swifts
+Order: Caprimulgiformes   Family: Apodidae
+9 species recorded [4 extant native, 5 vagrant]
+Swifts are small birds which spend the majority of their lives flying. These birds have very short legs and never settle voluntarily on the ground, perching instead only on vertical surfaces. Many swifts have long swept-back wings which resemble a crescent or boomerang. Nine species recorded in Australian territory, five of which are vagrants.
+
+Rails, gallinules, and coots
+Order: Gruiformes   Family: Rallidae
+
+24 species recorded [15 extant native, 7 vagrant, 1 extirpated, 1 extinct native]
+Rallidae is a large family of small to medium-sized birds which includes the rails, crakes, coots and gallinules. Typically they inhabit dense vegetation in damp environments near lakes, swamps or rivers. In general they are shy and secretive birds, making them difficult to observe. Most species have strong legs and long toes which are well adapted to soft uneven surfaces. They tend to have short, rounded wings and to be weak fliers.
+
+Cranes
+Order: Gruiformes   Family: Gruidae
+2 species recorded [2 extant native]
+Cranes are large, long-legged and long-necked birds. Unlike the similar-looking but unrelated herons, cranes fly with necks outstretched, not pulled back. Most have elaborate and noisy courting displays or "dances".
+
+Sheathbills
+Order: Charadriiformes   Family: Chionidae
+1 species recorded [1 extant native]
+The sheathbills are scavengers of the Antarctic regions. They have white plumage and look plump and dove-like but are believed to be similar to the ancestors of the modern gulls and terns.
+
+Thick-knees
+Order: Charadriiformes   Family: Burhinidae
+
+2 species recorded [2 extant native]
+The thick-knees are a group of largely tropical waders in the family Burhinidae. They are found worldwide within the tropical zone, with some species also breeding in temperate Europe and Australia. They are medium to large waders with strong black or yellow-black bills, large yellow eyes and cryptic plumage. Despite being classed as waders, most species have a preference for arid or semi-arid habitats.
+
+Stilts and avocets
+Order: Charadriiformes   Family: Recurvirostridae
+
+3 species recorded [3 extant native]
+Recurvirostridae is a family of large wading birds, which includes the avocets and stilts. The avocets have long legs and long up-curved bills. The stilts have extremely long legs and long, thin straight bills.
+
+Oystercatchers
+Order: Charadriiformes   Family: Haematopodidae
+3 species recorded [2 extant native, 1 vagrant]
+The oystercatchers are large and noisy plover-like birds, with strong bills used for smashing or prising open molluscs.
+
+Plovers and lapwings
+Order: Charadriiformes   Family: Charadriidae
+
+21 species recorded [15 extant native, 6 vagrant]
+The family Charadriidae includes the plovers, dotterels and lapwings. They are small to medium-sized birds with compact bodies, short, thick necks and long, usually pointed, wings. They are found in open country worldwide, mostly in habitats near water.
+
+Plains-wanderer
+Order: Charadriiformes   Family: Pedionomidae
+1 species recorded [1 extant native]
+The plains-wanderer is a quail-like ground bird. They are excellent camouflagers, and will first hide at any disturbance. If they're approached too close, they will run as opposed to flying, which they are very poor at.
+
+Painted-snipe
+Order: Charadriiformes   Family: Rostratulidae
+
+1 species recorded [1 extant native]
+Painted-snipe are short-legged, long-billed birds similar in shape to the true snipes, but more brightly coloured.
+
+Jacanas
+Order: Charadriiformes   Family: Jacanidae
+2 species recorded [1 extant native, 1 vagrant]
+The jacanas are a group of waders found throughout the tropics. They are identifiable by their huge feet and claws which enable them to walk on floating vegetation in the shallow lakes that are their preferred habitat.
+
+Sandpipers and allies
+Order: Charadriiformes   Family: Scolopacidae
+47 species recorded [29 extant native, 18 vagrant]
+Scolopacidae is a large diverse family of small to medium-sized shorebirds including the sandpipers, curlews, godwits, shanks, tattlers, woodcocks, snipes, dowitchers, and phalaropes. The majority of these species eat small invertebrates picked out of the mud or soil. Variation in length of legs and bills enables multiple species to feed in the same habitat, particularly on the coast, without direct competition for food.
+
+Buttonquail
+Order: Charadriiformes   Family: Turnicidae
+
+7 species recorded [7 extant native]
+The buttonquails are small, drab, running birds which resemble the true quails. The female is the brighter of the sexes and initiates courtship. The male incubates the eggs and tends the young.
+
+Pratincoles and coursers
+Order: Charadriiformes   Family: Glareolidae
+3 species recorded [2 extant native, 1 vagrant]
+Glareolidae is a family of wading birds comprising the pratincoles, which have short legs, long pointed wings, and long forked tails, and the coursers, which have long legs, short wings, and long, pointed bills which curve downwards.
+
+Skuas and jaegers
+Order: Charadriiformes   Family: Stercorariidae
+5 species recorded [5 extant native]
+The family Stercorariidae are, in general, medium to large birds, typically with grey or brown plumage, often with white markings on the wings. They nest on the ground in temperate and arctic regions and are long-distance migrants.
+
+Gulls, terns, and skimmers
+Order: Charadriiformes   Family: Laridae
+
+37 species recorded [25 extant native, 12 vagrant]
+Laridae is a family of medium to large seabirds, the gulls, terns, and skimmers. Gulls are typically grey or white, often with black markings on the head or wings. They have stout, longish bills and webbed feet. Terns are a group of generally medium to large seabirds typically with grey or white plumage, often with black markings on the head. Most terns hunt fish by diving but some pick insects off the surface of fresh water. Terns are generally long-lived birds, with several species known to live in excess of 30 years. Skimmers are a small family of tropical tern-like birds. They have an elongated lower mandible which they use to feed by flying low over the water surface and skimming the water for small fish.
+
+Tropicbirds
+Order: Phaethontiformes   Family: Phaethontidae
+
+3 species recorded [2 extant native, 1 vagrant]
+Tropicbirds are slender white birds of tropical oceans, with exceptionally long central tail feathers. Their long wings have black markings, as does the head. Three species have been recorded from Australian waters.
+
+Penguins
+Order: Sphenisciformes   Family: Spheniscidae
+
+15 species recorded [7 extant native, 8 vagrant]
+Penguins are a group of aquatic, flightless birds living almost exclusively in the Southern Hemisphere, especially in Antarctica. Only one species, the Australian little penguin, breeds on the Australian coast.
+
+Albatrosses
+Order: Procellariiformes   Family: Diomedeidae
+13 species recorded [11 extant native, 2 vagrant]
+The albatrosses are a family of large seabird found across the Southern and North Pacific Oceans. The largest are among the largest flying birds in the world. Thirteen species are seen to varying degrees in Australian waters, with two recorded as vagrants.
+
+Southern storm-petrels
+Order: Procellariiformes   Family: Oceanitidae
+7 species recorded [5 extant native, 2 vagrant]
+The southern storm-petrels are the smallest seabirds, relatives of the petrels, feeding on planktonic crustaceans and small fish picked from the surface, typically while hovering. Their flight is fluttering and sometimes bat-like.
+
+Northern storm-petrels
+Order: Procellariiformes   Family: Hydrobatidae
+5 species recorded [2 extant native, 3 vagrant]
+Though the members of this family are similar in many respects to the southern storm-petrels, including their general appearance and habits, there are enough genetic differences to warrant their placement in a separate family.
+
+Shearwaters and petrels
+Order: Procellariiformes   Family: Procellariidae
+
+61 species recorded [41 native extant, 19 vagrant, 1 extirpated]
+The procellariids are the main group of medium-sized "true petrels", characterised by united nostrils with medium nasal septum, and a long outer functional primary flight feather.
+
+Storks
+Order: Ciconiiformes   Family: Ciconiidae
+1 species recorded [1 extant native]
+Storks are large, long-legged, long-necked, wading birds with long, stout bills. Storks are mute, but bill-clattering is an important mode of communication at the nest. Their nests can be large and may be reused for many years.
+
+Frigatebirds
+Order: Suliformes   Family: Fregatidae
+
+3 species recorded [3 extant native]
+Frigatebirds are large seabirds usually found over tropical oceans. They are large, black, or black-and-white, with long wings and deeply forked tails. The males have coloured inflatable throat pouches. They do not swim or walk and cannot take off from a flat surface. Having the largest wingspan-to-body-weight ratio of any bird, they are essentially aerial, able to stay aloft for more than a week.
+
+Boobies and gannets
+Order: Suliformes   Family: Sulidae
+
+6 species recorded [5 extant native, 1 vagrant]
+The sulids comprise the gannets and boobies. Both groups are medium-large coastal seabirds that plunge-dive for fish. Six species have been recorded from Australian territory.
+
+Anhingas
+Order: Suliformes   Family: Anhingidae
+2 species recorded [1 extant native, 1 vagrant]
+Anhingas or darters are cormorant-like water birds with long necks and long, straight bills. They are fish eaters which often swim with only their neck above the water. One species is found in Australia.
+
+Cormorants and shags
+Order: Suliformes   Family: Phalacrocoracidae
+10 species recorded [7 extant native, 2 vagrant]
+Cormorants are medium-to-large aquatic birds, usually with mainly dark plumage and areas of coloured skin on the face. The bill is long, thin and sharply hooked. Their feet are four-toed and webbed, a distinguishing feature among the order Pelecaniformes. Nine species occur in Australian territory, with two as vagrants.
+
+Pelicans
+Order: Pelecaniformes   Family: Pelecanidae
+1 species recorded [1 extant native]
+Pelicans are large water birds with distinctive pouches under their bills. Like other birds in the order Pelecaniformes, they have four webbed toes. One species has been recorded in Australia.
+
+Herons, egrets, and bitterns
+Order: Pelecaniformes   Family: Ardeidae
+
+25 species recorded [15 extant native, 10 vagrant]
+The family Ardeidae contains the bitterns, herons, and egrets. Herons and egrets are medium to large wading birds with long necks and legs. Bitterns tend to be shorter necked and more wary. Members of Ardeidae fly with their necks retracted, unlike other long-necked birds such as storks, ibises, and spoonbills.
+
+Ibises and spoonbills
+Order: Pelecaniformes   Family: Threskiornithidae
+
+5 species recorded [5 extant native]
+Threskiornithidae is a family of large terrestrial and wading birds which includes the ibises and spoonbills. They have long, broad wings with 11 primary and about 20 secondary feathers. They are strong fliers and despite their size and weight, very capable soarers.
+
+Osprey
+Order: Accipitriformes   Family: Pandionidae
+1 species recorded [1 extant native]
+The family Pandionidae contains only one species, the osprey. The osprey is a medium-large raptor which is a specialist fish-eater with a worldwide distribution.
+
+Hawks, eagles, and kites
+Order: Accipitriformes   Family: Accipitridae
+
+22 species recorded [17 extant native, 5 vagrant]
+Accipitridae is a family of birds of prey, which includes hawks, eagles, kites, harriers, and Old World vultures. These birds have powerful hooked beaks for tearing flesh from their prey, strong legs, powerful talons, and keen eyesight.
+
+Barn-owls
+Order: Strigiformes   Family: Tytonidae
+
+5 species recorded [5 extant native]
+Barn-owls are medium to large owls with large heads and characteristic heart-shaped faces. They have long strong legs with powerful talons.
+
+Owls
+Order: Strigiformes   Family: Strigidae
+10 species recorded [6 extant native, 4 vagrant]
+The typical owls are small to large solitary nocturnal birds of prey. They have large forward-facing eyes and ears, a hawk-like beak, and a conspicuous circle of feathers around each eye called a facial disk.
+
+Hoopoes
+Order: Bucerotiformes   Family: Upupidae
+1 species recorded [1 vagrant]
+Hoopoes have black, white, and orangey-pink colouring with a large erectile crest on their head.
+
+Kingfishers
+Order: Coraciiformes   Family: Alcedinidae
+
+15 species recorded [11 extant native, 4 vagrant]
+Kingfishers are medium-sized birds with large heads, long pointed bills, short legs, and stubby tails.
+
+Bee-eaters
+Order: Coraciiformes   Family: Meropidae
+1 species recorded [1 extant native]
+The bee-eaters are a group of near passerine birds in the family Meropidae. Most species are found in Africa but others occur in southern Europe, Madagascar, Australia, and New Guinea. They are characterised by richly coloured plumage, slender bodies, and usually elongated central tail feathers. All are colourful and have long downturned bills and pointed wings, which give them a swallow-like appearance when seen from afar.
+
+Rollers
+Order: Coraciiformes   Family: Coraciidae
+2 species recorded [1 extant native, 1 vagrant]
+Rollers resemble crows in size and build, but are more closely related to the kingfishers and bee-eaters. They share the colourful appearance of those groups with blues and browns predominating. The two inner front toes are connected, but the outer toe is not.
+
+Falcons and caracaras
+Order: Falconiformes   Family: Falconidae
+7 species recorded [6 extant native, 1 vagrant]
+Falconidae is a family of diurnal birds of prey. They differ from hawks, eagles, and kites in that they kill with their beaks instead of their talons.
+
+New Zealand parrots
+Order: Psittaciformes   Family: Nestoridae
+1 species recorded [1 extinct native]
+The family diverged from the other parrots around 82 million years ago when New Zealand broke off from Gondwana, while the ancestors of the genera Nestor and Strigops diverged from each other between 60 and 80 million years ago.
+
+Cockatoos
+Order: Psittaciformes   Family: Cacatuidae
+14 species recorded [14 extant native]
+The cockatoos share many features with other parrots including the characteristic curved beak shape and a zygodactyl foot, with two forward toes and two backwards toes. They differ, however in a number of characteristics, including the often spectacular movable headcrest.
+
+Old World parrots
+Order: Psittaciformes   Family: Psittaculidae
+
+44 species recorded [42 extant native, 1 extirpated native, 1 extinct native]
+Characteristic features of parrots include a strong curved bill, an upright stance, strong legs, and clawed zygodactyl feet. Many parrots are vividly coloured, and some are multi-coloured. In size they range from 8 cm (3.1 in) to 1 m (3.3 ft) in length. Old World parrots are found from Africa east across south and southeast Asia and Oceania to Australia and New Zealand.
+
+Pittas
+Order: Passeriformes   Family: Pittidae
+6 species recorded [3 extant native, 3 vagrant]
+Pittas are medium-sized by passerine standards and are stocky, with fairly long, strong legs, short tails, and stout bills. Many are brightly coloured. They spend the majority of their time on wet forest floors, eating snails, insects, and similar invertebrates.
+
+Lyrebirds
+Order: Passeriformes   Family: Menuridae
+
+2 species [2 extant native]
+Lyrebirds are most notable for their superb ability to mimic natural and artificial sounds from their environment, and the striking beauty of the male bird's huge tail when it is fanned out in courtship display.
+
+Scrub-birds
+Order: Passeriformes   Family: Atrichornithidae
+2 species recorded [2 extant native]
+The scrub-bird family is ancient and is understood to be most closely related to the lyrebirds, and probably also the bowerbirds and treecreepers.
+
+Bowerbirds
+Order: Passeriformes   Family: Ptilonorhynchidae
+
+11 species recorded [11 extant native]
+The bowerbirds are small to medium-sized passerine birds. The males notably build a bower to attract a mate. Depending on the species, the bower ranges from a circle of cleared earth with a small pile of twigs in the centre to a complex and highly decorated structure of sticks and leaves.
+
+Australasian treecreepers
+Order: Passeriformes   Family: Climacteridae
+6 species recorded [6 extant native]
+The Climacteridae are medium-small, mostly brown-coloured birds with patterning on their underparts.
+
+Fairywrens
+Order: Passeriformes   Family: Maluridae
+27 species recorded [27 extant native]
+Maluridae is a family of small, insectivorous passerine birds endemic to Australia and New Guinea. They are socially monogamous and sexually promiscuous, meaning that although they form pairs between one male and one female, each partner will mate with other individuals and even assist in raising the young from such pairings.
+
+Honeyeaters
+Order: Passeriformes   Family: Meliphagidae
+
+76 species recorded [76 extant native]
+The honeyeaters are a large and diverse family of small to medium-sized birds most common in Australia and New Guinea. They are nectar feeders and closely resemble other nectar-feeding passerines.
+
+Bristlebirds
+Order: Passeriformes   Family: Dasyornithidae
+3 species recorded [3 extant native]
+Bristlebirds are long-tailed, sedentary, ground-frequenting birds. The common name of the family is derived from the presence of prominent rictal bristles - three stiff, hair-like feathers curving downwards on either side of the gape.
+
+Pardalotes
+Order: Passeriformes   Family: Pardalotidae
+
+4 species recorded [4 extant native]
+Pardalotes spend most of their time high in the outer foliage of trees, feeding on insects, spiders, and above all lerps (a type of sap-sucking insect).
+
+Thornbills and allies
+Order: Passeriformes   Family: Acanthizidae
+
+45 species recorded [44 extant native, 1 extinct native]
+Thornbills are small passerine birds, similar in habits to the tits.
+
+Pseudo-babblers
+Order: Passeriformes   Family: Pomatostomidae
+4 species recorded [4 extant native]
+The pseudo-babblers are small to medium-sized birds endemic to Australia and New Guinea. They are ground-feeding omnivores and highly social
+
+Logrunners
+Order: Passeriformes   Family: Orthonychidae
+2 species recorded [2 extant native]
+The Orthonychidae is a family of birds with a single genus, Orthonyx, which comprises two types of passerine birds endemic to Australia and New Guinea, the logrunners and the chowchilla. Both use stiffened tails to brace themselves when feeding.
+
+Quail-thrushes and jewel-babblers
+Order: Passeriformes   Family: Cinclosomatidae
+7 species recorded [7 extant native]
+The Cinclosomatidae is a family containing jewel-babblers and quail-thrushes.
+
+Cuckooshrikes
+Order: Passeriformes   Family: Campephagidae
+8 species recorded [7 extant native, 1 extirpated native]
+The cuckooshrikes are small to medium-sized passerine birds. They are predominantly greyish with white and black, although some species are brightly coloured.
+
+Sittellas
+Order: Passeriformes   Family: Neosittidae
+
+2 species recorded [2 extant native]
+The sittellas are a family of small passerine birds found only in Australasia. They resemble treecreepers, but have soft tails.
+
+Whipbirds and wedgebills
+Order: Passeriformes   Family: Psophodidae
+5 species recorded [5 extant native]
+The Psophodidae is a family containing whipbirds and wedgebills.
+
+Australo-Papuan bellbirds
+Order: Passeriformes   Family: Oreoicidae
+1 species recorded [1 extant native]
+The three species contained in the family have been moved around between different families for fifty years. A series of studies of the DNA of Australian birds between 2006 and 2001 found strong support for treating the three genera as a new family, which was formally named in 2016.
+
+Shrike-tits
+Order: Passeriformes   Family: Falcunculidae
+3 species recorded [3 extant native]
+The shrike-tits have a parrot-like bill, used for distinctive bark-stripping behaviour, which gains it access to invertebrates.
+
+Whistlers and allies
+Order: Passeriformes   Family: Pachycephalidae
+
+14 species recorded [14 extant native]
+The family Pachycephalidae includes the whistlers, shrikethrushes, and some of the pitohuis.
+
+Old World orioles
+Order: Passeriformes   Family: Oriolidae
+3 species recorded [3 extant native]
+The Old World orioles are colourful passerine birds. They are not related to the New World orioles.
+
+Boatbills
+Order: Passeriformes   Family: Machaerirhynchidae
+1 species recorded [1 extant native]
+The boatbills have affinities to woodswallows and butcherbirds, and are distributed across New Guinea and northern Queensland.
+
+Woodswallows, bellmagpies, and allies
+Order: Passeriformes   Family: Artamidae
+15 species recorded [15 extant native]
+The woodswallows are soft-plumaged, somber-coloured passerine birds. They are smooth, agile flyers with moderately large, semi-triangular wings. The cracticids: currawongs, bellmagpies and butcherbirds, are similar to the other corvids. They have large, straight bills and mostly black, white or grey plumage. All are omnivorous to some degree.
+
+Fantails
+Order: Passeriformes   Family: Rhipiduridae
+7 species recorded [6 extant native, 1 extirpated]
+The fantails are small insectivorous birds which are specialist aerial feeders.
+
+Drongos
+Order: Passeriformes   Family: Dicruridae
+
+2 species recorded [1 extant native, 1 vagrant]
+The drongos are mostly black or dark grey in colour, sometimes with metallic tints. They have long forked tails, and some Asian species have elaborate tail decorations. They have short legs and sit very upright when perched, like a shrike. They flycatch or take prey from the ground.
+
+Birds-of-paradise
+Order: Passeriformes   Family: Paradisaeidae
+4 species recorded [4 extant native]
+The birds-of-paradise are best known for the striking plumage possessed by the males of most species, in particular highly elongated and elaborate feathers extending from the tail, wings or head. These plumes are used in courtship displays to attract females.
+
+Monarch flycatchers
+Order: Passeriformes   Family: Monarchidae
+
+15 species recorded [13 extant native, 2 vagrant]
+The monarch flycatchers are small to medium-sized insectivorous passerines which hunt by flycatching.
+
+White-winged chough and apostlebird
+Order: Passeriformes   Family: Corcoracidae
+2 species recorded [2 extant native]
+They are found in open habitat in eastern Australia, mostly open eucalypt woodlands and some forest that lacks a closed canopy. They are highly social, spend much of their time foraging through leaf litter with a very distinctive gait, calling to one another almost constantly
+
+Shrikes
+Order: Passeriformes   Family: Laniidae
+2 species recorded [2 vagrant]
+Shrikes are passerine birds known for their habit of catching other birds and small animals and impaling the uneaten portions of their bodies on thorns. A typical shrike's beak is hooked, like a bird of prey.
+
+Crows, jays, and magpies
+Order: Passeriformes   Family: Corvidae
+6 species recorded [5 extant native, 1 vagrant]
+The family Corvidae includes crows, ravens, jays, choughs, magpies, treepies, nutcrackers and ground jays. Corvids are above average in size among the Passeriformes, and some of the larger species show high levels of intelligence.
+
+Australasian robins
+Order: Passeriformes   Family: Petroicidae
+
+23 species recorded [23 extant native]
+Most species of Petroicidae have a stocky build with a large rounded head, a short straight bill and rounded wingtips. They occupy a wide range of wooded habitats, from subalpine to tropical rainforest, and mangrove swamp to semi-arid scrubland. All are primarily insectivores, although a few supplement their diet with seeds.
+
+Larks
+Order: Passeriformes   Family: Alaudidae
+2 species recorded [1 extant native, 1 introduced]
+Larks are small terrestrial birds with often extravagant songs and display flights. Most larks are fairly dull in appearance. Their food is insects and seeds.
+
+Cisticolas and allies
+Order: Passeriformes   Family: Cisticolidae
+2 species recorded [2 extant native]
+The Cisticolidae are warblers found mainly in warmer southern regions of the Old World. They are generally very small birds of drab brown or grey appearance found in open country such as grassland or scrub.
+
+Reed warblers and allies
+Order: Passeriformes   Family: Acrocephalidae
+
+2 species recorded [1 extant native, 1 vagrant]
+The members of this family are usually rather large for "warblers". Most are rather plain olivaceous brown above with much yellow to beige below. They are usually found in open woodland, reedbeds, or tall grass. The family occurs mostly in southern to western Eurasia and surroundings, but it also ranges far into the Pacific, with some species in Africa.
+
+Grassbirds and allies
+Order: Passeriformes   Family: Locustellidae
+
+8 species recorded [5 extant native, 3 vagrant]
+Locustellidae are a family of small insectivorous songbirds found mainly in Eurasia, Africa, and the Australian region. They are smallish birds with tails that are usually long and pointed, and tend to be drab brownish or buffy all over.
+
+Swallows
+Order: Passeriformes   Family: Hirundinidae
+
+7 species recorded [6 extant native, 1 vagrant]
+The family Hirundinidae is adapted to aerial feeding. They have a slender streamlined body, long pointed wings, and a short bill with a wide gape. The feet are adapted to perching rather than walking, and the front toes are partially joined at the base.
+
+Bulbuls
+Order: Passeriformes   Family: Pycnonotidae
+2 species recorded [1 introduced, 1 extirpated]
+Bulbuls are medium-sized songbirds. Some are colourful with yellow, red or orange vents, cheeks, throats or supercilia, but most are drab, with uniform olive-brown to black plumage. Some species have distinct crests.
+
+Leaf warblers
+Order: Passeriformes   Family: Phylloscopidae
+6 species recorded [6 vagrant]
+Leaf warblers are a family of small insectivorous birds found mostly in Eurasia and ranging into Wallacea and Africa. The species are of various sizes, often green-plumaged above and yellow below, or more subdued with greyish-green to greyish-brown colours.
+
+Bush warblers and allies
+Order: Passeriformes   Family: Scotocercidae
+1 species recorded [1 vagrant]
+The members of this family are found throughout Africa, Asia, and Polynesia. Their taxonomy is in flux, and some authorities place some genera in other families.
+
+White-eyes, yuhinas, and allies
+Order: Passeriformes   Family: Zosteropidae
+8 species recorded [6 extant native, 1 possibly extinct native, 1 extinct native]
+The white-eyes are small birds of rather drab appearance, the plumage above being typically greenish-olive, but some species have a white or bright yellow throat, breast, or lower parts, and several have buff flanks. As the name suggests, many species have a white ring around each eye.
+
+Starlings
+Order: Passeriformes   Family: Sturnidae
+8 species recorded [2 extant native, 2 introduced, 3 vagrant, 1 extinct native]
+Starlings are small to medium-sized passerine birds. Their flight is strong and direct and they are very gregarious. Their preferred habitat is fairly open country. They eat insects and fruit. Plumage is typically dark with a metallic sheen.
+
+Thrushes and allies
+Order: Passeriformes   Family: Turdidae
+
+7 species recorded [3 extant native, 2 introduced, 2 vagrant]
+The thrushes are a group of passerine birds that occur mainly in the Old World. They are plump, soft plumaged, small to medium-sized insectivores or sometimes omnivores, often feeding on the ground. Many have attractive songs.
+
+Old World flycatchers
+Order: Passeriformes   Family: Muscicapidae
+
+9 species recorded [9 vagrant]
+Old World flycatchers are a large group of small arboreal insectivores. The appearance of these birds is highly varied, but they mostly have weak songs and harsh calls.
+
+Flowerpeckers
+Order: Passeriformes   Family: Dicaeidae
+2 species recorded [2 extant native]
+The flowerpeckers are very small, stout, often brightly coloured birds, with short tails, short thick curved bills, and tubular tongues.
+
+Sunbirds and spiderhunters
+Order: Passeriformes   Family: Nectariniidae
+1 species recorded [1 extant native]
+The sunbirds and spiderhunters are very small passerine birds which feed largely on nectar, although they will also take insects, especially when feeding young. Their flight is fast and direct on short wings. Most species can take nectar by hovering like a hummingbird, but usually perch to feed.
+
+Waxbills and allies
+Order: Passeriformes   Family: Estrildidae
+
+22 species recorded [18 extant native, 3 introduced, 1 vagrant]
+The estrildid finches are small passerine birds of the Old World tropics and Australasia. They are gregarious and often colonial seed eaters with short thick but pointed bills. They are all similar in structure and habits, but have wide variation in plumage colours and patterns.
+
+Old World sparrows
+Order: Passeriformes   Family: Passeridae
+2 species recorded [2 introduced]
+Old World sparrows are small passerine birds, typically small, plump, brown or grey with short tails and short powerful beaks. They are seed-eaters, but also consume small insects.
+
+Wagtails and pipits
+Order: Passeriformes   Family: Motacillidae
+
+10 species recorded [4 extant native, 6 vagrant]
+Motacillidae is a family of small passerine birds with medium to long tails and comprises the wagtails, longclaws, and pipits. These are slender ground-feeding insectivores of open country.
+
+Finches, euphonias, and allies
+Order: Passeriformes   Family: Fringillidae
+5 species recorded [4 introduced, 1 introduced vagrant]
+Finches are small to moderately large seed-eating passerine birds with a strong beak, usually conical and in some species very large. All have 12 tail feathers and nine primary flight feathers. Finches have a bouncing flight, alternating bouts of flapping with gliding on closed wings, and most sing well.
+
+Old World buntings
+Order: Passeriformes   Family: Emberizidae
+2 species recorded [1 introduced vagrant, 1 vagrant]
+The emberizids are a large family of seed-eating birds with distinctively shaped bills. Many emberizid species have distinctive head patterns.
+
+See also
+Birds of Australia, including links to state and local lists
+Lists of birds by region, including Oceania and Asia
+Fauna of Australia
+List of endemic birds of Australia
+
+
+== References ==

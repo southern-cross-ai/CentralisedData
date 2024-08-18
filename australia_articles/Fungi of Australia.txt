@@ -1,0 +1,95 @@
+The Fungi of Australia form an enormous and phenomenally diverse group, a huge range of freshwater, marine and terrestrial habitats with many ecological roles, for example as saprobes, parasites and mutualistic symbionts of algae, animals and plants, and as agents of biodeterioration. Where plants produce, and animals consume, the fungi recycle, and as such they ensure the sustainability of ecosystems.
+Knowledge about the fungi of Australia is meagre. Little is known about aboriginal cultural traditions involving fungi, or about aboriginal use of fungi apart from a few species such as Blackfellow's bread (Laccocephalum mylittae). Humans who came to Australia over the past couple of centuries brought no strong fungal cultural traditions of their own. Fungi have also been largely overlooked in the scientific exploration of Australia. Since 1788, research on Australian fungi, initially by botanists and later by mycologists, has been spasmodic and intermittent. At governmental level, scientific neglect of Australian fungi continues: in the country's National Biodiversity Conservation Strategy for 2010–2030, fungi are mentioned only once, in the caption of one illustration, and some states currently lack mycologists in their respective fungal reference collections.
+The exact number of fungal species recorded from Australia is not known, but is likely to be about 13,000. The CSIRO has published three volumes providing a bibliography of all Australian fungal species described. Volume 2A was published in 1997, and Volume 2B was published in 2003. Unlike the Flora of Australia series they are bibliographic lists and do not contain species descriptions.
+The total number of fungi which actually occur in Australia, including those not yet discovered, has been estimated at around 250,000 fungal species, including about 5,000 mushrooms, of which roughly 5% have been described. Knowledge of distribution, substrata and habitats is poor for most species, with the exception of common plant pathogens. One result of this poor knowledge is that it is often difficult or even impossible to determine whether a given fungus is a native species or an introduction.
+
+History
+Early collections in Western Australia were made by James Drummond and Ludwig Preiss in the early to mid-19th Century. They sent their specimens to W.J. Hooker at Kew and Elias Magnus Fries respectively.
+John Burton Cleland conducted the first systematic review of Australian fungi in a landmark monograph of fungal specimens at the South Australian Herbarium. Comprising some 16,000 specimens, this included fungi from elsewhere in the country as well as South Australia. He was assisted by such people as Edwin Cheel, keeper of the Herbarium at the Royal Botanic Gardens in Sydney, Leonard Rodway of Tasmania and Phyllis Clarke (later North), who provided some watercolour paintings. These three were honoured with at least one specific epithet of new species described by Cleland. This resulted in two comprehensive volumes (1934–35) on the larger fungi of South Australia, and was reprinted in 1976. These were reworked and published in 1997 as Larger Fungi of Southern Australia by contemporary mycologist Cheryl Grgurinovic, though funding only allowed the publication of a volume on larger fungi.
+Bruce Fuhrer and Tony Young, whose book was first published in 1982 and has been revised several times since, have been instrumental in promoting Australian fungi to the general public with popular books on fungi in Australia. Published knowledge is augmented by locally produced guides in Western Australia, Queensland and Tasmania.
+
+Diversity
+Ascomycota
+Commonly called ascomycetes, this group, the Ascomycota, is likely to be the largest fungal phylum in Australia in terms of species numbers. Australia's ascomycetes include some large and conspicuous fungi, but the fruiting bodies produced by most species are less than about 1 cm in their largest dimension. The range of habitats they occupy is the same as for the fungi as a whole. Most of Australia's lichen-forming fungi belong in this group. With a few exceptions, the ascomycetes of Australia are very poorly known, and many remain undiscovered. Partly because of their importance in forestry, species associated with Eucalyptus trees have received considerable attention and, with hundreds known to be associated with some of the more studied tree species, it is clear that these fungi form a huge, complex and important component of Australia's forests. Charismatic species include the "golf-ball fungi" (species of the genus Cyttaria) which occur only on living branches of Nothofagus trees. Australia's native truffles (subterranean ascomycetes) form another distinct and interesting group which remains poorly known.
+
+Basidiomycota
+Representatives of all three subdivisions of the Basidiomycota are found in Australia. These are the Agaricomycotina (bracket fungi, jelly fungi, mushrooms and toadstools, puffballs etc., i.e. most of the species commonly understood to be fungi), the Pucciniomycotina (rust fungi), and the Ustilaginomycotina (smut fungi).
+
+Agaricomycotina
+Native species are very poorly known, with most taxa undescribed. For those that have been, there are huge gaps in knowledge, especially with respect to distribution and, for the larger species, edibility. Reasons for this include the brief and unpredictable appearance of fruiting bodies, often the only evidence of most species, and the fact that there has been comparatively little scientific attention focused upon fungi in Australia.
+There are several exceptions; one is the family Hygrophoraceae, which has been written about by mycologist A. M. (Tony) Young in 2005. Another is a treatment of the genus Mycena in Southeastern Australia. The genus Amanita has been the subject of two reviews but a microscope is still needed to distinguish many species and coverage has concentrated in Australia's eastern regions. Alec Wood has also published a study of the genus Galerina, describing 29 species, 21 of them new, primarily in New South Wales. A more usual state of affairs is that reported by Roy Watling with regard to boletes, that in Australia, it appears to be rich in species yet only a minority are described.
+
+With the notable exception of the gigantic Phlebopus marginatus, possibly Australia's largest mushroom, many of the most conspicuous fungi have been introduced in association with exotic soil and trees; Lactarius deliciosus, Chalciporus piperatus, Suillus luteus and Suillus granulatus are European fungi found in pine plantations in Eastern Australia. The deadly Amanita phalloides is found under Oak in urban Canberra and Melbourne and has caused deaths. There are concerns at least one of them, Amanita muscaria is spreading into (and forming new mycorrhizal associations with) native Nothofagus woodland and possibly displacing local species. Lawns, farms and parklands see exotic fungi such as the shaggy ink cap (Coprinus comatus), the poisonous Chlorophyllum molybdites and several species of Agaricus, including the edible A. bisporus and A. campestris as well as mildly poisonous A. xanthodermus.
+Mycorrhiza of Rhizopogon luteolus was deliberately introduced to improve the performance of pines in pine plantations in Western Australia in the early part of the 20th century.
+The stinkhorn-like species Aseroë rubra is significant in that it is the first fungus species known to have been introduced in the other direction, namely to Europe, from Australia. It was recorded growing on soil transported from Australia in a glasshouse in Kew Gardens in 1829.
+
+Pucciniomycotina
+Rust fungi are a large group of plant parasites. Many of them are highly host-specific. Some cause significant losses to economic crops, and where the crop itself is an introduction to Australia, the rusts on that crop may also be non-native. Rusts on native species are likely to form an important component of the natural checks and balances of native ecosystems, and may have their own distinctive conservation needs. There seems to have been no compilation of information about the rust fungi of Australia since the detailed monograph by McAlpine (2006).
+
+Ustilaginomycotina
+These fungi are parasites, mainly of flowering plants. Unlike the Agaricomycotina, they are usually small and easily missed by the untrained eye. These fungi are most easily noticed when they produce their fruiting structures, called sori, which are most often confined to the host flower, but may also sometimes be seen on fruits and leaves. In Australia, 296 smut species from 43 genera have been recorded.
+
+Non-Dikarya
+Apart from fungi of the subkingdom Dikarya, such as those described above (Ascomycota and Basidiomycota), some non-Dikarya fungi are known to have relatively high diversity in Australia; e.g. Backusella.
+
+Mycologists
+Selected mycologists that have made significant contributions to Australian mycology:
+
+Alec Wood (born 1933), abbreviated as A.E.Wood
+Anthony M. Young, abbreviated as A.M.Young
+Bruce Fuhrer (1930–2023), abbreviated as Fuhrer
+Joan Cribb (1920–2007)
+John Burton Cleland (1878–1971), abbreviated as Cleland
+Sally E. Smith
+Tom May, abbreviated as T.W.May
+
+Literature
+Many of the books on Australian fungi are listed below:
+
+General
+Young & Smith (1982). Common Australian Fungi. University of New South Wales Press. ISBN 0868403849.
+Various authors (1996). Fungi of Australia Volume 1A. CSIRO Publishing/ABRS. ISBN 9780643058026.
+Various authors (1996). Fungi of Australia Volume 1B. CSIRO Publishing/ABRS. ISBN 9780643059351.
+May & Wood (1997). Fungi of Australia Volume 2A. CSIRO Publishing/ABRS. ISBN 9780643059290.
+Jones, May, Milne & Shingles (2003). Fungi of Australia Volume 2B. CSIRO Publishing/ABRS. ISBN 9780643069077.
+McCann (2003). Australian fungi illustrated. Macdown Productions. ISBN 9780975078006.
+Grey, Pat & Ed (2005). Fungi Down Under. Fungimap. ISBN 9780646446745.
+Fuhrer (2005). A Field Guide to Australian Fungi. Bloomings Books. ISBN 9781876473518.
+Young & Smith (2005). A Field Guide to the Fungi of Australia. UNSW Press. ISBN 9780868407425.
+Negus & Scott (2006). The Magical World of Fungi. Cape to Cape Publishing. ISBN 9780957772991.
+
+Region or taxon specific
+Willis (1963). Victorian Toadstools and Mushrooms. Field Naturalists Club of Victoria.
+Aberdeen (1979). Introduction to the Mushrooms, Toadstools and Larger Fungi of Queensland. Queensland Naturalists Club.
+Macdonald & Westerman (1979). Fungi of South-Eastern Australia. Thomas Nelson. ISBN 9780170052900.
+Cole, Fuhrer & Holland (1984). A Field Guide to the Common Genera of Gilled Fungi of Australia. Inkata Press. ISBN 9780909605117.
+Griffiths (1985). A Field Guide to the Larger Fungi of the Darling Scarp & South West of Western Australia Privately published. ISBN 0958970505.
+Shepherd & Totterdell (1988). Mushrooms and Toadstools of Australia. Inkata Press. ISBN 0909605513.
+Wood (1990). Australian Mushrooms and Toadstools New South Wales University Press. ISBN 0868400440.
+Fuhrer & Robinson (1992). Rainforest fungi of Tasmania and south-east Australia. CSIRO publishing. ISBN 9780643052413.
+Grgurinovic (1997). Larger Fungi of South Australia. Flora and Fauna of South Australia Handbooks Committee. ISBN 0730807371.
+Bougher & Syme (1998). Fungi of Southern Australia. University of Western Australia Press. ISBN 1875560807.
+Grgurinovic (2003). The Genus Mycena in South-Eastern Australia. Fungal Diversity Press/ABRS. ISBN 9789628676521.
+Robinson (2003). Fungi of the South-West Forests. Department of Environment and Conservation. ISBN 9780730755289.
+Hood (2003). An Introduction to Fungi on Wood in Queensland. University of New England. ISBN 1863898190.
+Young (2005). Fungi of Australia Hygrophoraceae. CSIRO Publishing/ABRS. ISBN 9780643091955.
+Bell (2005). An Illustrated Guide to the Coprophilous Ascomycetes of Australia. APS Press. ISBN 9789070351588.
+Priest (2006). Fungi of Australia Septoria. CSIRO Publishing/ABRS. ISBN 9780643 093768.
+Bougher (2007). Perth Urban Bushland Fungi Field Book. PUBF.
+Tait (2007) Fungi out west. Chinchilla Field Naturalist's Club. ISBN 9780980382402.
+Vánky & Shivas (2008). Fungi of Australia The Smut Fungi. CSIRO Publishing/ABRS. ISBN 9780643095366.
+(2013) Fungi of the Wombat Forest and Macedon Ranges. Wombat Forestcare.
+McMullan-Fisher, Leonard Guard (2014). Australian Subtropical Fungi. Fungimap ISBN 9780646915524.
+Guard McMullan-Fisher (2016). Fungi of the Sunshine Coast. Queensland Mycological Society, Brisbane.
+Guard McMullan-Fisher (2016). Mushrooms of the Sunshine Coast. Queensland Mycological Society, Brisbane.
+
+See also
+Fungimap
+
+References
+External links
+
+Interactive Catalogue of Australian Fungi — Australian Biological Resources Study, Canberra/Royal Botanic Gardens Melbourne
+D.A. Ratkowsky and G.M. Gates. (December 2005) An inventory of macrofungi observed in Tasmanian forests over a six-year period Archived 2012-10-08 at the Wayback Machine. Tasforests, Vol. 16, pp. 153–168.
+Fungimap, a resource on Australian fungi and citizen science project
+Queensland Mycological Society, A community science and education network for the identification and research of Queensland fungi

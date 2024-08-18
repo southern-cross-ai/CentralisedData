@@ -1,0 +1,69 @@
+The judiciary of Australia comprises judges who sit in federal courts and courts of the States and Territories of Australia. The High Court of Australia sits at the apex of the Australian court hierarchy as the ultimate court of appeal on matters of both federal and State law.
+The large number of courts in Australia have different procedural powers and characteristics, different jurisdictional limits, different remedial powers and different cost structures.
+Under the Australian Constitution, the judicial power of the Commonwealth is vested in the High Court of Australia and such other federal courts as may be created by the federal Parliament. These courts include the Federal Court of Australia and the Federal Circuit and Family Court of Australia. Federal jurisdiction can also be vested in State courts.
+The Supreme Courts of the States and Territories are superior courts of record with general and unlimited jurisdiction within their own State or Territory.
+Like the Supreme Courts of the States, the Federal Circuit and Family Court and Federal Court are superior courts of record, which means that they have certain inherent procedural and contempt powers. But unlike their State counterparts, their subject-matter jurisdiction must be conferred by statute. Under the doctrine of "accrued jurisdiction", the Federal Court can, however, rule on issues outside its explicit jurisdiction, provided that they are part of a larger controversy that the court does have jurisdiction over.
+The High Court has limited trial powers, but very rarely exercises them. It has ample power to transfer cases started there to another, more appropriate court, so that the High Court can conserve its energies for its appellate functions.
+Common law and equity are administered by the same courts, in a manner similar to that of the Judicature Acts in the United Kingdom. Legal and equitable remedies may be pursued in the one action in the one court.
+
+Judges
+Judges are appointed by the executive government, without intervention by the existing judiciary. Once appointed, judges have tenure and there are restrictions on their removal from office. For example, a federal judge may not be removed from office except by the Governor-General upon an address of both Houses of Parliament for proved misbehaviour. Judges in Australia are appointed by the Executive government of the relevant jurisdiction, and most judges have previously practised as a barrister. Federal judges may only serve until age 70. There is no constitutional limit on the length of service of state court judges, but state laws usually fix a retirement age. For example, in New South Wales, judges must retire at age 72, though they can remain as "acting judges" until age 76.
+
+Australian court hierarchy
+The hierarchy consists of a variety of courts and tribunals at both the federal and State and Territory levels, with the High Court being the highest court in the Australian judicial system. A single body of Australian common law is applied in the various Australian courts, and ultimately determined by the High Court now that appeals to the (British) Judicial Committee of the Privy Council have been abolished.
+
+Superior and inferior courts
+The High Court has described the concept of a superior court (and associated 'notions derived from the position of pre-Judicature common law courts') as having 'no ready application in Australia to federal courts.' Despite this, Australian courts are frequently characterised as either 'superior' or 'inferior.' The Federal Court and the supreme courts of each State and Territory are generally considered to be superior courts.
+The Supreme Court of Victoria includes a specialist list in the Common Law Division known as the Commercial Court. The Supreme Court of Queensland has a similarly specialized docket known as the Commercial List.
+There is no single definition of the term 'superior court' (or 'superior court of record'). In many respects Australian superior courts are similar to the Senior Courts of England and Wales. In Australia, superior courts generally:
+
+have unlimited jurisdiction in law and equity, or at least are not subject to jurisdictional limits as to the remedies they may grant;
+determine appeals, at least as part of their jurisdiction;
+are composed of judges whose individual decisions are not subject to judicial review or appeal to a single judge;
+are composed of judges entitled to the style and title The Honourable Justice; and
+regularly publish their decisions in written form.
+Inferior courts are those beneath superior courts in the appellate hierarchy, and are generally seen to include the magistrates' and district (or county) court of each State as well as the Federal Circuit and Family Court. Inferior courts are typically characterised by:
+
+jurisdiction conferred by statute and limited as to subject matter or the quantum of relief; and
+amenability to judicial review by a single judge of a superior court where a right of appeal is not available.
+
+Federal courts
+These courts among them have jurisdiction over Commonwealth law, that is, law made by the Federal parliament of Australia.
+
+High Court of Australia
+The High Court is the highest court in the Australian judicial hierarchy. It was created by section 71 of the Constitution. It has appellate jurisdiction over all other courts. It also has original jurisdiction in certain matters, including powers of judicial review. The High Court of Australia is paramount to all federal courts. Further, it has an constitutionally entrenched general power of appeal from the Supreme Courts of the States.
+Appeals to the High Court are by special leave only, which is generally only granted in cases of public importance, matters involving the interpretation of the Commonwealth Constitution, or where the law has been inconsistently applied across the States and Territories. Therefore, in the vast majority of cases, the appellate divisions of the Supreme Courts of each State and Territory and the Federal Court are the final courts of appeal. 
+Appeals from Australian courts to the Privy Council were initially possible, however the Privy Council (Limitation of Appeals) Act 1968 closed off all appeals to the Privy Council in matters involving federal legislation, and the Privy Council (Appeals from the High Court) Act 1975 closed almost all routes of appeal from the High Court. The Australia Act 1986 eliminated appeals from State Supreme Courts to the Privy Council. Appeals from the High Court to the Privy Council are now only theoretically possible in inter se matters with leave of the High Court under section 74 of the Constitution; however, the High Court has indicated it will not grant such leave in the future.
+
+Federal Court of Australia
+The Federal Court primarily hears matters relating to corporations, trade practices, industrial relations, bankruptcy, customs, immigration and other areas of federal law. The court has original jurisdiction in these areas, and also has the power to hear appeals from a number of tribunals and other bodies (and, in cases not involving family law, from the Federal Circuit and Family Court of Australia.)
+The court is a superior court of limited jurisdiction, but below the High Court of Australia in the hierarchy of federal courts, and was created by the Federal Court of Australia Act in 1976.
+Decisions of the High Court are binding on the Federal Court. There is an appeal level of the Federal Court (the "Full Court" of the Federal Court), which consists of several judges, usually three but occasionally five in very significant cases.
+
+Federal Circuit and Family Court of Australia
+The Federal Circuit and Family Court of Australia is an inferior and intermediate court formed from the merger of the Family Court and the Federal Circuit Court with jurisdiction over matters broadly relating to family law and child support, administrative law, admiralty law, bankruptcy, copyright, human rights, industrial law, migration, privacy and trade practices.
+The Federal Circuit and Family Court is split into two divisions:
+
+Division 1 is the former Family Court of Australia and is a superior court of record for dealing with family law matters. It contains 35 judges.
+Division 2 is the former Federal Circuit Court of Australia, and deals with the bulk of family law matters prior to the establishment of the Court, as well as general federal law matters such as migration, bankruptcy and admiralty. It contains 76 judges, 55 of which are specialists in family law and the remainder experts in various areas of general federal law and migration.
+The Court operate under the leadership of one Chief Justice, supported by one Deputy Chief Judge who hold a dual commission to both Divisions of the Court. A second Deputy Chief Judge assists in the management of the general federal law and Fair Work jurisdictions of Division 2.
+
+State and territory courts and tribunals
+Each state and territory has its own court hierarchy, with varying jurisdiction of each court. However, all states and territories have a supreme court, which is a superior court of record and is the highest court within that state or territory. These courts also have appeal divisions, known by various names across the country, including the full court, court of appeal, and court of criminal appeal.
+Decisions of the High Court are binding on all Australian courts, including state and territory supreme courts.
+State and territory courts can sometimes exercise federal jurisdiction (that is, decide federal matters). However, an attempt by the states and the Commonwealth to pass legislation that would cross-vest state judicial powers in the federal courts was struck down by the High Court in Re Wakim; Ex parte McNally, as being unconstitutional. Notwithstanding this failure, however, both state and federal courts can exercise an "accrued jurisdiction," which enables them to hear all legal issues arising from a single set of facts. This enables all courts to deal with virtually all issues arising from the facts of a case, provided that the particular court has jurisdiction to hear the principal cause of action.
+Most of the states have two further levels of courts, which are comparable across the country. The district court (or County Court in Victoria) handles most criminal trials for less serious indictable offences, and most civil matters below a threshold (usually around $1 million). The magistrates' court (or local court) handles summary matters and smaller civil matters. In jurisdictions without district or county courts, most of those matters are dealt with by the supreme courts. In Tasmania and the two mainland territories, however, there is only a magistrates' court below the Supreme Court.
+In three external territories (Norfolk Island, Christmas Island, and Cocos (Keeling) Islands) there is a supreme court and a magistrates' court or court of petty sessions. The supreme courts are staffed by judges of other courts, usually the Federal Court. Appeals from those courts lie to the full Federal Court. As these territories have very small populations, the courts only sit from time to time as needed.  The remaining external territories (including Antarctica) do not have permanent courts. In the event of a case arising from these territories, the courts of the ACT have jurisdiction.
+All the states and territories, with the exception of Tasmania, have a civil and administrative tribunal. These hear cases relating to lesser state or territory administrative disputes (involving some individual, business or government body). These commonly involve actions by persons bound to act pursuant to some form of devolved legislation; such as environmental regulations or rental tenancy regulations.
+A table of the court hierarchy and civil and administrative tribunals of the Australian states and territories follows here:
+
+See also
+Drug courts in Australia
+Law enforcement in Australia
+List of Commonwealth courts and tribunals
+Victoria Bar Association
+
+References
+Further reading
+
+Barker, Cat (12 September 2018). "Crime and law enforcement: A quick guide to key internet links". Parliament of Australia.

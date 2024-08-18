@@ -1,0 +1,172 @@
+The Constitution of Australia (also known as the Commonwealth Constitution) is the fundamental law that governs the political structure of Australia.  It is a written constitution, that establishes the country as a federation under a constitutional monarchy governed with a parliamentary system. Its eight chapters sets down the structure and powers of the three constituent parts of the federal level of government: the Parliament, the Executive Government and the Judicature.
+The Constitution was drafted between 1891 and 1898 at a series of conventions conducted by representatives of the six self-governing British colonies in Australia: New South Wales, Victoria, Queensland, Western Australia, South Australia and Tasmania. This final draft was then approved by each state in a series of referendums from 1898 to 1900. The agreed constitution was transmitted to London where, after some minor modifications, it was enacted as section 9 of the Commonwealth of Australia Constitution Act 1900, an act of the Parliament of the United Kingdom. It came into effect on 1 January 1901 at which point the six colonies became states within the new Commonwealth of Australia.
+The Constitution is the primary, but not exclusive, source of Australian constitutional law, alongside constitutional conventions, state constitutions, the Statute of Westminster 1931, the Australia Acts 1986, prerogative instruments and judicial interpretations of these laws by the  High Court of Australia.
+The document may only be amended by referendum, through the procedure set out in section 128. This requires a double majority: a nationwide majority as well as a majority of voters in a majority of states. Only eight of the 45 proposed amendments put to a referendum have passed. Proposals to amend the document to recognise Indigenous Australians and to become a republic are the subject of significant contemporary debate. The most recent referendum occurred on 14 October 2023, in which a proposed amendment to establish an Indigenous Voice to Parliament was rejected.
+
+History
+Prior to Federation
+Political movements to federate the Australian colonies grew to prominence in the mid 19th century. Multiple motivations existed for increased political co-operation between the colonies; including a desire to regulate inter-colonial tariffs.
+Tensions existed, however, between the larger colonies and the smaller ones, and in the degree to which each colony embraced protectionist policies. Those tensions and the outbreak of the American Civil War harmed the political case for federalism in the 1850s and 1860s.
+In 1889 the Federal Council of Australasia was established. It arose out of a fear of the growing presence of German and French colonies in the Pacific, and a growing Australian identity. The council could legislate on certain subjects but did not have a permanent secretariat, an executive, or independent source of revenue. Perhaps most problematically New South Wales, the largest colony, did not join the body.
+A series of conferences to discuss federalism was promoted by the premier of New South Wales Henry Parkes; the first held in 1890 at Melbourne, and another at Sydney in 1891. These conferences were attended by most colonial leaders.
+By the 1891 conference the federalist cause gained momentum. Discussion turned to what the proper system of federal government ought to be. A draft constitution was drawn up at the conference under the guidance of Sir Samuel Griffith, but these meetings lacked popular support. An additional problem was that this draft constitution sidestepped some critical issues like tariff policy. The 1891 draft was submitted to colonial parliaments; however, it lapsed in New South Wales. After that event other colonies were unwilling to proceed.
+In 1895, the six premiers of the Australian colonies agreed to establish a new convention by popular vote. The convention met over the course of a year from 1897 to 1898. The meetings produced a new draft which contained substantially the same principles of government as the 1891 draft, but with added provisions for responsible government.
+Some delegates to the 1898 constitutional convention favoured a section similar to the bill of rights of the United States Constitution, but this was decided against. This remains the case, with the Constitution only protecting a small and limited number of constitutional rights.
+To ensure popular support, the 1898 draft was presented to the electors of each colony. After one failed attempt, an amended draft was submitted to the electors of each colony except Western Australia. After ratification by the five colonies, the bill was presented to the British Imperial Parliament with an address requesting Queen Victoria to enact the bill.
+Prior to the bill's enactment, a final change was made to ensure that a right of appeal to the Judicial Committee of the Privy Council from the High Court remained. Several colonial chief justices and other conservative and financial interests had called for amendments to be made in London, with the British government also objecting to the proposed bill. Businessmen feared that an Australian court would be unduly influenced by local interests, whilst the UK wished to ensure that no local judgments would cause embarrassment internationally or within the British Empire. Additionally, the restriction went against plans to create a new court of appeal for the whole empire. Following the amendment, restrictions on Privy Council appeals for some constitutional cases remained, with any further restrictions on appeals imposed by the Australian Parliament required to be "reserved for Her Majesty's Pleasure", meaning subject to approval by the UK government.
+After this and some other minor changes, the Commonwealth of Australia Constitution Act became law after receiving royal assent on 9 July 1900. This act, also known as the covering act, also authorised the Queen to proclaim the actual act of federation, which was done by Queen Victoria on 17 September 1900, to take effect on 1 January 1901. Prior to this Western Australia then agreed to join the Commonwealth to ensure it would be an "original state" alongside the other five colonies.
+
+After Federation
+At Federation, six British colonies became a single federated nation. Some British Imperial laws remained in force, together with those of the Australian colonies although, according to Robert Menzies, "the real and administrative legislative independence of Australia" was never challenged after federation.
+The power of the British Imperial Parliament to legislate with effect in Australian federal law was restricted by the UK's passage in 1931 of the Statute of Westminster, adopted into Australian law by the Statute of Westminster Adoption Act 1942. The adoption act acceded Australia to the Statute of Westminster retroactively, with the date set to 3 September 1939, when Australia along with the rest of the British Empire entered World War II.
+
+The Statute did not however remove the ability for the UK to appoint state governors, make laws that applied to the states and an appeal to the UK Judicial Committee of the Privy Council still existed for certain court cases. These remaining constitutional links to the United Kingdom were removed in 1986 with the passage of the Australia Act, leaving Australia fully independent of the British Parliament and legal system.
+In 1988, the original copy of the Commonwealth of Australia Constitution Act from the Public Record Office in London was lent to Australia for the purposes of the Australian Bicentenary. The Australian Government requested permission to keep the copy, and the British Parliament agreed by passing the Australian Constitution (Public Record Copy) Act 1990. The copy was given to the National Archives of Australia.
+A curiosity of the document's history is that the act remains in force as a statute of the UK, despite Australia's subsequent independence.
+Under traditional legal theory, the Constitution is binding by virtue of the UK parliament's paramount authority over Australian law; however, various members of the High Court and some academics have expressed the view that the Constitution now derives its legal authority from the Australian people. Others contend this question is ultimately not a legal one, with the binding force of the Constitution the grundnorm ('basic norm') or starting premise of the Australian legal system.
+Following the 2017–18 Australian parliamentary eligibility crisis, there was discussion of whether to retain or replace the current constitution. Former prime minister Bob Hawke advocated for getting "rid of the constitution we've got", and replacing the Constitution with a system that does not include states.
+
+Commemoration
+Constitution Day is observed on 9 July, the date Queen Victoria assented to the Commonwealth of Australia Constitution Act in 1900. The date is not a public holiday.
+Constitution Day was first held on 9 July 2000 to mark the centenary of the Constitution in the lead up to the Centenary of Federation.
+Further events have not been widely held since 2001. The day was revived in 2007 and is jointly organised by the National Archives and the Department of Immigration and Citizenship.
+
+Document structure and text
+Covering clauses
+The Commonwealth of Australia Constitution Act 1900 (Imp) was granted royal assent on 9 July 1900. It consists of nine sections.
+Section 9 contains the Constitution itself. Since the Constitution itself is divided into sections, sections 1 to 8 of the Act have come to be known for convenience as the "covering clauses". The second covering clause is interpretive, specifying that throughout the Act references to "the Queen" are references to "Her Majesty's heirs and successors in the sovereignty of the United Kingdom". Considering the emergence of a separate Australian monarchy, on one view the plain reading of this section suggests that it ensures that whoever is the monarch of the UK is automatically the monarch of Australia as well. However, other academics have suggested that this clause merely ensures that references to "the Queen" are not restricted to whoever was the monarch at the time of the enactment (i.e. Queen Victoria) and extends the meaning of the phrase to whoever is the currently lawful monarch under Australian succession law. As these laws are not automatically the same as those of the UK, it is theoretically possible for the separate people to be monarch of the UK and Australia via either of the countries passing diverging succession legislation. As such, to ensure that both positions are held by the same person, any succession laws must be changed in each Commonwealth realm, as was done most recently following the Perth Agreement.
+
+Preamble
+The Constitution Act contains a preamble. It does not discuss Western Australia due to the late date which it agreed to join Federation. The preamble names all states except Western Australia, mentions God and recognises that the Australian people have agreed to unite under the Constitution. It ends with the standard enacting clause of the United Kingdom by recognising the authority of the Queen and the UK Parliament.
+
+WHEREAS the people of New South Wales, Victoria, South Australia, Queensland, and Tasmania, humbly relying on the blessing of
+Almighty God, have agreed to unite in one indissoluble Federal Commonwealth under the Crown of the United Kingdom of Great Britain
+and Ireland, and under the Constitution hereby established:
+And whereas it is expedient to provide for the admission into the Commonwealth of other Australasian Colonies and possessions of the Queen:
+Be it therefore enacted by the Queen's most Excellent Majesty, by and with the advice and consent of the Lords Spiritual and Temporal, and Commons, in this present Parliament assembled, and by the authority of the same, as follows:
+
+Main document
+The Constitution is divided into eight chapters, collectively containing 128 sections. The first three chapters state the respective powers of the legislature, executive, and judiciary. This split into three chapters has been interpreted by the High Court in the Boilermakers' case as giving rise to a substantive separation of powers doctrine in Australia.
+
+Chapter I: The Parliament
+Chapter I: The Parliament sets up the legislative branch of government. It consists of the monarch, the Senate, and the House of Representatives. It provides for the number of representatives to attend each body, and provides that the representatives attending both must be chosen directly by the electorate.
+Each electorate of the House of Representatives is apportioned equally by population, whereas senators are allocated unevenly between "original states", the territories, and future states (of which none presently exist). The House of Representatives is required to have twice as many members as the senate. Chapter I also defines the role of the monarch in relation to the Parliament, although the monarch's own powers over legislation are now regarded as defunct.
+The chapter notably also provides for the powers of the Commonwealth parliament. The Parliament is not granted plenary power by the Constitution. Section 51 contains a list of topics Commonwealth Parliament is permitted to legislate upon (known as the heads of power). States may also legislate upon these topics, but Commonwealth law prevails in the event of inconsistency between the laws. Section 52 contains a brief list of topics that only the Commonwealth may legislate upon.
+Some relevant powers of the governor-general are provided here: to summon, prorogue or dissolve the Parliament, and to give or refuse royal assent to federal bills.
+Other matters dealt within the chapter include eligibility issues for voting or standing in elections; and miscellaneous matters regarding parliamentary procedures and allowances.
+
+Chapter II: The Executive Government
+Chapter II: The Executive Government sets down the powers of the executive government. Executive power is vested in the monarch and exercisable by the governor-general, who appoints the Federal Executive Council and is to act with its advice. The governor-general is empowered to appoint and dismiss ministers, and is the Commander-in-Chief of the Australian armed forces. However, the Constitution does not set out explicitly the constitutional conventions of responsible government that require the governor-general to act on the advice of ministers and the existence of cabinet and the prime minister. This was intentional on the part of the framers of the constitution, however the High Court has found these principles arise as a matter of implication.
+
+Chapter III: The Judicature
+Chapter III: The Judicature sets up the judicial branch. Commonwealth judicial power is vested in a federal supreme court to be called the High Court of Australia. The Parliament is authorised to create federal courts, and to vest the exercise of federal judicial power within the courts of the states. Section 74 (now defunct) provides for the circumstances in which an appeal may be made to the Queen in Council, section 75 provides for the High Court's jurisdiction, and section 80 guarantees trial by jury for indictable offences against the Commonwealth.
+
+Chapter IV: Finance and Trade
+Chapter IV: Finance and Trade deals with commercial matters within the federation. Section 81 prescribes all Commonwealth revenue to a Consolidated Revenue Fund, and section 90 gives the Commonwealth exclusive power over custom and excise duties. Section 92 is notable for prescribing "absolutely free" trade and commerce between the states. Section 96 allows the Commonwealth to make grants on terms determined by Parliament. Section 101 sets up an Inter-State Commission, now defunct.
+
+Chapter V: The States
+Chapter V: The States contains provisions dealing with the states and their role in the federal system. Sections 106–108 preserve the powers of the states, section 109 provides that Commonwealth legislation prevails over that of a state to the extent of any inconsistency. Section 111 provides for surrender of state territory to the Commonwealth, section 114 forbids states to raise military forces without Commonwealth permission, and also forbids the Commonwealth to tax property of a state government and the reverse. Section 116 forbids the Commonwealth to establish a national religion, to impose any religious observance or prohibit the free exercise of any religion, or to impose a religious test for office.
+
+Chapter VI: New States
+Chapter VI: New States allows for the establishment or admission of new states, and allows Parliament to provide for representation of the territories. It also provides that state boundaries must require the consent of a state before alteration by referendum.
+
+Chapter VII: Miscellaneous
+Chapter VII: Miscellaneous contains provisions on varied topics. Section 125 establishes Melbourne as the nation's temporary capital, while providing for the eventual capital to be established within New South Wales but no less than one hundred miles (160 km) from Sydney. In 1911, New South Wales ceded to the Commonwealth what is now the Australian Capital Territory. Canberra was built within it and declared the national capital in 1913. Section 126 permits the governor-general to appoint deputies. Section 127 provided that "aboriginal natives" were not to be included in headcounts for electoral purposes. That section was removed by referendum in 1967.
+
+Chapter VIII: Alteration of the Constitution
+Chapter VIII: Alteration of the Constitution is a single section providing for amendments. It prescribes that alterations may only occur through a referendum bill being approved at a national referendum. A national referendum under this section requires a double majority to be valid, which consists of a majority of votes nationally, and a majority of votes in a majority of states.
+
+Schedule
+The Constitution also contains a schedule setting out the wording of the oath and affirmation of allegiance. Under section 42, parliamentarians are required to take this oath before taking their seat.
+The oath reads:
+
+I, A.B., do swear that I will be faithful and bear true allegiance to Her Majesty Queen Victoria, Her heirs and successors according to law. SO HELP ME GOD! ...
+(NOTE—The name of the King or Queen of the United Kingdom of Great Britain and Northern Ireland for the time being is to be substituted from time to time.)
+Other oaths or affirmations of office are made as a matter of convention by a prime minister, ministers and parliamentary secretaries upon appointment to their office. The wording of these oaths are not set by statute and are set by the government of the day. This convention has been in place since 1901.
+
+Unwritten conventions
+Constitutional conventions are an important part of the Australian Constitution. Some notable conventions include the existence of the Prime Minister of Australia as head of a Cabinet composed of senior ministers. Another is that the governor-general in exercising executive powers must in almost all circumstances act on the advice of the prime minister. Despite being unwritten, they are understood by the High Court to be incorporated by implication within the document. For example, the convention under responsible government that the governor-general may only appoint as prime minister a member with the support of the majority of the House of Representatives follows from the requirement that ministers must sit in Parliament and money cannot be spent by the executive government unless authorised by law (passed by the House).
+While normally the governor-general may only act according to advice given by ministers, in certain circumstances the governor-general may act without advice, and according to their own discretion, using the reserve powers. Two common example of these powers is the power to appoint the prime minister (the choice usually limited to the person who can command the confidence of the lower house) and the discretion to refuse to grant an early election. The most famous example of the use of the reserve powers occurred in 1975 where the Governor-General Sir John Kerr controversially dismissed Prime Minister Whitlam after the Senate refused to pass supply until an early election was called.
+
+Unwritten conventions during the dismissal
+The nature of constitutional conventions gave rise to controversy during the dismissal of the Whitlam government in 1975. In that episode, the Governor-General Sir John Kerr dismissed the Labor Prime Minister Gough Whitlam, and appointed the Liberal Opposition leader Malcolm Fraser as caretaker Prime Minister on the understanding that he would immediately call an election (which he then won). This crisis arose due to the breach of the convention that, in the event of a Senate vacancy, the state government would nominate a replacement from the same political party. This convention was broken by the Lewis government of New South Wales. Notably, this unwritten convention was later formally incorporated into the written constitution via national referendum in 1977. Additionally, the Governor-General Sir John Kerr argued that Gough Whitlam had broken an alleged convention that a prime minister who cannot obtain supply must either request that the Governor-General call a general election, or resign. This view remains controversial, with no consensus amongst legal experts as to whether this convention exists. While the convention that a prime minister must have the confidence of the House of Representatives to govern is accepted as a principle of responsible government, whether this convention extends to requiring the confidence of the Senate to pass supply remains subject to often partisan debate.
+
+Interpretation
+The High Court is responsible for interpreting the Constitution. The legal doctrines historically applied by the court its process have varied. Some such doctrines have included the separation of powers, intergovernmental immunities, and reserved state powers.
+While the document does not include a bill of rights, some rights and restrictions are expressly stated. Among these are the right to trial by jury for indictable offences, the right that any property compulsory acquired by the Commonwealth be on "just terms", the right to freedom of religion and the right against discrimination based on state residence.
+The High Court has also read a number of important legal implications into the document. One of these is the freedom of political communication, the other is a freedom of interference from voting in elections. Both doctrines are born of the section 7 and section 24 requirements that representatives in Australia's houses of parliament be "directly chosen by the people". These implications, which limit Commonwealth legislative power, have been characterised as "freedoms" or "guarantees" instead of "implied rights" meaning that they are directed to limiting government power (instead of guaranteeing access) and do not apply between individuals. However, Adrienne Stone has argued that the High Court's purported distinction between a "right" versus a "freedom" is misleading and little more than semantic.
+
+Alterations to the Constitution
+Amendment to the Constitution requires a referendum in which the amending act is approved by a majority in at least four states, as well as a nationwide majority: a double majority. This reflects the commitment to federalism within the constitution, to ensure that any changes to the document cannot be approved solely with the support of the more populous states.
+
+Past referendums and amendments
+Forty-five proposals to amend the Constitution have been voted on at referendums, only eight of which have been approved. The eight proposals that have been approved are:
+1906 – Senate elections – amended section 13 to slightly alter the length and dates of senators' terms of office.
+1910 – State debts – amended section 105 to allow the Commonwealth to take over debts incurred by a state following Federation.
+1928 – State debts – inserted section 105A to ensure the constitutional validity of the financial agreement reached between the Commonwealth and state governments in 1927.
+1946 – Social services – inserted section 51(xxiiiA) to extend the power of the Commonwealth over a range of social services.
+1967 – Aboriginal Australians – amended section 51(xxvi) to allow the Commonwealth to make laws for Indigenous Australians and repealed section 127 so that Indigenous Australians would be included in population counts for constitutional purposes.
+1977 – Senate casual vacancies – amended section 15 to ensure casual vacancies in the Senate would be filled by a member of the same political party.
+1977 – Referendums – amended section 128 to allow residents of Australian territories to vote in referendums.
+1977 – Retirement of Judges – amended section 72 to mandate a retirement age of 70 for judges in federal courts.
+This low success rate reflects a reluctance of Australian voters to approve changes, rather than the onerous requirements of section 128; only 3 of the 36 failed referendums received a national majority of votes without a majority of states. All but one of the successful referendums also received a majority in each of the states, with exception of the 1910 State Debts referendum which succeeded despite a no vote of 66% in New South Wales.
+
+Proposals for amendment via British legislation
+In the first decades after Federation, before Australia's constitutional relationship with the United Kingdom had been clarified, two serious attempts were made to amend the constitution via a British act of Parliament, in order to circumvent the referendum provisions of section 128:
+
+In 1917, during World War I, Prime Minister Billy Hughes sought to amend the Constitution to allow for the constitutionally required federal election to be postponed, thereby extending the term of his government. The House of Representatives passed a motion by 34 votes to 17 calling on the British Parliament to amend the Constitution Act; Hughes had already secured the support of the British Government for his tactic. However, the equivalent motion in the Senate was defeated after Nationalist senators Thomas Bakhap and John Keating crossed the floor. Hughes then called the 1917 federal election, which saw his government re-elected.
+In 1934, the Western Australia Government petitioned the British Parliament to amend the Constitution Act to allow it to withdraw from the Federation. This followed a 1933 referendum in which the state voted to secede from the rest of Australia, the results of which were rejected by the Federal Government. The petition, presented by former premier Hal Colebatch, was heard by a joint select committee of the House of Commons and House of Lords, which rejected it on the grounds that it broke the principle of non-interference in Dominion matters recently codified in the Statute of Westminster 1931.
+
+Existing major amendment proposals
+Multiple ongoing debates exist regarding changes to the Australian Constitution. These include debates on the inclusion of a preamble, proposals for an Australian republic, and formal recognition of Indigenous Australians through a Voice to Parliament.
+
+Inclusion of a preamble
+The British act containing the Constitution includes a preamble drafted during the 1897–8 constitutional conventions. Since the 1980s, there has been in increasing calls to change or replace this preamble. Despite receiving several submission, the 1988 Constitutional Commission rejected such a change due to the difficulty of drafting a proposal that would be accepted by all Australians and recognise Indigenous Australians, as well as their view that such a change should not be done unless the entire constitution was rewritten.
+Following this, the 1998 Constitution Convention recommended the inclusion of a new preamble, alongside their recommendation that Australia become a republic. However, this recommendation was ultimately taken up by a constitutional monarchist, then prime minister, John Howard. A draft, penned by Howard with the assistance of the poet Les Murray, was heavily criticised by the Labor party, Indigenous leaders and the wider public. A modified version was released one day before the passage of legislation that authorised the 1999 referendum. This proposal was again opposed by the Labor party and was eventually defeated with a 60% no vote. While debate around the preamble was minor compared with the debate around the republic, concerns were raised by opponents about the justiciability of the preamble, especially by those that opposed the inclusion of human rights guarantees in the document and by those who felt the court had become unduly "activist" in the wake of the Mabo decision.
+
+Republic proposals
+Debates on whether Australian should become a republic have existed since Federation.
+In November 1999 a referendum was held as to whether the Queen and the Governor-General ought be removed from the Constitution, to be replaced with a President. The referendum rejected the change.
+
+Indigenous recognition and voice
+Since 1910, there have been calls for constitutional reform to recognise Indigenous Australians. In 1967, the Constitution was amended providing the Commonwealth with the power to legislate for all Indigenous Australians by removing the restriction preventing the Commonwealth from legislating in states. At the same time, a limitation on including all Indigenous Australians in population counts for constitutional purposes was removed, which in 1967 was relevant only to section 24. Since those reforms, other proposals have emerged. Guaranteed parliamentary representatives, a constitutionally recognised voice, and an inclusion of Indigenous Australians in a preamble to the Constitution are all proposals that have been made to reform the Australian Constitution to recognise Indigenous Australians.
+In his Closing the Gap speech in February 2020, Prime Minister Scott Morrison reinforced the work of the Referendum Council, rejecting the idea of merely symbolic recognition, supporting a voice co-designed by Aboriginal and Torres Strait Islander people, "using the language of listening and empowerment". The Labor Party has supported a voice enshrined in the Constitution for a long time, and so have many of Australia's left-leaning minor parties. However, many right-wing and regional groups opposed the change. A referendum to prescribe a Voice to Parliament in the constitution failed in 2023.
+
+Other Labor Party supported amendments
+Alongside support for an Australian republic and the Voice to Parliament, the 2023 National Parliament for the Labor Party also supports amendments to:
+
+recognise local government
+implement fixed four-year terms for both the Senate and the House of Representatives (as a change from the current fixed six-year term for senators, with half elected each three years, and an unfixed maximum three-year term for members of parliament)
+reform "matters of territory rights"
+The platform states that the later two reforms should be progressed through a new independent Australian Constitutional Commission.
+
+Cultural impact
+The Constitution is often described as "virtually invisible" within Australian culture and mainstream political discourse. It is especially compared to the US constitution and the centrality of it to the country's civil religion. The Australian Constitution, in contrast, barely pierces the national consciousness, with one survey in 2015 finding that over a third of Australians had not heard of it. Unlike the US constitution, which through the words "We the People" describes itself as an expression of the national will, the Australian Constitution is contained within an act passed by the United Kingdom and its authority is described as deriving from the consent of the Queen and the UK Parliament. Additionally, it contains no explicit statement of values, aspirations or rights nor does it describe an "objective order of values", as in the German Basic Law. This "thin" nature of the Constitution is celebrated by some academic, judicial and political commentators, and lamented by others.
+
+See also
+State constitutions and territory self government Acts:
+Constitution of New South Wales
+Constitution of Victoria
+Constitution of Queensland
+Constitution of South Australia
+Constitution of Western Australia
+Constitution of Tasmania
+Australian Capital Territory self government Act
+Northern Territory self government Act
+Constitutionalism – concept used to study the historical development and common features of constitutions
+Rule of law – concept underlying constitutional states
+
+Notes
+References
+Citations
+Sources
+Primary sources
+
+Secondary sources
+
+Further reading
+Saunders, Cheryl; Stone, Adrienne, eds. (2018). The Oxford Handbook of the Australian Constitution. Oxford: Oxford U.P. ISBN 9780198738435.
+
+External links
+
+Records of the Australasian Federal Conventions of the 1890s

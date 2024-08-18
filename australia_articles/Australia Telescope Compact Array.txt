@@ -1,0 +1,38 @@
+The Australia Telescope Compact Array (ATCA) is a radio telescope operated by CSIRO at the Paul Wild Observatory, twenty five kilometres (16 mi) west of the town of Narrabri in New South Wales, Australia. Its opening ceremony took place on September 2, 1988.
+
+Overview
+The telescope is an array of six identical 22-metre (72 ft) diameter dishes, which commonly operate in aperture synthesis mode to produce radio images. Five of the dishes can be moved along a three-kilometre (2 mi) railway track oriented east-west. The sixth antenna is situated three kilometres west of the end of the main track. Each dish weighs about 270 tonnes (270 long tons; 300 short tons).
+The Compact Array is a part of the Australia Telescope National Facility network of radio telescopes. The array is frequently operated together with other CSIRO telescopes, the 64-metre (210 ft) dish at the Parkes Observatory and a single 22-metre (72 ft) dish at Mopra (near Coonabarabran), to form a very long baseline interferometry array.
+The Array welcomes visitors from the general public. The facility includes a Visitor's Centre where the operations of the array can be observed in comfort and shade, and it has a range of informational displays and audiovisual presentations, while the surrounding grounds have displays and activities for visitors.  Open Days are run regularly, and to mark special events such as the anniversary of the first Moon landing, or major anniversaries of the telescope itself.
+The children's/teen's television adventure series Sky Trackers was filmed in this facility in 1993, with the radio telescopes being prominently featured.
+
+Space tracking
+Whilst remaining a telescope predominantly dedicated to radio-astronomy, in 2007, the Compact Array was outfitted with receivers enabling it to receive radio waves 7 mm long, allowing it to be used from time to time to help NASA track spacecraft.
+
+Key results
+Highlights of the scientific work done by the ATCA include:
+
+1991 the first image of a radio supernova remnant as it formed (SNR 1987A in the Large Magellanic Cloud)
+1992 observe the longest galactic radio jets to date (galaxy 0319-453).
+1995 create the first 3-D models of Jupiter’s radiation belts, showing properties of its magnetic field closer to the planet than spacecraft could measure.
+1996 create the most detailed maps of hydrogen in the Magellanic Clouds, by a factor of 20.
+1998 first evidence that gamma-ray bursts are linked to supernovae.
+2000 observations suggest that radio beams from the giant radio galaxy B0114-476 may have turned off, then restarted.
+2001 observations suggest that Abell 3667, a cluster of about 500 galaxies, was produced by two smaller clusters merging. This is the first observational evidence for this process.
+2001 (with Parkes telescope) the first three-dimensional structure of a face-on galaxy (the Large Magellanic Cloud).
+2002 (with Chandra X-ray space telescope) for the first time capture the entire life-cycle of jets from a microquasar, XTE J1550-564, seeing jets erupt at relativistic speeds, slow down and fade away.
+2003 show that gamma ray bursts release similar total energy, and so probably have a common origin.
+2004 first observations of a neutron star emit a jet at relativistic speed.  This challenged the idea that only black holes can create the conditions needed to accelerate jets to such extreme speeds.
+
+See also
+John Paul Wild, founder of the observatory
+List of radio telescopes
+Radio Galaxy Zoo
+
+References
+External links
+
+Australia Telescope Compact Array Home Page contains links for the general public and for professional astronomers
+Australia Telescope Compact Array at CSIROpedia
+ATCA Live! website shows current observations
+ATCA sky camera shows the sky above the ATCA
