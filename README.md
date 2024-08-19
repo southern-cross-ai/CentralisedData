@@ -1,4 +1,5 @@
-# Dataset Name
+# AU Website Data
+This repo will try to crawl all data from all websites with a suffix of .au and be used to train the LLM for next token prediction.
 
 ## Data Format
 Plase process your data by transforming it into dataframe and save it as csv. We cut each text paragraph into pieces and store in each cell.
