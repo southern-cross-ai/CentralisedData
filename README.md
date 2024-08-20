@@ -38,6 +38,13 @@ This repository contains various datasets focused on tweets with locations in Au
   * **Cleaned Status**: The dataset is **not cleaned**. Tweets need to be hydrated and cleaned.
   * **License**: Please refer to the GitHub repository for licensing details.
 
+**7. TBCOV: Two Billion Multilingual COVID-19 Tweets with Sentiment, Entity, Geo, and Gender Labels**
+  * **Time Span/Geopolitical Info**: This dataset contains tweets related to the COVID-19 pandemic over a 14-month period from February 1st, 2020 till March 31st, 2021.
+  * **Data Source/Credit**: Available on https://crisisnlp.qcri.org/tbcov, https://github.com/CrisisComputing/TBCOV
+  * **Cleaned Status**: The dataset is **not cleaned**. Tweets need to be hydrated and cleaned.
+  * **License**: Please refer to the GitHub repository for licensing details.
+
+
 # Access to the Dataset
 To access these datasets:
 1. **For Kaggle Datasets:**
