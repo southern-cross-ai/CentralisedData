@@ -44,6 +44,12 @@ This repository contains various datasets focused on tweets with locations in Au
   * **Cleaned Status**: The dataset is **not cleaned**. Tweets need to be hydrated and cleaned.
   * **License**: Please refer to the GitHub repository for licensing details.
 
+**8. (🌇Sunset) 🇺🇦 Ukraine Conflict Twitter Dataset**
+   * **Time Span/Geopolitical Info**: Datasets of tweets about the ongoing Ukraine Russia Conflict.
+  * **Data Source/Credit**: Available on https://www.kaggle.com/datasets/bwandowando/ukraine-russian-crisis-twitter-dataset-1-2-m-rows
+  * **Cleaned Status**: The dataset is **not cleaned**. 
+  * **License**: Please refer to the Kaggle page for licensing details. 
+
 
 # Access to the Dataset
 To access these datasets:
