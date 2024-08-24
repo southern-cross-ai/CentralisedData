@@ -5,7 +5,7 @@ from langdetect import detect
 from bs4 import BeautifulSoup
 
 # Replace with your own API key and channel ID or search query
-API_KEY = 'AIzaSyBsKb6OZXa9jto6hyW4VX97rXgr3XBM0kw'
+API_KEY = 'YOUR_API_KEY'
 CHANNEL_ID = 'YOUR_CHANNEL_ID'  # Use for fetching videos from a specific channel
 SEARCH_QUERY = 'Perth'  # Use for fetching videos based on a search query
 # Used: ACT; Canberra;
