@@ -57,9 +57,17 @@ def scrape_dynamic_content(url, time_limit, output_file):
                     print("Time limit exceeded while scraping dynamic content.")
                     break
 
-                headline_text = headline.get_text(strip=True)
-                print(f"Static headline: {headline_text}")
-                file.write(f"Static headline: {headline_text}\n")  # Write headline to file
+                headline_text = headline.text  # Corrected line
+                link = headline.find_element(By.TAG_NAME, 'a')
+                if link:
+                    article_url = link.get_attribute('href')
+                    
+                    print(f"Scraping article: {headline_text} from {article_url}")
+                    file.write(f"Headline: {headline_text}\n")
+
+                    # Scrape content from the article link
+                    article_content = scrape_article_content(article_url, time_limit, start_time)
+                    file.write(f"Content: {article_content}\n\n")
 
     except Exception as e:
         print(f"An error occurred while scraping {url}: {e}")
